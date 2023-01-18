@@ -1,5 +1,5 @@
 import pathlib as pl
-
+import time
 import pynhm
 
 
@@ -24,7 +24,7 @@ multi_proc_model = pynhm.Model(
     budget_type=None,
 )
 
-
+sttime = time.time()
 multi_proc_model.run(netcdf_dir=out_dir, finalize=True)
-
+print(f'That took {time.time()-sttime:.3f} looong seconds')
 
