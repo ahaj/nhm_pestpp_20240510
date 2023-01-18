@@ -2,13 +2,16 @@ name: pynhm
 channels:
   - conda-forge
   - nodefaults
+  - pyviz
 dependencies:
+  - folium
   - netCDF4
   - networkx
   - numpy
   - numba
   - pandas
   - pip
+  - pyogrio
   - pytest
   - pytest-cov
   - pytest-env
@@ -16,17 +19,30 @@ dependencies:
   - pyyaml
   - xarray
   - flopy
+  - cartopy
   - geopandas
+  - geoviews
+  - holoviews
+  - hvplot
+  - bash_kernel
+  - git
+  - matplotlib
+  - xlrd
+  - openpyxl
+  - ipython
+  - ipyleaflet
   - jupyter
   - jupyterlab
-  - notebook
-  - rasterio
-  - rasterstats
-  - rtree
-  - xlrd
+  - nbconvert
+  - jupyter_contrib_nbextensions
+  - nb_conda_kernels
+  - pydot
+  - shapely<2.0.0
   - pip:
       - click != 8.1.0
       - black
       - isort
       - flake8
       - pylint
+      - git+https://github.com/paknorton/pyPRMS.git@development
+
