@@ -22,6 +22,7 @@ multi_proc_model = pynhm.Model(
     control=control,
     input_dir=work_dir,
     budget_type=None,
+    calc_method = 'fortran'
 )
 
 sttime = time.time()
