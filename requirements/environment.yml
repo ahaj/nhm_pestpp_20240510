@@ -44,5 +44,5 @@ dependencies:
       - isort
       - flake8
       - pylint
-      - git+https://github.com/paknorton/pyPRMS.git@development
+#      - git+https://github.com/paknorton/pyPRMS.git@development
 
