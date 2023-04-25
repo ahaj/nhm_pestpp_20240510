@@ -22,10 +22,15 @@ multi_proc_model = pynhm.Model(
     control=control,
     input_dir=work_dir,
     budget_type=None,
-    calc_method = 'fortran'
+    verbose=True,
+    calc_method='numba',
+)
+multi_proc_model.initialize_netcdf(
+    output_dir=out_dir,
+    separate_files=False,
 )
 
 sttime = time.time()
-multi_proc_model.run(netcdf_dir=out_dir, finalize=True)
+multi_proc_model.run(finalize=True)
 print(f'That took {time.time()-sttime:.3f} looong seconds')
 
