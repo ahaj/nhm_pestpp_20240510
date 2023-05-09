@@ -27,7 +27,7 @@ multi_proc_model = pywatershed.Model(
 )
 multi_proc_model.initialize_netcdf(
     output_dir=out_dir,
-    separate_files=False,
+    separate_files=True,
 )
 
 sttime = time.time()
