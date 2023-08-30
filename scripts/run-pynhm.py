@@ -1,7 +1,7 @@
-import pathlib as pl
 import time
+sttime = time.time()
+import pathlib as pl
 import pywatershed
-
 
 work_dir = pl.Path("./")
 out_dir = work_dir / "output"
@@ -30,7 +30,6 @@ multi_proc_model.initialize_netcdf(
     separate_files=True,
 )
 
-sttime = time.time()
 multi_proc_model.run(finalize=True)
 print(f'That took {time.time()-sttime:.3f} looong seconds')
 
