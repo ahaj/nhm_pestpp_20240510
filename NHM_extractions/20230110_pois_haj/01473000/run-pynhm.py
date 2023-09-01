@@ -17,9 +17,10 @@ out_dir = pl.Path("./output")
 #out_dir.mkdir()
 custom_output_file = out_dir / "model_custom_output.nc"
 
-param_file = work_dir / "myparam.param"
-params = pws.parameters.PrmsParameters.load(param_file)
-
+#param_file = work_dir / "myparam.param"
+#params = pws.parameters.PrmsParameters.load(param_file)
+param_file = work_dir / "parameters.json"
+params = pws.parameters.PrmsParameters.load_from_json(param_file)
 control = pws.Control.load(work_dir / "control.test")
 
 control.options = control.options | {
