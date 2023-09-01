@@ -13,7 +13,7 @@ prior_mc_better.par_data.csv
 * observation data external
 prior_mc_better.obs_data.csv
 * model command line
-model.bat
+python forward_run.py
 * model input external
 prior_mc_better.tplfile_data.csv
 * model output external
