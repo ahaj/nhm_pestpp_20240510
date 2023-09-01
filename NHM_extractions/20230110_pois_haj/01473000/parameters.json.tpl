@@ -1,5 +1,16 @@
 ptf ~
 {
+    "nhru": 17,
+    "nsegment": 10,
+    "nssr": 17,
+    "ngw": 17,
+    "npoigages": 5,
+    "nobs": 5,
+    "ndeplval": 22,
+    "ndepl": 2,
+    "nmonth": 12,
+    "scalar": 1,
+    "ndoy": 366,
     "doy": [
         1,
         2,
