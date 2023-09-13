@@ -8,7 +8,7 @@ freeh2o_cap,NaN,0.01,0.1,Range,4
 gwflow_coef,NaN,0.001,0.1,Percent,3
 jh_coef,NaN,0,0.2,Percent,Not used
 mann_n,NaN,0.001,0.15,Not used,4
-potet_sublim,1,0.4,0.06,Not used,4
+potet_sublim,1,0.4,0.6,Not used,4
 rad_trncf,1,0,1,Percent,4
 radmax,NaN,0.5,1,Range,3
 rain_cbh_adj,NaN,0.5,1.75,Range,1
