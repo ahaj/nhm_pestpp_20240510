@@ -1,6 +1,6 @@
 parameter_name,no_use_if_no_snow,par_lower_bound,par_upper_bound,HRU_cal_method,Part2_step
 adjmix_rain,1,0.6,1.4,Not used,4
-carea_max,NaN,0,0.8,Percent,4
+carea_max,NaN,0,1.0,Percent,4
 cecn_coef,NaN,4.5,5.5,Not used,3
 emis_noppt,1,0.757,1,Not used,4
 fastcoef_lin,NaN,0.01,0.6,Percent,3
