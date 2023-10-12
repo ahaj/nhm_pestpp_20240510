@@ -9,8 +9,8 @@ ptf ~
     "ndeplval": 33,
     "ndepl": 3,
     "nmonth": 12,
-    "scalar": 1,
     "ndoy": 366,
+    "scalar": 1,
     "doy": [
         1,
         2,
