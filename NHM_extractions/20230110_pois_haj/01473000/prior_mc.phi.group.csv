@@ -1,2 +1,2 @@
 iteration,total_runs,obs_realization,par_realization,actet_mean_mon,actet_mon,recharge_ann,runoff_mon,sca_daily,soil_moist_ann,soil_moist_mon,streamflow_daily_large_asc,streamflow_daily_small_asc,streamflow_daily_small_dsc,streamflow_daily_pulse_asc,streamflow_daily_pulse_dsc,streamflow_daily_low,streamflow_daily_exlow,streamflow_mean_mon,streamflow_mon
-0,1,base,base,1.66232e+08,1.44204e+08,1.36065e+08,1.37383e+08,3.24548e+07,1.43551e+08,1.38598e+08,3.93877e+07,6.58803e+07,6.41599e+07,6.26297e+07,5.00366e+07,1.11425e+08,6.05971e+07,2.15745e+08,2.3485e+08
+0,1,base,base,3.76536e+08,4.15931e+08,1.89675e+08,4.22792e+08,3.24544e+07,1.24114e+08,2.98611e+08,1.38417e+08,8.32822e+07,7.99885e+07,8.82317e+07,8.84646e+07,9.28118e+07,5.44756e+07,6.37856e+07,7.60164e+07

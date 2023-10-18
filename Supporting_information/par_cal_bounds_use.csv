@@ -1,28 +1,28 @@
-parameter_name,no_use_if_no_snow,par_lower_bound,par_upper_bound,HRU_cal_method,Part2_step
-adjmix_rain,1,0.6,1.4,Not used,4
-carea_max,NaN,0,1.0,Percent,4
-cecn_coef,NaN,4.5,5.5,Not used,3
-emis_noppt,1,0.757,1,Not used,4
-fastcoef_lin,NaN,0.01,0.6,Percent,3
-freeh2o_cap,NaN,0.01,0.1,Range,4
-gwflow_coef,NaN,0.001,0.1,Percent,3
-jh_coef,NaN,0,0.2,Percent,Not used
-mann_n,NaN,0.001,0.15,Not used,4
-potet_sublim,1,0.4,0.6,Not used,4
-rad_trncf,1,0,1,Percent,4
-radmax,NaN,0.5,1,Range,3
-rain_cbh_adj,NaN,0.5,1.75,Range,1
-slowcoef_sq,NaN,0,1,Range,2
-smidx_coef,NaN,0.0001,0.8,Not used,4
-snarea_curve,NaN,0.5,1,Range,Not used
-snowinfil_max,1,0,20,Not used,4
-snow_cbh_adj,1,0.5,1.75,Range,1
-soil2gw_max,NaN,0,0.5,Percent,2
-soil_moist_max,NaN,0.001,12,Percent,3
-soil_rechr_max_frac,NaN,0.1,1,Percent,1
-ssr2gw_exp,NaN,0,3,Not used,4
-ssr2gw_rate,NaN,0.01,0.8,Not used,4
-tmax_allrain_offset,1,0,10,Percent,4
-tmax_allsnow,1,25,40,Percent,4
-tmax_cbh_adj,NaN,-3,3,Range,4
-tmin_cbh_adj,NaN,-3,3,Range,4
+parameter_name,no_use_if_no_snow,par_lower_bound,par_upper_bound,par_default_val,HRU_cal_method,Part2_step,frac_diff_from_lbnd,par_start_val
+adjmix_rain,1,0.6,1.4,1,Not used,4,0.5,1
+carea_max,NaN,0,1,0.6,Percent,4,0.6,0.6
+cecn_coef,NaN,4.5,5.5,5,Not used,3,0.5,5
+emis_noppt,1,0.757,1,0.757,Not used,4,0,0.7813
+fastcoef_lin,NaN,0.01,0.6,0.1,Percent,3,0.152542373,0.1
+freeh2o_cap,NaN,0.01,0.1,0.05,Range,4,0.444444444,0.05
+gwflow_coef,NaN,0.001,0.1,0.015,Percent,3,0.141414141,0.015
+jh_coef,NaN,0,0.2,0.014,Percent,Not used,0.07,0.02
+mann_n,NaN,0.001,0.15,0.04,Not used,4,0.261744966,0.04
+potet_sublim,1,0.4,0.6,0.5,Not used,4,0.5,0.5
+rad_trncf,1,0,1,0.5,Percent,4,0.5,0.5
+radmax,NaN,0.5,1,0.8,Range,3,0.6,0.8
+rain_cbh_adj,NaN,0.5,1.75,1,Range,1,0.4,1
+slowcoef_sq,NaN,0,1,0.1,Range,2,0.1,0.1
+smidx_coef,NaN,0.0001,0.8,0.005,Not used,4,0.006125766,0.08009
+snarea_curve,NaN,0.5,1,1,Range,Not used,1,0.95
+snowinfil_max,1,0,20,2,Not used,4,0.1,2
+snow_cbh_adj,1,0.5,1.75,1,Range,1,0.4,1
+soil2gw_max,NaN,0,0.5,0,Percent,2,0,0.05
+soil_moist_max,NaN,0.001,12,2,Percent,3,0.166597216,2
+soil_rechr_max_frac,NaN,0.1,1,1,Percent,1,1,0.91
+ssr2gw_exp,NaN,0,3,1,Not used,4,0.333333333,1
+ssr2gw_rate,NaN,0.01,0.8,0.1,Not used,4,0.113924051,0.1
+tmax_allrain_offset,1,0,10,1,Percent,4,0.1,1
+tmax_allsnow,1,25,40,32,Percent,4,0.466666667,32
+tmax_cbh_adj,NaN,-3,3,0,Range,4,0.5,0
+tmin_cbh_adj,NaN,-3,3,0,Range,4,0.5,0
