@@ -2725,16 +2725,16 @@ ptf ~
         ~       smidx_coef:hru_85116        ~
     ],
     "smidx_exp": [
-        0.247358,
-        0.0,
-        0.268866,
-        0.006694,
-        0.420952,
-        0.347791,
-        0.321889,
-        0.35445,
-        0.269947,
-        0.142819
+        ~        smidx_exp:hru_84012        ~,
+        ~        smidx_exp:hru_84017        ~,
+        ~        smidx_exp:hru_84023        ~,
+        ~        smidx_exp:hru_84032        ~,
+        ~        smidx_exp:hru_84038        ~,
+        ~        smidx_exp:hru_84124        ~,
+        ~        smidx_exp:hru_84148        ~,
+        ~        smidx_exp:hru_84165        ~,
+        ~        smidx_exp:hru_85114        ~,
+        ~        smidx_exp:hru_85116        ~
     ],
     "snarea_curve": [
         0.0,
