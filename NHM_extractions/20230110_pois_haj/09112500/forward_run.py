@@ -1,12 +1,12 @@
-import pywatershed
 import os
-import dask
+import pywatershed
 import shutil
-import pathlib as pl
-import time
 import pywatershed as pws
-import pandas as pd
 import xarray as xr
+import time
+import dask
+import pathlib as pl
+import pandas as pd
 import numpy as np
 
 

@@ -1,2340 +1,2340 @@
 parname parval1 parubnd parlbnd
-adjmix_rain:hru_5621:mon_1 1.0  
-adjmix_rain:hru_5625:mon_1 1.0  
-adjmix_rain:hru_5628:mon_1 1.0  
-adjmix_rain:hru_5635:mon_1 1.0  
-adjmix_rain:hru_5637:mon_1 1.0  
-adjmix_rain:hru_5643:mon_1 1.0  
-adjmix_rain:hru_5678:mon_1 1.0  
-adjmix_rain:hru_5679:mon_1 1.0  
-adjmix_rain:hru_5686:mon_1 1.0  
-adjmix_rain:hru_5690:mon_1 1.0  
-adjmix_rain:hru_5693:mon_1 1.0  
-adjmix_rain:hru_5697:mon_1 1.0  
-adjmix_rain:hru_5703:mon_1 1.0  
-adjmix_rain:hru_5728:mon_1 1.0  
-adjmix_rain:hru_7128:mon_1 1.0  
-adjmix_rain:hru_7156:mon_1 1.0  
-adjmix_rain:hru_7157:mon_1 1.0  
-adjmix_rain:hru_5621:mon_2 1.0  
-adjmix_rain:hru_5625:mon_2 1.0  
-adjmix_rain:hru_5628:mon_2 1.0  
-adjmix_rain:hru_5635:mon_2 1.0  
-adjmix_rain:hru_5637:mon_2 1.0  
-adjmix_rain:hru_5643:mon_2 1.0  
-adjmix_rain:hru_5678:mon_2 1.0  
-adjmix_rain:hru_5679:mon_2 1.0  
-adjmix_rain:hru_5686:mon_2 1.0  
-adjmix_rain:hru_5690:mon_2 1.0  
-adjmix_rain:hru_5693:mon_2 1.0  
-adjmix_rain:hru_5697:mon_2 1.0  
-adjmix_rain:hru_5703:mon_2 1.0  
-adjmix_rain:hru_5728:mon_2 1.0  
-adjmix_rain:hru_7128:mon_2 1.0  
-adjmix_rain:hru_7156:mon_2 1.0  
-adjmix_rain:hru_7157:mon_2 1.0  
-adjmix_rain:hru_5621:mon_3 1.0  
-adjmix_rain:hru_5625:mon_3 1.0  
-adjmix_rain:hru_5628:mon_3 1.0  
-adjmix_rain:hru_5635:mon_3 1.0  
-adjmix_rain:hru_5637:mon_3 1.0  
-adjmix_rain:hru_5643:mon_3 1.0  
-adjmix_rain:hru_5678:mon_3 1.0  
-adjmix_rain:hru_5679:mon_3 1.0  
-adjmix_rain:hru_5686:mon_3 1.0  
-adjmix_rain:hru_5690:mon_3 1.0  
-adjmix_rain:hru_5693:mon_3 1.0  
-adjmix_rain:hru_5697:mon_3 1.0  
-adjmix_rain:hru_5703:mon_3 1.0  
-adjmix_rain:hru_5728:mon_3 1.0  
-adjmix_rain:hru_7128:mon_3 1.0  
-adjmix_rain:hru_7156:mon_3 1.0  
-adjmix_rain:hru_7157:mon_3 1.0  
-adjmix_rain:hru_5621:mon_4 1.0  
-adjmix_rain:hru_5625:mon_4 1.0  
-adjmix_rain:hru_5628:mon_4 1.0  
-adjmix_rain:hru_5635:mon_4 1.0  
-adjmix_rain:hru_5637:mon_4 1.0  
-adjmix_rain:hru_5643:mon_4 1.0  
-adjmix_rain:hru_5678:mon_4 1.0  
-adjmix_rain:hru_5679:mon_4 1.0  
-adjmix_rain:hru_5686:mon_4 1.0  
-adjmix_rain:hru_5690:mon_4 1.0  
-adjmix_rain:hru_5693:mon_4 1.0  
-adjmix_rain:hru_5697:mon_4 1.0  
-adjmix_rain:hru_5703:mon_4 1.0  
-adjmix_rain:hru_5728:mon_4 1.0  
-adjmix_rain:hru_7128:mon_4 1.0  
-adjmix_rain:hru_7156:mon_4 1.0  
-adjmix_rain:hru_7157:mon_4 1.0  
-adjmix_rain:hru_5621:mon_5 1.0  
-adjmix_rain:hru_5625:mon_5 1.0  
-adjmix_rain:hru_5628:mon_5 1.0  
-adjmix_rain:hru_5635:mon_5 1.0  
-adjmix_rain:hru_5637:mon_5 1.0  
-adjmix_rain:hru_5643:mon_5 1.0  
-adjmix_rain:hru_5678:mon_5 1.0  
-adjmix_rain:hru_5679:mon_5 1.0  
-adjmix_rain:hru_5686:mon_5 1.0  
-adjmix_rain:hru_5690:mon_5 1.0  
-adjmix_rain:hru_5693:mon_5 1.0  
-adjmix_rain:hru_5697:mon_5 1.0  
-adjmix_rain:hru_5703:mon_5 1.0  
-adjmix_rain:hru_5728:mon_5 1.0  
-adjmix_rain:hru_7128:mon_5 1.0  
-adjmix_rain:hru_7156:mon_5 1.0  
-adjmix_rain:hru_7157:mon_5 1.0  
-adjmix_rain:hru_5621:mon_6 1.0  
-adjmix_rain:hru_5625:mon_6 1.0  
-adjmix_rain:hru_5628:mon_6 1.0  
-adjmix_rain:hru_5635:mon_6 1.0  
-adjmix_rain:hru_5637:mon_6 1.0  
-adjmix_rain:hru_5643:mon_6 1.0  
-adjmix_rain:hru_5678:mon_6 1.0  
-adjmix_rain:hru_5679:mon_6 1.0  
-adjmix_rain:hru_5686:mon_6 1.0  
-adjmix_rain:hru_5690:mon_6 1.0  
-adjmix_rain:hru_5693:mon_6 1.0  
-adjmix_rain:hru_5697:mon_6 1.0  
-adjmix_rain:hru_5703:mon_6 1.0  
-adjmix_rain:hru_5728:mon_6 1.0  
-adjmix_rain:hru_7128:mon_6 1.0  
-adjmix_rain:hru_7156:mon_6 1.0  
-adjmix_rain:hru_7157:mon_6 1.0  
-adjmix_rain:hru_5621:mon_7 1.0  
-adjmix_rain:hru_5625:mon_7 1.0  
-adjmix_rain:hru_5628:mon_7 1.0  
-adjmix_rain:hru_5635:mon_7 1.0  
-adjmix_rain:hru_5637:mon_7 1.0  
-adjmix_rain:hru_5643:mon_7 1.0  
-adjmix_rain:hru_5678:mon_7 1.0  
-adjmix_rain:hru_5679:mon_7 1.0  
-adjmix_rain:hru_5686:mon_7 1.0  
-adjmix_rain:hru_5690:mon_7 1.0  
-adjmix_rain:hru_5693:mon_7 1.0  
-adjmix_rain:hru_5697:mon_7 1.0  
-adjmix_rain:hru_5703:mon_7 1.0  
-adjmix_rain:hru_5728:mon_7 1.0  
-adjmix_rain:hru_7128:mon_7 1.0  
-adjmix_rain:hru_7156:mon_7 1.0  
-adjmix_rain:hru_7157:mon_7 1.0  
-adjmix_rain:hru_5621:mon_8 1.0  
-adjmix_rain:hru_5625:mon_8 1.0  
-adjmix_rain:hru_5628:mon_8 1.0  
-adjmix_rain:hru_5635:mon_8 1.0  
-adjmix_rain:hru_5637:mon_8 1.0  
-adjmix_rain:hru_5643:mon_8 1.0  
-adjmix_rain:hru_5678:mon_8 1.0  
-adjmix_rain:hru_5679:mon_8 1.0  
-adjmix_rain:hru_5686:mon_8 1.0  
-adjmix_rain:hru_5690:mon_8 1.0  
-adjmix_rain:hru_5693:mon_8 1.0  
-adjmix_rain:hru_5697:mon_8 1.0  
-adjmix_rain:hru_5703:mon_8 1.0  
-adjmix_rain:hru_5728:mon_8 1.0  
-adjmix_rain:hru_7128:mon_8 1.0  
-adjmix_rain:hru_7156:mon_8 1.0  
-adjmix_rain:hru_7157:mon_8 1.0  
-adjmix_rain:hru_5621:mon_9 1.0  
-adjmix_rain:hru_5625:mon_9 1.0  
-adjmix_rain:hru_5628:mon_9 1.0  
-adjmix_rain:hru_5635:mon_9 1.0  
-adjmix_rain:hru_5637:mon_9 1.0  
-adjmix_rain:hru_5643:mon_9 1.0  
-adjmix_rain:hru_5678:mon_9 1.0  
-adjmix_rain:hru_5679:mon_9 1.0  
-adjmix_rain:hru_5686:mon_9 1.0  
-adjmix_rain:hru_5690:mon_9 1.0  
-adjmix_rain:hru_5693:mon_9 1.0  
-adjmix_rain:hru_5697:mon_9 1.0  
-adjmix_rain:hru_5703:mon_9 1.0  
-adjmix_rain:hru_5728:mon_9 1.0  
-adjmix_rain:hru_7128:mon_9 1.0  
-adjmix_rain:hru_7156:mon_9 1.0  
-adjmix_rain:hru_7157:mon_9 1.0  
-adjmix_rain:hru_5621:mon_10 1.0  
-adjmix_rain:hru_5625:mon_10 1.0  
-adjmix_rain:hru_5628:mon_10 1.0  
-adjmix_rain:hru_5635:mon_10 1.0  
-adjmix_rain:hru_5637:mon_10 1.0  
-adjmix_rain:hru_5643:mon_10 1.0  
-adjmix_rain:hru_5678:mon_10 1.0  
-adjmix_rain:hru_5679:mon_10 1.0  
-adjmix_rain:hru_5686:mon_10 1.0  
-adjmix_rain:hru_5690:mon_10 1.0  
-adjmix_rain:hru_5693:mon_10 1.0  
-adjmix_rain:hru_5697:mon_10 1.0  
-adjmix_rain:hru_5703:mon_10 1.0  
-adjmix_rain:hru_5728:mon_10 1.0  
-adjmix_rain:hru_7128:mon_10 1.0  
-adjmix_rain:hru_7156:mon_10 1.0  
-adjmix_rain:hru_7157:mon_10 1.0  
-adjmix_rain:hru_5621:mon_11 1.0  
-adjmix_rain:hru_5625:mon_11 1.0  
-adjmix_rain:hru_5628:mon_11 1.0  
-adjmix_rain:hru_5635:mon_11 1.0  
-adjmix_rain:hru_5637:mon_11 1.0  
-adjmix_rain:hru_5643:mon_11 1.0  
-adjmix_rain:hru_5678:mon_11 1.0  
-adjmix_rain:hru_5679:mon_11 1.0  
-adjmix_rain:hru_5686:mon_11 1.0  
-adjmix_rain:hru_5690:mon_11 1.0  
-adjmix_rain:hru_5693:mon_11 1.0  
-adjmix_rain:hru_5697:mon_11 1.0  
-adjmix_rain:hru_5703:mon_11 1.0  
-adjmix_rain:hru_5728:mon_11 1.0  
-adjmix_rain:hru_7128:mon_11 1.0  
-adjmix_rain:hru_7156:mon_11 1.0  
-adjmix_rain:hru_7157:mon_11 1.0  
-adjmix_rain:hru_5621:mon_12 1.0  
-adjmix_rain:hru_5625:mon_12 1.0  
-adjmix_rain:hru_5628:mon_12 1.0  
-adjmix_rain:hru_5635:mon_12 1.0  
-adjmix_rain:hru_5637:mon_12 1.0  
-adjmix_rain:hru_5643:mon_12 1.0  
-adjmix_rain:hru_5678:mon_12 1.0  
-adjmix_rain:hru_5679:mon_12 1.0  
-adjmix_rain:hru_5686:mon_12 1.0  
-adjmix_rain:hru_5690:mon_12 1.0  
-adjmix_rain:hru_5693:mon_12 1.0  
-adjmix_rain:hru_5697:mon_12 1.0  
-adjmix_rain:hru_5703:mon_12 1.0  
-adjmix_rain:hru_5728:mon_12 1.0  
-adjmix_rain:hru_7128:mon_12 1.0  
-adjmix_rain:hru_7156:mon_12 1.0  
-adjmix_rain:hru_7157:mon_12 1.0  
-carea_max:hru_5621 0.6  
-carea_max:hru_5625 0.6  
-carea_max:hru_5628 0.6  
-carea_max:hru_5635 0.6  
-carea_max:hru_5637 0.6  
-carea_max:hru_5643 0.6  
-carea_max:hru_5678 0.6  
-carea_max:hru_5679 0.6  
-carea_max:hru_5686 0.6  
-carea_max:hru_5690 0.6  
-carea_max:hru_5693 0.6  
-carea_max:hru_5697 0.6  
-carea_max:hru_5703 0.6  
-carea_max:hru_5728 0.6  
-carea_max:hru_7128 0.6  
-carea_max:hru_7156 0.6  
-carea_max:hru_7157 0.6  
-cecn_coef:hru_5621:mon_1 5.000000000000001  
-cecn_coef:hru_5625:mon_1 5.000000000000001  
-cecn_coef:hru_5628:mon_1 5.000000000000001  
-cecn_coef:hru_5635:mon_1 5.000000000000001  
-cecn_coef:hru_5637:mon_1 5.000000000000001  
-cecn_coef:hru_5643:mon_1 5.000000000000001  
-cecn_coef:hru_5678:mon_1 5.000000000000001  
-cecn_coef:hru_5679:mon_1 5.000000000000001  
-cecn_coef:hru_5686:mon_1 5.000000000000001  
-cecn_coef:hru_5690:mon_1 5.000000000000001  
-cecn_coef:hru_5693:mon_1 5.000000000000001  
-cecn_coef:hru_5697:mon_1 5.000000000000001  
-cecn_coef:hru_5703:mon_1 5.000000000000001  
-cecn_coef:hru_5728:mon_1 5.000000000000001  
-cecn_coef:hru_7128:mon_1 5.000000000000001  
-cecn_coef:hru_7156:mon_1 5.000000000000001  
-cecn_coef:hru_7157:mon_1 5.000000000000001  
-cecn_coef:hru_5621:mon_2 5.000000000000001  
-cecn_coef:hru_5625:mon_2 5.000000000000001  
-cecn_coef:hru_5628:mon_2 5.000000000000001  
-cecn_coef:hru_5635:mon_2 5.000000000000001  
-cecn_coef:hru_5637:mon_2 5.000000000000001  
-cecn_coef:hru_5643:mon_2 5.000000000000001  
-cecn_coef:hru_5678:mon_2 5.000000000000001  
-cecn_coef:hru_5679:mon_2 5.000000000000001  
-cecn_coef:hru_5686:mon_2 5.000000000000001  
-cecn_coef:hru_5690:mon_2 5.000000000000001  
-cecn_coef:hru_5693:mon_2 5.000000000000001  
-cecn_coef:hru_5697:mon_2 5.000000000000001  
-cecn_coef:hru_5703:mon_2 5.000000000000001  
-cecn_coef:hru_5728:mon_2 5.000000000000001  
-cecn_coef:hru_7128:mon_2 5.000000000000001  
-cecn_coef:hru_7156:mon_2 5.000000000000001  
-cecn_coef:hru_7157:mon_2 5.000000000000001  
-cecn_coef:hru_5621:mon_3 5.000000000000001  
-cecn_coef:hru_5625:mon_3 5.000000000000001  
-cecn_coef:hru_5628:mon_3 5.000000000000001  
-cecn_coef:hru_5635:mon_3 5.000000000000001  
-cecn_coef:hru_5637:mon_3 5.000000000000001  
-cecn_coef:hru_5643:mon_3 5.000000000000001  
-cecn_coef:hru_5678:mon_3 5.000000000000001  
-cecn_coef:hru_5679:mon_3 5.000000000000001  
-cecn_coef:hru_5686:mon_3 5.000000000000001  
-cecn_coef:hru_5690:mon_3 5.000000000000001  
-cecn_coef:hru_5693:mon_3 5.000000000000001  
-cecn_coef:hru_5697:mon_3 5.000000000000001  
-cecn_coef:hru_5703:mon_3 5.000000000000001  
-cecn_coef:hru_5728:mon_3 5.000000000000001  
-cecn_coef:hru_7128:mon_3 5.000000000000001  
-cecn_coef:hru_7156:mon_3 5.000000000000001  
-cecn_coef:hru_7157:mon_3 5.000000000000001  
-cecn_coef:hru_5621:mon_4 5.000000000000001  
-cecn_coef:hru_5625:mon_4 5.000000000000001  
-cecn_coef:hru_5628:mon_4 5.000000000000001  
-cecn_coef:hru_5635:mon_4 5.000000000000001  
-cecn_coef:hru_5637:mon_4 5.000000000000001  
-cecn_coef:hru_5643:mon_4 5.000000000000001  
-cecn_coef:hru_5678:mon_4 5.000000000000001  
-cecn_coef:hru_5679:mon_4 5.000000000000001  
-cecn_coef:hru_5686:mon_4 5.000000000000001  
-cecn_coef:hru_5690:mon_4 5.000000000000001  
-cecn_coef:hru_5693:mon_4 5.000000000000001  
-cecn_coef:hru_5697:mon_4 5.000000000000001  
-cecn_coef:hru_5703:mon_4 5.000000000000001  
-cecn_coef:hru_5728:mon_4 5.000000000000001  
-cecn_coef:hru_7128:mon_4 5.000000000000001  
-cecn_coef:hru_7156:mon_4 5.000000000000001  
-cecn_coef:hru_7157:mon_4 5.000000000000001  
-cecn_coef:hru_5621:mon_5 5.000000000000001  
-cecn_coef:hru_5625:mon_5 5.000000000000001  
-cecn_coef:hru_5628:mon_5 5.000000000000001  
-cecn_coef:hru_5635:mon_5 5.000000000000001  
-cecn_coef:hru_5637:mon_5 5.000000000000001  
-cecn_coef:hru_5643:mon_5 5.000000000000001  
-cecn_coef:hru_5678:mon_5 5.000000000000001  
-cecn_coef:hru_5679:mon_5 5.000000000000001  
-cecn_coef:hru_5686:mon_5 5.000000000000001  
-cecn_coef:hru_5690:mon_5 5.000000000000001  
-cecn_coef:hru_5693:mon_5 5.000000000000001  
-cecn_coef:hru_5697:mon_5 5.000000000000001  
-cecn_coef:hru_5703:mon_5 5.000000000000001  
-cecn_coef:hru_5728:mon_5 5.000000000000001  
-cecn_coef:hru_7128:mon_5 5.000000000000001  
-cecn_coef:hru_7156:mon_5 5.000000000000001  
-cecn_coef:hru_7157:mon_5 5.000000000000001  
-cecn_coef:hru_5621:mon_6 5.000000000000001  
-cecn_coef:hru_5625:mon_6 5.000000000000001  
-cecn_coef:hru_5628:mon_6 5.000000000000001  
-cecn_coef:hru_5635:mon_6 5.000000000000001  
-cecn_coef:hru_5637:mon_6 5.000000000000001  
-cecn_coef:hru_5643:mon_6 5.000000000000001  
-cecn_coef:hru_5678:mon_6 5.000000000000001  
-cecn_coef:hru_5679:mon_6 5.000000000000001  
-cecn_coef:hru_5686:mon_6 5.000000000000001  
-cecn_coef:hru_5690:mon_6 5.000000000000001  
-cecn_coef:hru_5693:mon_6 5.000000000000001  
-cecn_coef:hru_5697:mon_6 5.000000000000001  
-cecn_coef:hru_5703:mon_6 5.000000000000001  
-cecn_coef:hru_5728:mon_6 5.000000000000001  
-cecn_coef:hru_7128:mon_6 5.000000000000001  
-cecn_coef:hru_7156:mon_6 5.000000000000001  
-cecn_coef:hru_7157:mon_6 5.000000000000001  
-cecn_coef:hru_5621:mon_7 5.000000000000001  
-cecn_coef:hru_5625:mon_7 5.000000000000001  
-cecn_coef:hru_5628:mon_7 5.000000000000001  
-cecn_coef:hru_5635:mon_7 5.000000000000001  
-cecn_coef:hru_5637:mon_7 5.000000000000001  
-cecn_coef:hru_5643:mon_7 5.000000000000001  
-cecn_coef:hru_5678:mon_7 5.000000000000001  
-cecn_coef:hru_5679:mon_7 5.000000000000001  
-cecn_coef:hru_5686:mon_7 5.000000000000001  
-cecn_coef:hru_5690:mon_7 5.000000000000001  
-cecn_coef:hru_5693:mon_7 5.000000000000001  
-cecn_coef:hru_5697:mon_7 5.000000000000001  
-cecn_coef:hru_5703:mon_7 5.000000000000001  
-cecn_coef:hru_5728:mon_7 5.000000000000001  
-cecn_coef:hru_7128:mon_7 5.000000000000001  
-cecn_coef:hru_7156:mon_7 5.000000000000001  
-cecn_coef:hru_7157:mon_7 5.000000000000001  
-cecn_coef:hru_5621:mon_8 5.000000000000001  
-cecn_coef:hru_5625:mon_8 5.000000000000001  
-cecn_coef:hru_5628:mon_8 5.000000000000001  
-cecn_coef:hru_5635:mon_8 5.000000000000001  
-cecn_coef:hru_5637:mon_8 5.000000000000001  
-cecn_coef:hru_5643:mon_8 5.000000000000001  
-cecn_coef:hru_5678:mon_8 5.000000000000001  
-cecn_coef:hru_5679:mon_8 5.000000000000001  
-cecn_coef:hru_5686:mon_8 5.000000000000001  
-cecn_coef:hru_5690:mon_8 5.000000000000001  
-cecn_coef:hru_5693:mon_8 5.000000000000001  
-cecn_coef:hru_5697:mon_8 5.000000000000001  
-cecn_coef:hru_5703:mon_8 5.000000000000001  
-cecn_coef:hru_5728:mon_8 5.000000000000001  
-cecn_coef:hru_7128:mon_8 5.000000000000001  
-cecn_coef:hru_7156:mon_8 5.000000000000001  
-cecn_coef:hru_7157:mon_8 5.000000000000001  
-cecn_coef:hru_5621:mon_9 5.000000000000001  
-cecn_coef:hru_5625:mon_9 5.000000000000001  
-cecn_coef:hru_5628:mon_9 5.000000000000001  
-cecn_coef:hru_5635:mon_9 5.000000000000001  
-cecn_coef:hru_5637:mon_9 5.000000000000001  
-cecn_coef:hru_5643:mon_9 5.000000000000001  
-cecn_coef:hru_5678:mon_9 5.000000000000001  
-cecn_coef:hru_5679:mon_9 5.000000000000001  
-cecn_coef:hru_5686:mon_9 5.000000000000001  
-cecn_coef:hru_5690:mon_9 5.000000000000001  
-cecn_coef:hru_5693:mon_9 5.000000000000001  
-cecn_coef:hru_5697:mon_9 5.000000000000001  
-cecn_coef:hru_5703:mon_9 5.000000000000001  
-cecn_coef:hru_5728:mon_9 5.000000000000001  
-cecn_coef:hru_7128:mon_9 5.000000000000001  
-cecn_coef:hru_7156:mon_9 5.000000000000001  
-cecn_coef:hru_7157:mon_9 5.000000000000001  
-cecn_coef:hru_5621:mon_10 5.000000000000001  
-cecn_coef:hru_5625:mon_10 5.000000000000001  
-cecn_coef:hru_5628:mon_10 5.000000000000001  
-cecn_coef:hru_5635:mon_10 5.000000000000001  
-cecn_coef:hru_5637:mon_10 5.000000000000001  
-cecn_coef:hru_5643:mon_10 5.000000000000001  
-cecn_coef:hru_5678:mon_10 5.000000000000001  
-cecn_coef:hru_5679:mon_10 5.000000000000001  
-cecn_coef:hru_5686:mon_10 5.000000000000001  
-cecn_coef:hru_5690:mon_10 5.000000000000001  
-cecn_coef:hru_5693:mon_10 5.000000000000001  
-cecn_coef:hru_5697:mon_10 5.000000000000001  
-cecn_coef:hru_5703:mon_10 5.000000000000001  
-cecn_coef:hru_5728:mon_10 5.000000000000001  
-cecn_coef:hru_7128:mon_10 5.000000000000001  
-cecn_coef:hru_7156:mon_10 5.000000000000001  
-cecn_coef:hru_7157:mon_10 5.000000000000001  
-cecn_coef:hru_5621:mon_11 5.000000000000001  
-cecn_coef:hru_5625:mon_11 5.000000000000001  
-cecn_coef:hru_5628:mon_11 5.000000000000001  
-cecn_coef:hru_5635:mon_11 5.000000000000001  
-cecn_coef:hru_5637:mon_11 5.000000000000001  
-cecn_coef:hru_5643:mon_11 5.000000000000001  
-cecn_coef:hru_5678:mon_11 5.000000000000001  
-cecn_coef:hru_5679:mon_11 5.000000000000001  
-cecn_coef:hru_5686:mon_11 5.000000000000001  
-cecn_coef:hru_5690:mon_11 5.000000000000001  
-cecn_coef:hru_5693:mon_11 5.000000000000001  
-cecn_coef:hru_5697:mon_11 5.000000000000001  
-cecn_coef:hru_5703:mon_11 5.000000000000001  
-cecn_coef:hru_5728:mon_11 5.000000000000001  
-cecn_coef:hru_7128:mon_11 5.000000000000001  
-cecn_coef:hru_7156:mon_11 5.000000000000001  
-cecn_coef:hru_7157:mon_11 5.000000000000001  
-cecn_coef:hru_5621:mon_12 5.000000000000001  
-cecn_coef:hru_5625:mon_12 5.000000000000001  
-cecn_coef:hru_5628:mon_12 5.000000000000001  
-cecn_coef:hru_5635:mon_12 5.000000000000001  
-cecn_coef:hru_5637:mon_12 5.000000000000001  
-cecn_coef:hru_5643:mon_12 5.000000000000001  
-cecn_coef:hru_5678:mon_12 5.000000000000001  
-cecn_coef:hru_5679:mon_12 5.000000000000001  
-cecn_coef:hru_5686:mon_12 5.000000000000001  
-cecn_coef:hru_5690:mon_12 5.000000000000001  
-cecn_coef:hru_5693:mon_12 5.000000000000001  
-cecn_coef:hru_5697:mon_12 5.000000000000001  
-cecn_coef:hru_5703:mon_12 5.000000000000001  
-cecn_coef:hru_5728:mon_12 5.000000000000001  
-cecn_coef:hru_7128:mon_12 5.000000000000001  
-cecn_coef:hru_7156:mon_12 5.000000000000001  
-cecn_coef:hru_7157:mon_12 5.000000000000001  
-emis_noppt:hru_5621 0.7813  
-emis_noppt:hru_5625 0.7813  
-emis_noppt:hru_5628 0.7813  
-emis_noppt:hru_5635 0.7813  
-emis_noppt:hru_5637 0.7813  
-emis_noppt:hru_5643 0.7813  
-emis_noppt:hru_5678 0.7813  
-emis_noppt:hru_5679 0.7813  
-emis_noppt:hru_5686 0.7813  
-emis_noppt:hru_5690 0.7813  
-emis_noppt:hru_5693 0.7813  
-emis_noppt:hru_5697 0.7813  
-emis_noppt:hru_5703 0.7813  
-emis_noppt:hru_5728 0.7813  
-emis_noppt:hru_7128 0.7813  
-emis_noppt:hru_7156 0.7813  
-emis_noppt:hru_7157 0.7813  
-fastcoef_lin:hru_5621 0.1  
-fastcoef_lin:hru_5625 0.1  
-fastcoef_lin:hru_5628 0.1  
-fastcoef_lin:hru_5635 0.1  
-fastcoef_lin:hru_5637 0.1  
-fastcoef_lin:hru_5643 0.1  
-fastcoef_lin:hru_5678 0.1  
-fastcoef_lin:hru_5679 0.1  
-fastcoef_lin:hru_5686 0.1  
-fastcoef_lin:hru_5690 0.1  
-fastcoef_lin:hru_5693 0.1  
-fastcoef_lin:hru_5697 0.1  
-fastcoef_lin:hru_5703 0.1  
-fastcoef_lin:hru_5728 0.1  
-fastcoef_lin:hru_7128 0.1  
-fastcoef_lin:hru_7156 0.1  
-fastcoef_lin:hru_7157 0.1  
-freeh2o_cap:hru_5621 0.049999999999999996  
-freeh2o_cap:hru_5625 0.049999999999999996  
-freeh2o_cap:hru_5628 0.049999999999999996  
-freeh2o_cap:hru_5635 0.049999999999999996  
-freeh2o_cap:hru_5637 0.049999999999999996  
-freeh2o_cap:hru_5643 0.049999999999999996  
-freeh2o_cap:hru_5678 0.049999999999999996  
-freeh2o_cap:hru_5679 0.049999999999999996  
-freeh2o_cap:hru_5686 0.049999999999999996  
-freeh2o_cap:hru_5690 0.049999999999999996  
-freeh2o_cap:hru_5693 0.049999999999999996  
-freeh2o_cap:hru_5697 0.049999999999999996  
-freeh2o_cap:hru_5703 0.049999999999999996  
-freeh2o_cap:hru_5728 0.049999999999999996  
-freeh2o_cap:hru_7128 0.049999999999999996  
-freeh2o_cap:hru_7156 0.049999999999999996  
-freeh2o_cap:hru_7157 0.049999999999999996  
-gwflow_coef:hru_5621 0.014999999999999996  
-gwflow_coef:hru_5625 0.014999999999999996  
-gwflow_coef:hru_5628 0.014999999999999996  
-gwflow_coef:hru_5635 0.014999999999999996  
-gwflow_coef:hru_5637 0.014999999999999996  
-gwflow_coef:hru_5643 0.014999999999999996  
-gwflow_coef:hru_5678 0.014999999999999996  
-gwflow_coef:hru_5679 0.014999999999999996  
-gwflow_coef:hru_5686 0.014999999999999996  
-gwflow_coef:hru_5690 0.014999999999999996  
-gwflow_coef:hru_5693 0.014999999999999996  
-gwflow_coef:hru_5697 0.014999999999999996  
-gwflow_coef:hru_5703 0.014999999999999996  
-gwflow_coef:hru_5728 0.014999999999999996  
-gwflow_coef:hru_7128 0.014999999999999996  
-gwflow_coef:hru_7156 0.014999999999999996  
-gwflow_coef:hru_7157 0.014999999999999996  
-jh_coef:hru_5621:mon_1 0.02  
-jh_coef:hru_5625:mon_1 0.02  
-jh_coef:hru_5628:mon_1 0.02  
-jh_coef:hru_5635:mon_1 0.02  
-jh_coef:hru_5637:mon_1 0.02  
-jh_coef:hru_5643:mon_1 0.02  
-jh_coef:hru_5678:mon_1 0.02  
-jh_coef:hru_5679:mon_1 0.02  
-jh_coef:hru_5686:mon_1 0.02  
-jh_coef:hru_5690:mon_1 0.02  
-jh_coef:hru_5693:mon_1 0.02  
-jh_coef:hru_5697:mon_1 0.02  
-jh_coef:hru_5703:mon_1 0.02  
-jh_coef:hru_5728:mon_1 0.02  
-jh_coef:hru_7128:mon_1 0.02  
-jh_coef:hru_7156:mon_1 0.02  
-jh_coef:hru_7157:mon_1 0.02  
-jh_coef:hru_5621:mon_2 0.02  
-jh_coef:hru_5625:mon_2 0.02  
-jh_coef:hru_5628:mon_2 0.02  
-jh_coef:hru_5635:mon_2 0.02  
-jh_coef:hru_5637:mon_2 0.02  
-jh_coef:hru_5643:mon_2 0.02  
-jh_coef:hru_5678:mon_2 0.02  
-jh_coef:hru_5679:mon_2 0.02  
-jh_coef:hru_5686:mon_2 0.02  
-jh_coef:hru_5690:mon_2 0.02  
-jh_coef:hru_5693:mon_2 0.02  
-jh_coef:hru_5697:mon_2 0.02  
-jh_coef:hru_5703:mon_2 0.02  
-jh_coef:hru_5728:mon_2 0.02  
-jh_coef:hru_7128:mon_2 0.02  
-jh_coef:hru_7156:mon_2 0.02  
-jh_coef:hru_7157:mon_2 0.02  
-jh_coef:hru_5621:mon_3 0.02  
-jh_coef:hru_5625:mon_3 0.02  
-jh_coef:hru_5628:mon_3 0.02  
-jh_coef:hru_5635:mon_3 0.02  
-jh_coef:hru_5637:mon_3 0.02  
-jh_coef:hru_5643:mon_3 0.02  
-jh_coef:hru_5678:mon_3 0.02  
-jh_coef:hru_5679:mon_3 0.02  
-jh_coef:hru_5686:mon_3 0.02  
-jh_coef:hru_5690:mon_3 0.02  
-jh_coef:hru_5693:mon_3 0.02  
-jh_coef:hru_5697:mon_3 0.02  
-jh_coef:hru_5703:mon_3 0.02  
-jh_coef:hru_5728:mon_3 0.02  
-jh_coef:hru_7128:mon_3 0.02  
-jh_coef:hru_7156:mon_3 0.02  
-jh_coef:hru_7157:mon_3 0.02  
-jh_coef:hru_5621:mon_4 0.02  
-jh_coef:hru_5625:mon_4 0.02  
-jh_coef:hru_5628:mon_4 0.02  
-jh_coef:hru_5635:mon_4 0.02  
-jh_coef:hru_5637:mon_4 0.02  
-jh_coef:hru_5643:mon_4 0.02  
-jh_coef:hru_5678:mon_4 0.02  
-jh_coef:hru_5679:mon_4 0.02  
-jh_coef:hru_5686:mon_4 0.02  
-jh_coef:hru_5690:mon_4 0.02  
-jh_coef:hru_5693:mon_4 0.02  
-jh_coef:hru_5697:mon_4 0.02  
-jh_coef:hru_5703:mon_4 0.02  
-jh_coef:hru_5728:mon_4 0.02  
-jh_coef:hru_7128:mon_4 0.02  
-jh_coef:hru_7156:mon_4 0.02  
-jh_coef:hru_7157:mon_4 0.02  
-jh_coef:hru_5621:mon_5 0.02  
-jh_coef:hru_5625:mon_5 0.02  
-jh_coef:hru_5628:mon_5 0.02  
-jh_coef:hru_5635:mon_5 0.02  
-jh_coef:hru_5637:mon_5 0.02  
-jh_coef:hru_5643:mon_5 0.02  
-jh_coef:hru_5678:mon_5 0.02  
-jh_coef:hru_5679:mon_5 0.02  
-jh_coef:hru_5686:mon_5 0.02  
-jh_coef:hru_5690:mon_5 0.02  
-jh_coef:hru_5693:mon_5 0.02  
-jh_coef:hru_5697:mon_5 0.02  
-jh_coef:hru_5703:mon_5 0.02  
-jh_coef:hru_5728:mon_5 0.02  
-jh_coef:hru_7128:mon_5 0.02  
-jh_coef:hru_7156:mon_5 0.02  
-jh_coef:hru_7157:mon_5 0.02  
-jh_coef:hru_5621:mon_6 0.02  
-jh_coef:hru_5625:mon_6 0.02  
-jh_coef:hru_5628:mon_6 0.02  
-jh_coef:hru_5635:mon_6 0.02  
-jh_coef:hru_5637:mon_6 0.02  
-jh_coef:hru_5643:mon_6 0.02  
-jh_coef:hru_5678:mon_6 0.02  
-jh_coef:hru_5679:mon_6 0.02  
-jh_coef:hru_5686:mon_6 0.02  
-jh_coef:hru_5690:mon_6 0.02  
-jh_coef:hru_5693:mon_6 0.02  
-jh_coef:hru_5697:mon_6 0.02  
-jh_coef:hru_5703:mon_6 0.02  
-jh_coef:hru_5728:mon_6 0.02  
-jh_coef:hru_7128:mon_6 0.02  
-jh_coef:hru_7156:mon_6 0.02  
-jh_coef:hru_7157:mon_6 0.02  
-jh_coef:hru_5621:mon_7 0.02  
-jh_coef:hru_5625:mon_7 0.02  
-jh_coef:hru_5628:mon_7 0.02  
-jh_coef:hru_5635:mon_7 0.02  
-jh_coef:hru_5637:mon_7 0.02  
-jh_coef:hru_5643:mon_7 0.02  
-jh_coef:hru_5678:mon_7 0.02  
-jh_coef:hru_5679:mon_7 0.02  
-jh_coef:hru_5686:mon_7 0.02  
-jh_coef:hru_5690:mon_7 0.02  
-jh_coef:hru_5693:mon_7 0.02  
-jh_coef:hru_5697:mon_7 0.02  
-jh_coef:hru_5703:mon_7 0.02  
-jh_coef:hru_5728:mon_7 0.02  
-jh_coef:hru_7128:mon_7 0.02  
-jh_coef:hru_7156:mon_7 0.02  
-jh_coef:hru_7157:mon_7 0.02  
-jh_coef:hru_5621:mon_8 0.02  
-jh_coef:hru_5625:mon_8 0.02  
-jh_coef:hru_5628:mon_8 0.02  
-jh_coef:hru_5635:mon_8 0.02  
-jh_coef:hru_5637:mon_8 0.02  
-jh_coef:hru_5643:mon_8 0.02  
-jh_coef:hru_5678:mon_8 0.02  
-jh_coef:hru_5679:mon_8 0.02  
-jh_coef:hru_5686:mon_8 0.02  
-jh_coef:hru_5690:mon_8 0.02  
-jh_coef:hru_5693:mon_8 0.02  
-jh_coef:hru_5697:mon_8 0.02  
-jh_coef:hru_5703:mon_8 0.02  
-jh_coef:hru_5728:mon_8 0.02  
-jh_coef:hru_7128:mon_8 0.02  
-jh_coef:hru_7156:mon_8 0.02  
-jh_coef:hru_7157:mon_8 0.02  
-jh_coef:hru_5621:mon_9 0.02  
-jh_coef:hru_5625:mon_9 0.02  
-jh_coef:hru_5628:mon_9 0.02  
-jh_coef:hru_5635:mon_9 0.02  
-jh_coef:hru_5637:mon_9 0.02  
-jh_coef:hru_5643:mon_9 0.02  
-jh_coef:hru_5678:mon_9 0.02  
-jh_coef:hru_5679:mon_9 0.02  
-jh_coef:hru_5686:mon_9 0.02  
-jh_coef:hru_5690:mon_9 0.02  
-jh_coef:hru_5693:mon_9 0.02  
-jh_coef:hru_5697:mon_9 0.02  
-jh_coef:hru_5703:mon_9 0.02  
-jh_coef:hru_5728:mon_9 0.02  
-jh_coef:hru_7128:mon_9 0.02  
-jh_coef:hru_7156:mon_9 0.02  
-jh_coef:hru_7157:mon_9 0.02  
-jh_coef:hru_5621:mon_10 0.02  
-jh_coef:hru_5625:mon_10 0.02  
-jh_coef:hru_5628:mon_10 0.02  
-jh_coef:hru_5635:mon_10 0.02  
-jh_coef:hru_5637:mon_10 0.02  
-jh_coef:hru_5643:mon_10 0.02  
-jh_coef:hru_5678:mon_10 0.02  
-jh_coef:hru_5679:mon_10 0.02  
-jh_coef:hru_5686:mon_10 0.02  
-jh_coef:hru_5690:mon_10 0.02  
-jh_coef:hru_5693:mon_10 0.02  
-jh_coef:hru_5697:mon_10 0.02  
-jh_coef:hru_5703:mon_10 0.02  
-jh_coef:hru_5728:mon_10 0.02  
-jh_coef:hru_7128:mon_10 0.02  
-jh_coef:hru_7156:mon_10 0.02  
-jh_coef:hru_7157:mon_10 0.02  
-jh_coef:hru_5621:mon_11 0.02  
-jh_coef:hru_5625:mon_11 0.02  
-jh_coef:hru_5628:mon_11 0.02  
-jh_coef:hru_5635:mon_11 0.02  
-jh_coef:hru_5637:mon_11 0.02  
-jh_coef:hru_5643:mon_11 0.02  
-jh_coef:hru_5678:mon_11 0.02  
-jh_coef:hru_5679:mon_11 0.02  
-jh_coef:hru_5686:mon_11 0.02  
-jh_coef:hru_5690:mon_11 0.02  
-jh_coef:hru_5693:mon_11 0.02  
-jh_coef:hru_5697:mon_11 0.02  
-jh_coef:hru_5703:mon_11 0.02  
-jh_coef:hru_5728:mon_11 0.02  
-jh_coef:hru_7128:mon_11 0.02  
-jh_coef:hru_7156:mon_11 0.02  
-jh_coef:hru_7157:mon_11 0.02  
-jh_coef:hru_5621:mon_12 0.02  
-jh_coef:hru_5625:mon_12 0.02  
-jh_coef:hru_5628:mon_12 0.02  
-jh_coef:hru_5635:mon_12 0.02  
-jh_coef:hru_5637:mon_12 0.02  
-jh_coef:hru_5643:mon_12 0.02  
-jh_coef:hru_5678:mon_12 0.02  
-jh_coef:hru_5679:mon_12 0.02  
-jh_coef:hru_5686:mon_12 0.02  
-jh_coef:hru_5690:mon_12 0.02  
-jh_coef:hru_5693:mon_12 0.02  
-jh_coef:hru_5697:mon_12 0.02  
-jh_coef:hru_5703:mon_12 0.02  
-jh_coef:hru_5728:mon_12 0.02  
-jh_coef:hru_7128:mon_12 0.02  
-jh_coef:hru_7156:mon_12 0.02  
-jh_coef:hru_7157:mon_12 0.02  
-mann_n:seg_2308 0.04000000000000001  
-mann_n:seg_2309 0.04000000000000001  
-mann_n:seg_2310 0.04000000000000001  
-mann_n:seg_2289 0.04000000000000001  
-mann_n:seg_2290 0.04000000000000001  
-mann_n:seg_2292 0.04000000000000001  
-mann_n:seg_2294 0.04000000000000001  
-mann_n:seg_2300 0.04000000000000001  
-mann_n:seg_2302 0.04000000000000001  
-mann_n:seg_2303 0.04000000000000001  
-potet_sublim:hru_5621 0.5  
-potet_sublim:hru_5625 0.5  
-potet_sublim:hru_5628 0.5  
-potet_sublim:hru_5635 0.5  
-potet_sublim:hru_5637 0.5  
-potet_sublim:hru_5643 0.5  
-potet_sublim:hru_5678 0.5  
-potet_sublim:hru_5679 0.5  
-potet_sublim:hru_5686 0.5  
-potet_sublim:hru_5690 0.5  
-potet_sublim:hru_5693 0.5  
-potet_sublim:hru_5697 0.5  
-potet_sublim:hru_5703 0.5  
-potet_sublim:hru_5728 0.5  
-potet_sublim:hru_7128 0.5  
-potet_sublim:hru_7156 0.5  
-potet_sublim:hru_7157 0.5  
-rad_trncf:hru_5621 0.5  
-rad_trncf:hru_5625 0.5  
-rad_trncf:hru_5628 0.5  
-rad_trncf:hru_5635 0.5  
-rad_trncf:hru_5637 0.5  
-rad_trncf:hru_5643 0.5  
-rad_trncf:hru_5678 0.5  
-rad_trncf:hru_5679 0.5  
-rad_trncf:hru_5686 0.5  
-rad_trncf:hru_5690 0.5  
-rad_trncf:hru_5693 0.5  
-rad_trncf:hru_5697 0.5  
-rad_trncf:hru_5703 0.5  
-rad_trncf:hru_5728 0.5  
-rad_trncf:hru_7128 0.5  
-rad_trncf:hru_7156 0.5  
-rad_trncf:hru_7157 0.5  
-radmax:hru_5621:mon_1 0.8  
-radmax:hru_5625:mon_1 0.8  
-radmax:hru_5628:mon_1 0.8  
-radmax:hru_5635:mon_1 0.8  
-radmax:hru_5637:mon_1 0.8  
-radmax:hru_5643:mon_1 0.8  
-radmax:hru_5678:mon_1 0.8  
-radmax:hru_5679:mon_1 0.8  
-radmax:hru_5686:mon_1 0.8  
-radmax:hru_5690:mon_1 0.8  
-radmax:hru_5693:mon_1 0.8  
-radmax:hru_5697:mon_1 0.8  
-radmax:hru_5703:mon_1 0.8  
-radmax:hru_5728:mon_1 0.8  
-radmax:hru_7128:mon_1 0.8  
-radmax:hru_7156:mon_1 0.8  
-radmax:hru_7157:mon_1 0.8  
-radmax:hru_5621:mon_2 0.8  
-radmax:hru_5625:mon_2 0.8  
-radmax:hru_5628:mon_2 0.8  
-radmax:hru_5635:mon_2 0.8  
-radmax:hru_5637:mon_2 0.8  
-radmax:hru_5643:mon_2 0.8  
-radmax:hru_5678:mon_2 0.8  
-radmax:hru_5679:mon_2 0.8  
-radmax:hru_5686:mon_2 0.8  
-radmax:hru_5690:mon_2 0.8  
-radmax:hru_5693:mon_2 0.8  
-radmax:hru_5697:mon_2 0.8  
-radmax:hru_5703:mon_2 0.8  
-radmax:hru_5728:mon_2 0.8  
-radmax:hru_7128:mon_2 0.8  
-radmax:hru_7156:mon_2 0.8  
-radmax:hru_7157:mon_2 0.8  
-radmax:hru_5621:mon_3 0.8  
-radmax:hru_5625:mon_3 0.8  
-radmax:hru_5628:mon_3 0.8  
-radmax:hru_5635:mon_3 0.8  
-radmax:hru_5637:mon_3 0.8  
-radmax:hru_5643:mon_3 0.8  
-radmax:hru_5678:mon_3 0.8  
-radmax:hru_5679:mon_3 0.8  
-radmax:hru_5686:mon_3 0.8  
-radmax:hru_5690:mon_3 0.8  
-radmax:hru_5693:mon_3 0.8  
-radmax:hru_5697:mon_3 0.8  
-radmax:hru_5703:mon_3 0.8  
-radmax:hru_5728:mon_3 0.8  
-radmax:hru_7128:mon_3 0.8  
-radmax:hru_7156:mon_3 0.8  
-radmax:hru_7157:mon_3 0.8  
-radmax:hru_5621:mon_4 0.8  
-radmax:hru_5625:mon_4 0.8  
-radmax:hru_5628:mon_4 0.8  
-radmax:hru_5635:mon_4 0.8  
-radmax:hru_5637:mon_4 0.8  
-radmax:hru_5643:mon_4 0.8  
-radmax:hru_5678:mon_4 0.8  
-radmax:hru_5679:mon_4 0.8  
-radmax:hru_5686:mon_4 0.8  
-radmax:hru_5690:mon_4 0.8  
-radmax:hru_5693:mon_4 0.8  
-radmax:hru_5697:mon_4 0.8  
-radmax:hru_5703:mon_4 0.8  
-radmax:hru_5728:mon_4 0.8  
-radmax:hru_7128:mon_4 0.8  
-radmax:hru_7156:mon_4 0.8  
-radmax:hru_7157:mon_4 0.8  
-radmax:hru_5621:mon_5 0.8  
-radmax:hru_5625:mon_5 0.8  
-radmax:hru_5628:mon_5 0.8  
-radmax:hru_5635:mon_5 0.8  
-radmax:hru_5637:mon_5 0.8  
-radmax:hru_5643:mon_5 0.8  
-radmax:hru_5678:mon_5 0.8  
-radmax:hru_5679:mon_5 0.8  
-radmax:hru_5686:mon_5 0.8  
-radmax:hru_5690:mon_5 0.8  
-radmax:hru_5693:mon_5 0.8  
-radmax:hru_5697:mon_5 0.8  
-radmax:hru_5703:mon_5 0.8  
-radmax:hru_5728:mon_5 0.8  
-radmax:hru_7128:mon_5 0.8  
-radmax:hru_7156:mon_5 0.8  
-radmax:hru_7157:mon_5 0.8  
-radmax:hru_5621:mon_6 0.8  
-radmax:hru_5625:mon_6 0.8  
-radmax:hru_5628:mon_6 0.8  
-radmax:hru_5635:mon_6 0.8  
-radmax:hru_5637:mon_6 0.8  
-radmax:hru_5643:mon_6 0.8  
-radmax:hru_5678:mon_6 0.8  
-radmax:hru_5679:mon_6 0.8  
-radmax:hru_5686:mon_6 0.8  
-radmax:hru_5690:mon_6 0.8  
-radmax:hru_5693:mon_6 0.8  
-radmax:hru_5697:mon_6 0.8  
-radmax:hru_5703:mon_6 0.8  
-radmax:hru_5728:mon_6 0.8  
-radmax:hru_7128:mon_6 0.8  
-radmax:hru_7156:mon_6 0.8  
-radmax:hru_7157:mon_6 0.8  
-radmax:hru_5621:mon_7 0.8  
-radmax:hru_5625:mon_7 0.8  
-radmax:hru_5628:mon_7 0.8  
-radmax:hru_5635:mon_7 0.8  
-radmax:hru_5637:mon_7 0.8  
-radmax:hru_5643:mon_7 0.8  
-radmax:hru_5678:mon_7 0.8  
-radmax:hru_5679:mon_7 0.8  
-radmax:hru_5686:mon_7 0.8  
-radmax:hru_5690:mon_7 0.8  
-radmax:hru_5693:mon_7 0.8  
-radmax:hru_5697:mon_7 0.8  
-radmax:hru_5703:mon_7 0.8  
-radmax:hru_5728:mon_7 0.8  
-radmax:hru_7128:mon_7 0.8  
-radmax:hru_7156:mon_7 0.8  
-radmax:hru_7157:mon_7 0.8  
-radmax:hru_5621:mon_8 0.8  
-radmax:hru_5625:mon_8 0.8  
-radmax:hru_5628:mon_8 0.8  
-radmax:hru_5635:mon_8 0.8  
-radmax:hru_5637:mon_8 0.8  
-radmax:hru_5643:mon_8 0.8  
-radmax:hru_5678:mon_8 0.8  
-radmax:hru_5679:mon_8 0.8  
-radmax:hru_5686:mon_8 0.8  
-radmax:hru_5690:mon_8 0.8  
-radmax:hru_5693:mon_8 0.8  
-radmax:hru_5697:mon_8 0.8  
-radmax:hru_5703:mon_8 0.8  
-radmax:hru_5728:mon_8 0.8  
-radmax:hru_7128:mon_8 0.8  
-radmax:hru_7156:mon_8 0.8  
-radmax:hru_7157:mon_8 0.8  
-radmax:hru_5621:mon_9 0.8  
-radmax:hru_5625:mon_9 0.8  
-radmax:hru_5628:mon_9 0.8  
-radmax:hru_5635:mon_9 0.8  
-radmax:hru_5637:mon_9 0.8  
-radmax:hru_5643:mon_9 0.8  
-radmax:hru_5678:mon_9 0.8  
-radmax:hru_5679:mon_9 0.8  
-radmax:hru_5686:mon_9 0.8  
-radmax:hru_5690:mon_9 0.8  
-radmax:hru_5693:mon_9 0.8  
-radmax:hru_5697:mon_9 0.8  
-radmax:hru_5703:mon_9 0.8  
-radmax:hru_5728:mon_9 0.8  
-radmax:hru_7128:mon_9 0.8  
-radmax:hru_7156:mon_9 0.8  
-radmax:hru_7157:mon_9 0.8  
-radmax:hru_5621:mon_10 0.8  
-radmax:hru_5625:mon_10 0.8  
-radmax:hru_5628:mon_10 0.8  
-radmax:hru_5635:mon_10 0.8  
-radmax:hru_5637:mon_10 0.8  
-radmax:hru_5643:mon_10 0.8  
-radmax:hru_5678:mon_10 0.8  
-radmax:hru_5679:mon_10 0.8  
-radmax:hru_5686:mon_10 0.8  
-radmax:hru_5690:mon_10 0.8  
-radmax:hru_5693:mon_10 0.8  
-radmax:hru_5697:mon_10 0.8  
-radmax:hru_5703:mon_10 0.8  
-radmax:hru_5728:mon_10 0.8  
-radmax:hru_7128:mon_10 0.8  
-radmax:hru_7156:mon_10 0.8  
-radmax:hru_7157:mon_10 0.8  
-radmax:hru_5621:mon_11 0.8  
-radmax:hru_5625:mon_11 0.8  
-radmax:hru_5628:mon_11 0.8  
-radmax:hru_5635:mon_11 0.8  
-radmax:hru_5637:mon_11 0.8  
-radmax:hru_5643:mon_11 0.8  
-radmax:hru_5678:mon_11 0.8  
-radmax:hru_5679:mon_11 0.8  
-radmax:hru_5686:mon_11 0.8  
-radmax:hru_5690:mon_11 0.8  
-radmax:hru_5693:mon_11 0.8  
-radmax:hru_5697:mon_11 0.8  
-radmax:hru_5703:mon_11 0.8  
-radmax:hru_5728:mon_11 0.8  
-radmax:hru_7128:mon_11 0.8  
-radmax:hru_7156:mon_11 0.8  
-radmax:hru_7157:mon_11 0.8  
-radmax:hru_5621:mon_12 0.8  
-radmax:hru_5625:mon_12 0.8  
-radmax:hru_5628:mon_12 0.8  
-radmax:hru_5635:mon_12 0.8  
-radmax:hru_5637:mon_12 0.8  
-radmax:hru_5643:mon_12 0.8  
-radmax:hru_5678:mon_12 0.8  
-radmax:hru_5679:mon_12 0.8  
-radmax:hru_5686:mon_12 0.8  
-radmax:hru_5690:mon_12 0.8  
-radmax:hru_5693:mon_12 0.8  
-radmax:hru_5697:mon_12 0.8  
-radmax:hru_5703:mon_12 0.8  
-radmax:hru_5728:mon_12 0.8  
-radmax:hru_7128:mon_12 0.8  
-radmax:hru_7156:mon_12 0.8  
-radmax:hru_7157:mon_12 0.8  
-rain_cbh_adj:hru_5621:mon_1 1.0  
-rain_cbh_adj:hru_5625:mon_1 1.0  
-rain_cbh_adj:hru_5628:mon_1 1.0  
-rain_cbh_adj:hru_5635:mon_1 1.0  
-rain_cbh_adj:hru_5637:mon_1 1.0  
-rain_cbh_adj:hru_5643:mon_1 1.0  
-rain_cbh_adj:hru_5678:mon_1 1.0  
-rain_cbh_adj:hru_5679:mon_1 1.0  
-rain_cbh_adj:hru_5686:mon_1 1.0  
-rain_cbh_adj:hru_5690:mon_1 1.0  
-rain_cbh_adj:hru_5693:mon_1 1.0  
-rain_cbh_adj:hru_5697:mon_1 1.0  
-rain_cbh_adj:hru_5703:mon_1 1.0  
-rain_cbh_adj:hru_5728:mon_1 1.0  
-rain_cbh_adj:hru_7128:mon_1 1.0  
-rain_cbh_adj:hru_7156:mon_1 1.0  
-rain_cbh_adj:hru_7157:mon_1 1.0  
-rain_cbh_adj:hru_5621:mon_2 1.0  
-rain_cbh_adj:hru_5625:mon_2 1.0  
-rain_cbh_adj:hru_5628:mon_2 1.0  
-rain_cbh_adj:hru_5635:mon_2 1.0  
-rain_cbh_adj:hru_5637:mon_2 1.0  
-rain_cbh_adj:hru_5643:mon_2 1.0  
-rain_cbh_adj:hru_5678:mon_2 1.0  
-rain_cbh_adj:hru_5679:mon_2 1.0  
-rain_cbh_adj:hru_5686:mon_2 1.0  
-rain_cbh_adj:hru_5690:mon_2 1.0  
-rain_cbh_adj:hru_5693:mon_2 1.0  
-rain_cbh_adj:hru_5697:mon_2 1.0  
-rain_cbh_adj:hru_5703:mon_2 1.0  
-rain_cbh_adj:hru_5728:mon_2 1.0  
-rain_cbh_adj:hru_7128:mon_2 1.0  
-rain_cbh_adj:hru_7156:mon_2 1.0  
-rain_cbh_adj:hru_7157:mon_2 1.0  
-rain_cbh_adj:hru_5621:mon_3 1.0  
-rain_cbh_adj:hru_5625:mon_3 1.0  
-rain_cbh_adj:hru_5628:mon_3 1.0  
-rain_cbh_adj:hru_5635:mon_3 1.0  
-rain_cbh_adj:hru_5637:mon_3 1.0  
-rain_cbh_adj:hru_5643:mon_3 1.0  
-rain_cbh_adj:hru_5678:mon_3 1.0  
-rain_cbh_adj:hru_5679:mon_3 1.0  
-rain_cbh_adj:hru_5686:mon_3 1.0  
-rain_cbh_adj:hru_5690:mon_3 1.0  
-rain_cbh_adj:hru_5693:mon_3 1.0  
-rain_cbh_adj:hru_5697:mon_3 1.0  
-rain_cbh_adj:hru_5703:mon_3 1.0  
-rain_cbh_adj:hru_5728:mon_3 1.0  
-rain_cbh_adj:hru_7128:mon_3 1.0  
-rain_cbh_adj:hru_7156:mon_3 1.0  
-rain_cbh_adj:hru_7157:mon_3 1.0  
-rain_cbh_adj:hru_5621:mon_4 1.0  
-rain_cbh_adj:hru_5625:mon_4 1.0  
-rain_cbh_adj:hru_5628:mon_4 1.0  
-rain_cbh_adj:hru_5635:mon_4 1.0  
-rain_cbh_adj:hru_5637:mon_4 1.0  
-rain_cbh_adj:hru_5643:mon_4 1.0  
-rain_cbh_adj:hru_5678:mon_4 1.0  
-rain_cbh_adj:hru_5679:mon_4 1.0  
-rain_cbh_adj:hru_5686:mon_4 1.0  
-rain_cbh_adj:hru_5690:mon_4 1.0  
-rain_cbh_adj:hru_5693:mon_4 1.0  
-rain_cbh_adj:hru_5697:mon_4 1.0  
-rain_cbh_adj:hru_5703:mon_4 1.0  
-rain_cbh_adj:hru_5728:mon_4 1.0  
-rain_cbh_adj:hru_7128:mon_4 1.0  
-rain_cbh_adj:hru_7156:mon_4 1.0  
-rain_cbh_adj:hru_7157:mon_4 1.0  
-rain_cbh_adj:hru_5621:mon_5 1.0  
-rain_cbh_adj:hru_5625:mon_5 1.0  
-rain_cbh_adj:hru_5628:mon_5 1.0  
-rain_cbh_adj:hru_5635:mon_5 1.0  
-rain_cbh_adj:hru_5637:mon_5 1.0  
-rain_cbh_adj:hru_5643:mon_5 1.0  
-rain_cbh_adj:hru_5678:mon_5 1.0  
-rain_cbh_adj:hru_5679:mon_5 1.0  
-rain_cbh_adj:hru_5686:mon_5 1.0  
-rain_cbh_adj:hru_5690:mon_5 1.0  
-rain_cbh_adj:hru_5693:mon_5 1.0  
-rain_cbh_adj:hru_5697:mon_5 1.0  
-rain_cbh_adj:hru_5703:mon_5 1.0  
-rain_cbh_adj:hru_5728:mon_5 1.0  
-rain_cbh_adj:hru_7128:mon_5 1.0  
-rain_cbh_adj:hru_7156:mon_5 1.0  
-rain_cbh_adj:hru_7157:mon_5 1.0  
-rain_cbh_adj:hru_5621:mon_6 1.0  
-rain_cbh_adj:hru_5625:mon_6 1.0  
-rain_cbh_adj:hru_5628:mon_6 1.0  
-rain_cbh_adj:hru_5635:mon_6 1.0  
-rain_cbh_adj:hru_5637:mon_6 1.0  
-rain_cbh_adj:hru_5643:mon_6 1.0  
-rain_cbh_adj:hru_5678:mon_6 1.0  
-rain_cbh_adj:hru_5679:mon_6 1.0  
-rain_cbh_adj:hru_5686:mon_6 1.0  
-rain_cbh_adj:hru_5690:mon_6 1.0  
-rain_cbh_adj:hru_5693:mon_6 1.0  
-rain_cbh_adj:hru_5697:mon_6 1.0  
-rain_cbh_adj:hru_5703:mon_6 1.0  
-rain_cbh_adj:hru_5728:mon_6 1.0  
-rain_cbh_adj:hru_7128:mon_6 1.0  
-rain_cbh_adj:hru_7156:mon_6 1.0  
-rain_cbh_adj:hru_7157:mon_6 1.0  
-rain_cbh_adj:hru_5621:mon_7 1.0  
-rain_cbh_adj:hru_5625:mon_7 1.0  
-rain_cbh_adj:hru_5628:mon_7 1.0  
-rain_cbh_adj:hru_5635:mon_7 1.0  
-rain_cbh_adj:hru_5637:mon_7 1.0  
-rain_cbh_adj:hru_5643:mon_7 1.0  
-rain_cbh_adj:hru_5678:mon_7 1.0  
-rain_cbh_adj:hru_5679:mon_7 1.0  
-rain_cbh_adj:hru_5686:mon_7 1.0  
-rain_cbh_adj:hru_5690:mon_7 1.0  
-rain_cbh_adj:hru_5693:mon_7 1.0  
-rain_cbh_adj:hru_5697:mon_7 1.0  
-rain_cbh_adj:hru_5703:mon_7 1.0  
-rain_cbh_adj:hru_5728:mon_7 1.0  
-rain_cbh_adj:hru_7128:mon_7 1.0  
-rain_cbh_adj:hru_7156:mon_7 1.0  
-rain_cbh_adj:hru_7157:mon_7 1.0  
-rain_cbh_adj:hru_5621:mon_8 1.0  
-rain_cbh_adj:hru_5625:mon_8 1.0  
-rain_cbh_adj:hru_5628:mon_8 1.0  
-rain_cbh_adj:hru_5635:mon_8 1.0  
-rain_cbh_adj:hru_5637:mon_8 1.0  
-rain_cbh_adj:hru_5643:mon_8 1.0  
-rain_cbh_adj:hru_5678:mon_8 1.0  
-rain_cbh_adj:hru_5679:mon_8 1.0  
-rain_cbh_adj:hru_5686:mon_8 1.0  
-rain_cbh_adj:hru_5690:mon_8 1.0  
-rain_cbh_adj:hru_5693:mon_8 1.0  
-rain_cbh_adj:hru_5697:mon_8 1.0  
-rain_cbh_adj:hru_5703:mon_8 1.0  
-rain_cbh_adj:hru_5728:mon_8 1.0  
-rain_cbh_adj:hru_7128:mon_8 1.0  
-rain_cbh_adj:hru_7156:mon_8 1.0  
-rain_cbh_adj:hru_7157:mon_8 1.0  
-rain_cbh_adj:hru_5621:mon_9 1.0  
-rain_cbh_adj:hru_5625:mon_9 1.0  
-rain_cbh_adj:hru_5628:mon_9 1.0  
-rain_cbh_adj:hru_5635:mon_9 1.0  
-rain_cbh_adj:hru_5637:mon_9 1.0  
-rain_cbh_adj:hru_5643:mon_9 1.0  
-rain_cbh_adj:hru_5678:mon_9 1.0  
-rain_cbh_adj:hru_5679:mon_9 1.0  
-rain_cbh_adj:hru_5686:mon_9 1.0  
-rain_cbh_adj:hru_5690:mon_9 1.0  
-rain_cbh_adj:hru_5693:mon_9 1.0  
-rain_cbh_adj:hru_5697:mon_9 1.0  
-rain_cbh_adj:hru_5703:mon_9 1.0  
-rain_cbh_adj:hru_5728:mon_9 1.0  
-rain_cbh_adj:hru_7128:mon_9 1.0  
-rain_cbh_adj:hru_7156:mon_9 1.0  
-rain_cbh_adj:hru_7157:mon_9 1.0  
-rain_cbh_adj:hru_5621:mon_10 1.0  
-rain_cbh_adj:hru_5625:mon_10 1.0  
-rain_cbh_adj:hru_5628:mon_10 1.0  
-rain_cbh_adj:hru_5635:mon_10 1.0  
-rain_cbh_adj:hru_5637:mon_10 1.0  
-rain_cbh_adj:hru_5643:mon_10 1.0  
-rain_cbh_adj:hru_5678:mon_10 1.0  
-rain_cbh_adj:hru_5679:mon_10 1.0  
-rain_cbh_adj:hru_5686:mon_10 1.0  
-rain_cbh_adj:hru_5690:mon_10 1.0  
-rain_cbh_adj:hru_5693:mon_10 1.0  
-rain_cbh_adj:hru_5697:mon_10 1.0  
-rain_cbh_adj:hru_5703:mon_10 1.0  
-rain_cbh_adj:hru_5728:mon_10 1.0  
-rain_cbh_adj:hru_7128:mon_10 1.0  
-rain_cbh_adj:hru_7156:mon_10 1.0  
-rain_cbh_adj:hru_7157:mon_10 1.0  
-rain_cbh_adj:hru_5621:mon_11 1.0  
-rain_cbh_adj:hru_5625:mon_11 1.0  
-rain_cbh_adj:hru_5628:mon_11 1.0  
-rain_cbh_adj:hru_5635:mon_11 1.0  
-rain_cbh_adj:hru_5637:mon_11 1.0  
-rain_cbh_adj:hru_5643:mon_11 1.0  
-rain_cbh_adj:hru_5678:mon_11 1.0  
-rain_cbh_adj:hru_5679:mon_11 1.0  
-rain_cbh_adj:hru_5686:mon_11 1.0  
-rain_cbh_adj:hru_5690:mon_11 1.0  
-rain_cbh_adj:hru_5693:mon_11 1.0  
-rain_cbh_adj:hru_5697:mon_11 1.0  
-rain_cbh_adj:hru_5703:mon_11 1.0  
-rain_cbh_adj:hru_5728:mon_11 1.0  
-rain_cbh_adj:hru_7128:mon_11 1.0  
-rain_cbh_adj:hru_7156:mon_11 1.0  
-rain_cbh_adj:hru_7157:mon_11 1.0  
-rain_cbh_adj:hru_5621:mon_12 1.0  
-rain_cbh_adj:hru_5625:mon_12 1.0  
-rain_cbh_adj:hru_5628:mon_12 1.0  
-rain_cbh_adj:hru_5635:mon_12 1.0  
-rain_cbh_adj:hru_5637:mon_12 1.0  
-rain_cbh_adj:hru_5643:mon_12 1.0  
-rain_cbh_adj:hru_5678:mon_12 1.0  
-rain_cbh_adj:hru_5679:mon_12 1.0  
-rain_cbh_adj:hru_5686:mon_12 1.0  
-rain_cbh_adj:hru_5690:mon_12 1.0  
-rain_cbh_adj:hru_5693:mon_12 1.0  
-rain_cbh_adj:hru_5697:mon_12 1.0  
-rain_cbh_adj:hru_5703:mon_12 1.0  
-rain_cbh_adj:hru_5728:mon_12 1.0  
-rain_cbh_adj:hru_7128:mon_12 1.0  
-rain_cbh_adj:hru_7156:mon_12 1.0  
-rain_cbh_adj:hru_7157:mon_12 1.0  
-slowcoef_sq:hru_5621 0.1  
-slowcoef_sq:hru_5625 0.1  
-slowcoef_sq:hru_5628 0.1  
-slowcoef_sq:hru_5635 0.1  
-slowcoef_sq:hru_5637 0.1  
-slowcoef_sq:hru_5643 0.1  
-slowcoef_sq:hru_5678 0.1  
-slowcoef_sq:hru_5679 0.1  
-slowcoef_sq:hru_5686 0.1  
-slowcoef_sq:hru_5690 0.1  
-slowcoef_sq:hru_5693 0.1  
-slowcoef_sq:hru_5697 0.1  
-slowcoef_sq:hru_5703 0.1  
-slowcoef_sq:hru_5728 0.1  
-slowcoef_sq:hru_7128 0.1  
-slowcoef_sq:hru_7156 0.1  
-slowcoef_sq:hru_7157 0.1  
-smidx_coef:hru_5621 0.08008999999999998  
-smidx_coef:hru_5625 0.08008999999999998  
-smidx_coef:hru_5628 0.08008999999999998  
-smidx_coef:hru_5635 0.08008999999999998  
-smidx_coef:hru_5637 0.08008999999999998  
-smidx_coef:hru_5643 0.08008999999999998  
-smidx_coef:hru_5678 0.08008999999999998  
-smidx_coef:hru_5679 0.08008999999999998  
-smidx_coef:hru_5686 0.08008999999999998  
-smidx_coef:hru_5690 0.08008999999999998  
-smidx_coef:hru_5693 0.08008999999999998  
-smidx_coef:hru_5697 0.08008999999999998  
-smidx_coef:hru_5703 0.08008999999999998  
-smidx_coef:hru_5728 0.08008999999999998  
-smidx_coef:hru_7128 0.08008999999999998  
-smidx_coef:hru_7156 0.08008999999999998  
-smidx_coef:hru_7157 0.08008999999999998  
-smidx_exp:hru_5621 0.146424  
-smidx_exp:hru_5625 0.007238  
-smidx_exp:hru_5628 0.168168  
-smidx_exp:hru_5635 0.127147  
-smidx_exp:hru_5637 0.083094  
-smidx_exp:hru_5643 0.120566  
-smidx_exp:hru_5678 0.029966  
-smidx_exp:hru_5679 0.022845  
-smidx_exp:hru_5686 0.205483  
-smidx_exp:hru_5690 0.098659  
-smidx_exp:hru_5693 0.138017  
-smidx_exp:hru_5697 0.147587  
-smidx_exp:hru_5703 0.218083  
-smidx_exp:hru_5728 0.19872  
-smidx_exp:hru_7128 0.16384  
-smidx_exp:hru_7156 0.128696  
-smidx_exp:hru_7157 0.152574  
-snarea_thresh:hru_5621 1.620213  
-snarea_thresh:hru_5625 1.984987  
-snarea_thresh:hru_5628 1.775647  
-snarea_thresh:hru_5635 1.906302  
-snarea_thresh:hru_5637 1.837407  
-snarea_thresh:hru_5643 1.909374  
-snarea_thresh:hru_5678 2.036671  
-snarea_thresh:hru_5679 2.045574  
-snarea_thresh:hru_5686 1.799482  
-snarea_thresh:hru_5690 2.049437  
-snarea_thresh:hru_5693 2.105184  
-snarea_thresh:hru_5697 1.9835850000000002  
-snarea_thresh:hru_5703 2.027274  
-snarea_thresh:hru_5728 2.089595  
-snarea_thresh:hru_7128 2.066137  
-snarea_thresh:hru_7156 2.166803  
-snarea_thresh:hru_7157 2.208702  
-snowinfil_max:hru_5621 2.0  
-snowinfil_max:hru_5625 2.0  
-snowinfil_max:hru_5628 2.0  
-snowinfil_max:hru_5635 2.0  
-snowinfil_max:hru_5637 2.0  
-snowinfil_max:hru_5643 2.0  
-snowinfil_max:hru_5678 2.0  
-snowinfil_max:hru_5679 2.0  
-snowinfil_max:hru_5686 2.0  
-snowinfil_max:hru_5690 2.0  
-snowinfil_max:hru_5693 2.0  
-snowinfil_max:hru_5697 2.0  
-snowinfil_max:hru_5703 2.0  
-snowinfil_max:hru_5728 2.0  
-snowinfil_max:hru_7128 2.0  
-snowinfil_max:hru_7156 2.0  
-snowinfil_max:hru_7157 2.0  
-snow_cbh_adj:hru_5621:mon_1 1.0  
-snow_cbh_adj:hru_5625:mon_1 1.0  
-snow_cbh_adj:hru_5628:mon_1 1.0  
-snow_cbh_adj:hru_5635:mon_1 1.0  
-snow_cbh_adj:hru_5637:mon_1 1.0  
-snow_cbh_adj:hru_5643:mon_1 1.0  
-snow_cbh_adj:hru_5678:mon_1 1.0  
-snow_cbh_adj:hru_5679:mon_1 1.0  
-snow_cbh_adj:hru_5686:mon_1 1.0  
-snow_cbh_adj:hru_5690:mon_1 1.0  
-snow_cbh_adj:hru_5693:mon_1 1.0  
-snow_cbh_adj:hru_5697:mon_1 1.0  
-snow_cbh_adj:hru_5703:mon_1 1.0  
-snow_cbh_adj:hru_5728:mon_1 1.0  
-snow_cbh_adj:hru_7128:mon_1 1.0  
-snow_cbh_adj:hru_7156:mon_1 1.0  
-snow_cbh_adj:hru_7157:mon_1 1.0  
-snow_cbh_adj:hru_5621:mon_2 1.0  
-snow_cbh_adj:hru_5625:mon_2 1.0  
-snow_cbh_adj:hru_5628:mon_2 1.0  
-snow_cbh_adj:hru_5635:mon_2 1.0  
-snow_cbh_adj:hru_5637:mon_2 1.0  
-snow_cbh_adj:hru_5643:mon_2 1.0  
-snow_cbh_adj:hru_5678:mon_2 1.0  
-snow_cbh_adj:hru_5679:mon_2 1.0  
-snow_cbh_adj:hru_5686:mon_2 1.0  
-snow_cbh_adj:hru_5690:mon_2 1.0  
-snow_cbh_adj:hru_5693:mon_2 1.0  
-snow_cbh_adj:hru_5697:mon_2 1.0  
-snow_cbh_adj:hru_5703:mon_2 1.0  
-snow_cbh_adj:hru_5728:mon_2 1.0  
-snow_cbh_adj:hru_7128:mon_2 1.0  
-snow_cbh_adj:hru_7156:mon_2 1.0  
-snow_cbh_adj:hru_7157:mon_2 1.0  
-snow_cbh_adj:hru_5621:mon_3 1.0  
-snow_cbh_adj:hru_5625:mon_3 1.0  
-snow_cbh_adj:hru_5628:mon_3 1.0  
-snow_cbh_adj:hru_5635:mon_3 1.0  
-snow_cbh_adj:hru_5637:mon_3 1.0  
-snow_cbh_adj:hru_5643:mon_3 1.0  
-snow_cbh_adj:hru_5678:mon_3 1.0  
-snow_cbh_adj:hru_5679:mon_3 1.0  
-snow_cbh_adj:hru_5686:mon_3 1.0  
-snow_cbh_adj:hru_5690:mon_3 1.0  
-snow_cbh_adj:hru_5693:mon_3 1.0  
-snow_cbh_adj:hru_5697:mon_3 1.0  
-snow_cbh_adj:hru_5703:mon_3 1.0  
-snow_cbh_adj:hru_5728:mon_3 1.0  
-snow_cbh_adj:hru_7128:mon_3 1.0  
-snow_cbh_adj:hru_7156:mon_3 1.0  
-snow_cbh_adj:hru_7157:mon_3 1.0  
-snow_cbh_adj:hru_5621:mon_4 1.0  
-snow_cbh_adj:hru_5625:mon_4 1.0  
-snow_cbh_adj:hru_5628:mon_4 1.0  
-snow_cbh_adj:hru_5635:mon_4 1.0  
-snow_cbh_adj:hru_5637:mon_4 1.0  
-snow_cbh_adj:hru_5643:mon_4 1.0  
-snow_cbh_adj:hru_5678:mon_4 1.0  
-snow_cbh_adj:hru_5679:mon_4 1.0  
-snow_cbh_adj:hru_5686:mon_4 1.0  
-snow_cbh_adj:hru_5690:mon_4 1.0  
-snow_cbh_adj:hru_5693:mon_4 1.0  
-snow_cbh_adj:hru_5697:mon_4 1.0  
-snow_cbh_adj:hru_5703:mon_4 1.0  
-snow_cbh_adj:hru_5728:mon_4 1.0  
-snow_cbh_adj:hru_7128:mon_4 1.0  
-snow_cbh_adj:hru_7156:mon_4 1.0  
-snow_cbh_adj:hru_7157:mon_4 1.0  
-snow_cbh_adj:hru_5621:mon_5 1.0  
-snow_cbh_adj:hru_5625:mon_5 1.0  
-snow_cbh_adj:hru_5628:mon_5 1.0  
-snow_cbh_adj:hru_5635:mon_5 1.0  
-snow_cbh_adj:hru_5637:mon_5 1.0  
-snow_cbh_adj:hru_5643:mon_5 1.0  
-snow_cbh_adj:hru_5678:mon_5 1.0  
-snow_cbh_adj:hru_5679:mon_5 1.0  
-snow_cbh_adj:hru_5686:mon_5 1.0  
-snow_cbh_adj:hru_5690:mon_5 1.0  
-snow_cbh_adj:hru_5693:mon_5 1.0  
-snow_cbh_adj:hru_5697:mon_5 1.0  
-snow_cbh_adj:hru_5703:mon_5 1.0  
-snow_cbh_adj:hru_5728:mon_5 1.0  
-snow_cbh_adj:hru_7128:mon_5 1.0  
-snow_cbh_adj:hru_7156:mon_5 1.0  
-snow_cbh_adj:hru_7157:mon_5 1.0  
-snow_cbh_adj:hru_5621:mon_6 1.0  
-snow_cbh_adj:hru_5625:mon_6 1.0  
-snow_cbh_adj:hru_5628:mon_6 1.0  
-snow_cbh_adj:hru_5635:mon_6 1.0  
-snow_cbh_adj:hru_5637:mon_6 1.0  
-snow_cbh_adj:hru_5643:mon_6 1.0  
-snow_cbh_adj:hru_5678:mon_6 1.0  
-snow_cbh_adj:hru_5679:mon_6 1.0  
-snow_cbh_adj:hru_5686:mon_6 1.0  
-snow_cbh_adj:hru_5690:mon_6 1.0  
-snow_cbh_adj:hru_5693:mon_6 1.0  
-snow_cbh_adj:hru_5697:mon_6 1.0  
-snow_cbh_adj:hru_5703:mon_6 1.0  
-snow_cbh_adj:hru_5728:mon_6 1.0  
-snow_cbh_adj:hru_7128:mon_6 1.0  
-snow_cbh_adj:hru_7156:mon_6 1.0  
-snow_cbh_adj:hru_7157:mon_6 1.0  
-snow_cbh_adj:hru_5621:mon_7 1.0  
-snow_cbh_adj:hru_5625:mon_7 1.0  
-snow_cbh_adj:hru_5628:mon_7 1.0  
-snow_cbh_adj:hru_5635:mon_7 1.0  
-snow_cbh_adj:hru_5637:mon_7 1.0  
-snow_cbh_adj:hru_5643:mon_7 1.0  
-snow_cbh_adj:hru_5678:mon_7 1.0  
-snow_cbh_adj:hru_5679:mon_7 1.0  
-snow_cbh_adj:hru_5686:mon_7 1.0  
-snow_cbh_adj:hru_5690:mon_7 1.0  
-snow_cbh_adj:hru_5693:mon_7 1.0  
-snow_cbh_adj:hru_5697:mon_7 1.0  
-snow_cbh_adj:hru_5703:mon_7 1.0  
-snow_cbh_adj:hru_5728:mon_7 1.0  
-snow_cbh_adj:hru_7128:mon_7 1.0  
-snow_cbh_adj:hru_7156:mon_7 1.0  
-snow_cbh_adj:hru_7157:mon_7 1.0  
-snow_cbh_adj:hru_5621:mon_8 1.0  
-snow_cbh_adj:hru_5625:mon_8 1.0  
-snow_cbh_adj:hru_5628:mon_8 1.0  
-snow_cbh_adj:hru_5635:mon_8 1.0  
-snow_cbh_adj:hru_5637:mon_8 1.0  
-snow_cbh_adj:hru_5643:mon_8 1.0  
-snow_cbh_adj:hru_5678:mon_8 1.0  
-snow_cbh_adj:hru_5679:mon_8 1.0  
-snow_cbh_adj:hru_5686:mon_8 1.0  
-snow_cbh_adj:hru_5690:mon_8 1.0  
-snow_cbh_adj:hru_5693:mon_8 1.0  
-snow_cbh_adj:hru_5697:mon_8 1.0  
-snow_cbh_adj:hru_5703:mon_8 1.0  
-snow_cbh_adj:hru_5728:mon_8 1.0  
-snow_cbh_adj:hru_7128:mon_8 1.0  
-snow_cbh_adj:hru_7156:mon_8 1.0  
-snow_cbh_adj:hru_7157:mon_8 1.0  
-snow_cbh_adj:hru_5621:mon_9 1.0  
-snow_cbh_adj:hru_5625:mon_9 1.0  
-snow_cbh_adj:hru_5628:mon_9 1.0  
-snow_cbh_adj:hru_5635:mon_9 1.0  
-snow_cbh_adj:hru_5637:mon_9 1.0  
-snow_cbh_adj:hru_5643:mon_9 1.0  
-snow_cbh_adj:hru_5678:mon_9 1.0  
-snow_cbh_adj:hru_5679:mon_9 1.0  
-snow_cbh_adj:hru_5686:mon_9 1.0  
-snow_cbh_adj:hru_5690:mon_9 1.0  
-snow_cbh_adj:hru_5693:mon_9 1.0  
-snow_cbh_adj:hru_5697:mon_9 1.0  
-snow_cbh_adj:hru_5703:mon_9 1.0  
-snow_cbh_adj:hru_5728:mon_9 1.0  
-snow_cbh_adj:hru_7128:mon_9 1.0  
-snow_cbh_adj:hru_7156:mon_9 1.0  
-snow_cbh_adj:hru_7157:mon_9 1.0  
-snow_cbh_adj:hru_5621:mon_10 1.0  
-snow_cbh_adj:hru_5625:mon_10 1.0  
-snow_cbh_adj:hru_5628:mon_10 1.0  
-snow_cbh_adj:hru_5635:mon_10 1.0  
-snow_cbh_adj:hru_5637:mon_10 1.0  
-snow_cbh_adj:hru_5643:mon_10 1.0  
-snow_cbh_adj:hru_5678:mon_10 1.0  
-snow_cbh_adj:hru_5679:mon_10 1.0  
-snow_cbh_adj:hru_5686:mon_10 1.0  
-snow_cbh_adj:hru_5690:mon_10 1.0  
-snow_cbh_adj:hru_5693:mon_10 1.0  
-snow_cbh_adj:hru_5697:mon_10 1.0  
-snow_cbh_adj:hru_5703:mon_10 1.0  
-snow_cbh_adj:hru_5728:mon_10 1.0  
-snow_cbh_adj:hru_7128:mon_10 1.0  
-snow_cbh_adj:hru_7156:mon_10 1.0  
-snow_cbh_adj:hru_7157:mon_10 1.0  
-snow_cbh_adj:hru_5621:mon_11 1.0  
-snow_cbh_adj:hru_5625:mon_11 1.0  
-snow_cbh_adj:hru_5628:mon_11 1.0  
-snow_cbh_adj:hru_5635:mon_11 1.0  
-snow_cbh_adj:hru_5637:mon_11 1.0  
-snow_cbh_adj:hru_5643:mon_11 1.0  
-snow_cbh_adj:hru_5678:mon_11 1.0  
-snow_cbh_adj:hru_5679:mon_11 1.0  
-snow_cbh_adj:hru_5686:mon_11 1.0  
-snow_cbh_adj:hru_5690:mon_11 1.0  
-snow_cbh_adj:hru_5693:mon_11 1.0  
-snow_cbh_adj:hru_5697:mon_11 1.0  
-snow_cbh_adj:hru_5703:mon_11 1.0  
-snow_cbh_adj:hru_5728:mon_11 1.0  
-snow_cbh_adj:hru_7128:mon_11 1.0  
-snow_cbh_adj:hru_7156:mon_11 1.0  
-snow_cbh_adj:hru_7157:mon_11 1.0  
-snow_cbh_adj:hru_5621:mon_12 1.0  
-snow_cbh_adj:hru_5625:mon_12 1.0  
-snow_cbh_adj:hru_5628:mon_12 1.0  
-snow_cbh_adj:hru_5635:mon_12 1.0  
-snow_cbh_adj:hru_5637:mon_12 1.0  
-snow_cbh_adj:hru_5643:mon_12 1.0  
-snow_cbh_adj:hru_5678:mon_12 1.0  
-snow_cbh_adj:hru_5679:mon_12 1.0  
-snow_cbh_adj:hru_5686:mon_12 1.0  
-snow_cbh_adj:hru_5690:mon_12 1.0  
-snow_cbh_adj:hru_5693:mon_12 1.0  
-snow_cbh_adj:hru_5697:mon_12 1.0  
-snow_cbh_adj:hru_5703:mon_12 1.0  
-snow_cbh_adj:hru_5728:mon_12 1.0  
-snow_cbh_adj:hru_7128:mon_12 1.0  
-snow_cbh_adj:hru_7156:mon_12 1.0  
-snow_cbh_adj:hru_7157:mon_12 1.0  
-soil2gw_max:hru_5621 0.05  
-soil2gw_max:hru_5625 0.05  
-soil2gw_max:hru_5628 0.05  
-soil2gw_max:hru_5635 0.05  
-soil2gw_max:hru_5637 0.05  
-soil2gw_max:hru_5643 0.05  
-soil2gw_max:hru_5678 0.05  
-soil2gw_max:hru_5679 0.05  
-soil2gw_max:hru_5686 0.05  
-soil2gw_max:hru_5690 0.05  
-soil2gw_max:hru_5693 0.05  
-soil2gw_max:hru_5697 0.05  
-soil2gw_max:hru_5703 0.05  
-soil2gw_max:hru_5728 0.05  
-soil2gw_max:hru_7128 0.05  
-soil2gw_max:hru_7156 0.05  
-soil2gw_max:hru_7157 0.05  
-soil_moist_max:hru_5621 2.0  
-soil_moist_max:hru_5625 2.0  
-soil_moist_max:hru_5628 2.0  
-soil_moist_max:hru_5635 2.0  
-soil_moist_max:hru_5637 2.0  
-soil_moist_max:hru_5643 2.0  
-soil_moist_max:hru_5678 2.0  
-soil_moist_max:hru_5679 2.0  
-soil_moist_max:hru_5686 2.0  
-soil_moist_max:hru_5690 2.0  
-soil_moist_max:hru_5693 2.0  
-soil_moist_max:hru_5697 2.0  
-soil_moist_max:hru_5703 2.0  
-soil_moist_max:hru_5728 2.0  
-soil_moist_max:hru_7128 2.0  
-soil_moist_max:hru_7156 2.0  
-soil_moist_max:hru_7157 2.0  
-soil_rechr_max_frac:hru_5621 0.91  
-soil_rechr_max_frac:hru_5625 0.91  
-soil_rechr_max_frac:hru_5628 0.91  
-soil_rechr_max_frac:hru_5635 0.91  
-soil_rechr_max_frac:hru_5637 0.91  
-soil_rechr_max_frac:hru_5643 0.91  
-soil_rechr_max_frac:hru_5678 0.91  
-soil_rechr_max_frac:hru_5679 0.91  
-soil_rechr_max_frac:hru_5686 0.91  
-soil_rechr_max_frac:hru_5690 0.91  
-soil_rechr_max_frac:hru_5693 0.91  
-soil_rechr_max_frac:hru_5697 0.91  
-soil_rechr_max_frac:hru_5703 0.91  
-soil_rechr_max_frac:hru_5728 0.91  
-soil_rechr_max_frac:hru_7128 0.91  
-soil_rechr_max_frac:hru_7156 0.91  
-soil_rechr_max_frac:hru_7157 0.91  
-ssr2gw_exp:hru_5621 1.0  
-ssr2gw_exp:hru_5625 1.0  
-ssr2gw_exp:hru_5628 1.0  
-ssr2gw_exp:hru_5635 1.0  
-ssr2gw_exp:hru_5637 1.0  
-ssr2gw_exp:hru_5643 1.0  
-ssr2gw_exp:hru_5678 1.0  
-ssr2gw_exp:hru_5679 1.0  
-ssr2gw_exp:hru_5686 1.0  
-ssr2gw_exp:hru_5690 1.0  
-ssr2gw_exp:hru_5693 1.0  
-ssr2gw_exp:hru_5697 1.0  
-ssr2gw_exp:hru_5703 1.0  
-ssr2gw_exp:hru_5728 1.0  
-ssr2gw_exp:hru_7128 1.0  
-ssr2gw_exp:hru_7156 1.0  
-ssr2gw_exp:hru_7157 1.0  
-ssr2gw_rate:hru_5621 0.1  
-ssr2gw_rate:hru_5625 0.1  
-ssr2gw_rate:hru_5628 0.1  
-ssr2gw_rate:hru_5635 0.1  
-ssr2gw_rate:hru_5637 0.1  
-ssr2gw_rate:hru_5643 0.1  
-ssr2gw_rate:hru_5678 0.1  
-ssr2gw_rate:hru_5679 0.1  
-ssr2gw_rate:hru_5686 0.1  
-ssr2gw_rate:hru_5690 0.1  
-ssr2gw_rate:hru_5693 0.1  
-ssr2gw_rate:hru_5697 0.1  
-ssr2gw_rate:hru_5703 0.1  
-ssr2gw_rate:hru_5728 0.1  
-ssr2gw_rate:hru_7128 0.1  
-ssr2gw_rate:hru_7156 0.1  
-ssr2gw_rate:hru_7157 0.1  
-tmax_allrain_offset:hru_5621:mon_1 1.0  
-tmax_allrain_offset:hru_5625:mon_1 1.0  
-tmax_allrain_offset:hru_5628:mon_1 1.0  
-tmax_allrain_offset:hru_5635:mon_1 1.0  
-tmax_allrain_offset:hru_5637:mon_1 1.0  
-tmax_allrain_offset:hru_5643:mon_1 1.0  
-tmax_allrain_offset:hru_5678:mon_1 1.0  
-tmax_allrain_offset:hru_5679:mon_1 1.0  
-tmax_allrain_offset:hru_5686:mon_1 1.0  
-tmax_allrain_offset:hru_5690:mon_1 1.0  
-tmax_allrain_offset:hru_5693:mon_1 1.0  
-tmax_allrain_offset:hru_5697:mon_1 1.0  
-tmax_allrain_offset:hru_5703:mon_1 1.0  
-tmax_allrain_offset:hru_5728:mon_1 1.0  
-tmax_allrain_offset:hru_7128:mon_1 1.0  
-tmax_allrain_offset:hru_7156:mon_1 1.0  
-tmax_allrain_offset:hru_7157:mon_1 1.0  
-tmax_allrain_offset:hru_5621:mon_2 1.0  
-tmax_allrain_offset:hru_5625:mon_2 1.0  
-tmax_allrain_offset:hru_5628:mon_2 1.0  
-tmax_allrain_offset:hru_5635:mon_2 1.0  
-tmax_allrain_offset:hru_5637:mon_2 1.0  
-tmax_allrain_offset:hru_5643:mon_2 1.0  
-tmax_allrain_offset:hru_5678:mon_2 1.0  
-tmax_allrain_offset:hru_5679:mon_2 1.0  
-tmax_allrain_offset:hru_5686:mon_2 1.0  
-tmax_allrain_offset:hru_5690:mon_2 1.0  
-tmax_allrain_offset:hru_5693:mon_2 1.0  
-tmax_allrain_offset:hru_5697:mon_2 1.0  
-tmax_allrain_offset:hru_5703:mon_2 1.0  
-tmax_allrain_offset:hru_5728:mon_2 1.0  
-tmax_allrain_offset:hru_7128:mon_2 1.0  
-tmax_allrain_offset:hru_7156:mon_2 1.0  
-tmax_allrain_offset:hru_7157:mon_2 1.0  
-tmax_allrain_offset:hru_5621:mon_3 1.0  
-tmax_allrain_offset:hru_5625:mon_3 1.0  
-tmax_allrain_offset:hru_5628:mon_3 1.0  
-tmax_allrain_offset:hru_5635:mon_3 1.0  
-tmax_allrain_offset:hru_5637:mon_3 1.0  
-tmax_allrain_offset:hru_5643:mon_3 1.0  
-tmax_allrain_offset:hru_5678:mon_3 1.0  
-tmax_allrain_offset:hru_5679:mon_3 1.0  
-tmax_allrain_offset:hru_5686:mon_3 1.0  
-tmax_allrain_offset:hru_5690:mon_3 1.0  
-tmax_allrain_offset:hru_5693:mon_3 1.0  
-tmax_allrain_offset:hru_5697:mon_3 1.0  
-tmax_allrain_offset:hru_5703:mon_3 1.0  
-tmax_allrain_offset:hru_5728:mon_3 1.0  
-tmax_allrain_offset:hru_7128:mon_3 1.0  
-tmax_allrain_offset:hru_7156:mon_3 1.0  
-tmax_allrain_offset:hru_7157:mon_3 1.0  
-tmax_allrain_offset:hru_5621:mon_4 1.0  
-tmax_allrain_offset:hru_5625:mon_4 1.0  
-tmax_allrain_offset:hru_5628:mon_4 1.0  
-tmax_allrain_offset:hru_5635:mon_4 1.0  
-tmax_allrain_offset:hru_5637:mon_4 1.0  
-tmax_allrain_offset:hru_5643:mon_4 1.0  
-tmax_allrain_offset:hru_5678:mon_4 1.0  
-tmax_allrain_offset:hru_5679:mon_4 1.0  
-tmax_allrain_offset:hru_5686:mon_4 1.0  
-tmax_allrain_offset:hru_5690:mon_4 1.0  
-tmax_allrain_offset:hru_5693:mon_4 1.0  
-tmax_allrain_offset:hru_5697:mon_4 1.0  
-tmax_allrain_offset:hru_5703:mon_4 1.0  
-tmax_allrain_offset:hru_5728:mon_4 1.0  
-tmax_allrain_offset:hru_7128:mon_4 1.0  
-tmax_allrain_offset:hru_7156:mon_4 1.0  
-tmax_allrain_offset:hru_7157:mon_4 1.0  
-tmax_allrain_offset:hru_5621:mon_5 1.0  
-tmax_allrain_offset:hru_5625:mon_5 1.0  
-tmax_allrain_offset:hru_5628:mon_5 1.0  
-tmax_allrain_offset:hru_5635:mon_5 1.0  
-tmax_allrain_offset:hru_5637:mon_5 1.0  
-tmax_allrain_offset:hru_5643:mon_5 1.0  
-tmax_allrain_offset:hru_5678:mon_5 1.0  
-tmax_allrain_offset:hru_5679:mon_5 1.0  
-tmax_allrain_offset:hru_5686:mon_5 1.0  
-tmax_allrain_offset:hru_5690:mon_5 1.0  
-tmax_allrain_offset:hru_5693:mon_5 1.0  
-tmax_allrain_offset:hru_5697:mon_5 1.0  
-tmax_allrain_offset:hru_5703:mon_5 1.0  
-tmax_allrain_offset:hru_5728:mon_5 1.0  
-tmax_allrain_offset:hru_7128:mon_5 1.0  
-tmax_allrain_offset:hru_7156:mon_5 1.0  
-tmax_allrain_offset:hru_7157:mon_5 1.0  
-tmax_allrain_offset:hru_5621:mon_6 1.0  
-tmax_allrain_offset:hru_5625:mon_6 1.0  
-tmax_allrain_offset:hru_5628:mon_6 1.0  
-tmax_allrain_offset:hru_5635:mon_6 1.0  
-tmax_allrain_offset:hru_5637:mon_6 1.0  
-tmax_allrain_offset:hru_5643:mon_6 1.0  
-tmax_allrain_offset:hru_5678:mon_6 1.0  
-tmax_allrain_offset:hru_5679:mon_6 1.0  
-tmax_allrain_offset:hru_5686:mon_6 1.0  
-tmax_allrain_offset:hru_5690:mon_6 1.0  
-tmax_allrain_offset:hru_5693:mon_6 1.0  
-tmax_allrain_offset:hru_5697:mon_6 1.0  
-tmax_allrain_offset:hru_5703:mon_6 1.0  
-tmax_allrain_offset:hru_5728:mon_6 1.0  
-tmax_allrain_offset:hru_7128:mon_6 1.0  
-tmax_allrain_offset:hru_7156:mon_6 1.0  
-tmax_allrain_offset:hru_7157:mon_6 1.0  
-tmax_allrain_offset:hru_5621:mon_7 1.0  
-tmax_allrain_offset:hru_5625:mon_7 1.0  
-tmax_allrain_offset:hru_5628:mon_7 1.0  
-tmax_allrain_offset:hru_5635:mon_7 1.0  
-tmax_allrain_offset:hru_5637:mon_7 1.0  
-tmax_allrain_offset:hru_5643:mon_7 1.0  
-tmax_allrain_offset:hru_5678:mon_7 1.0  
-tmax_allrain_offset:hru_5679:mon_7 1.0  
-tmax_allrain_offset:hru_5686:mon_7 1.0  
-tmax_allrain_offset:hru_5690:mon_7 1.0  
-tmax_allrain_offset:hru_5693:mon_7 1.0  
-tmax_allrain_offset:hru_5697:mon_7 1.0  
-tmax_allrain_offset:hru_5703:mon_7 1.0  
-tmax_allrain_offset:hru_5728:mon_7 1.0  
-tmax_allrain_offset:hru_7128:mon_7 1.0  
-tmax_allrain_offset:hru_7156:mon_7 1.0  
-tmax_allrain_offset:hru_7157:mon_7 1.0  
-tmax_allrain_offset:hru_5621:mon_8 1.0  
-tmax_allrain_offset:hru_5625:mon_8 1.0  
-tmax_allrain_offset:hru_5628:mon_8 1.0  
-tmax_allrain_offset:hru_5635:mon_8 1.0  
-tmax_allrain_offset:hru_5637:mon_8 1.0  
-tmax_allrain_offset:hru_5643:mon_8 1.0  
-tmax_allrain_offset:hru_5678:mon_8 1.0  
-tmax_allrain_offset:hru_5679:mon_8 1.0  
-tmax_allrain_offset:hru_5686:mon_8 1.0  
-tmax_allrain_offset:hru_5690:mon_8 1.0  
-tmax_allrain_offset:hru_5693:mon_8 1.0  
-tmax_allrain_offset:hru_5697:mon_8 1.0  
-tmax_allrain_offset:hru_5703:mon_8 1.0  
-tmax_allrain_offset:hru_5728:mon_8 1.0  
-tmax_allrain_offset:hru_7128:mon_8 1.0  
-tmax_allrain_offset:hru_7156:mon_8 1.0  
-tmax_allrain_offset:hru_7157:mon_8 1.0  
-tmax_allrain_offset:hru_5621:mon_9 1.0  
-tmax_allrain_offset:hru_5625:mon_9 1.0  
-tmax_allrain_offset:hru_5628:mon_9 1.0  
-tmax_allrain_offset:hru_5635:mon_9 1.0  
-tmax_allrain_offset:hru_5637:mon_9 1.0  
-tmax_allrain_offset:hru_5643:mon_9 1.0  
-tmax_allrain_offset:hru_5678:mon_9 1.0  
-tmax_allrain_offset:hru_5679:mon_9 1.0  
-tmax_allrain_offset:hru_5686:mon_9 1.0  
-tmax_allrain_offset:hru_5690:mon_9 1.0  
-tmax_allrain_offset:hru_5693:mon_9 1.0  
-tmax_allrain_offset:hru_5697:mon_9 1.0  
-tmax_allrain_offset:hru_5703:mon_9 1.0  
-tmax_allrain_offset:hru_5728:mon_9 1.0  
-tmax_allrain_offset:hru_7128:mon_9 1.0  
-tmax_allrain_offset:hru_7156:mon_9 1.0  
-tmax_allrain_offset:hru_7157:mon_9 1.0  
-tmax_allrain_offset:hru_5621:mon_10 1.0  
-tmax_allrain_offset:hru_5625:mon_10 1.0  
-tmax_allrain_offset:hru_5628:mon_10 1.0  
-tmax_allrain_offset:hru_5635:mon_10 1.0  
-tmax_allrain_offset:hru_5637:mon_10 1.0  
-tmax_allrain_offset:hru_5643:mon_10 1.0  
-tmax_allrain_offset:hru_5678:mon_10 1.0  
-tmax_allrain_offset:hru_5679:mon_10 1.0  
-tmax_allrain_offset:hru_5686:mon_10 1.0  
-tmax_allrain_offset:hru_5690:mon_10 1.0  
-tmax_allrain_offset:hru_5693:mon_10 1.0  
-tmax_allrain_offset:hru_5697:mon_10 1.0  
-tmax_allrain_offset:hru_5703:mon_10 1.0  
-tmax_allrain_offset:hru_5728:mon_10 1.0  
-tmax_allrain_offset:hru_7128:mon_10 1.0  
-tmax_allrain_offset:hru_7156:mon_10 1.0  
-tmax_allrain_offset:hru_7157:mon_10 1.0  
-tmax_allrain_offset:hru_5621:mon_11 1.0  
-tmax_allrain_offset:hru_5625:mon_11 1.0  
-tmax_allrain_offset:hru_5628:mon_11 1.0  
-tmax_allrain_offset:hru_5635:mon_11 1.0  
-tmax_allrain_offset:hru_5637:mon_11 1.0  
-tmax_allrain_offset:hru_5643:mon_11 1.0  
-tmax_allrain_offset:hru_5678:mon_11 1.0  
-tmax_allrain_offset:hru_5679:mon_11 1.0  
-tmax_allrain_offset:hru_5686:mon_11 1.0  
-tmax_allrain_offset:hru_5690:mon_11 1.0  
-tmax_allrain_offset:hru_5693:mon_11 1.0  
-tmax_allrain_offset:hru_5697:mon_11 1.0  
-tmax_allrain_offset:hru_5703:mon_11 1.0  
-tmax_allrain_offset:hru_5728:mon_11 1.0  
-tmax_allrain_offset:hru_7128:mon_11 1.0  
-tmax_allrain_offset:hru_7156:mon_11 1.0  
-tmax_allrain_offset:hru_7157:mon_11 1.0  
-tmax_allrain_offset:hru_5621:mon_12 1.0  
-tmax_allrain_offset:hru_5625:mon_12 1.0  
-tmax_allrain_offset:hru_5628:mon_12 1.0  
-tmax_allrain_offset:hru_5635:mon_12 1.0  
-tmax_allrain_offset:hru_5637:mon_12 1.0  
-tmax_allrain_offset:hru_5643:mon_12 1.0  
-tmax_allrain_offset:hru_5678:mon_12 1.0  
-tmax_allrain_offset:hru_5679:mon_12 1.0  
-tmax_allrain_offset:hru_5686:mon_12 1.0  
-tmax_allrain_offset:hru_5690:mon_12 1.0  
-tmax_allrain_offset:hru_5693:mon_12 1.0  
-tmax_allrain_offset:hru_5697:mon_12 1.0  
-tmax_allrain_offset:hru_5703:mon_12 1.0  
-tmax_allrain_offset:hru_5728:mon_12 1.0  
-tmax_allrain_offset:hru_7128:mon_12 1.0  
-tmax_allrain_offset:hru_7156:mon_12 1.0  
-tmax_allrain_offset:hru_7157:mon_12 1.0  
-tmax_allsnow:hru_5621:mon_1 32.00000000000001  
-tmax_allsnow:hru_5625:mon_1 32.00000000000001  
-tmax_allsnow:hru_5628:mon_1 32.00000000000001  
-tmax_allsnow:hru_5635:mon_1 32.00000000000001  
-tmax_allsnow:hru_5637:mon_1 32.00000000000001  
-tmax_allsnow:hru_5643:mon_1 32.00000000000001  
-tmax_allsnow:hru_5678:mon_1 32.00000000000001  
-tmax_allsnow:hru_5679:mon_1 32.00000000000001  
-tmax_allsnow:hru_5686:mon_1 32.00000000000001  
-tmax_allsnow:hru_5690:mon_1 32.00000000000001  
-tmax_allsnow:hru_5693:mon_1 32.00000000000001  
-tmax_allsnow:hru_5697:mon_1 32.00000000000001  
-tmax_allsnow:hru_5703:mon_1 32.00000000000001  
-tmax_allsnow:hru_5728:mon_1 32.00000000000001  
-tmax_allsnow:hru_7128:mon_1 32.00000000000001  
-tmax_allsnow:hru_7156:mon_1 32.00000000000001  
-tmax_allsnow:hru_7157:mon_1 32.00000000000001  
-tmax_allsnow:hru_5621:mon_2 32.00000000000001  
-tmax_allsnow:hru_5625:mon_2 32.00000000000001  
-tmax_allsnow:hru_5628:mon_2 32.00000000000001  
-tmax_allsnow:hru_5635:mon_2 32.00000000000001  
-tmax_allsnow:hru_5637:mon_2 32.00000000000001  
-tmax_allsnow:hru_5643:mon_2 32.00000000000001  
-tmax_allsnow:hru_5678:mon_2 32.00000000000001  
-tmax_allsnow:hru_5679:mon_2 32.00000000000001  
-tmax_allsnow:hru_5686:mon_2 32.00000000000001  
-tmax_allsnow:hru_5690:mon_2 32.00000000000001  
-tmax_allsnow:hru_5693:mon_2 32.00000000000001  
-tmax_allsnow:hru_5697:mon_2 32.00000000000001  
-tmax_allsnow:hru_5703:mon_2 32.00000000000001  
-tmax_allsnow:hru_5728:mon_2 32.00000000000001  
-tmax_allsnow:hru_7128:mon_2 32.00000000000001  
-tmax_allsnow:hru_7156:mon_2 32.00000000000001  
-tmax_allsnow:hru_7157:mon_2 32.00000000000001  
-tmax_allsnow:hru_5621:mon_3 32.00000000000001  
-tmax_allsnow:hru_5625:mon_3 32.00000000000001  
-tmax_allsnow:hru_5628:mon_3 32.00000000000001  
-tmax_allsnow:hru_5635:mon_3 32.00000000000001  
-tmax_allsnow:hru_5637:mon_3 32.00000000000001  
-tmax_allsnow:hru_5643:mon_3 32.00000000000001  
-tmax_allsnow:hru_5678:mon_3 32.00000000000001  
-tmax_allsnow:hru_5679:mon_3 32.00000000000001  
-tmax_allsnow:hru_5686:mon_3 32.00000000000001  
-tmax_allsnow:hru_5690:mon_3 32.00000000000001  
-tmax_allsnow:hru_5693:mon_3 32.00000000000001  
-tmax_allsnow:hru_5697:mon_3 32.00000000000001  
-tmax_allsnow:hru_5703:mon_3 32.00000000000001  
-tmax_allsnow:hru_5728:mon_3 32.00000000000001  
-tmax_allsnow:hru_7128:mon_3 32.00000000000001  
-tmax_allsnow:hru_7156:mon_3 32.00000000000001  
-tmax_allsnow:hru_7157:mon_3 32.00000000000001  
-tmax_allsnow:hru_5621:mon_4 32.00000000000001  
-tmax_allsnow:hru_5625:mon_4 32.00000000000001  
-tmax_allsnow:hru_5628:mon_4 32.00000000000001  
-tmax_allsnow:hru_5635:mon_4 32.00000000000001  
-tmax_allsnow:hru_5637:mon_4 32.00000000000001  
-tmax_allsnow:hru_5643:mon_4 32.00000000000001  
-tmax_allsnow:hru_5678:mon_4 32.00000000000001  
-tmax_allsnow:hru_5679:mon_4 32.00000000000001  
-tmax_allsnow:hru_5686:mon_4 32.00000000000001  
-tmax_allsnow:hru_5690:mon_4 32.00000000000001  
-tmax_allsnow:hru_5693:mon_4 32.00000000000001  
-tmax_allsnow:hru_5697:mon_4 32.00000000000001  
-tmax_allsnow:hru_5703:mon_4 32.00000000000001  
-tmax_allsnow:hru_5728:mon_4 32.00000000000001  
-tmax_allsnow:hru_7128:mon_4 32.00000000000001  
-tmax_allsnow:hru_7156:mon_4 32.00000000000001  
-tmax_allsnow:hru_7157:mon_4 32.00000000000001  
-tmax_allsnow:hru_5621:mon_5 32.00000000000001  
-tmax_allsnow:hru_5625:mon_5 32.00000000000001  
-tmax_allsnow:hru_5628:mon_5 32.00000000000001  
-tmax_allsnow:hru_5635:mon_5 32.00000000000001  
-tmax_allsnow:hru_5637:mon_5 32.00000000000001  
-tmax_allsnow:hru_5643:mon_5 32.00000000000001  
-tmax_allsnow:hru_5678:mon_5 32.00000000000001  
-tmax_allsnow:hru_5679:mon_5 32.00000000000001  
-tmax_allsnow:hru_5686:mon_5 32.00000000000001  
-tmax_allsnow:hru_5690:mon_5 32.00000000000001  
-tmax_allsnow:hru_5693:mon_5 32.00000000000001  
-tmax_allsnow:hru_5697:mon_5 32.00000000000001  
-tmax_allsnow:hru_5703:mon_5 32.00000000000001  
-tmax_allsnow:hru_5728:mon_5 32.00000000000001  
-tmax_allsnow:hru_7128:mon_5 32.00000000000001  
-tmax_allsnow:hru_7156:mon_5 32.00000000000001  
-tmax_allsnow:hru_7157:mon_5 32.00000000000001  
-tmax_allsnow:hru_5621:mon_6 32.00000000000001  
-tmax_allsnow:hru_5625:mon_6 32.00000000000001  
-tmax_allsnow:hru_5628:mon_6 32.00000000000001  
-tmax_allsnow:hru_5635:mon_6 32.00000000000001  
-tmax_allsnow:hru_5637:mon_6 32.00000000000001  
-tmax_allsnow:hru_5643:mon_6 32.00000000000001  
-tmax_allsnow:hru_5678:mon_6 32.00000000000001  
-tmax_allsnow:hru_5679:mon_6 32.00000000000001  
-tmax_allsnow:hru_5686:mon_6 32.00000000000001  
-tmax_allsnow:hru_5690:mon_6 32.00000000000001  
-tmax_allsnow:hru_5693:mon_6 32.00000000000001  
-tmax_allsnow:hru_5697:mon_6 32.00000000000001  
-tmax_allsnow:hru_5703:mon_6 32.00000000000001  
-tmax_allsnow:hru_5728:mon_6 32.00000000000001  
-tmax_allsnow:hru_7128:mon_6 32.00000000000001  
-tmax_allsnow:hru_7156:mon_6 32.00000000000001  
-tmax_allsnow:hru_7157:mon_6 32.00000000000001  
-tmax_allsnow:hru_5621:mon_7 32.00000000000001  
-tmax_allsnow:hru_5625:mon_7 32.00000000000001  
-tmax_allsnow:hru_5628:mon_7 32.00000000000001  
-tmax_allsnow:hru_5635:mon_7 32.00000000000001  
-tmax_allsnow:hru_5637:mon_7 32.00000000000001  
-tmax_allsnow:hru_5643:mon_7 32.00000000000001  
-tmax_allsnow:hru_5678:mon_7 32.00000000000001  
-tmax_allsnow:hru_5679:mon_7 32.00000000000001  
-tmax_allsnow:hru_5686:mon_7 32.00000000000001  
-tmax_allsnow:hru_5690:mon_7 32.00000000000001  
-tmax_allsnow:hru_5693:mon_7 32.00000000000001  
-tmax_allsnow:hru_5697:mon_7 32.00000000000001  
-tmax_allsnow:hru_5703:mon_7 32.00000000000001  
-tmax_allsnow:hru_5728:mon_7 32.00000000000001  
-tmax_allsnow:hru_7128:mon_7 32.00000000000001  
-tmax_allsnow:hru_7156:mon_7 32.00000000000001  
-tmax_allsnow:hru_7157:mon_7 32.00000000000001  
-tmax_allsnow:hru_5621:mon_8 32.00000000000001  
-tmax_allsnow:hru_5625:mon_8 32.00000000000001  
-tmax_allsnow:hru_5628:mon_8 32.00000000000001  
-tmax_allsnow:hru_5635:mon_8 32.00000000000001  
-tmax_allsnow:hru_5637:mon_8 32.00000000000001  
-tmax_allsnow:hru_5643:mon_8 32.00000000000001  
-tmax_allsnow:hru_5678:mon_8 32.00000000000001  
-tmax_allsnow:hru_5679:mon_8 32.00000000000001  
-tmax_allsnow:hru_5686:mon_8 32.00000000000001  
-tmax_allsnow:hru_5690:mon_8 32.00000000000001  
-tmax_allsnow:hru_5693:mon_8 32.00000000000001  
-tmax_allsnow:hru_5697:mon_8 32.00000000000001  
-tmax_allsnow:hru_5703:mon_8 32.00000000000001  
-tmax_allsnow:hru_5728:mon_8 32.00000000000001  
-tmax_allsnow:hru_7128:mon_8 32.00000000000001  
-tmax_allsnow:hru_7156:mon_8 32.00000000000001  
-tmax_allsnow:hru_7157:mon_8 32.00000000000001  
-tmax_allsnow:hru_5621:mon_9 32.00000000000001  
-tmax_allsnow:hru_5625:mon_9 32.00000000000001  
-tmax_allsnow:hru_5628:mon_9 32.00000000000001  
-tmax_allsnow:hru_5635:mon_9 32.00000000000001  
-tmax_allsnow:hru_5637:mon_9 32.00000000000001  
-tmax_allsnow:hru_5643:mon_9 32.00000000000001  
-tmax_allsnow:hru_5678:mon_9 32.00000000000001  
-tmax_allsnow:hru_5679:mon_9 32.00000000000001  
-tmax_allsnow:hru_5686:mon_9 32.00000000000001  
-tmax_allsnow:hru_5690:mon_9 32.00000000000001  
-tmax_allsnow:hru_5693:mon_9 32.00000000000001  
-tmax_allsnow:hru_5697:mon_9 32.00000000000001  
-tmax_allsnow:hru_5703:mon_9 32.00000000000001  
-tmax_allsnow:hru_5728:mon_9 32.00000000000001  
-tmax_allsnow:hru_7128:mon_9 32.00000000000001  
-tmax_allsnow:hru_7156:mon_9 32.00000000000001  
-tmax_allsnow:hru_7157:mon_9 32.00000000000001  
-tmax_allsnow:hru_5621:mon_10 32.00000000000001  
-tmax_allsnow:hru_5625:mon_10 32.00000000000001  
-tmax_allsnow:hru_5628:mon_10 32.00000000000001  
-tmax_allsnow:hru_5635:mon_10 32.00000000000001  
-tmax_allsnow:hru_5637:mon_10 32.00000000000001  
-tmax_allsnow:hru_5643:mon_10 32.00000000000001  
-tmax_allsnow:hru_5678:mon_10 32.00000000000001  
-tmax_allsnow:hru_5679:mon_10 32.00000000000001  
-tmax_allsnow:hru_5686:mon_10 32.00000000000001  
-tmax_allsnow:hru_5690:mon_10 32.00000000000001  
-tmax_allsnow:hru_5693:mon_10 32.00000000000001  
-tmax_allsnow:hru_5697:mon_10 32.00000000000001  
-tmax_allsnow:hru_5703:mon_10 32.00000000000001  
-tmax_allsnow:hru_5728:mon_10 32.00000000000001  
-tmax_allsnow:hru_7128:mon_10 32.00000000000001  
-tmax_allsnow:hru_7156:mon_10 32.00000000000001  
-tmax_allsnow:hru_7157:mon_10 32.00000000000001  
-tmax_allsnow:hru_5621:mon_11 32.00000000000001  
-tmax_allsnow:hru_5625:mon_11 32.00000000000001  
-tmax_allsnow:hru_5628:mon_11 32.00000000000001  
-tmax_allsnow:hru_5635:mon_11 32.00000000000001  
-tmax_allsnow:hru_5637:mon_11 32.00000000000001  
-tmax_allsnow:hru_5643:mon_11 32.00000000000001  
-tmax_allsnow:hru_5678:mon_11 32.00000000000001  
-tmax_allsnow:hru_5679:mon_11 32.00000000000001  
-tmax_allsnow:hru_5686:mon_11 32.00000000000001  
-tmax_allsnow:hru_5690:mon_11 32.00000000000001  
-tmax_allsnow:hru_5693:mon_11 32.00000000000001  
-tmax_allsnow:hru_5697:mon_11 32.00000000000001  
-tmax_allsnow:hru_5703:mon_11 32.00000000000001  
-tmax_allsnow:hru_5728:mon_11 32.00000000000001  
-tmax_allsnow:hru_7128:mon_11 32.00000000000001  
-tmax_allsnow:hru_7156:mon_11 32.00000000000001  
-tmax_allsnow:hru_7157:mon_11 32.00000000000001  
-tmax_allsnow:hru_5621:mon_12 32.00000000000001  
-tmax_allsnow:hru_5625:mon_12 32.00000000000001  
-tmax_allsnow:hru_5628:mon_12 32.00000000000001  
-tmax_allsnow:hru_5635:mon_12 32.00000000000001  
-tmax_allsnow:hru_5637:mon_12 32.00000000000001  
-tmax_allsnow:hru_5643:mon_12 32.00000000000001  
-tmax_allsnow:hru_5678:mon_12 32.00000000000001  
-tmax_allsnow:hru_5679:mon_12 32.00000000000001  
-tmax_allsnow:hru_5686:mon_12 32.00000000000001  
-tmax_allsnow:hru_5690:mon_12 32.00000000000001  
-tmax_allsnow:hru_5693:mon_12 32.00000000000001  
-tmax_allsnow:hru_5697:mon_12 32.00000000000001  
-tmax_allsnow:hru_5703:mon_12 32.00000000000001  
-tmax_allsnow:hru_5728:mon_12 32.00000000000001  
-tmax_allsnow:hru_7128:mon_12 32.00000000000001  
-tmax_allsnow:hru_7156:mon_12 32.00000000000001  
-tmax_allsnow:hru_7157:mon_12 32.00000000000001  
-tmax_cbh_adj:hru_5621:mon_1 0.0  
-tmax_cbh_adj:hru_5625:mon_1 0.0  
-tmax_cbh_adj:hru_5628:mon_1 0.0  
-tmax_cbh_adj:hru_5635:mon_1 0.0  
-tmax_cbh_adj:hru_5637:mon_1 0.0  
-tmax_cbh_adj:hru_5643:mon_1 0.0  
-tmax_cbh_adj:hru_5678:mon_1 0.0  
-tmax_cbh_adj:hru_5679:mon_1 0.0  
-tmax_cbh_adj:hru_5686:mon_1 0.0  
-tmax_cbh_adj:hru_5690:mon_1 0.0  
-tmax_cbh_adj:hru_5693:mon_1 0.0  
-tmax_cbh_adj:hru_5697:mon_1 0.0  
-tmax_cbh_adj:hru_5703:mon_1 0.0  
-tmax_cbh_adj:hru_5728:mon_1 0.0  
-tmax_cbh_adj:hru_7128:mon_1 0.0  
-tmax_cbh_adj:hru_7156:mon_1 0.0  
-tmax_cbh_adj:hru_7157:mon_1 0.0  
-tmax_cbh_adj:hru_5621:mon_2 0.0  
-tmax_cbh_adj:hru_5625:mon_2 0.0  
-tmax_cbh_adj:hru_5628:mon_2 0.0  
-tmax_cbh_adj:hru_5635:mon_2 0.0  
-tmax_cbh_adj:hru_5637:mon_2 0.0  
-tmax_cbh_adj:hru_5643:mon_2 0.0  
-tmax_cbh_adj:hru_5678:mon_2 0.0  
-tmax_cbh_adj:hru_5679:mon_2 0.0  
-tmax_cbh_adj:hru_5686:mon_2 0.0  
-tmax_cbh_adj:hru_5690:mon_2 0.0  
-tmax_cbh_adj:hru_5693:mon_2 0.0  
-tmax_cbh_adj:hru_5697:mon_2 0.0  
-tmax_cbh_adj:hru_5703:mon_2 0.0  
-tmax_cbh_adj:hru_5728:mon_2 0.0  
-tmax_cbh_adj:hru_7128:mon_2 0.0  
-tmax_cbh_adj:hru_7156:mon_2 0.0  
-tmax_cbh_adj:hru_7157:mon_2 0.0  
-tmax_cbh_adj:hru_5621:mon_3 0.0  
-tmax_cbh_adj:hru_5625:mon_3 0.0  
-tmax_cbh_adj:hru_5628:mon_3 0.0  
-tmax_cbh_adj:hru_5635:mon_3 0.0  
-tmax_cbh_adj:hru_5637:mon_3 0.0  
-tmax_cbh_adj:hru_5643:mon_3 0.0  
-tmax_cbh_adj:hru_5678:mon_3 0.0  
-tmax_cbh_adj:hru_5679:mon_3 0.0  
-tmax_cbh_adj:hru_5686:mon_3 0.0  
-tmax_cbh_adj:hru_5690:mon_3 0.0  
-tmax_cbh_adj:hru_5693:mon_3 0.0  
-tmax_cbh_adj:hru_5697:mon_3 0.0  
-tmax_cbh_adj:hru_5703:mon_3 0.0  
-tmax_cbh_adj:hru_5728:mon_3 0.0  
-tmax_cbh_adj:hru_7128:mon_3 0.0  
-tmax_cbh_adj:hru_7156:mon_3 0.0  
-tmax_cbh_adj:hru_7157:mon_3 0.0  
-tmax_cbh_adj:hru_5621:mon_4 0.0  
-tmax_cbh_adj:hru_5625:mon_4 0.0  
-tmax_cbh_adj:hru_5628:mon_4 0.0  
-tmax_cbh_adj:hru_5635:mon_4 0.0  
-tmax_cbh_adj:hru_5637:mon_4 0.0  
-tmax_cbh_adj:hru_5643:mon_4 0.0  
-tmax_cbh_adj:hru_5678:mon_4 0.0  
-tmax_cbh_adj:hru_5679:mon_4 0.0  
-tmax_cbh_adj:hru_5686:mon_4 0.0  
-tmax_cbh_adj:hru_5690:mon_4 0.0  
-tmax_cbh_adj:hru_5693:mon_4 0.0  
-tmax_cbh_adj:hru_5697:mon_4 0.0  
-tmax_cbh_adj:hru_5703:mon_4 0.0  
-tmax_cbh_adj:hru_5728:mon_4 0.0  
-tmax_cbh_adj:hru_7128:mon_4 0.0  
-tmax_cbh_adj:hru_7156:mon_4 0.0  
-tmax_cbh_adj:hru_7157:mon_4 0.0  
-tmax_cbh_adj:hru_5621:mon_5 0.0  
-tmax_cbh_adj:hru_5625:mon_5 0.0  
-tmax_cbh_adj:hru_5628:mon_5 0.0  
-tmax_cbh_adj:hru_5635:mon_5 0.0  
-tmax_cbh_adj:hru_5637:mon_5 0.0  
-tmax_cbh_adj:hru_5643:mon_5 0.0  
-tmax_cbh_adj:hru_5678:mon_5 0.0  
-tmax_cbh_adj:hru_5679:mon_5 0.0  
-tmax_cbh_adj:hru_5686:mon_5 0.0  
-tmax_cbh_adj:hru_5690:mon_5 0.0  
-tmax_cbh_adj:hru_5693:mon_5 0.0  
-tmax_cbh_adj:hru_5697:mon_5 0.0  
-tmax_cbh_adj:hru_5703:mon_5 0.0  
-tmax_cbh_adj:hru_5728:mon_5 0.0  
-tmax_cbh_adj:hru_7128:mon_5 0.0  
-tmax_cbh_adj:hru_7156:mon_5 0.0  
-tmax_cbh_adj:hru_7157:mon_5 0.0  
-tmax_cbh_adj:hru_5621:mon_6 0.0  
-tmax_cbh_adj:hru_5625:mon_6 0.0  
-tmax_cbh_adj:hru_5628:mon_6 0.0  
-tmax_cbh_adj:hru_5635:mon_6 0.0  
-tmax_cbh_adj:hru_5637:mon_6 0.0  
-tmax_cbh_adj:hru_5643:mon_6 0.0  
-tmax_cbh_adj:hru_5678:mon_6 0.0  
-tmax_cbh_adj:hru_5679:mon_6 0.0  
-tmax_cbh_adj:hru_5686:mon_6 0.0  
-tmax_cbh_adj:hru_5690:mon_6 0.0  
-tmax_cbh_adj:hru_5693:mon_6 0.0  
-tmax_cbh_adj:hru_5697:mon_6 0.0  
-tmax_cbh_adj:hru_5703:mon_6 0.0  
-tmax_cbh_adj:hru_5728:mon_6 0.0  
-tmax_cbh_adj:hru_7128:mon_6 0.0  
-tmax_cbh_adj:hru_7156:mon_6 0.0  
-tmax_cbh_adj:hru_7157:mon_6 0.0  
-tmax_cbh_adj:hru_5621:mon_7 0.0  
-tmax_cbh_adj:hru_5625:mon_7 0.0  
-tmax_cbh_adj:hru_5628:mon_7 0.0  
-tmax_cbh_adj:hru_5635:mon_7 0.0  
-tmax_cbh_adj:hru_5637:mon_7 0.0  
-tmax_cbh_adj:hru_5643:mon_7 0.0  
-tmax_cbh_adj:hru_5678:mon_7 0.0  
-tmax_cbh_adj:hru_5679:mon_7 0.0  
-tmax_cbh_adj:hru_5686:mon_7 0.0  
-tmax_cbh_adj:hru_5690:mon_7 0.0  
-tmax_cbh_adj:hru_5693:mon_7 0.0  
-tmax_cbh_adj:hru_5697:mon_7 0.0  
-tmax_cbh_adj:hru_5703:mon_7 0.0  
-tmax_cbh_adj:hru_5728:mon_7 0.0  
-tmax_cbh_adj:hru_7128:mon_7 0.0  
-tmax_cbh_adj:hru_7156:mon_7 0.0  
-tmax_cbh_adj:hru_7157:mon_7 0.0  
-tmax_cbh_adj:hru_5621:mon_8 0.0  
-tmax_cbh_adj:hru_5625:mon_8 0.0  
-tmax_cbh_adj:hru_5628:mon_8 0.0  
-tmax_cbh_adj:hru_5635:mon_8 0.0  
-tmax_cbh_adj:hru_5637:mon_8 0.0  
-tmax_cbh_adj:hru_5643:mon_8 0.0  
-tmax_cbh_adj:hru_5678:mon_8 0.0  
-tmax_cbh_adj:hru_5679:mon_8 0.0  
-tmax_cbh_adj:hru_5686:mon_8 0.0  
-tmax_cbh_adj:hru_5690:mon_8 0.0  
-tmax_cbh_adj:hru_5693:mon_8 0.0  
-tmax_cbh_adj:hru_5697:mon_8 0.0  
-tmax_cbh_adj:hru_5703:mon_8 0.0  
-tmax_cbh_adj:hru_5728:mon_8 0.0  
-tmax_cbh_adj:hru_7128:mon_8 0.0  
-tmax_cbh_adj:hru_7156:mon_8 0.0  
-tmax_cbh_adj:hru_7157:mon_8 0.0  
-tmax_cbh_adj:hru_5621:mon_9 0.0  
-tmax_cbh_adj:hru_5625:mon_9 0.0  
-tmax_cbh_adj:hru_5628:mon_9 0.0  
-tmax_cbh_adj:hru_5635:mon_9 0.0  
-tmax_cbh_adj:hru_5637:mon_9 0.0  
-tmax_cbh_adj:hru_5643:mon_9 0.0  
-tmax_cbh_adj:hru_5678:mon_9 0.0  
-tmax_cbh_adj:hru_5679:mon_9 0.0  
-tmax_cbh_adj:hru_5686:mon_9 0.0  
-tmax_cbh_adj:hru_5690:mon_9 0.0  
-tmax_cbh_adj:hru_5693:mon_9 0.0  
-tmax_cbh_adj:hru_5697:mon_9 0.0  
-tmax_cbh_adj:hru_5703:mon_9 0.0  
-tmax_cbh_adj:hru_5728:mon_9 0.0  
-tmax_cbh_adj:hru_7128:mon_9 0.0  
-tmax_cbh_adj:hru_7156:mon_9 0.0  
-tmax_cbh_adj:hru_7157:mon_9 0.0  
-tmax_cbh_adj:hru_5621:mon_10 0.0  
-tmax_cbh_adj:hru_5625:mon_10 0.0  
-tmax_cbh_adj:hru_5628:mon_10 0.0  
-tmax_cbh_adj:hru_5635:mon_10 0.0  
-tmax_cbh_adj:hru_5637:mon_10 0.0  
-tmax_cbh_adj:hru_5643:mon_10 0.0  
-tmax_cbh_adj:hru_5678:mon_10 0.0  
-tmax_cbh_adj:hru_5679:mon_10 0.0  
-tmax_cbh_adj:hru_5686:mon_10 0.0  
-tmax_cbh_adj:hru_5690:mon_10 0.0  
-tmax_cbh_adj:hru_5693:mon_10 0.0  
-tmax_cbh_adj:hru_5697:mon_10 0.0  
-tmax_cbh_adj:hru_5703:mon_10 0.0  
-tmax_cbh_adj:hru_5728:mon_10 0.0  
-tmax_cbh_adj:hru_7128:mon_10 0.0  
-tmax_cbh_adj:hru_7156:mon_10 0.0  
-tmax_cbh_adj:hru_7157:mon_10 0.0  
-tmax_cbh_adj:hru_5621:mon_11 0.0  
-tmax_cbh_adj:hru_5625:mon_11 0.0  
-tmax_cbh_adj:hru_5628:mon_11 0.0  
-tmax_cbh_adj:hru_5635:mon_11 0.0  
-tmax_cbh_adj:hru_5637:mon_11 0.0  
-tmax_cbh_adj:hru_5643:mon_11 0.0  
-tmax_cbh_adj:hru_5678:mon_11 0.0  
-tmax_cbh_adj:hru_5679:mon_11 0.0  
-tmax_cbh_adj:hru_5686:mon_11 0.0  
-tmax_cbh_adj:hru_5690:mon_11 0.0  
-tmax_cbh_adj:hru_5693:mon_11 0.0  
-tmax_cbh_adj:hru_5697:mon_11 0.0  
-tmax_cbh_adj:hru_5703:mon_11 0.0  
-tmax_cbh_adj:hru_5728:mon_11 0.0  
-tmax_cbh_adj:hru_7128:mon_11 0.0  
-tmax_cbh_adj:hru_7156:mon_11 0.0  
-tmax_cbh_adj:hru_7157:mon_11 0.0  
-tmax_cbh_adj:hru_5621:mon_12 0.0  
-tmax_cbh_adj:hru_5625:mon_12 0.0  
-tmax_cbh_adj:hru_5628:mon_12 0.0  
-tmax_cbh_adj:hru_5635:mon_12 0.0  
-tmax_cbh_adj:hru_5637:mon_12 0.0  
-tmax_cbh_adj:hru_5643:mon_12 0.0  
-tmax_cbh_adj:hru_5678:mon_12 0.0  
-tmax_cbh_adj:hru_5679:mon_12 0.0  
-tmax_cbh_adj:hru_5686:mon_12 0.0  
-tmax_cbh_adj:hru_5690:mon_12 0.0  
-tmax_cbh_adj:hru_5693:mon_12 0.0  
-tmax_cbh_adj:hru_5697:mon_12 0.0  
-tmax_cbh_adj:hru_5703:mon_12 0.0  
-tmax_cbh_adj:hru_5728:mon_12 0.0  
-tmax_cbh_adj:hru_7128:mon_12 0.0  
-tmax_cbh_adj:hru_7156:mon_12 0.0  
-tmax_cbh_adj:hru_7157:mon_12 0.0  
-tmin_cbh_adj:hru_5621:mon_1 0.0  
-tmin_cbh_adj:hru_5625:mon_1 0.0  
-tmin_cbh_adj:hru_5628:mon_1 0.0  
-tmin_cbh_adj:hru_5635:mon_1 0.0  
-tmin_cbh_adj:hru_5637:mon_1 0.0  
-tmin_cbh_adj:hru_5643:mon_1 0.0  
-tmin_cbh_adj:hru_5678:mon_1 0.0  
-tmin_cbh_adj:hru_5679:mon_1 0.0  
-tmin_cbh_adj:hru_5686:mon_1 0.0  
-tmin_cbh_adj:hru_5690:mon_1 0.0  
-tmin_cbh_adj:hru_5693:mon_1 0.0  
-tmin_cbh_adj:hru_5697:mon_1 0.0  
-tmin_cbh_adj:hru_5703:mon_1 0.0  
-tmin_cbh_adj:hru_5728:mon_1 0.0  
-tmin_cbh_adj:hru_7128:mon_1 0.0  
-tmin_cbh_adj:hru_7156:mon_1 0.0  
-tmin_cbh_adj:hru_7157:mon_1 0.0  
-tmin_cbh_adj:hru_5621:mon_2 0.0  
-tmin_cbh_adj:hru_5625:mon_2 0.0  
-tmin_cbh_adj:hru_5628:mon_2 0.0  
-tmin_cbh_adj:hru_5635:mon_2 0.0  
-tmin_cbh_adj:hru_5637:mon_2 0.0  
-tmin_cbh_adj:hru_5643:mon_2 0.0  
-tmin_cbh_adj:hru_5678:mon_2 0.0  
-tmin_cbh_adj:hru_5679:mon_2 0.0  
-tmin_cbh_adj:hru_5686:mon_2 0.0  
-tmin_cbh_adj:hru_5690:mon_2 0.0  
-tmin_cbh_adj:hru_5693:mon_2 0.0  
-tmin_cbh_adj:hru_5697:mon_2 0.0  
-tmin_cbh_adj:hru_5703:mon_2 0.0  
-tmin_cbh_adj:hru_5728:mon_2 0.0  
-tmin_cbh_adj:hru_7128:mon_2 0.0  
-tmin_cbh_adj:hru_7156:mon_2 0.0  
-tmin_cbh_adj:hru_7157:mon_2 0.0  
-tmin_cbh_adj:hru_5621:mon_3 0.0  
-tmin_cbh_adj:hru_5625:mon_3 0.0  
-tmin_cbh_adj:hru_5628:mon_3 0.0  
-tmin_cbh_adj:hru_5635:mon_3 0.0  
-tmin_cbh_adj:hru_5637:mon_3 0.0  
-tmin_cbh_adj:hru_5643:mon_3 0.0  
-tmin_cbh_adj:hru_5678:mon_3 0.0  
-tmin_cbh_adj:hru_5679:mon_3 0.0  
-tmin_cbh_adj:hru_5686:mon_3 0.0  
-tmin_cbh_adj:hru_5690:mon_3 0.0  
-tmin_cbh_adj:hru_5693:mon_3 0.0  
-tmin_cbh_adj:hru_5697:mon_3 0.0  
-tmin_cbh_adj:hru_5703:mon_3 0.0  
-tmin_cbh_adj:hru_5728:mon_3 0.0  
-tmin_cbh_adj:hru_7128:mon_3 0.0  
-tmin_cbh_adj:hru_7156:mon_3 0.0  
-tmin_cbh_adj:hru_7157:mon_3 0.0  
-tmin_cbh_adj:hru_5621:mon_4 0.0  
-tmin_cbh_adj:hru_5625:mon_4 0.0  
-tmin_cbh_adj:hru_5628:mon_4 0.0  
-tmin_cbh_adj:hru_5635:mon_4 0.0  
-tmin_cbh_adj:hru_5637:mon_4 0.0  
-tmin_cbh_adj:hru_5643:mon_4 0.0  
-tmin_cbh_adj:hru_5678:mon_4 0.0  
-tmin_cbh_adj:hru_5679:mon_4 0.0  
-tmin_cbh_adj:hru_5686:mon_4 0.0  
-tmin_cbh_adj:hru_5690:mon_4 0.0  
-tmin_cbh_adj:hru_5693:mon_4 0.0  
-tmin_cbh_adj:hru_5697:mon_4 0.0  
-tmin_cbh_adj:hru_5703:mon_4 0.0  
-tmin_cbh_adj:hru_5728:mon_4 0.0  
-tmin_cbh_adj:hru_7128:mon_4 0.0  
-tmin_cbh_adj:hru_7156:mon_4 0.0  
-tmin_cbh_adj:hru_7157:mon_4 0.0  
-tmin_cbh_adj:hru_5621:mon_5 0.0  
-tmin_cbh_adj:hru_5625:mon_5 0.0  
-tmin_cbh_adj:hru_5628:mon_5 0.0  
-tmin_cbh_adj:hru_5635:mon_5 0.0  
-tmin_cbh_adj:hru_5637:mon_5 0.0  
-tmin_cbh_adj:hru_5643:mon_5 0.0  
-tmin_cbh_adj:hru_5678:mon_5 0.0  
-tmin_cbh_adj:hru_5679:mon_5 0.0  
-tmin_cbh_adj:hru_5686:mon_5 0.0  
-tmin_cbh_adj:hru_5690:mon_5 0.0  
-tmin_cbh_adj:hru_5693:mon_5 0.0  
-tmin_cbh_adj:hru_5697:mon_5 0.0  
-tmin_cbh_adj:hru_5703:mon_5 0.0  
-tmin_cbh_adj:hru_5728:mon_5 0.0  
-tmin_cbh_adj:hru_7128:mon_5 0.0  
-tmin_cbh_adj:hru_7156:mon_5 0.0  
-tmin_cbh_adj:hru_7157:mon_5 0.0  
-tmin_cbh_adj:hru_5621:mon_6 0.0  
-tmin_cbh_adj:hru_5625:mon_6 0.0  
-tmin_cbh_adj:hru_5628:mon_6 0.0  
-tmin_cbh_adj:hru_5635:mon_6 0.0  
-tmin_cbh_adj:hru_5637:mon_6 0.0  
-tmin_cbh_adj:hru_5643:mon_6 0.0  
-tmin_cbh_adj:hru_5678:mon_6 0.0  
-tmin_cbh_adj:hru_5679:mon_6 0.0  
-tmin_cbh_adj:hru_5686:mon_6 0.0  
-tmin_cbh_adj:hru_5690:mon_6 0.0  
-tmin_cbh_adj:hru_5693:mon_6 0.0  
-tmin_cbh_adj:hru_5697:mon_6 0.0  
-tmin_cbh_adj:hru_5703:mon_6 0.0  
-tmin_cbh_adj:hru_5728:mon_6 0.0  
-tmin_cbh_adj:hru_7128:mon_6 0.0  
-tmin_cbh_adj:hru_7156:mon_6 0.0  
-tmin_cbh_adj:hru_7157:mon_6 0.0  
-tmin_cbh_adj:hru_5621:mon_7 0.0  
-tmin_cbh_adj:hru_5625:mon_7 0.0  
-tmin_cbh_adj:hru_5628:mon_7 0.0  
-tmin_cbh_adj:hru_5635:mon_7 0.0  
-tmin_cbh_adj:hru_5637:mon_7 0.0  
-tmin_cbh_adj:hru_5643:mon_7 0.0  
-tmin_cbh_adj:hru_5678:mon_7 0.0  
-tmin_cbh_adj:hru_5679:mon_7 0.0  
-tmin_cbh_adj:hru_5686:mon_7 0.0  
-tmin_cbh_adj:hru_5690:mon_7 0.0  
-tmin_cbh_adj:hru_5693:mon_7 0.0  
-tmin_cbh_adj:hru_5697:mon_7 0.0  
-tmin_cbh_adj:hru_5703:mon_7 0.0  
-tmin_cbh_adj:hru_5728:mon_7 0.0  
-tmin_cbh_adj:hru_7128:mon_7 0.0  
-tmin_cbh_adj:hru_7156:mon_7 0.0  
-tmin_cbh_adj:hru_7157:mon_7 0.0  
-tmin_cbh_adj:hru_5621:mon_8 0.0  
-tmin_cbh_adj:hru_5625:mon_8 0.0  
-tmin_cbh_adj:hru_5628:mon_8 0.0  
-tmin_cbh_adj:hru_5635:mon_8 0.0  
-tmin_cbh_adj:hru_5637:mon_8 0.0  
-tmin_cbh_adj:hru_5643:mon_8 0.0  
-tmin_cbh_adj:hru_5678:mon_8 0.0  
-tmin_cbh_adj:hru_5679:mon_8 0.0  
-tmin_cbh_adj:hru_5686:mon_8 0.0  
-tmin_cbh_adj:hru_5690:mon_8 0.0  
-tmin_cbh_adj:hru_5693:mon_8 0.0  
-tmin_cbh_adj:hru_5697:mon_8 0.0  
-tmin_cbh_adj:hru_5703:mon_8 0.0  
-tmin_cbh_adj:hru_5728:mon_8 0.0  
-tmin_cbh_adj:hru_7128:mon_8 0.0  
-tmin_cbh_adj:hru_7156:mon_8 0.0  
-tmin_cbh_adj:hru_7157:mon_8 0.0  
-tmin_cbh_adj:hru_5621:mon_9 0.0  
-tmin_cbh_adj:hru_5625:mon_9 0.0  
-tmin_cbh_adj:hru_5628:mon_9 0.0  
-tmin_cbh_adj:hru_5635:mon_9 0.0  
-tmin_cbh_adj:hru_5637:mon_9 0.0  
-tmin_cbh_adj:hru_5643:mon_9 0.0  
-tmin_cbh_adj:hru_5678:mon_9 0.0  
-tmin_cbh_adj:hru_5679:mon_9 0.0  
-tmin_cbh_adj:hru_5686:mon_9 0.0  
-tmin_cbh_adj:hru_5690:mon_9 0.0  
-tmin_cbh_adj:hru_5693:mon_9 0.0  
-tmin_cbh_adj:hru_5697:mon_9 0.0  
-tmin_cbh_adj:hru_5703:mon_9 0.0  
-tmin_cbh_adj:hru_5728:mon_9 0.0  
-tmin_cbh_adj:hru_7128:mon_9 0.0  
-tmin_cbh_adj:hru_7156:mon_9 0.0  
-tmin_cbh_adj:hru_7157:mon_9 0.0  
-tmin_cbh_adj:hru_5621:mon_10 0.0  
-tmin_cbh_adj:hru_5625:mon_10 0.0  
-tmin_cbh_adj:hru_5628:mon_10 0.0  
-tmin_cbh_adj:hru_5635:mon_10 0.0  
-tmin_cbh_adj:hru_5637:mon_10 0.0  
-tmin_cbh_adj:hru_5643:mon_10 0.0  
-tmin_cbh_adj:hru_5678:mon_10 0.0  
-tmin_cbh_adj:hru_5679:mon_10 0.0  
-tmin_cbh_adj:hru_5686:mon_10 0.0  
-tmin_cbh_adj:hru_5690:mon_10 0.0  
-tmin_cbh_adj:hru_5693:mon_10 0.0  
-tmin_cbh_adj:hru_5697:mon_10 0.0  
-tmin_cbh_adj:hru_5703:mon_10 0.0  
-tmin_cbh_adj:hru_5728:mon_10 0.0  
-tmin_cbh_adj:hru_7128:mon_10 0.0  
-tmin_cbh_adj:hru_7156:mon_10 0.0  
-tmin_cbh_adj:hru_7157:mon_10 0.0  
-tmin_cbh_adj:hru_5621:mon_11 0.0  
-tmin_cbh_adj:hru_5625:mon_11 0.0  
-tmin_cbh_adj:hru_5628:mon_11 0.0  
-tmin_cbh_adj:hru_5635:mon_11 0.0  
-tmin_cbh_adj:hru_5637:mon_11 0.0  
-tmin_cbh_adj:hru_5643:mon_11 0.0  
-tmin_cbh_adj:hru_5678:mon_11 0.0  
-tmin_cbh_adj:hru_5679:mon_11 0.0  
-tmin_cbh_adj:hru_5686:mon_11 0.0  
-tmin_cbh_adj:hru_5690:mon_11 0.0  
-tmin_cbh_adj:hru_5693:mon_11 0.0  
-tmin_cbh_adj:hru_5697:mon_11 0.0  
-tmin_cbh_adj:hru_5703:mon_11 0.0  
-tmin_cbh_adj:hru_5728:mon_11 0.0  
-tmin_cbh_adj:hru_7128:mon_11 0.0  
-tmin_cbh_adj:hru_7156:mon_11 0.0  
-tmin_cbh_adj:hru_7157:mon_11 0.0  
-tmin_cbh_adj:hru_5621:mon_12 0.0  
-tmin_cbh_adj:hru_5625:mon_12 0.0  
-tmin_cbh_adj:hru_5628:mon_12 0.0  
-tmin_cbh_adj:hru_5635:mon_12 0.0  
-tmin_cbh_adj:hru_5637:mon_12 0.0  
-tmin_cbh_adj:hru_5643:mon_12 0.0  
-tmin_cbh_adj:hru_5678:mon_12 0.0  
-tmin_cbh_adj:hru_5679:mon_12 0.0  
-tmin_cbh_adj:hru_5686:mon_12 0.0  
-tmin_cbh_adj:hru_5690:mon_12 0.0  
-tmin_cbh_adj:hru_5693:mon_12 0.0  
-tmin_cbh_adj:hru_5697:mon_12 0.0  
-tmin_cbh_adj:hru_5703:mon_12 0.0  
-tmin_cbh_adj:hru_5728:mon_12 0.0  
-tmin_cbh_adj:hru_7128:mon_12 0.0  
-tmin_cbh_adj:hru_7156:mon_12 0.0  
-tmin_cbh_adj:hru_7157:mon_12 0.0  
+adjmix_rain:hru_5621:mon_1 1.0 1.2 0.8
+adjmix_rain:hru_5625:mon_1 1.0 1.2 0.8
+adjmix_rain:hru_5628:mon_1 1.0 1.2 0.8
+adjmix_rain:hru_5635:mon_1 1.0 1.2 0.8
+adjmix_rain:hru_5637:mon_1 1.0 1.2 0.8
+adjmix_rain:hru_5643:mon_1 1.0 1.2 0.8
+adjmix_rain:hru_5678:mon_1 1.0 1.2 0.8
+adjmix_rain:hru_5679:mon_1 1.0 1.2 0.8
+adjmix_rain:hru_5686:mon_1 1.0 1.2 0.8
+adjmix_rain:hru_5690:mon_1 1.0 1.2 0.8
+adjmix_rain:hru_5693:mon_1 1.0 1.2 0.8
+adjmix_rain:hru_5697:mon_1 1.0 1.2 0.8
+adjmix_rain:hru_5703:mon_1 1.0 1.2 0.8
+adjmix_rain:hru_5728:mon_1 1.0 1.2 0.8
+adjmix_rain:hru_7128:mon_1 1.0 1.2 0.8
+adjmix_rain:hru_7156:mon_1 1.0 1.2 0.8
+adjmix_rain:hru_7157:mon_1 1.0 1.2 0.8
+adjmix_rain:hru_5621:mon_2 1.0 1.2 0.8
+adjmix_rain:hru_5625:mon_2 1.0 1.2 0.8
+adjmix_rain:hru_5628:mon_2 1.0 1.2 0.8
+adjmix_rain:hru_5635:mon_2 1.0 1.2 0.8
+adjmix_rain:hru_5637:mon_2 1.0 1.2 0.8
+adjmix_rain:hru_5643:mon_2 1.0 1.2 0.8
+adjmix_rain:hru_5678:mon_2 1.0 1.2 0.8
+adjmix_rain:hru_5679:mon_2 1.0 1.2 0.8
+adjmix_rain:hru_5686:mon_2 1.0 1.2 0.8
+adjmix_rain:hru_5690:mon_2 1.0 1.2 0.8
+adjmix_rain:hru_5693:mon_2 1.0 1.2 0.8
+adjmix_rain:hru_5697:mon_2 1.0 1.2 0.8
+adjmix_rain:hru_5703:mon_2 1.0 1.2 0.8
+adjmix_rain:hru_5728:mon_2 1.0 1.2 0.8
+adjmix_rain:hru_7128:mon_2 1.0 1.2 0.8
+adjmix_rain:hru_7156:mon_2 1.0 1.2 0.8
+adjmix_rain:hru_7157:mon_2 1.0 1.2 0.8
+adjmix_rain:hru_5621:mon_3 1.0 1.2 0.8
+adjmix_rain:hru_5625:mon_3 1.0 1.2 0.8
+adjmix_rain:hru_5628:mon_3 1.0 1.2 0.8
+adjmix_rain:hru_5635:mon_3 1.0 1.2 0.8
+adjmix_rain:hru_5637:mon_3 1.0 1.2 0.8
+adjmix_rain:hru_5643:mon_3 1.0 1.2 0.8
+adjmix_rain:hru_5678:mon_3 1.0 1.2 0.8
+adjmix_rain:hru_5679:mon_3 1.0 1.2 0.8
+adjmix_rain:hru_5686:mon_3 1.0 1.2 0.8
+adjmix_rain:hru_5690:mon_3 1.0 1.2 0.8
+adjmix_rain:hru_5693:mon_3 1.0 1.2 0.8
+adjmix_rain:hru_5697:mon_3 1.0 1.2 0.8
+adjmix_rain:hru_5703:mon_3 1.0 1.2 0.8
+adjmix_rain:hru_5728:mon_3 1.0 1.2 0.8
+adjmix_rain:hru_7128:mon_3 1.0 1.2 0.8
+adjmix_rain:hru_7156:mon_3 1.0 1.2 0.8
+adjmix_rain:hru_7157:mon_3 1.0 1.2 0.8
+adjmix_rain:hru_5621:mon_4 1.0 1.2 0.8
+adjmix_rain:hru_5625:mon_4 1.0 1.2 0.8
+adjmix_rain:hru_5628:mon_4 1.0 1.2 0.8
+adjmix_rain:hru_5635:mon_4 1.0 1.2 0.8
+adjmix_rain:hru_5637:mon_4 1.0 1.2 0.8
+adjmix_rain:hru_5643:mon_4 1.0 1.2 0.8
+adjmix_rain:hru_5678:mon_4 1.0 1.2 0.8
+adjmix_rain:hru_5679:mon_4 1.0 1.2 0.8
+adjmix_rain:hru_5686:mon_4 1.0 1.2 0.8
+adjmix_rain:hru_5690:mon_4 1.0 1.2 0.8
+adjmix_rain:hru_5693:mon_4 1.0 1.2 0.8
+adjmix_rain:hru_5697:mon_4 1.0 1.2 0.8
+adjmix_rain:hru_5703:mon_4 1.0 1.2 0.8
+adjmix_rain:hru_5728:mon_4 1.0 1.2 0.8
+adjmix_rain:hru_7128:mon_4 1.0 1.2 0.8
+adjmix_rain:hru_7156:mon_4 1.0 1.2 0.8
+adjmix_rain:hru_7157:mon_4 1.0 1.2 0.8
+adjmix_rain:hru_5621:mon_5 1.0 1.2 0.8
+adjmix_rain:hru_5625:mon_5 1.0 1.2 0.8
+adjmix_rain:hru_5628:mon_5 1.0 1.2 0.8
+adjmix_rain:hru_5635:mon_5 1.0 1.2 0.8
+adjmix_rain:hru_5637:mon_5 1.0 1.2 0.8
+adjmix_rain:hru_5643:mon_5 1.0 1.2 0.8
+adjmix_rain:hru_5678:mon_5 1.0 1.2 0.8
+adjmix_rain:hru_5679:mon_5 1.0 1.2 0.8
+adjmix_rain:hru_5686:mon_5 1.0 1.2 0.8
+adjmix_rain:hru_5690:mon_5 1.0 1.2 0.8
+adjmix_rain:hru_5693:mon_5 1.0 1.2 0.8
+adjmix_rain:hru_5697:mon_5 1.0 1.2 0.8
+adjmix_rain:hru_5703:mon_5 1.0 1.2 0.8
+adjmix_rain:hru_5728:mon_5 1.0 1.2 0.8
+adjmix_rain:hru_7128:mon_5 1.0 1.2 0.8
+adjmix_rain:hru_7156:mon_5 1.0 1.2 0.8
+adjmix_rain:hru_7157:mon_5 1.0 1.2 0.8
+adjmix_rain:hru_5621:mon_6 1.0 1.2 0.8
+adjmix_rain:hru_5625:mon_6 1.0 1.2 0.8
+adjmix_rain:hru_5628:mon_6 1.0 1.2 0.8
+adjmix_rain:hru_5635:mon_6 1.0 1.2 0.8
+adjmix_rain:hru_5637:mon_6 1.0 1.2 0.8
+adjmix_rain:hru_5643:mon_6 1.0 1.2 0.8
+adjmix_rain:hru_5678:mon_6 1.0 1.2 0.8
+adjmix_rain:hru_5679:mon_6 1.0 1.2 0.8
+adjmix_rain:hru_5686:mon_6 1.0 1.2 0.8
+adjmix_rain:hru_5690:mon_6 1.0 1.2 0.8
+adjmix_rain:hru_5693:mon_6 1.0 1.2 0.8
+adjmix_rain:hru_5697:mon_6 1.0 1.2 0.8
+adjmix_rain:hru_5703:mon_6 1.0 1.2 0.8
+adjmix_rain:hru_5728:mon_6 1.0 1.2 0.8
+adjmix_rain:hru_7128:mon_6 1.0 1.2 0.8
+adjmix_rain:hru_7156:mon_6 1.0 1.2 0.8
+adjmix_rain:hru_7157:mon_6 1.0 1.2 0.8
+adjmix_rain:hru_5621:mon_7 1.0 1.2 0.8
+adjmix_rain:hru_5625:mon_7 1.0 1.2 0.8
+adjmix_rain:hru_5628:mon_7 1.0 1.2 0.8
+adjmix_rain:hru_5635:mon_7 1.0 1.2 0.8
+adjmix_rain:hru_5637:mon_7 1.0 1.2 0.8
+adjmix_rain:hru_5643:mon_7 1.0 1.2 0.8
+adjmix_rain:hru_5678:mon_7 1.0 1.2 0.8
+adjmix_rain:hru_5679:mon_7 1.0 1.2 0.8
+adjmix_rain:hru_5686:mon_7 1.0 1.2 0.8
+adjmix_rain:hru_5690:mon_7 1.0 1.2 0.8
+adjmix_rain:hru_5693:mon_7 1.0 1.2 0.8
+adjmix_rain:hru_5697:mon_7 1.0 1.2 0.8
+adjmix_rain:hru_5703:mon_7 1.0 1.2 0.8
+adjmix_rain:hru_5728:mon_7 1.0 1.2 0.8
+adjmix_rain:hru_7128:mon_7 1.0 1.2 0.8
+adjmix_rain:hru_7156:mon_7 1.0 1.2 0.8
+adjmix_rain:hru_7157:mon_7 1.0 1.2 0.8
+adjmix_rain:hru_5621:mon_8 1.0 1.2 0.8
+adjmix_rain:hru_5625:mon_8 1.0 1.2 0.8
+adjmix_rain:hru_5628:mon_8 1.0 1.2 0.8
+adjmix_rain:hru_5635:mon_8 1.0 1.2 0.8
+adjmix_rain:hru_5637:mon_8 1.0 1.2 0.8
+adjmix_rain:hru_5643:mon_8 1.0 1.2 0.8
+adjmix_rain:hru_5678:mon_8 1.0 1.2 0.8
+adjmix_rain:hru_5679:mon_8 1.0 1.2 0.8
+adjmix_rain:hru_5686:mon_8 1.0 1.2 0.8
+adjmix_rain:hru_5690:mon_8 1.0 1.2 0.8
+adjmix_rain:hru_5693:mon_8 1.0 1.2 0.8
+adjmix_rain:hru_5697:mon_8 1.0 1.2 0.8
+adjmix_rain:hru_5703:mon_8 1.0 1.2 0.8
+adjmix_rain:hru_5728:mon_8 1.0 1.2 0.8
+adjmix_rain:hru_7128:mon_8 1.0 1.2 0.8
+adjmix_rain:hru_7156:mon_8 1.0 1.2 0.8
+adjmix_rain:hru_7157:mon_8 1.0 1.2 0.8
+adjmix_rain:hru_5621:mon_9 1.0 1.2 0.8
+adjmix_rain:hru_5625:mon_9 1.0 1.2 0.8
+adjmix_rain:hru_5628:mon_9 1.0 1.2 0.8
+adjmix_rain:hru_5635:mon_9 1.0 1.2 0.8
+adjmix_rain:hru_5637:mon_9 1.0 1.2 0.8
+adjmix_rain:hru_5643:mon_9 1.0 1.2 0.8
+adjmix_rain:hru_5678:mon_9 1.0 1.2 0.8
+adjmix_rain:hru_5679:mon_9 1.0 1.2 0.8
+adjmix_rain:hru_5686:mon_9 1.0 1.2 0.8
+adjmix_rain:hru_5690:mon_9 1.0 1.2 0.8
+adjmix_rain:hru_5693:mon_9 1.0 1.2 0.8
+adjmix_rain:hru_5697:mon_9 1.0 1.2 0.8
+adjmix_rain:hru_5703:mon_9 1.0 1.2 0.8
+adjmix_rain:hru_5728:mon_9 1.0 1.2 0.8
+adjmix_rain:hru_7128:mon_9 1.0 1.2 0.8
+adjmix_rain:hru_7156:mon_9 1.0 1.2 0.8
+adjmix_rain:hru_7157:mon_9 1.0 1.2 0.8
+adjmix_rain:hru_5621:mon_10 1.0 1.2 0.8
+adjmix_rain:hru_5625:mon_10 1.0 1.2 0.8
+adjmix_rain:hru_5628:mon_10 1.0 1.2 0.8
+adjmix_rain:hru_5635:mon_10 1.0 1.2 0.8
+adjmix_rain:hru_5637:mon_10 1.0 1.2 0.8
+adjmix_rain:hru_5643:mon_10 1.0 1.2 0.8
+adjmix_rain:hru_5678:mon_10 1.0 1.2 0.8
+adjmix_rain:hru_5679:mon_10 1.0 1.2 0.8
+adjmix_rain:hru_5686:mon_10 1.0 1.2 0.8
+adjmix_rain:hru_5690:mon_10 1.0 1.2 0.8
+adjmix_rain:hru_5693:mon_10 1.0 1.2 0.8
+adjmix_rain:hru_5697:mon_10 1.0 1.2 0.8
+adjmix_rain:hru_5703:mon_10 1.0 1.2 0.8
+adjmix_rain:hru_5728:mon_10 1.0 1.2 0.8
+adjmix_rain:hru_7128:mon_10 1.0 1.2 0.8
+adjmix_rain:hru_7156:mon_10 1.0 1.2 0.8
+adjmix_rain:hru_7157:mon_10 1.0 1.2 0.8
+adjmix_rain:hru_5621:mon_11 1.0 1.2 0.8
+adjmix_rain:hru_5625:mon_11 1.0 1.2 0.8
+adjmix_rain:hru_5628:mon_11 1.0 1.2 0.8
+adjmix_rain:hru_5635:mon_11 1.0 1.2 0.8
+adjmix_rain:hru_5637:mon_11 1.0 1.2 0.8
+adjmix_rain:hru_5643:mon_11 1.0 1.2 0.8
+adjmix_rain:hru_5678:mon_11 1.0 1.2 0.8
+adjmix_rain:hru_5679:mon_11 1.0 1.2 0.8
+adjmix_rain:hru_5686:mon_11 1.0 1.2 0.8
+adjmix_rain:hru_5690:mon_11 1.0 1.2 0.8
+adjmix_rain:hru_5693:mon_11 1.0 1.2 0.8
+adjmix_rain:hru_5697:mon_11 1.0 1.2 0.8
+adjmix_rain:hru_5703:mon_11 1.0 1.2 0.8
+adjmix_rain:hru_5728:mon_11 1.0 1.2 0.8
+adjmix_rain:hru_7128:mon_11 1.0 1.2 0.8
+adjmix_rain:hru_7156:mon_11 1.0 1.2 0.8
+adjmix_rain:hru_7157:mon_11 1.0 1.2 0.8
+adjmix_rain:hru_5621:mon_12 1.0 1.2 0.8
+adjmix_rain:hru_5625:mon_12 1.0 1.2 0.8
+adjmix_rain:hru_5628:mon_12 1.0 1.2 0.8
+adjmix_rain:hru_5635:mon_12 1.0 1.2 0.8
+adjmix_rain:hru_5637:mon_12 1.0 1.2 0.8
+adjmix_rain:hru_5643:mon_12 1.0 1.2 0.8
+adjmix_rain:hru_5678:mon_12 1.0 1.2 0.8
+adjmix_rain:hru_5679:mon_12 1.0 1.2 0.8
+adjmix_rain:hru_5686:mon_12 1.0 1.2 0.8
+adjmix_rain:hru_5690:mon_12 1.0 1.2 0.8
+adjmix_rain:hru_5693:mon_12 1.0 1.2 0.8
+adjmix_rain:hru_5697:mon_12 1.0 1.2 0.8
+adjmix_rain:hru_5703:mon_12 1.0 1.2 0.8
+adjmix_rain:hru_5728:mon_12 1.0 1.2 0.8
+adjmix_rain:hru_7128:mon_12 1.0 1.2 0.8
+adjmix_rain:hru_7156:mon_12 1.0 1.2 0.8
+adjmix_rain:hru_7157:mon_12 1.0 1.2 0.8
+carea_max:hru_5621 0.304801 0.3657612 0.2438408
+carea_max:hru_5625 0.372913 0.4474956 0.2983304
+carea_max:hru_5628 0.2981 0.35772 0.23847999999999997
+carea_max:hru_5635 0.301947 0.3623364 0.2415576
+carea_max:hru_5637 0.285751 0.34290119999999996 0.2286008
+carea_max:hru_5643 0.419332 0.5031984 0.3354656
+carea_max:hru_5678 0.403709 0.48445079999999996 0.3229672
+carea_max:hru_5679 0.475465 0.570558 0.38037200000000004
+carea_max:hru_5686 0.43131 0.517572 0.345048
+carea_max:hru_5690 0.624702 0.7496423999999999 0.4997616
+carea_max:hru_5693 0.443386 0.5320632000000001 0.3547088
+carea_max:hru_5697 0.440675 0.52881 0.35253999999999996
+carea_max:hru_5703 0.492815 0.591378 0.394252
+carea_max:hru_5728 0.482773 0.5793276 0.3862184
+carea_max:hru_7128 0.514671 0.6176052 0.4117368
+carea_max:hru_7156 0.373922 0.44870639999999995 0.2991376
+carea_max:hru_7157 0.337974 0.4055688 0.2703792
+cecn_coef:hru_5621:mon_1 5.0 6.0 4.0
+cecn_coef:hru_5625:mon_1 5.0 6.0 4.0
+cecn_coef:hru_5628:mon_1 5.0 6.0 4.0
+cecn_coef:hru_5635:mon_1 5.0 6.0 4.0
+cecn_coef:hru_5637:mon_1 5.0 6.0 4.0
+cecn_coef:hru_5643:mon_1 5.0 6.0 4.0
+cecn_coef:hru_5678:mon_1 5.0 6.0 4.0
+cecn_coef:hru_5679:mon_1 5.0 6.0 4.0
+cecn_coef:hru_5686:mon_1 5.0 6.0 4.0
+cecn_coef:hru_5690:mon_1 5.0 6.0 4.0
+cecn_coef:hru_5693:mon_1 5.0 6.0 4.0
+cecn_coef:hru_5697:mon_1 5.0 6.0 4.0
+cecn_coef:hru_5703:mon_1 5.0 6.0 4.0
+cecn_coef:hru_5728:mon_1 5.0 6.0 4.0
+cecn_coef:hru_7128:mon_1 5.0 6.0 4.0
+cecn_coef:hru_7156:mon_1 5.0 6.0 4.0
+cecn_coef:hru_7157:mon_1 5.0 6.0 4.0
+cecn_coef:hru_5621:mon_2 5.0 6.0 4.0
+cecn_coef:hru_5625:mon_2 5.0 6.0 4.0
+cecn_coef:hru_5628:mon_2 5.0 6.0 4.0
+cecn_coef:hru_5635:mon_2 5.0 6.0 4.0
+cecn_coef:hru_5637:mon_2 5.0 6.0 4.0
+cecn_coef:hru_5643:mon_2 5.0 6.0 4.0
+cecn_coef:hru_5678:mon_2 5.0 6.0 4.0
+cecn_coef:hru_5679:mon_2 5.0 6.0 4.0
+cecn_coef:hru_5686:mon_2 5.0 6.0 4.0
+cecn_coef:hru_5690:mon_2 5.0 6.0 4.0
+cecn_coef:hru_5693:mon_2 5.0 6.0 4.0
+cecn_coef:hru_5697:mon_2 5.0 6.0 4.0
+cecn_coef:hru_5703:mon_2 5.0 6.0 4.0
+cecn_coef:hru_5728:mon_2 5.0 6.0 4.0
+cecn_coef:hru_7128:mon_2 5.0 6.0 4.0
+cecn_coef:hru_7156:mon_2 5.0 6.0 4.0
+cecn_coef:hru_7157:mon_2 5.0 6.0 4.0
+cecn_coef:hru_5621:mon_3 5.0 6.0 4.0
+cecn_coef:hru_5625:mon_3 5.0 6.0 4.0
+cecn_coef:hru_5628:mon_3 5.0 6.0 4.0
+cecn_coef:hru_5635:mon_3 5.0 6.0 4.0
+cecn_coef:hru_5637:mon_3 5.0 6.0 4.0
+cecn_coef:hru_5643:mon_3 5.0 6.0 4.0
+cecn_coef:hru_5678:mon_3 5.0 6.0 4.0
+cecn_coef:hru_5679:mon_3 5.0 6.0 4.0
+cecn_coef:hru_5686:mon_3 5.0 6.0 4.0
+cecn_coef:hru_5690:mon_3 5.0 6.0 4.0
+cecn_coef:hru_5693:mon_3 5.0 6.0 4.0
+cecn_coef:hru_5697:mon_3 5.0 6.0 4.0
+cecn_coef:hru_5703:mon_3 5.0 6.0 4.0
+cecn_coef:hru_5728:mon_3 5.0 6.0 4.0
+cecn_coef:hru_7128:mon_3 5.0 6.0 4.0
+cecn_coef:hru_7156:mon_3 5.0 6.0 4.0
+cecn_coef:hru_7157:mon_3 5.0 6.0 4.0
+cecn_coef:hru_5621:mon_4 5.0 6.0 4.0
+cecn_coef:hru_5625:mon_4 5.0 6.0 4.0
+cecn_coef:hru_5628:mon_4 5.0 6.0 4.0
+cecn_coef:hru_5635:mon_4 5.0 6.0 4.0
+cecn_coef:hru_5637:mon_4 5.0 6.0 4.0
+cecn_coef:hru_5643:mon_4 5.0 6.0 4.0
+cecn_coef:hru_5678:mon_4 5.0 6.0 4.0
+cecn_coef:hru_5679:mon_4 5.0 6.0 4.0
+cecn_coef:hru_5686:mon_4 5.0 6.0 4.0
+cecn_coef:hru_5690:mon_4 5.0 6.0 4.0
+cecn_coef:hru_5693:mon_4 5.0 6.0 4.0
+cecn_coef:hru_5697:mon_4 5.0 6.0 4.0
+cecn_coef:hru_5703:mon_4 5.0 6.0 4.0
+cecn_coef:hru_5728:mon_4 5.0 6.0 4.0
+cecn_coef:hru_7128:mon_4 5.0 6.0 4.0
+cecn_coef:hru_7156:mon_4 5.0 6.0 4.0
+cecn_coef:hru_7157:mon_4 5.0 6.0 4.0
+cecn_coef:hru_5621:mon_5 5.0 6.0 4.0
+cecn_coef:hru_5625:mon_5 5.0 6.0 4.0
+cecn_coef:hru_5628:mon_5 5.0 6.0 4.0
+cecn_coef:hru_5635:mon_5 5.0 6.0 4.0
+cecn_coef:hru_5637:mon_5 5.0 6.0 4.0
+cecn_coef:hru_5643:mon_5 5.0 6.0 4.0
+cecn_coef:hru_5678:mon_5 5.0 6.0 4.0
+cecn_coef:hru_5679:mon_5 5.0 6.0 4.0
+cecn_coef:hru_5686:mon_5 5.0 6.0 4.0
+cecn_coef:hru_5690:mon_5 5.0 6.0 4.0
+cecn_coef:hru_5693:mon_5 5.0 6.0 4.0
+cecn_coef:hru_5697:mon_5 5.0 6.0 4.0
+cecn_coef:hru_5703:mon_5 5.0 6.0 4.0
+cecn_coef:hru_5728:mon_5 5.0 6.0 4.0
+cecn_coef:hru_7128:mon_5 5.0 6.0 4.0
+cecn_coef:hru_7156:mon_5 5.0 6.0 4.0
+cecn_coef:hru_7157:mon_5 5.0 6.0 4.0
+cecn_coef:hru_5621:mon_6 5.0 6.0 4.0
+cecn_coef:hru_5625:mon_6 5.0 6.0 4.0
+cecn_coef:hru_5628:mon_6 5.0 6.0 4.0
+cecn_coef:hru_5635:mon_6 5.0 6.0 4.0
+cecn_coef:hru_5637:mon_6 5.0 6.0 4.0
+cecn_coef:hru_5643:mon_6 5.0 6.0 4.0
+cecn_coef:hru_5678:mon_6 5.0 6.0 4.0
+cecn_coef:hru_5679:mon_6 5.0 6.0 4.0
+cecn_coef:hru_5686:mon_6 5.0 6.0 4.0
+cecn_coef:hru_5690:mon_6 5.0 6.0 4.0
+cecn_coef:hru_5693:mon_6 5.0 6.0 4.0
+cecn_coef:hru_5697:mon_6 5.0 6.0 4.0
+cecn_coef:hru_5703:mon_6 5.0 6.0 4.0
+cecn_coef:hru_5728:mon_6 5.0 6.0 4.0
+cecn_coef:hru_7128:mon_6 5.0 6.0 4.0
+cecn_coef:hru_7156:mon_6 5.0 6.0 4.0
+cecn_coef:hru_7157:mon_6 5.0 6.0 4.0
+cecn_coef:hru_5621:mon_7 5.0 6.0 4.0
+cecn_coef:hru_5625:mon_7 5.0 6.0 4.0
+cecn_coef:hru_5628:mon_7 5.0 6.0 4.0
+cecn_coef:hru_5635:mon_7 5.0 6.0 4.0
+cecn_coef:hru_5637:mon_7 5.0 6.0 4.0
+cecn_coef:hru_5643:mon_7 5.0 6.0 4.0
+cecn_coef:hru_5678:mon_7 5.0 6.0 4.0
+cecn_coef:hru_5679:mon_7 5.0 6.0 4.0
+cecn_coef:hru_5686:mon_7 5.0 6.0 4.0
+cecn_coef:hru_5690:mon_7 5.0 6.0 4.0
+cecn_coef:hru_5693:mon_7 5.0 6.0 4.0
+cecn_coef:hru_5697:mon_7 5.0 6.0 4.0
+cecn_coef:hru_5703:mon_7 5.0 6.0 4.0
+cecn_coef:hru_5728:mon_7 5.0 6.0 4.0
+cecn_coef:hru_7128:mon_7 5.0 6.0 4.0
+cecn_coef:hru_7156:mon_7 5.0 6.0 4.0
+cecn_coef:hru_7157:mon_7 5.0 6.0 4.0
+cecn_coef:hru_5621:mon_8 5.0 6.0 4.0
+cecn_coef:hru_5625:mon_8 5.0 6.0 4.0
+cecn_coef:hru_5628:mon_8 5.0 6.0 4.0
+cecn_coef:hru_5635:mon_8 5.0 6.0 4.0
+cecn_coef:hru_5637:mon_8 5.0 6.0 4.0
+cecn_coef:hru_5643:mon_8 5.0 6.0 4.0
+cecn_coef:hru_5678:mon_8 5.0 6.0 4.0
+cecn_coef:hru_5679:mon_8 5.0 6.0 4.0
+cecn_coef:hru_5686:mon_8 5.0 6.0 4.0
+cecn_coef:hru_5690:mon_8 5.0 6.0 4.0
+cecn_coef:hru_5693:mon_8 5.0 6.0 4.0
+cecn_coef:hru_5697:mon_8 5.0 6.0 4.0
+cecn_coef:hru_5703:mon_8 5.0 6.0 4.0
+cecn_coef:hru_5728:mon_8 5.0 6.0 4.0
+cecn_coef:hru_7128:mon_8 5.0 6.0 4.0
+cecn_coef:hru_7156:mon_8 5.0 6.0 4.0
+cecn_coef:hru_7157:mon_8 5.0 6.0 4.0
+cecn_coef:hru_5621:mon_9 5.0 6.0 4.0
+cecn_coef:hru_5625:mon_9 5.0 6.0 4.0
+cecn_coef:hru_5628:mon_9 5.0 6.0 4.0
+cecn_coef:hru_5635:mon_9 5.0 6.0 4.0
+cecn_coef:hru_5637:mon_9 5.0 6.0 4.0
+cecn_coef:hru_5643:mon_9 5.0 6.0 4.0
+cecn_coef:hru_5678:mon_9 5.0 6.0 4.0
+cecn_coef:hru_5679:mon_9 5.0 6.0 4.0
+cecn_coef:hru_5686:mon_9 5.0 6.0 4.0
+cecn_coef:hru_5690:mon_9 5.0 6.0 4.0
+cecn_coef:hru_5693:mon_9 5.0 6.0 4.0
+cecn_coef:hru_5697:mon_9 5.0 6.0 4.0
+cecn_coef:hru_5703:mon_9 5.0 6.0 4.0
+cecn_coef:hru_5728:mon_9 5.0 6.0 4.0
+cecn_coef:hru_7128:mon_9 5.0 6.0 4.0
+cecn_coef:hru_7156:mon_9 5.0 6.0 4.0
+cecn_coef:hru_7157:mon_9 5.0 6.0 4.0
+cecn_coef:hru_5621:mon_10 5.0 6.0 4.0
+cecn_coef:hru_5625:mon_10 5.0 6.0 4.0
+cecn_coef:hru_5628:mon_10 5.0 6.0 4.0
+cecn_coef:hru_5635:mon_10 5.0 6.0 4.0
+cecn_coef:hru_5637:mon_10 5.0 6.0 4.0
+cecn_coef:hru_5643:mon_10 5.0 6.0 4.0
+cecn_coef:hru_5678:mon_10 5.0 6.0 4.0
+cecn_coef:hru_5679:mon_10 5.0 6.0 4.0
+cecn_coef:hru_5686:mon_10 5.0 6.0 4.0
+cecn_coef:hru_5690:mon_10 5.0 6.0 4.0
+cecn_coef:hru_5693:mon_10 5.0 6.0 4.0
+cecn_coef:hru_5697:mon_10 5.0 6.0 4.0
+cecn_coef:hru_5703:mon_10 5.0 6.0 4.0
+cecn_coef:hru_5728:mon_10 5.0 6.0 4.0
+cecn_coef:hru_7128:mon_10 5.0 6.0 4.0
+cecn_coef:hru_7156:mon_10 5.0 6.0 4.0
+cecn_coef:hru_7157:mon_10 5.0 6.0 4.0
+cecn_coef:hru_5621:mon_11 5.0 6.0 4.0
+cecn_coef:hru_5625:mon_11 5.0 6.0 4.0
+cecn_coef:hru_5628:mon_11 5.0 6.0 4.0
+cecn_coef:hru_5635:mon_11 5.0 6.0 4.0
+cecn_coef:hru_5637:mon_11 5.0 6.0 4.0
+cecn_coef:hru_5643:mon_11 5.0 6.0 4.0
+cecn_coef:hru_5678:mon_11 5.0 6.0 4.0
+cecn_coef:hru_5679:mon_11 5.0 6.0 4.0
+cecn_coef:hru_5686:mon_11 5.0 6.0 4.0
+cecn_coef:hru_5690:mon_11 5.0 6.0 4.0
+cecn_coef:hru_5693:mon_11 5.0 6.0 4.0
+cecn_coef:hru_5697:mon_11 5.0 6.0 4.0
+cecn_coef:hru_5703:mon_11 5.0 6.0 4.0
+cecn_coef:hru_5728:mon_11 5.0 6.0 4.0
+cecn_coef:hru_7128:mon_11 5.0 6.0 4.0
+cecn_coef:hru_7156:mon_11 5.0 6.0 4.0
+cecn_coef:hru_7157:mon_11 5.0 6.0 4.0
+cecn_coef:hru_5621:mon_12 5.0 6.0 4.0
+cecn_coef:hru_5625:mon_12 5.0 6.0 4.0
+cecn_coef:hru_5628:mon_12 5.0 6.0 4.0
+cecn_coef:hru_5635:mon_12 5.0 6.0 4.0
+cecn_coef:hru_5637:mon_12 5.0 6.0 4.0
+cecn_coef:hru_5643:mon_12 5.0 6.0 4.0
+cecn_coef:hru_5678:mon_12 5.0 6.0 4.0
+cecn_coef:hru_5679:mon_12 5.0 6.0 4.0
+cecn_coef:hru_5686:mon_12 5.0 6.0 4.0
+cecn_coef:hru_5690:mon_12 5.0 6.0 4.0
+cecn_coef:hru_5693:mon_12 5.0 6.0 4.0
+cecn_coef:hru_5697:mon_12 5.0 6.0 4.0
+cecn_coef:hru_5703:mon_12 5.0 6.0 4.0
+cecn_coef:hru_5728:mon_12 5.0 6.0 4.0
+cecn_coef:hru_7128:mon_12 5.0 6.0 4.0
+cecn_coef:hru_7156:mon_12 5.0 6.0 4.0
+cecn_coef:hru_7157:mon_12 5.0 6.0 4.0
+emis_noppt:hru_5621 0.757 0.9084 0.6056
+emis_noppt:hru_5625 0.757 0.9084 0.6056
+emis_noppt:hru_5628 0.757 0.9084 0.6056
+emis_noppt:hru_5635 0.757 0.9084 0.6056
+emis_noppt:hru_5637 0.757 0.9084 0.6056
+emis_noppt:hru_5643 0.757 0.9084 0.6056
+emis_noppt:hru_5678 0.757 0.9084 0.6056
+emis_noppt:hru_5679 0.757 0.9084 0.6056
+emis_noppt:hru_5686 0.757 0.9084 0.6056
+emis_noppt:hru_5690 0.757 0.9084 0.6056
+emis_noppt:hru_5693 0.757 0.9084 0.6056
+emis_noppt:hru_5697 0.757 0.9084 0.6056
+emis_noppt:hru_5703 0.757 0.9084 0.6056
+emis_noppt:hru_5728 0.757 0.9084 0.6056
+emis_noppt:hru_7128 0.757 0.9084 0.6056
+emis_noppt:hru_7156 0.757 0.9084 0.6056
+emis_noppt:hru_7157 0.757 0.9084 0.6056
+fastcoef_lin:hru_5621 0.01 0.012 0.008
+fastcoef_lin:hru_5625 0.010001 0.0120012 0.008000799999999999
+fastcoef_lin:hru_5628 0.01 0.012 0.008
+fastcoef_lin:hru_5635 0.010047 0.0120564 0.0080376
+fastcoef_lin:hru_5637 0.01 0.012 0.008
+fastcoef_lin:hru_5643 0.01 0.012 0.008
+fastcoef_lin:hru_5678 0.010001 0.0120012 0.008000799999999999
+fastcoef_lin:hru_5679 0.010001 0.0120012 0.008000799999999999
+fastcoef_lin:hru_5686 0.010006 0.012007199999999999 0.0080048
+fastcoef_lin:hru_5690 0.01 0.012 0.008
+fastcoef_lin:hru_5693 0.010049 0.012058800000000001 0.0080392
+fastcoef_lin:hru_5697 0.01 0.012 0.008
+fastcoef_lin:hru_5703 0.01 0.012 0.008
+fastcoef_lin:hru_5728 0.010007 0.0120084 0.0080056
+fastcoef_lin:hru_7128 0.01 0.012 0.008
+fastcoef_lin:hru_7156 0.010041 0.0120492 0.0080328
+fastcoef_lin:hru_7157 0.010018 0.0120216 0.008014400000000001
+freeh2o_cap:hru_5621 0.05 0.1 0.01
+freeh2o_cap:hru_5625 0.05 0.1 0.01
+freeh2o_cap:hru_5628 0.05 0.1 0.01
+freeh2o_cap:hru_5635 0.05 0.1 0.01
+freeh2o_cap:hru_5637 0.05 0.1 0.01
+freeh2o_cap:hru_5643 0.05 0.1 0.01
+freeh2o_cap:hru_5678 0.05 0.1 0.01
+freeh2o_cap:hru_5679 0.05 0.1 0.01
+freeh2o_cap:hru_5686 0.05 0.1 0.01
+freeh2o_cap:hru_5690 0.05 0.1 0.01
+freeh2o_cap:hru_5693 0.05 0.1 0.01
+freeh2o_cap:hru_5697 0.05 0.1 0.01
+freeh2o_cap:hru_5703 0.05 0.1 0.01
+freeh2o_cap:hru_5728 0.05 0.1 0.01
+freeh2o_cap:hru_7128 0.05 0.1 0.01
+freeh2o_cap:hru_7156 0.05 0.1 0.01
+freeh2o_cap:hru_7157 0.05 0.1 0.01
+gwflow_coef:hru_5621 0.02324 0.027888 0.018592
+gwflow_coef:hru_5625 0.03026 0.036312 0.024208
+gwflow_coef:hru_5628 0.024 0.0288 0.019200000000000002
+gwflow_coef:hru_5635 0.02486 0.029832 0.019888
+gwflow_coef:hru_5637 0.02387 0.028644 0.019096
+gwflow_coef:hru_5643 0.02231 0.026772 0.017848
+gwflow_coef:hru_5678 0.02437 0.029244 0.019496
+gwflow_coef:hru_5679 0.02125 0.025500000000000002 0.017
+gwflow_coef:hru_5686 0.02452 0.029424 0.019616
+gwflow_coef:hru_5690 0.01971 0.023652 0.015767999999999997
+gwflow_coef:hru_5693 0.02106 0.025272 0.016848
+gwflow_coef:hru_5697 0.02568 0.030816000000000003 0.020544
+gwflow_coef:hru_5703 0.02509 0.030108000000000003 0.020072
+gwflow_coef:hru_5728 0.02605 0.03126 0.02084
+gwflow_coef:hru_7128 0.02324 0.027888 0.018592
+gwflow_coef:hru_7156 0.02507 0.030084 0.020055999999999997
+gwflow_coef:hru_7157 0.02328 0.027936 0.018623999999999998
+jh_coef:hru_5621:mon_1 0.005328 0.0063936 0.0042624
+jh_coef:hru_5625:mon_1 0.003798 0.0045576 0.0030384
+jh_coef:hru_5628:mon_1 0.005183 0.0062196000000000005 0.0041464
+jh_coef:hru_5635:mon_1 0.003702 0.0044424 0.0029616
+jh_coef:hru_5637:mon_1 0.005766 0.0069192 0.0046128
+jh_coef:hru_5643:mon_1 0.005504 0.0066048 0.0044032
+jh_coef:hru_5678:mon_1 0.003304 0.0039648 0.0026432
+jh_coef:hru_5679:mon_1 0.002621 0.0031452 0.0020968000000000002
+jh_coef:hru_5686:mon_1 0.003081 0.0036972 0.0024648
+jh_coef:hru_5690:mon_1 0.005058 0.0060696 0.0040464
+jh_coef:hru_5693:mon_1 0.004046 0.0048552000000000005 0.0032368
+jh_coef:hru_5697:mon_1 0.002636 0.0031631999999999997 0.0021088
+jh_coef:hru_5703:mon_1 0.004501 0.0054012 0.0036008
+jh_coef:hru_5728:mon_1 0.004038 0.0048456 0.0032304
+jh_coef:hru_7128:mon_1 0.001805 0.002166 0.001444
+jh_coef:hru_7156:mon_1 0.003285 0.003942 0.002628
+jh_coef:hru_7157:mon_1 0.003779 0.0045348 0.0030231999999999998
+jh_coef:hru_5621:mon_2 0.006583 0.0078996 0.0052664
+jh_coef:hru_5625:mon_2 0.004996 0.005995199999999999 0.0039968
+jh_coef:hru_5628:mon_2 0.006411 0.0076932 0.0051288
+jh_coef:hru_5635:mon_2 0.004964 0.0059568 0.003971199999999999
+jh_coef:hru_5637:mon_2 0.00699 0.008388 0.005592
+jh_coef:hru_5643:mon_2 0.006808 0.008169599999999999 0.0054464
+jh_coef:hru_5678:mon_2 0.004928 0.0059136 0.0039424
+jh_coef:hru_5679:mon_2 0.004126 0.0049512 0.0033008000000000004
+jh_coef:hru_5686:mon_2 0.004594 0.0055128 0.0036752
+jh_coef:hru_5690:mon_2 0.006665 0.007998 0.005332
+jh_coef:hru_5693:mon_2 0.005668 0.0068016000000000005 0.0045344
+jh_coef:hru_5697:mon_2 0.004319 0.0051827999999999996 0.0034552
+jh_coef:hru_5703:mon_2 0.006294 0.0075528 0.0050352
+jh_coef:hru_5728:mon_2 0.005631 0.0067572 0.0045048
+jh_coef:hru_7128:mon_2 0.003608 0.0043296 0.0028864
+jh_coef:hru_7156:mon_2 0.004718 0.0056616 0.0037744
+jh_coef:hru_7157:mon_2 0.005413 0.006495600000000001 0.0043304
+jh_coef:hru_5621:mon_3 0.007218 0.0086616 0.0057744
+jh_coef:hru_5625:mon_3 0.005648 0.0067776 0.0045184000000000005
+jh_coef:hru_5628:mon_3 0.007005 0.008406 0.005604
+jh_coef:hru_5635:mon_3 0.005593 0.0067116 0.0044744
+jh_coef:hru_5637:mon_3 0.007564 0.009076800000000001 0.0060512000000000005
+jh_coef:hru_5643:mon_3 0.007457 0.0089484 0.0059656
+jh_coef:hru_5678:mon_3 0.005685 0.006822 0.004548
+jh_coef:hru_5679:mon_3 0.0049 0.00588 0.00392
+jh_coef:hru_5686:mon_3 0.005312 0.0063744 0.0042496
+jh_coef:hru_5690:mon_3 0.007494 0.0089928 0.0059952
+jh_coef:hru_5693:mon_3 0.006386 0.0076632 0.0051088
+jh_coef:hru_5697:mon_3 0.005251 0.0063012 0.004200799999999999
+jh_coef:hru_5703:mon_3 0.007247 0.0086964 0.0057976
+jh_coef:hru_5728:mon_3 0.006495 0.007794 0.005196
+jh_coef:hru_7128:mon_3 0.004653 0.0055836 0.0037224
+jh_coef:hru_7156:mon_3 0.005513 0.006615599999999999 0.0044104
+jh_coef:hru_7157:mon_3 0.006179 0.007414799999999999 0.0049432
+jh_coef:hru_5621:mon_4 0.007433 0.0089196 0.0059464
+jh_coef:hru_5625:mon_4 0.005908 0.0070896 0.0047264
+jh_coef:hru_5628:mon_4 0.007178 0.0086136 0.0057424
+jh_coef:hru_5635:mon_4 0.005803 0.0069636 0.0046424
+jh_coef:hru_5637:mon_4 0.007719 0.0092628 0.0061752000000000005
+jh_coef:hru_5643:mon_4 0.007649 0.0091788 0.0061192
+jh_coef:hru_5678:mon_4 0.005883 0.0070596 0.0047064
+jh_coef:hru_5679:mon_4 0.005164 0.006196800000000001 0.0041312
+jh_coef:hru_5686:mon_4 0.005548 0.0066576 0.0044384
+jh_coef:hru_5690:mon_4 0.007695 0.009234 0.006156
+jh_coef:hru_5693:mon_4 0.006616 0.0079392 0.0052928
+jh_coef:hru_5697:mon_4 0.005525 0.0066300000000000005 0.00442
+jh_coef:hru_5703:mon_4 0.007482 0.008978400000000001 0.0059856
+jh_coef:hru_5728:mon_4 0.006771 0.0081252 0.0054168
+jh_coef:hru_7128:mon_4 0.0051 0.0061200000000000004 0.00408
+jh_coef:hru_7156:mon_4 0.005881 0.0070572 0.0047048
+jh_coef:hru_7157:mon_4 0.006546 0.0078552 0.0052368
+jh_coef:hru_5621:mon_5 0.00726 0.008712000000000001 0.005808
+jh_coef:hru_5625:mon_5 0.005778 0.0069336 0.0046224000000000005
+jh_coef:hru_5628:mon_5 0.006984 0.0083808 0.0055872
+jh_coef:hru_5635:mon_5 0.005626 0.0067512 0.0045008
+jh_coef:hru_5637:mon_5 0.007511 0.0090132 0.0060088
+jh_coef:hru_5643:mon_5 0.007461 0.0089532 0.0059688
+jh_coef:hru_5678:mon_5 0.00576 0.006912000000000001 0.004608
+jh_coef:hru_5679:mon_5 0.005098 0.0061176 0.0040784
+jh_coef:hru_5686:mon_5 0.005405 0.0064860000000000004 0.004324
+jh_coef:hru_5690:mon_5 0.007534 0.0090408 0.0060272
+jh_coef:hru_5693:mon_5 0.006488 0.0077856 0.0051903999999999995
+jh_coef:hru_5697:mon_5 0.00542 0.006504 0.0043360000000000004
+jh_coef:hru_5703:mon_5 0.007334 0.008800800000000001 0.0058672
+jh_coef:hru_5728:mon_5 0.006703 0.0080436 0.0053624
+jh_coef:hru_7128:mon_5 0.005071 0.0060852 0.0040568
+jh_coef:hru_7156:mon_5 0.005878 0.0070536 0.004702400000000001
+jh_coef:hru_7157:mon_5 0.006496 0.0077952 0.0051968
+jh_coef:hru_5621:mon_6 0.007036 0.0084432 0.0056288
+jh_coef:hru_5625:mon_6 0.005585 0.006702 0.004468
+jh_coef:hru_5628:mon_6 0.00674 0.008088000000000001 0.005392
+jh_coef:hru_5635:mon_6 0.0054 0.0064800000000000005 0.00432
+jh_coef:hru_5637:mon_6 0.007258 0.0087096 0.0058064
+jh_coef:hru_5643:mon_6 0.007221 0.0086652 0.0057768
+jh_coef:hru_5678:mon_6 0.005554 0.0066648 0.0044432
+jh_coef:hru_5679:mon_6 0.004936 0.0059232 0.003948800000000001
+jh_coef:hru_5686:mon_6 0.005197 0.0062364000000000005 0.0041576
+jh_coef:hru_5690:mon_6 0.0073 0.00876 0.00584
+jh_coef:hru_5693:mon_6 0.006278 0.0075336 0.0050224
+jh_coef:hru_5697:mon_6 0.005223 0.0062676 0.0041784000000000005
+jh_coef:hru_5703:mon_6 0.007107 0.0085284 0.0056856
+jh_coef:hru_5728:mon_6 0.006525 0.00783 0.005220000000000001
+jh_coef:hru_7128:mon_6 0.004915 0.0058980000000000005 0.003932
+jh_coef:hru_7156:mon_6 0.005772 0.0069264 0.0046176
+jh_coef:hru_7157:mon_6 0.006336 0.007603199999999999 0.0050688
+jh_coef:hru_5621:mon_7 0.006613 0.007935600000000001 0.0052904
+jh_coef:hru_5625:mon_7 0.005186 0.0062232 0.004148799999999999
+jh_coef:hru_5628:mon_7 0.006308 0.0075696 0.0050464
+jh_coef:hru_5635:mon_7 0.004972 0.0059664 0.0039775999999999995
+jh_coef:hru_5637:mon_7 0.006822 0.0081864 0.0054576
+jh_coef:hru_5643:mon_7 0.006785 0.008142 0.0054280000000000005
+jh_coef:hru_5678:mon_7 0.005079 0.0060948 0.0040632
+jh_coef:hru_5679:mon_7 0.004498 0.005397600000000001 0.0035984000000000003
+jh_coef:hru_5686:mon_7 0.004747 0.005696400000000001 0.0037976000000000004
+jh_coef:hru_5690:mon_7 0.006824 0.0081888 0.0054592
+jh_coef:hru_5693:mon_7 0.005815 0.006978 0.004652
+jh_coef:hru_5697:mon_7 0.00476 0.005712 0.003808
+jh_coef:hru_5703:mon_7 0.006625 0.00795 0.0053
+jh_coef:hru_5728:mon_7 0.006078 0.0072936 0.0048624
+jh_coef:hru_7128:mon_7 0.004497 0.0053964 0.0035976000000000003
+jh_coef:hru_7156:mon_7 0.005381 0.006457200000000001 0.0043048
+jh_coef:hru_7157:mon_7 0.005926 0.0071112 0.0047408
+jh_coef:hru_5621:mon_8 0.006871 0.008245200000000001 0.0054968000000000005
+jh_coef:hru_5625:mon_8 0.005434 0.006520799999999999 0.0043472
+jh_coef:hru_5628:mon_8 0.006567 0.0078804 0.0052536
+jh_coef:hru_5635:mon_8 0.005233 0.0062796 0.0041864
+jh_coef:hru_5637:mon_8 0.007083 0.0084996 0.0056664
+jh_coef:hru_5643:mon_8 0.007044 0.0084528 0.0056352
+jh_coef:hru_5678:mon_8 0.005348 0.006417600000000001 0.0042784
+jh_coef:hru_5679:mon_8 0.004749 0.0056987999999999995 0.0037992
+jh_coef:hru_5686:mon_8 0.004997 0.0059964 0.0039976
+jh_coef:hru_5690:mon_8 0.007093 0.008511600000000001 0.0056744000000000005
+jh_coef:hru_5693:mon_8 0.006072 0.0072864 0.0048576
+jh_coef:hru_5697:mon_8 0.005014 0.0060168 0.0040112
+jh_coef:hru_5703:mon_8 0.006894 0.0082728 0.0055152
+jh_coef:hru_5728:mon_8 0.006322 0.0075864 0.005057600000000001
+jh_coef:hru_7128:mon_8 0.004709 0.005650799999999999 0.0037671999999999996
+jh_coef:hru_7156:mon_8 0.00558 0.006696 0.004464
+jh_coef:hru_7157:mon_8 0.006138 0.0073656 0.0049104000000000005
+jh_coef:hru_5621:mon_9 0.007174 0.0086088 0.0057392
+jh_coef:hru_5625:mon_9 0.005708 0.006849600000000001 0.0045664
+jh_coef:hru_5628:mon_9 0.006882 0.0082584 0.0055056
+jh_coef:hru_5635:mon_9 0.005538 0.006645600000000001 0.0044304
+jh_coef:hru_5637:mon_9 0.007403 0.0088836 0.0059223999999999995
+jh_coef:hru_5643:mon_9 0.007349 0.0088188 0.005879199999999999
+jh_coef:hru_5678:mon_9 0.00566 0.006792 0.004528
+jh_coef:hru_5679:mon_9 0.005022 0.0060264 0.0040176000000000005
+jh_coef:hru_5686:mon_9 0.005314 0.0063768 0.0042512
+jh_coef:hru_5690:mon_9 0.007393 0.0088716 0.0059144
+jh_coef:hru_5693:mon_9 0.006381 0.0076572 0.0051048000000000005
+jh_coef:hru_5697:mon_9 0.00525 0.0063 0.004200000000000001
+jh_coef:hru_5703:mon_9 0.007121 0.0085452 0.0056968
+jh_coef:hru_5728:mon_9 0.006563 0.0078756 0.0052504000000000006
+jh_coef:hru_7128:mon_9 0.004876 0.0058512 0.0039008000000000003
+jh_coef:hru_7156:mon_9 0.00581 0.006972 0.004648
+jh_coef:hru_7157:mon_9 0.006377 0.0076524 0.0051015999999999995
+jh_coef:hru_5621:mon_10 0.00766 0.009192 0.006128
+jh_coef:hru_5625:mon_10 0.006138 0.0073656 0.0049104000000000005
+jh_coef:hru_5628:mon_10 0.007399 0.008878800000000001 0.0059192
+jh_coef:hru_5635:mon_10 0.006029 0.0072347999999999996 0.0048232
+jh_coef:hru_5637:mon_10 0.007937 0.009524399999999999 0.0063495999999999995
+jh_coef:hru_5643:mon_10 0.007844 0.0094128 0.0062752
+jh_coef:hru_5678:mon_10 0.006095 0.007313999999999999 0.004876
+jh_coef:hru_5679:mon_10 0.005378 0.0064536 0.0043024
+jh_coef:hru_5686:mon_10 0.005797 0.0069564 0.0046376
+jh_coef:hru_5690:mon_10 0.007911 0.0094932 0.0063288
+jh_coef:hru_5693:mon_10 0.006825 0.008190000000000001 0.0054600000000000004
+jh_coef:hru_5697:mon_10 0.005676 0.0068112 0.004540799999999999
+jh_coef:hru_5703:mon_10 0.007596 0.0091152 0.0060768
+jh_coef:hru_5728:mon_10 0.006985 0.008382 0.005588
+jh_coef:hru_7128:mon_10 0.00516 0.006192 0.004128
+jh_coef:hru_7156:mon_10 0.006118 0.0073416 0.0048944
+jh_coef:hru_7157:mon_10 0.00673 0.008076 0.005384
+jh_coef:hru_5621:mon_11 0.007095 0.008514 0.005676
+jh_coef:hru_5625:mon_11 0.005553 0.0066635999999999996 0.0044424
+jh_coef:hru_5628:mon_11 0.00688 0.008256 0.005504
+jh_coef:hru_5635:mon_11 0.005466 0.0065592 0.0043728000000000005
+jh_coef:hru_5637:mon_11 0.007436 0.0089232 0.0059488
+jh_coef:hru_5643:mon_11 0.007274 0.0087288 0.0058192
+jh_coef:hru_5678:mon_11 0.005379 0.0064548 0.0043032
+jh_coef:hru_5679:mon_11 0.004647 0.0055764000000000005 0.0037176
+jh_coef:hru_5686:mon_11 0.005123 0.0061476 0.0040984
+jh_coef:hru_5690:mon_11 0.007229 0.0086748 0.0057832000000000005
+jh_coef:hru_5693:mon_11 0.006121 0.0073452 0.0048968
+jh_coef:hru_5697:mon_11 0.004886 0.0058632 0.0039088
+jh_coef:hru_5703:mon_11 0.006767 0.0081204 0.005413599999999999
+jh_coef:hru_5728:mon_11 0.006227 0.0074724 0.0049816
+jh_coef:hru_7128:mon_11 0.004227 0.0050723999999999995 0.0033816
+jh_coef:hru_7156:mon_11 0.005369 0.006442799999999999 0.0042952
+jh_coef:hru_7157:mon_11 0.005937 0.0071243999999999995 0.0047496
+jh_coef:hru_5621:mon_12 0.005596 0.0067152 0.0044768
+jh_coef:hru_5625:mon_12 0.00408 0.004896 0.0032640000000000004
+jh_coef:hru_5628:mon_12 0.005431 0.0065172 0.0043448
+jh_coef:hru_5635:mon_12 0.003969 0.0047628 0.0031752000000000004
+jh_coef:hru_5637:mon_12 0.006003 0.007203599999999999 0.0048024
+jh_coef:hru_5643:mon_12 0.005749 0.0068988 0.0045991999999999995
+jh_coef:hru_5678:mon_12 0.0037 0.00444 0.00296
+jh_coef:hru_5679:mon_12 0.003018 0.0036216 0.0024143999999999997
+jh_coef:hru_5686:mon_12 0.003449 0.0041388 0.0027592
+jh_coef:hru_5690:mon_12 0.005456 0.0065471999999999995 0.0043648
+jh_coef:hru_5693:mon_12 0.004426 0.0053112 0.0035408
+jh_coef:hru_5697:mon_12 0.002996 0.0035952 0.0023968
+jh_coef:hru_5703:mon_12 0.00481 0.005772 0.003848
+jh_coef:hru_5728:mon_12 0.00445 0.00534 0.00356
+jh_coef:hru_7128:mon_12 0.002154 0.0025848 0.0017232
+jh_coef:hru_7156:mon_12 0.003715 0.004458 0.002972
+jh_coef:hru_7157:mon_12 0.004152 0.0049824000000000005 0.0033216
+mann_n:seg_2308 0.035809 0.0429708 0.0286472
+mann_n:seg_2309 0.018 0.021599999999999998 0.0144
+mann_n:seg_2310 0.033925 0.040709999999999996 0.027139999999999997
+mann_n:seg_2289 0.043858 0.0526296 0.035086400000000004
+mann_n:seg_2290 0.042547 0.0510564 0.0340376
+mann_n:seg_2292 0.03228 0.03873600000000001 0.025824000000000003
+mann_n:seg_2294 0.032289 0.0387468 0.0258312
+mann_n:seg_2300 0.037756 0.0453072 0.030204799999999997
+mann_n:seg_2302 0.034171 0.0410052 0.0273368
+mann_n:seg_2303 0.028171 0.0338052 0.022536800000000003
+potet_sublim:hru_5621 0.5 0.6 0.4
+potet_sublim:hru_5625 0.5 0.6 0.4
+potet_sublim:hru_5628 0.5 0.6 0.4
+potet_sublim:hru_5635 0.5 0.6 0.4
+potet_sublim:hru_5637 0.5 0.6 0.4
+potet_sublim:hru_5643 0.5 0.6 0.4
+potet_sublim:hru_5678 0.5 0.6 0.4
+potet_sublim:hru_5679 0.5 0.6 0.4
+potet_sublim:hru_5686 0.5 0.6 0.4
+potet_sublim:hru_5690 0.5 0.6 0.4
+potet_sublim:hru_5693 0.5 0.6 0.4
+potet_sublim:hru_5697 0.5 0.6 0.4
+potet_sublim:hru_5703 0.5 0.6 0.4
+potet_sublim:hru_5728 0.5 0.6 0.4
+potet_sublim:hru_7128 0.5 0.6 0.4
+potet_sublim:hru_7156 0.5 0.6 0.4
+potet_sublim:hru_7157 0.5 0.6 0.4
+rad_trncf:hru_5621 0.773174 0.9278088 0.6185392000000001
+rad_trncf:hru_5625 0.393962 0.47275439999999996 0.3151696
+rad_trncf:hru_5628 0.702686 0.8432232000000001 0.5621488
+rad_trncf:hru_5635 0.659251 0.7911012000000001 0.5274008
+rad_trncf:hru_5637 0.716718 0.8600616 0.5733744
+rad_trncf:hru_5643 0.782832 0.9393984 0.6262656
+rad_trncf:hru_5678 0.461051 0.5532612 0.36884079999999997
+rad_trncf:hru_5679 0.506878 0.6082536000000001 0.40550240000000004
+rad_trncf:hru_5686 0.55529 0.6663479999999999 0.44423199999999996
+rad_trncf:hru_5690 0.796068 0.9552816 0.6368544
+rad_trncf:hru_5693 0.692283 0.8307396 0.5538263999999999
+rad_trncf:hru_5697 0.680733 0.8168796 0.5445864
+rad_trncf:hru_5703 0.808848 0.9706176 0.6470784
+rad_trncf:hru_5728 0.476345 0.5716140000000001 0.381076
+rad_trncf:hru_7128 0.727036 0.8724432 0.5816288000000001
+rad_trncf:hru_7156 0.482887 0.5794644 0.38630960000000003
+rad_trncf:hru_7157 0.499396 0.5992752 0.3995168
+radmax:hru_5621:mon_1 0.8 1.0 0.5
+radmax:hru_5625:mon_1 0.8 1.0 0.5
+radmax:hru_5628:mon_1 0.8 1.0 0.5
+radmax:hru_5635:mon_1 0.8 1.0 0.5
+radmax:hru_5637:mon_1 0.8 1.0 0.5
+radmax:hru_5643:mon_1 0.8 1.0 0.5
+radmax:hru_5678:mon_1 0.8 1.0 0.5
+radmax:hru_5679:mon_1 0.8 1.0 0.5
+radmax:hru_5686:mon_1 0.8 1.0 0.5
+radmax:hru_5690:mon_1 0.8 1.0 0.5
+radmax:hru_5693:mon_1 0.8 1.0 0.5
+radmax:hru_5697:mon_1 0.8 1.0 0.5
+radmax:hru_5703:mon_1 0.8 1.0 0.5
+radmax:hru_5728:mon_1 0.8 1.0 0.5
+radmax:hru_7128:mon_1 0.8 1.0 0.5
+radmax:hru_7156:mon_1 0.8 1.0 0.5
+radmax:hru_7157:mon_1 0.8 1.0 0.5
+radmax:hru_5621:mon_2 0.8 1.0 0.5
+radmax:hru_5625:mon_2 0.8 1.0 0.5
+radmax:hru_5628:mon_2 0.8 1.0 0.5
+radmax:hru_5635:mon_2 0.8 1.0 0.5
+radmax:hru_5637:mon_2 0.8 1.0 0.5
+radmax:hru_5643:mon_2 0.8 1.0 0.5
+radmax:hru_5678:mon_2 0.8 1.0 0.5
+radmax:hru_5679:mon_2 0.8 1.0 0.5
+radmax:hru_5686:mon_2 0.8 1.0 0.5
+radmax:hru_5690:mon_2 0.8 1.0 0.5
+radmax:hru_5693:mon_2 0.8 1.0 0.5
+radmax:hru_5697:mon_2 0.8 1.0 0.5
+radmax:hru_5703:mon_2 0.8 1.0 0.5
+radmax:hru_5728:mon_2 0.8 1.0 0.5
+radmax:hru_7128:mon_2 0.8 1.0 0.5
+radmax:hru_7156:mon_2 0.8 1.0 0.5
+radmax:hru_7157:mon_2 0.8 1.0 0.5
+radmax:hru_5621:mon_3 0.8 1.0 0.5
+radmax:hru_5625:mon_3 0.8 1.0 0.5
+radmax:hru_5628:mon_3 0.8 1.0 0.5
+radmax:hru_5635:mon_3 0.8 1.0 0.5
+radmax:hru_5637:mon_3 0.8 1.0 0.5
+radmax:hru_5643:mon_3 0.8 1.0 0.5
+radmax:hru_5678:mon_3 0.8 1.0 0.5
+radmax:hru_5679:mon_3 0.8 1.0 0.5
+radmax:hru_5686:mon_3 0.8 1.0 0.5
+radmax:hru_5690:mon_3 0.8 1.0 0.5
+radmax:hru_5693:mon_3 0.8 1.0 0.5
+radmax:hru_5697:mon_3 0.8 1.0 0.5
+radmax:hru_5703:mon_3 0.8 1.0 0.5
+radmax:hru_5728:mon_3 0.8 1.0 0.5
+radmax:hru_7128:mon_3 0.8 1.0 0.5
+radmax:hru_7156:mon_3 0.8 1.0 0.5
+radmax:hru_7157:mon_3 0.8 1.0 0.5
+radmax:hru_5621:mon_4 0.8 1.0 0.5
+radmax:hru_5625:mon_4 0.8 1.0 0.5
+radmax:hru_5628:mon_4 0.8 1.0 0.5
+radmax:hru_5635:mon_4 0.8 1.0 0.5
+radmax:hru_5637:mon_4 0.8 1.0 0.5
+radmax:hru_5643:mon_4 0.8 1.0 0.5
+radmax:hru_5678:mon_4 0.8 1.0 0.5
+radmax:hru_5679:mon_4 0.8 1.0 0.5
+radmax:hru_5686:mon_4 0.8 1.0 0.5
+radmax:hru_5690:mon_4 0.8 1.0 0.5
+radmax:hru_5693:mon_4 0.8 1.0 0.5
+radmax:hru_5697:mon_4 0.8 1.0 0.5
+radmax:hru_5703:mon_4 0.8 1.0 0.5
+radmax:hru_5728:mon_4 0.8 1.0 0.5
+radmax:hru_7128:mon_4 0.8 1.0 0.5
+radmax:hru_7156:mon_4 0.8 1.0 0.5
+radmax:hru_7157:mon_4 0.8 1.0 0.5
+radmax:hru_5621:mon_5 0.8 1.0 0.5
+radmax:hru_5625:mon_5 0.8 1.0 0.5
+radmax:hru_5628:mon_5 0.8 1.0 0.5
+radmax:hru_5635:mon_5 0.8 1.0 0.5
+radmax:hru_5637:mon_5 0.8 1.0 0.5
+radmax:hru_5643:mon_5 0.8 1.0 0.5
+radmax:hru_5678:mon_5 0.8 1.0 0.5
+radmax:hru_5679:mon_5 0.8 1.0 0.5
+radmax:hru_5686:mon_5 0.8 1.0 0.5
+radmax:hru_5690:mon_5 0.8 1.0 0.5
+radmax:hru_5693:mon_5 0.8 1.0 0.5
+radmax:hru_5697:mon_5 0.8 1.0 0.5
+radmax:hru_5703:mon_5 0.8 1.0 0.5
+radmax:hru_5728:mon_5 0.8 1.0 0.5
+radmax:hru_7128:mon_5 0.8 1.0 0.5
+radmax:hru_7156:mon_5 0.8 1.0 0.5
+radmax:hru_7157:mon_5 0.8 1.0 0.5
+radmax:hru_5621:mon_6 0.8 1.0 0.5
+radmax:hru_5625:mon_6 0.8 1.0 0.5
+radmax:hru_5628:mon_6 0.8 1.0 0.5
+radmax:hru_5635:mon_6 0.8 1.0 0.5
+radmax:hru_5637:mon_6 0.8 1.0 0.5
+radmax:hru_5643:mon_6 0.8 1.0 0.5
+radmax:hru_5678:mon_6 0.8 1.0 0.5
+radmax:hru_5679:mon_6 0.8 1.0 0.5
+radmax:hru_5686:mon_6 0.8 1.0 0.5
+radmax:hru_5690:mon_6 0.8 1.0 0.5
+radmax:hru_5693:mon_6 0.8 1.0 0.5
+radmax:hru_5697:mon_6 0.8 1.0 0.5
+radmax:hru_5703:mon_6 0.8 1.0 0.5
+radmax:hru_5728:mon_6 0.8 1.0 0.5
+radmax:hru_7128:mon_6 0.8 1.0 0.5
+radmax:hru_7156:mon_6 0.8 1.0 0.5
+radmax:hru_7157:mon_6 0.8 1.0 0.5
+radmax:hru_5621:mon_7 0.8 1.0 0.5
+radmax:hru_5625:mon_7 0.8 1.0 0.5
+radmax:hru_5628:mon_7 0.8 1.0 0.5
+radmax:hru_5635:mon_7 0.8 1.0 0.5
+radmax:hru_5637:mon_7 0.8 1.0 0.5
+radmax:hru_5643:mon_7 0.8 1.0 0.5
+radmax:hru_5678:mon_7 0.8 1.0 0.5
+radmax:hru_5679:mon_7 0.8 1.0 0.5
+radmax:hru_5686:mon_7 0.8 1.0 0.5
+radmax:hru_5690:mon_7 0.8 1.0 0.5
+radmax:hru_5693:mon_7 0.8 1.0 0.5
+radmax:hru_5697:mon_7 0.8 1.0 0.5
+radmax:hru_5703:mon_7 0.8 1.0 0.5
+radmax:hru_5728:mon_7 0.8 1.0 0.5
+radmax:hru_7128:mon_7 0.8 1.0 0.5
+radmax:hru_7156:mon_7 0.8 1.0 0.5
+radmax:hru_7157:mon_7 0.8 1.0 0.5
+radmax:hru_5621:mon_8 0.8 1.0 0.5
+radmax:hru_5625:mon_8 0.8 1.0 0.5
+radmax:hru_5628:mon_8 0.8 1.0 0.5
+radmax:hru_5635:mon_8 0.8 1.0 0.5
+radmax:hru_5637:mon_8 0.8 1.0 0.5
+radmax:hru_5643:mon_8 0.8 1.0 0.5
+radmax:hru_5678:mon_8 0.8 1.0 0.5
+radmax:hru_5679:mon_8 0.8 1.0 0.5
+radmax:hru_5686:mon_8 0.8 1.0 0.5
+radmax:hru_5690:mon_8 0.8 1.0 0.5
+radmax:hru_5693:mon_8 0.8 1.0 0.5
+radmax:hru_5697:mon_8 0.8 1.0 0.5
+radmax:hru_5703:mon_8 0.8 1.0 0.5
+radmax:hru_5728:mon_8 0.8 1.0 0.5
+radmax:hru_7128:mon_8 0.8 1.0 0.5
+radmax:hru_7156:mon_8 0.8 1.0 0.5
+radmax:hru_7157:mon_8 0.8 1.0 0.5
+radmax:hru_5621:mon_9 0.8 1.0 0.5
+radmax:hru_5625:mon_9 0.8 1.0 0.5
+radmax:hru_5628:mon_9 0.8 1.0 0.5
+radmax:hru_5635:mon_9 0.8 1.0 0.5
+radmax:hru_5637:mon_9 0.8 1.0 0.5
+radmax:hru_5643:mon_9 0.8 1.0 0.5
+radmax:hru_5678:mon_9 0.8 1.0 0.5
+radmax:hru_5679:mon_9 0.8 1.0 0.5
+radmax:hru_5686:mon_9 0.8 1.0 0.5
+radmax:hru_5690:mon_9 0.8 1.0 0.5
+radmax:hru_5693:mon_9 0.8 1.0 0.5
+radmax:hru_5697:mon_9 0.8 1.0 0.5
+radmax:hru_5703:mon_9 0.8 1.0 0.5
+radmax:hru_5728:mon_9 0.8 1.0 0.5
+radmax:hru_7128:mon_9 0.8 1.0 0.5
+radmax:hru_7156:mon_9 0.8 1.0 0.5
+radmax:hru_7157:mon_9 0.8 1.0 0.5
+radmax:hru_5621:mon_10 0.8 1.0 0.5
+radmax:hru_5625:mon_10 0.8 1.0 0.5
+radmax:hru_5628:mon_10 0.8 1.0 0.5
+radmax:hru_5635:mon_10 0.8 1.0 0.5
+radmax:hru_5637:mon_10 0.8 1.0 0.5
+radmax:hru_5643:mon_10 0.8 1.0 0.5
+radmax:hru_5678:mon_10 0.8 1.0 0.5
+radmax:hru_5679:mon_10 0.8 1.0 0.5
+radmax:hru_5686:mon_10 0.8 1.0 0.5
+radmax:hru_5690:mon_10 0.8 1.0 0.5
+radmax:hru_5693:mon_10 0.8 1.0 0.5
+radmax:hru_5697:mon_10 0.8 1.0 0.5
+radmax:hru_5703:mon_10 0.8 1.0 0.5
+radmax:hru_5728:mon_10 0.8 1.0 0.5
+radmax:hru_7128:mon_10 0.8 1.0 0.5
+radmax:hru_7156:mon_10 0.8 1.0 0.5
+radmax:hru_7157:mon_10 0.8 1.0 0.5
+radmax:hru_5621:mon_11 0.8 1.0 0.5
+radmax:hru_5625:mon_11 0.8 1.0 0.5
+radmax:hru_5628:mon_11 0.8 1.0 0.5
+radmax:hru_5635:mon_11 0.8 1.0 0.5
+radmax:hru_5637:mon_11 0.8 1.0 0.5
+radmax:hru_5643:mon_11 0.8 1.0 0.5
+radmax:hru_5678:mon_11 0.8 1.0 0.5
+radmax:hru_5679:mon_11 0.8 1.0 0.5
+radmax:hru_5686:mon_11 0.8 1.0 0.5
+radmax:hru_5690:mon_11 0.8 1.0 0.5
+radmax:hru_5693:mon_11 0.8 1.0 0.5
+radmax:hru_5697:mon_11 0.8 1.0 0.5
+radmax:hru_5703:mon_11 0.8 1.0 0.5
+radmax:hru_5728:mon_11 0.8 1.0 0.5
+radmax:hru_7128:mon_11 0.8 1.0 0.5
+radmax:hru_7156:mon_11 0.8 1.0 0.5
+radmax:hru_7157:mon_11 0.8 1.0 0.5
+radmax:hru_5621:mon_12 0.8 1.0 0.5
+radmax:hru_5625:mon_12 0.8 1.0 0.5
+radmax:hru_5628:mon_12 0.8 1.0 0.5
+radmax:hru_5635:mon_12 0.8 1.0 0.5
+radmax:hru_5637:mon_12 0.8 1.0 0.5
+radmax:hru_5643:mon_12 0.8 1.0 0.5
+radmax:hru_5678:mon_12 0.8 1.0 0.5
+radmax:hru_5679:mon_12 0.8 1.0 0.5
+radmax:hru_5686:mon_12 0.8 1.0 0.5
+radmax:hru_5690:mon_12 0.8 1.0 0.5
+radmax:hru_5693:mon_12 0.8 1.0 0.5
+radmax:hru_5697:mon_12 0.8 1.0 0.5
+radmax:hru_5703:mon_12 0.8 1.0 0.5
+radmax:hru_5728:mon_12 0.8 1.0 0.5
+radmax:hru_7128:mon_12 0.8 1.0 0.5
+radmax:hru_7156:mon_12 0.8 1.0 0.5
+radmax:hru_7157:mon_12 0.8 1.0 0.5
+rain_cbh_adj:hru_5621:mon_1 1.0 1.75 0.5
+rain_cbh_adj:hru_5625:mon_1 1.0 1.75 0.5
+rain_cbh_adj:hru_5628:mon_1 1.0 1.75 0.5
+rain_cbh_adj:hru_5635:mon_1 1.0 1.75 0.5
+rain_cbh_adj:hru_5637:mon_1 1.0 1.75 0.5
+rain_cbh_adj:hru_5643:mon_1 1.0 1.75 0.5
+rain_cbh_adj:hru_5678:mon_1 1.0 1.75 0.5
+rain_cbh_adj:hru_5679:mon_1 1.0 1.75 0.5
+rain_cbh_adj:hru_5686:mon_1 1.0 1.75 0.5
+rain_cbh_adj:hru_5690:mon_1 1.0 1.75 0.5
+rain_cbh_adj:hru_5693:mon_1 1.0 1.75 0.5
+rain_cbh_adj:hru_5697:mon_1 1.0 1.75 0.5
+rain_cbh_adj:hru_5703:mon_1 1.0 1.75 0.5
+rain_cbh_adj:hru_5728:mon_1 1.0 1.75 0.5
+rain_cbh_adj:hru_7128:mon_1 1.0 1.75 0.5
+rain_cbh_adj:hru_7156:mon_1 1.0 1.75 0.5
+rain_cbh_adj:hru_7157:mon_1 1.0 1.75 0.5
+rain_cbh_adj:hru_5621:mon_2 1.0 1.75 0.5
+rain_cbh_adj:hru_5625:mon_2 1.0 1.75 0.5
+rain_cbh_adj:hru_5628:mon_2 1.0 1.75 0.5
+rain_cbh_adj:hru_5635:mon_2 1.0 1.75 0.5
+rain_cbh_adj:hru_5637:mon_2 1.0 1.75 0.5
+rain_cbh_adj:hru_5643:mon_2 1.0 1.75 0.5
+rain_cbh_adj:hru_5678:mon_2 1.0 1.75 0.5
+rain_cbh_adj:hru_5679:mon_2 1.0 1.75 0.5
+rain_cbh_adj:hru_5686:mon_2 1.0 1.75 0.5
+rain_cbh_adj:hru_5690:mon_2 1.0 1.75 0.5
+rain_cbh_adj:hru_5693:mon_2 1.0 1.75 0.5
+rain_cbh_adj:hru_5697:mon_2 1.0 1.75 0.5
+rain_cbh_adj:hru_5703:mon_2 1.0 1.75 0.5
+rain_cbh_adj:hru_5728:mon_2 1.0 1.75 0.5
+rain_cbh_adj:hru_7128:mon_2 1.0 1.75 0.5
+rain_cbh_adj:hru_7156:mon_2 1.0 1.75 0.5
+rain_cbh_adj:hru_7157:mon_2 1.0 1.75 0.5
+rain_cbh_adj:hru_5621:mon_3 1.0 1.75 0.5
+rain_cbh_adj:hru_5625:mon_3 1.0 1.75 0.5
+rain_cbh_adj:hru_5628:mon_3 1.0 1.75 0.5
+rain_cbh_adj:hru_5635:mon_3 1.0 1.75 0.5
+rain_cbh_adj:hru_5637:mon_3 1.0 1.75 0.5
+rain_cbh_adj:hru_5643:mon_3 1.0 1.75 0.5
+rain_cbh_adj:hru_5678:mon_3 1.0 1.75 0.5
+rain_cbh_adj:hru_5679:mon_3 1.0 1.75 0.5
+rain_cbh_adj:hru_5686:mon_3 1.0 1.75 0.5
+rain_cbh_adj:hru_5690:mon_3 1.0 1.75 0.5
+rain_cbh_adj:hru_5693:mon_3 1.0 1.75 0.5
+rain_cbh_adj:hru_5697:mon_3 1.0 1.75 0.5
+rain_cbh_adj:hru_5703:mon_3 1.0 1.75 0.5
+rain_cbh_adj:hru_5728:mon_3 1.0 1.75 0.5
+rain_cbh_adj:hru_7128:mon_3 1.0 1.75 0.5
+rain_cbh_adj:hru_7156:mon_3 1.0 1.75 0.5
+rain_cbh_adj:hru_7157:mon_3 1.0 1.75 0.5
+rain_cbh_adj:hru_5621:mon_4 1.0 1.75 0.5
+rain_cbh_adj:hru_5625:mon_4 1.0 1.75 0.5
+rain_cbh_adj:hru_5628:mon_4 1.0 1.75 0.5
+rain_cbh_adj:hru_5635:mon_4 1.0 1.75 0.5
+rain_cbh_adj:hru_5637:mon_4 1.0 1.75 0.5
+rain_cbh_adj:hru_5643:mon_4 1.0 1.75 0.5
+rain_cbh_adj:hru_5678:mon_4 1.0 1.75 0.5
+rain_cbh_adj:hru_5679:mon_4 1.0 1.75 0.5
+rain_cbh_adj:hru_5686:mon_4 1.0 1.75 0.5
+rain_cbh_adj:hru_5690:mon_4 1.0 1.75 0.5
+rain_cbh_adj:hru_5693:mon_4 1.0 1.75 0.5
+rain_cbh_adj:hru_5697:mon_4 1.0 1.75 0.5
+rain_cbh_adj:hru_5703:mon_4 1.0 1.75 0.5
+rain_cbh_adj:hru_5728:mon_4 1.0 1.75 0.5
+rain_cbh_adj:hru_7128:mon_4 1.0 1.75 0.5
+rain_cbh_adj:hru_7156:mon_4 1.0 1.75 0.5
+rain_cbh_adj:hru_7157:mon_4 1.0 1.75 0.5
+rain_cbh_adj:hru_5621:mon_5 1.0 1.75 0.5
+rain_cbh_adj:hru_5625:mon_5 1.0 1.75 0.5
+rain_cbh_adj:hru_5628:mon_5 1.0 1.75 0.5
+rain_cbh_adj:hru_5635:mon_5 1.0 1.75 0.5
+rain_cbh_adj:hru_5637:mon_5 1.0 1.75 0.5
+rain_cbh_adj:hru_5643:mon_5 1.0 1.75 0.5
+rain_cbh_adj:hru_5678:mon_5 1.0 1.75 0.5
+rain_cbh_adj:hru_5679:mon_5 1.0 1.75 0.5
+rain_cbh_adj:hru_5686:mon_5 1.0 1.75 0.5
+rain_cbh_adj:hru_5690:mon_5 1.0 1.75 0.5
+rain_cbh_adj:hru_5693:mon_5 1.0 1.75 0.5
+rain_cbh_adj:hru_5697:mon_5 1.0 1.75 0.5
+rain_cbh_adj:hru_5703:mon_5 1.0 1.75 0.5
+rain_cbh_adj:hru_5728:mon_5 1.0 1.75 0.5
+rain_cbh_adj:hru_7128:mon_5 1.0 1.75 0.5
+rain_cbh_adj:hru_7156:mon_5 1.0 1.75 0.5
+rain_cbh_adj:hru_7157:mon_5 1.0 1.75 0.5
+rain_cbh_adj:hru_5621:mon_6 1.0 1.75 0.5
+rain_cbh_adj:hru_5625:mon_6 1.0 1.75 0.5
+rain_cbh_adj:hru_5628:mon_6 1.0 1.75 0.5
+rain_cbh_adj:hru_5635:mon_6 1.0 1.75 0.5
+rain_cbh_adj:hru_5637:mon_6 1.0 1.75 0.5
+rain_cbh_adj:hru_5643:mon_6 1.0 1.75 0.5
+rain_cbh_adj:hru_5678:mon_6 1.0 1.75 0.5
+rain_cbh_adj:hru_5679:mon_6 1.0 1.75 0.5
+rain_cbh_adj:hru_5686:mon_6 1.0 1.75 0.5
+rain_cbh_adj:hru_5690:mon_6 1.0 1.75 0.5
+rain_cbh_adj:hru_5693:mon_6 1.0 1.75 0.5
+rain_cbh_adj:hru_5697:mon_6 1.0 1.75 0.5
+rain_cbh_adj:hru_5703:mon_6 1.0 1.75 0.5
+rain_cbh_adj:hru_5728:mon_6 1.0 1.75 0.5
+rain_cbh_adj:hru_7128:mon_6 1.0 1.75 0.5
+rain_cbh_adj:hru_7156:mon_6 1.0 1.75 0.5
+rain_cbh_adj:hru_7157:mon_6 1.0 1.75 0.5
+rain_cbh_adj:hru_5621:mon_7 1.0 1.75 0.5
+rain_cbh_adj:hru_5625:mon_7 1.0 1.75 0.5
+rain_cbh_adj:hru_5628:mon_7 1.0 1.75 0.5
+rain_cbh_adj:hru_5635:mon_7 1.0 1.75 0.5
+rain_cbh_adj:hru_5637:mon_7 1.0 1.75 0.5
+rain_cbh_adj:hru_5643:mon_7 1.0 1.75 0.5
+rain_cbh_adj:hru_5678:mon_7 1.0 1.75 0.5
+rain_cbh_adj:hru_5679:mon_7 1.0 1.75 0.5
+rain_cbh_adj:hru_5686:mon_7 1.0 1.75 0.5
+rain_cbh_adj:hru_5690:mon_7 1.0 1.75 0.5
+rain_cbh_adj:hru_5693:mon_7 1.0 1.75 0.5
+rain_cbh_adj:hru_5697:mon_7 1.0 1.75 0.5
+rain_cbh_adj:hru_5703:mon_7 1.0 1.75 0.5
+rain_cbh_adj:hru_5728:mon_7 1.0 1.75 0.5
+rain_cbh_adj:hru_7128:mon_7 1.0 1.75 0.5
+rain_cbh_adj:hru_7156:mon_7 1.0 1.75 0.5
+rain_cbh_adj:hru_7157:mon_7 1.0 1.75 0.5
+rain_cbh_adj:hru_5621:mon_8 1.0 1.75 0.5
+rain_cbh_adj:hru_5625:mon_8 1.0 1.75 0.5
+rain_cbh_adj:hru_5628:mon_8 1.0 1.75 0.5
+rain_cbh_adj:hru_5635:mon_8 1.0 1.75 0.5
+rain_cbh_adj:hru_5637:mon_8 1.0 1.75 0.5
+rain_cbh_adj:hru_5643:mon_8 1.0 1.75 0.5
+rain_cbh_adj:hru_5678:mon_8 1.0 1.75 0.5
+rain_cbh_adj:hru_5679:mon_8 1.0 1.75 0.5
+rain_cbh_adj:hru_5686:mon_8 1.0 1.75 0.5
+rain_cbh_adj:hru_5690:mon_8 1.0 1.75 0.5
+rain_cbh_adj:hru_5693:mon_8 1.0 1.75 0.5
+rain_cbh_adj:hru_5697:mon_8 1.0 1.75 0.5
+rain_cbh_adj:hru_5703:mon_8 1.0 1.75 0.5
+rain_cbh_adj:hru_5728:mon_8 1.0 1.75 0.5
+rain_cbh_adj:hru_7128:mon_8 1.0 1.75 0.5
+rain_cbh_adj:hru_7156:mon_8 1.0 1.75 0.5
+rain_cbh_adj:hru_7157:mon_8 1.0 1.75 0.5
+rain_cbh_adj:hru_5621:mon_9 1.0 1.75 0.5
+rain_cbh_adj:hru_5625:mon_9 1.0 1.75 0.5
+rain_cbh_adj:hru_5628:mon_9 1.0 1.75 0.5
+rain_cbh_adj:hru_5635:mon_9 1.0 1.75 0.5
+rain_cbh_adj:hru_5637:mon_9 1.0 1.75 0.5
+rain_cbh_adj:hru_5643:mon_9 1.0 1.75 0.5
+rain_cbh_adj:hru_5678:mon_9 1.0 1.75 0.5
+rain_cbh_adj:hru_5679:mon_9 1.0 1.75 0.5
+rain_cbh_adj:hru_5686:mon_9 1.0 1.75 0.5
+rain_cbh_adj:hru_5690:mon_9 1.0 1.75 0.5
+rain_cbh_adj:hru_5693:mon_9 1.0 1.75 0.5
+rain_cbh_adj:hru_5697:mon_9 1.0 1.75 0.5
+rain_cbh_adj:hru_5703:mon_9 1.0 1.75 0.5
+rain_cbh_adj:hru_5728:mon_9 1.0 1.75 0.5
+rain_cbh_adj:hru_7128:mon_9 1.0 1.75 0.5
+rain_cbh_adj:hru_7156:mon_9 1.0 1.75 0.5
+rain_cbh_adj:hru_7157:mon_9 1.0 1.75 0.5
+rain_cbh_adj:hru_5621:mon_10 1.0 1.75 0.5
+rain_cbh_adj:hru_5625:mon_10 1.0 1.75 0.5
+rain_cbh_adj:hru_5628:mon_10 1.0 1.75 0.5
+rain_cbh_adj:hru_5635:mon_10 1.0 1.75 0.5
+rain_cbh_adj:hru_5637:mon_10 1.0 1.75 0.5
+rain_cbh_adj:hru_5643:mon_10 1.0 1.75 0.5
+rain_cbh_adj:hru_5678:mon_10 1.0 1.75 0.5
+rain_cbh_adj:hru_5679:mon_10 1.0 1.75 0.5
+rain_cbh_adj:hru_5686:mon_10 1.0 1.75 0.5
+rain_cbh_adj:hru_5690:mon_10 1.0 1.75 0.5
+rain_cbh_adj:hru_5693:mon_10 1.0 1.75 0.5
+rain_cbh_adj:hru_5697:mon_10 1.0 1.75 0.5
+rain_cbh_adj:hru_5703:mon_10 1.0 1.75 0.5
+rain_cbh_adj:hru_5728:mon_10 1.0 1.75 0.5
+rain_cbh_adj:hru_7128:mon_10 1.0 1.75 0.5
+rain_cbh_adj:hru_7156:mon_10 1.0 1.75 0.5
+rain_cbh_adj:hru_7157:mon_10 1.0 1.75 0.5
+rain_cbh_adj:hru_5621:mon_11 1.0 1.75 0.5
+rain_cbh_adj:hru_5625:mon_11 1.0 1.75 0.5
+rain_cbh_adj:hru_5628:mon_11 1.0 1.75 0.5
+rain_cbh_adj:hru_5635:mon_11 1.0 1.75 0.5
+rain_cbh_adj:hru_5637:mon_11 1.0 1.75 0.5
+rain_cbh_adj:hru_5643:mon_11 1.0 1.75 0.5
+rain_cbh_adj:hru_5678:mon_11 1.0 1.75 0.5
+rain_cbh_adj:hru_5679:mon_11 1.0 1.75 0.5
+rain_cbh_adj:hru_5686:mon_11 1.0 1.75 0.5
+rain_cbh_adj:hru_5690:mon_11 1.0 1.75 0.5
+rain_cbh_adj:hru_5693:mon_11 1.0 1.75 0.5
+rain_cbh_adj:hru_5697:mon_11 1.0 1.75 0.5
+rain_cbh_adj:hru_5703:mon_11 1.0 1.75 0.5
+rain_cbh_adj:hru_5728:mon_11 1.0 1.75 0.5
+rain_cbh_adj:hru_7128:mon_11 1.0 1.75 0.5
+rain_cbh_adj:hru_7156:mon_11 1.0 1.75 0.5
+rain_cbh_adj:hru_7157:mon_11 1.0 1.75 0.5
+rain_cbh_adj:hru_5621:mon_12 1.0 1.75 0.5
+rain_cbh_adj:hru_5625:mon_12 1.0 1.75 0.5
+rain_cbh_adj:hru_5628:mon_12 1.0 1.75 0.5
+rain_cbh_adj:hru_5635:mon_12 1.0 1.75 0.5
+rain_cbh_adj:hru_5637:mon_12 1.0 1.75 0.5
+rain_cbh_adj:hru_5643:mon_12 1.0 1.75 0.5
+rain_cbh_adj:hru_5678:mon_12 1.0 1.75 0.5
+rain_cbh_adj:hru_5679:mon_12 1.0 1.75 0.5
+rain_cbh_adj:hru_5686:mon_12 1.0 1.75 0.5
+rain_cbh_adj:hru_5690:mon_12 1.0 1.75 0.5
+rain_cbh_adj:hru_5693:mon_12 1.0 1.75 0.5
+rain_cbh_adj:hru_5697:mon_12 1.0 1.75 0.5
+rain_cbh_adj:hru_5703:mon_12 1.0 1.75 0.5
+rain_cbh_adj:hru_5728:mon_12 1.0 1.75 0.5
+rain_cbh_adj:hru_7128:mon_12 1.0 1.75 0.5
+rain_cbh_adj:hru_7156:mon_12 1.0 1.75 0.5
+rain_cbh_adj:hru_7157:mon_12 1.0 1.75 0.5
+slowcoef_sq:hru_5621 0.1 1.0 0.0
+slowcoef_sq:hru_5625 0.1 1.0 0.0
+slowcoef_sq:hru_5628 0.1 1.0 0.0
+slowcoef_sq:hru_5635 0.1 1.0 0.0
+slowcoef_sq:hru_5637 0.1 1.0 0.0
+slowcoef_sq:hru_5643 0.1 1.0 0.0
+slowcoef_sq:hru_5678 0.1 1.0 0.0
+slowcoef_sq:hru_5679 0.1 1.0 0.0
+slowcoef_sq:hru_5686 0.1 1.0 0.0
+slowcoef_sq:hru_5690 0.1 1.0 0.0
+slowcoef_sq:hru_5693 0.1 1.0 0.0
+slowcoef_sq:hru_5697 0.1 1.0 0.0
+slowcoef_sq:hru_5703 0.1 1.0 0.0
+slowcoef_sq:hru_5728 0.1 1.0 0.0
+slowcoef_sq:hru_7128 0.1 1.0 0.0
+slowcoef_sq:hru_7156 0.1 1.0 0.0
+slowcoef_sq:hru_7157 0.1 1.0 0.0
+smidx_coef:hru_5621 0.043593 0.0523116 0.0348744
+smidx_coef:hru_5625 0.332096 0.3985152 0.2656768
+smidx_coef:hru_5628 0.028702 0.0344424 0.0229616
+smidx_coef:hru_5635 0.04908 0.058896 0.039264
+smidx_coef:hru_5637 0.091694 0.1100328 0.0733552
+smidx_coef:hru_5643 0.082549 0.0990588 0.06603919999999999
+smidx_coef:hru_5678 0.265335 0.31840199999999996 0.21226799999999998
+smidx_coef:hru_5679 0.358714 0.4304568 0.2869712
+smidx_coef:hru_5686 0.020828 0.024993599999999998 0.0166624
+smidx_coef:hru_5690 0.196244 0.2354928 0.1569952
+smidx_coef:hru_5693 0.074207 0.0890484 0.0593656
+smidx_coef:hru_5697 0.054826 0.0657912 0.0438608
+smidx_coef:hru_5703 0.027473 0.0329676 0.021978400000000002
+smidx_coef:hru_5728 0.021273 0.0255276 0.0170184
+smidx_coef:hru_7128 0.055987 0.0671844 0.0447896
+smidx_coef:hru_7156 0.05572 0.066864 0.044576
+smidx_coef:hru_7157 0.035557 0.042668399999999995 0.028445599999999998
+smidx_exp:hru_5621 0.146424 0.1757088 0.1171392
+smidx_exp:hru_5625 0.007238 0.0086856 0.005790399999999999
+smidx_exp:hru_5628 0.168168 0.20180160000000003 0.1345344
+smidx_exp:hru_5635 0.127147 0.1525764 0.1017176
+smidx_exp:hru_5637 0.083094 0.0997128 0.0664752
+smidx_exp:hru_5643 0.120566 0.1446792 0.0964528
+smidx_exp:hru_5678 0.029966 0.0359592 0.0239728
+smidx_exp:hru_5679 0.022845 0.027414 0.018276
+smidx_exp:hru_5686 0.205483 0.2465796 0.1643864
+smidx_exp:hru_5690 0.098659 0.11839079999999999 0.0789272
+smidx_exp:hru_5693 0.138017 0.1656204 0.1104136
+smidx_exp:hru_5697 0.147587 0.1771044 0.1180696
+smidx_exp:hru_5703 0.218083 0.26169960000000003 0.1744664
+smidx_exp:hru_5728 0.19872 0.238464 0.158976
+smidx_exp:hru_7128 0.16384 0.196608 0.13107200000000002
+smidx_exp:hru_7156 0.128696 0.1544352 0.1029568
+smidx_exp:hru_7157 0.152574 0.1830888 0.12205919999999999
+snarea_thresh:hru_5621 1.620213 1.9442556 1.2961703999999998
+snarea_thresh:hru_5625 1.984987 2.3819844000000003 1.5879896
+snarea_thresh:hru_5628 1.775647 2.1307764000000002 1.4205176
+snarea_thresh:hru_5635 1.906302 2.2875624 1.5250416
+snarea_thresh:hru_5637 1.837407 2.2048884 1.4699256
+snarea_thresh:hru_5643 1.909374 2.2912488 1.5274991999999998
+snarea_thresh:hru_5678 2.036671 2.4440052000000003 1.6293368000000001
+snarea_thresh:hru_5679 2.045574 2.4546887999999996 1.6364591999999998
+snarea_thresh:hru_5686 1.799482 2.1593784 1.4395856
+snarea_thresh:hru_5690 2.049437 2.4593244000000003 1.6395496
+snarea_thresh:hru_5693 2.105184 2.5262208 1.6841472
+snarea_thresh:hru_5697 1.983585 2.380302 1.586868
+snarea_thresh:hru_5703 2.027274 2.4327287999999996 1.6218191999999998
+snarea_thresh:hru_5728 2.089595 2.507514 1.6716760000000002
+snarea_thresh:hru_7128 2.066137 2.4793643999999997 1.6529095999999999
+snarea_thresh:hru_7156 2.166803 2.6001635999999997 1.7334424
+snarea_thresh:hru_7157 2.208702 2.6504424 1.7669616000000001
+snowinfil_max:hru_5621 2.0 2.4 1.6
+snowinfil_max:hru_5625 2.0 2.4 1.6
+snowinfil_max:hru_5628 2.0 2.4 1.6
+snowinfil_max:hru_5635 2.0 2.4 1.6
+snowinfil_max:hru_5637 2.0 2.4 1.6
+snowinfil_max:hru_5643 2.0 2.4 1.6
+snowinfil_max:hru_5678 2.0 2.4 1.6
+snowinfil_max:hru_5679 2.0 2.4 1.6
+snowinfil_max:hru_5686 2.0 2.4 1.6
+snowinfil_max:hru_5690 2.0 2.4 1.6
+snowinfil_max:hru_5693 2.0 2.4 1.6
+snowinfil_max:hru_5697 2.0 2.4 1.6
+snowinfil_max:hru_5703 2.0 2.4 1.6
+snowinfil_max:hru_5728 2.0 2.4 1.6
+snowinfil_max:hru_7128 2.0 2.4 1.6
+snowinfil_max:hru_7156 2.0 2.4 1.6
+snowinfil_max:hru_7157 2.0 2.4 1.6
+snow_cbh_adj:hru_5621:mon_1 1.0 1.75 0.5
+snow_cbh_adj:hru_5625:mon_1 1.0 1.75 0.5
+snow_cbh_adj:hru_5628:mon_1 1.0 1.75 0.5
+snow_cbh_adj:hru_5635:mon_1 1.0 1.75 0.5
+snow_cbh_adj:hru_5637:mon_1 1.0 1.75 0.5
+snow_cbh_adj:hru_5643:mon_1 1.0 1.75 0.5
+snow_cbh_adj:hru_5678:mon_1 1.0 1.75 0.5
+snow_cbh_adj:hru_5679:mon_1 1.0 1.75 0.5
+snow_cbh_adj:hru_5686:mon_1 1.0 1.75 0.5
+snow_cbh_adj:hru_5690:mon_1 1.0 1.75 0.5
+snow_cbh_adj:hru_5693:mon_1 1.0 1.75 0.5
+snow_cbh_adj:hru_5697:mon_1 1.0 1.75 0.5
+snow_cbh_adj:hru_5703:mon_1 1.0 1.75 0.5
+snow_cbh_adj:hru_5728:mon_1 1.0 1.75 0.5
+snow_cbh_adj:hru_7128:mon_1 1.0 1.75 0.5
+snow_cbh_adj:hru_7156:mon_1 1.0 1.75 0.5
+snow_cbh_adj:hru_7157:mon_1 1.0 1.75 0.5
+snow_cbh_adj:hru_5621:mon_2 1.0 1.75 0.5
+snow_cbh_adj:hru_5625:mon_2 1.0 1.75 0.5
+snow_cbh_adj:hru_5628:mon_2 1.0 1.75 0.5
+snow_cbh_adj:hru_5635:mon_2 1.0 1.75 0.5
+snow_cbh_adj:hru_5637:mon_2 1.0 1.75 0.5
+snow_cbh_adj:hru_5643:mon_2 1.0 1.75 0.5
+snow_cbh_adj:hru_5678:mon_2 1.0 1.75 0.5
+snow_cbh_adj:hru_5679:mon_2 1.0 1.75 0.5
+snow_cbh_adj:hru_5686:mon_2 1.0 1.75 0.5
+snow_cbh_adj:hru_5690:mon_2 1.0 1.75 0.5
+snow_cbh_adj:hru_5693:mon_2 1.0 1.75 0.5
+snow_cbh_adj:hru_5697:mon_2 1.0 1.75 0.5
+snow_cbh_adj:hru_5703:mon_2 1.0 1.75 0.5
+snow_cbh_adj:hru_5728:mon_2 1.0 1.75 0.5
+snow_cbh_adj:hru_7128:mon_2 1.0 1.75 0.5
+snow_cbh_adj:hru_7156:mon_2 1.0 1.75 0.5
+snow_cbh_adj:hru_7157:mon_2 1.0 1.75 0.5
+snow_cbh_adj:hru_5621:mon_3 1.0 1.75 0.5
+snow_cbh_adj:hru_5625:mon_3 1.0 1.75 0.5
+snow_cbh_adj:hru_5628:mon_3 1.0 1.75 0.5
+snow_cbh_adj:hru_5635:mon_3 1.0 1.75 0.5
+snow_cbh_adj:hru_5637:mon_3 1.0 1.75 0.5
+snow_cbh_adj:hru_5643:mon_3 1.0 1.75 0.5
+snow_cbh_adj:hru_5678:mon_3 1.0 1.75 0.5
+snow_cbh_adj:hru_5679:mon_3 1.0 1.75 0.5
+snow_cbh_adj:hru_5686:mon_3 1.0 1.75 0.5
+snow_cbh_adj:hru_5690:mon_3 1.0 1.75 0.5
+snow_cbh_adj:hru_5693:mon_3 1.0 1.75 0.5
+snow_cbh_adj:hru_5697:mon_3 1.0 1.75 0.5
+snow_cbh_adj:hru_5703:mon_3 1.0 1.75 0.5
+snow_cbh_adj:hru_5728:mon_3 1.0 1.75 0.5
+snow_cbh_adj:hru_7128:mon_3 1.0 1.75 0.5
+snow_cbh_adj:hru_7156:mon_3 1.0 1.75 0.5
+snow_cbh_adj:hru_7157:mon_3 1.0 1.75 0.5
+snow_cbh_adj:hru_5621:mon_4 1.0 1.75 0.5
+snow_cbh_adj:hru_5625:mon_4 1.0 1.75 0.5
+snow_cbh_adj:hru_5628:mon_4 1.0 1.75 0.5
+snow_cbh_adj:hru_5635:mon_4 1.0 1.75 0.5
+snow_cbh_adj:hru_5637:mon_4 1.0 1.75 0.5
+snow_cbh_adj:hru_5643:mon_4 1.0 1.75 0.5
+snow_cbh_adj:hru_5678:mon_4 1.0 1.75 0.5
+snow_cbh_adj:hru_5679:mon_4 1.0 1.75 0.5
+snow_cbh_adj:hru_5686:mon_4 1.0 1.75 0.5
+snow_cbh_adj:hru_5690:mon_4 1.0 1.75 0.5
+snow_cbh_adj:hru_5693:mon_4 1.0 1.75 0.5
+snow_cbh_adj:hru_5697:mon_4 1.0 1.75 0.5
+snow_cbh_adj:hru_5703:mon_4 1.0 1.75 0.5
+snow_cbh_adj:hru_5728:mon_4 1.0 1.75 0.5
+snow_cbh_adj:hru_7128:mon_4 1.0 1.75 0.5
+snow_cbh_adj:hru_7156:mon_4 1.0 1.75 0.5
+snow_cbh_adj:hru_7157:mon_4 1.0 1.75 0.5
+snow_cbh_adj:hru_5621:mon_5 1.0 1.75 0.5
+snow_cbh_adj:hru_5625:mon_5 1.0 1.75 0.5
+snow_cbh_adj:hru_5628:mon_5 1.0 1.75 0.5
+snow_cbh_adj:hru_5635:mon_5 1.0 1.75 0.5
+snow_cbh_adj:hru_5637:mon_5 1.0 1.75 0.5
+snow_cbh_adj:hru_5643:mon_5 1.0 1.75 0.5
+snow_cbh_adj:hru_5678:mon_5 1.0 1.75 0.5
+snow_cbh_adj:hru_5679:mon_5 1.0 1.75 0.5
+snow_cbh_adj:hru_5686:mon_5 1.0 1.75 0.5
+snow_cbh_adj:hru_5690:mon_5 1.0 1.75 0.5
+snow_cbh_adj:hru_5693:mon_5 1.0 1.75 0.5
+snow_cbh_adj:hru_5697:mon_5 1.0 1.75 0.5
+snow_cbh_adj:hru_5703:mon_5 1.0 1.75 0.5
+snow_cbh_adj:hru_5728:mon_5 1.0 1.75 0.5
+snow_cbh_adj:hru_7128:mon_5 1.0 1.75 0.5
+snow_cbh_adj:hru_7156:mon_5 1.0 1.75 0.5
+snow_cbh_adj:hru_7157:mon_5 1.0 1.75 0.5
+snow_cbh_adj:hru_5621:mon_6 1.0 1.75 0.5
+snow_cbh_adj:hru_5625:mon_6 1.0 1.75 0.5
+snow_cbh_adj:hru_5628:mon_6 1.0 1.75 0.5
+snow_cbh_adj:hru_5635:mon_6 1.0 1.75 0.5
+snow_cbh_adj:hru_5637:mon_6 1.0 1.75 0.5
+snow_cbh_adj:hru_5643:mon_6 1.0 1.75 0.5
+snow_cbh_adj:hru_5678:mon_6 1.0 1.75 0.5
+snow_cbh_adj:hru_5679:mon_6 1.0 1.75 0.5
+snow_cbh_adj:hru_5686:mon_6 1.0 1.75 0.5
+snow_cbh_adj:hru_5690:mon_6 1.0 1.75 0.5
+snow_cbh_adj:hru_5693:mon_6 1.0 1.75 0.5
+snow_cbh_adj:hru_5697:mon_6 1.0 1.75 0.5
+snow_cbh_adj:hru_5703:mon_6 1.0 1.75 0.5
+snow_cbh_adj:hru_5728:mon_6 1.0 1.75 0.5
+snow_cbh_adj:hru_7128:mon_6 1.0 1.75 0.5
+snow_cbh_adj:hru_7156:mon_6 1.0 1.75 0.5
+snow_cbh_adj:hru_7157:mon_6 1.0 1.75 0.5
+snow_cbh_adj:hru_5621:mon_7 1.0 1.75 0.5
+snow_cbh_adj:hru_5625:mon_7 1.0 1.75 0.5
+snow_cbh_adj:hru_5628:mon_7 1.0 1.75 0.5
+snow_cbh_adj:hru_5635:mon_7 1.0 1.75 0.5
+snow_cbh_adj:hru_5637:mon_7 1.0 1.75 0.5
+snow_cbh_adj:hru_5643:mon_7 1.0 1.75 0.5
+snow_cbh_adj:hru_5678:mon_7 1.0 1.75 0.5
+snow_cbh_adj:hru_5679:mon_7 1.0 1.75 0.5
+snow_cbh_adj:hru_5686:mon_7 1.0 1.75 0.5
+snow_cbh_adj:hru_5690:mon_7 1.0 1.75 0.5
+snow_cbh_adj:hru_5693:mon_7 1.0 1.75 0.5
+snow_cbh_adj:hru_5697:mon_7 1.0 1.75 0.5
+snow_cbh_adj:hru_5703:mon_7 1.0 1.75 0.5
+snow_cbh_adj:hru_5728:mon_7 1.0 1.75 0.5
+snow_cbh_adj:hru_7128:mon_7 1.0 1.75 0.5
+snow_cbh_adj:hru_7156:mon_7 1.0 1.75 0.5
+snow_cbh_adj:hru_7157:mon_7 1.0 1.75 0.5
+snow_cbh_adj:hru_5621:mon_8 1.0 1.75 0.5
+snow_cbh_adj:hru_5625:mon_8 1.0 1.75 0.5
+snow_cbh_adj:hru_5628:mon_8 1.0 1.75 0.5
+snow_cbh_adj:hru_5635:mon_8 1.0 1.75 0.5
+snow_cbh_adj:hru_5637:mon_8 1.0 1.75 0.5
+snow_cbh_adj:hru_5643:mon_8 1.0 1.75 0.5
+snow_cbh_adj:hru_5678:mon_8 1.0 1.75 0.5
+snow_cbh_adj:hru_5679:mon_8 1.0 1.75 0.5
+snow_cbh_adj:hru_5686:mon_8 1.0 1.75 0.5
+snow_cbh_adj:hru_5690:mon_8 1.0 1.75 0.5
+snow_cbh_adj:hru_5693:mon_8 1.0 1.75 0.5
+snow_cbh_adj:hru_5697:mon_8 1.0 1.75 0.5
+snow_cbh_adj:hru_5703:mon_8 1.0 1.75 0.5
+snow_cbh_adj:hru_5728:mon_8 1.0 1.75 0.5
+snow_cbh_adj:hru_7128:mon_8 1.0 1.75 0.5
+snow_cbh_adj:hru_7156:mon_8 1.0 1.75 0.5
+snow_cbh_adj:hru_7157:mon_8 1.0 1.75 0.5
+snow_cbh_adj:hru_5621:mon_9 1.0 1.75 0.5
+snow_cbh_adj:hru_5625:mon_9 1.0 1.75 0.5
+snow_cbh_adj:hru_5628:mon_9 1.0 1.75 0.5
+snow_cbh_adj:hru_5635:mon_9 1.0 1.75 0.5
+snow_cbh_adj:hru_5637:mon_9 1.0 1.75 0.5
+snow_cbh_adj:hru_5643:mon_9 1.0 1.75 0.5
+snow_cbh_adj:hru_5678:mon_9 1.0 1.75 0.5
+snow_cbh_adj:hru_5679:mon_9 1.0 1.75 0.5
+snow_cbh_adj:hru_5686:mon_9 1.0 1.75 0.5
+snow_cbh_adj:hru_5690:mon_9 1.0 1.75 0.5
+snow_cbh_adj:hru_5693:mon_9 1.0 1.75 0.5
+snow_cbh_adj:hru_5697:mon_9 1.0 1.75 0.5
+snow_cbh_adj:hru_5703:mon_9 1.0 1.75 0.5
+snow_cbh_adj:hru_5728:mon_9 1.0 1.75 0.5
+snow_cbh_adj:hru_7128:mon_9 1.0 1.75 0.5
+snow_cbh_adj:hru_7156:mon_9 1.0 1.75 0.5
+snow_cbh_adj:hru_7157:mon_9 1.0 1.75 0.5
+snow_cbh_adj:hru_5621:mon_10 1.0 1.75 0.5
+snow_cbh_adj:hru_5625:mon_10 1.0 1.75 0.5
+snow_cbh_adj:hru_5628:mon_10 1.0 1.75 0.5
+snow_cbh_adj:hru_5635:mon_10 1.0 1.75 0.5
+snow_cbh_adj:hru_5637:mon_10 1.0 1.75 0.5
+snow_cbh_adj:hru_5643:mon_10 1.0 1.75 0.5
+snow_cbh_adj:hru_5678:mon_10 1.0 1.75 0.5
+snow_cbh_adj:hru_5679:mon_10 1.0 1.75 0.5
+snow_cbh_adj:hru_5686:mon_10 1.0 1.75 0.5
+snow_cbh_adj:hru_5690:mon_10 1.0 1.75 0.5
+snow_cbh_adj:hru_5693:mon_10 1.0 1.75 0.5
+snow_cbh_adj:hru_5697:mon_10 1.0 1.75 0.5
+snow_cbh_adj:hru_5703:mon_10 1.0 1.75 0.5
+snow_cbh_adj:hru_5728:mon_10 1.0 1.75 0.5
+snow_cbh_adj:hru_7128:mon_10 1.0 1.75 0.5
+snow_cbh_adj:hru_7156:mon_10 1.0 1.75 0.5
+snow_cbh_adj:hru_7157:mon_10 1.0 1.75 0.5
+snow_cbh_adj:hru_5621:mon_11 1.0 1.75 0.5
+snow_cbh_adj:hru_5625:mon_11 1.0 1.75 0.5
+snow_cbh_adj:hru_5628:mon_11 1.0 1.75 0.5
+snow_cbh_adj:hru_5635:mon_11 1.0 1.75 0.5
+snow_cbh_adj:hru_5637:mon_11 1.0 1.75 0.5
+snow_cbh_adj:hru_5643:mon_11 1.0 1.75 0.5
+snow_cbh_adj:hru_5678:mon_11 1.0 1.75 0.5
+snow_cbh_adj:hru_5679:mon_11 1.0 1.75 0.5
+snow_cbh_adj:hru_5686:mon_11 1.0 1.75 0.5
+snow_cbh_adj:hru_5690:mon_11 1.0 1.75 0.5
+snow_cbh_adj:hru_5693:mon_11 1.0 1.75 0.5
+snow_cbh_adj:hru_5697:mon_11 1.0 1.75 0.5
+snow_cbh_adj:hru_5703:mon_11 1.0 1.75 0.5
+snow_cbh_adj:hru_5728:mon_11 1.0 1.75 0.5
+snow_cbh_adj:hru_7128:mon_11 1.0 1.75 0.5
+snow_cbh_adj:hru_7156:mon_11 1.0 1.75 0.5
+snow_cbh_adj:hru_7157:mon_11 1.0 1.75 0.5
+snow_cbh_adj:hru_5621:mon_12 1.0 1.75 0.5
+snow_cbh_adj:hru_5625:mon_12 1.0 1.75 0.5
+snow_cbh_adj:hru_5628:mon_12 1.0 1.75 0.5
+snow_cbh_adj:hru_5635:mon_12 1.0 1.75 0.5
+snow_cbh_adj:hru_5637:mon_12 1.0 1.75 0.5
+snow_cbh_adj:hru_5643:mon_12 1.0 1.75 0.5
+snow_cbh_adj:hru_5678:mon_12 1.0 1.75 0.5
+snow_cbh_adj:hru_5679:mon_12 1.0 1.75 0.5
+snow_cbh_adj:hru_5686:mon_12 1.0 1.75 0.5
+snow_cbh_adj:hru_5690:mon_12 1.0 1.75 0.5
+snow_cbh_adj:hru_5693:mon_12 1.0 1.75 0.5
+snow_cbh_adj:hru_5697:mon_12 1.0 1.75 0.5
+snow_cbh_adj:hru_5703:mon_12 1.0 1.75 0.5
+snow_cbh_adj:hru_5728:mon_12 1.0 1.75 0.5
+snow_cbh_adj:hru_7128:mon_12 1.0 1.75 0.5
+snow_cbh_adj:hru_7156:mon_12 1.0 1.75 0.5
+snow_cbh_adj:hru_7157:mon_12 1.0 1.75 0.5
+soil2gw_max:hru_5621 0.1 0.12000000000000001 0.08
+soil2gw_max:hru_5625 0.1 0.12000000000000001 0.08
+soil2gw_max:hru_5628 0.1 0.12000000000000001 0.08
+soil2gw_max:hru_5635 0.1 0.12000000000000001 0.08
+soil2gw_max:hru_5637 0.1 0.12000000000000001 0.08
+soil2gw_max:hru_5643 0.1 0.12000000000000001 0.08
+soil2gw_max:hru_5678 0.1 0.12000000000000001 0.08
+soil2gw_max:hru_5679 0.1 0.12000000000000001 0.08
+soil2gw_max:hru_5686 0.1 0.12000000000000001 0.08
+soil2gw_max:hru_5690 0.1 0.12000000000000001 0.08
+soil2gw_max:hru_5693 0.1 0.12000000000000001 0.08
+soil2gw_max:hru_5697 0.1 0.12000000000000001 0.08
+soil2gw_max:hru_5703 0.1 0.12000000000000001 0.08
+soil2gw_max:hru_5728 0.1 0.12000000000000001 0.08
+soil2gw_max:hru_7128 0.1 0.12000000000000001 0.08
+soil2gw_max:hru_7156 0.100001 0.1200012 0.08000080000000001
+soil2gw_max:hru_7157 0.1 0.12000000000000001 0.08
+soil_moist_max:hru_5621 2.594175 3.11301 2.0753399999999997
+soil_moist_max:hru_5625 3.787474 4.5449688 3.0299792
+soil_moist_max:hru_5628 2.803769 3.3645228 2.2430152
+soil_moist_max:hru_5635 3.054613 3.6655355999999997 2.4436904
+soil_moist_max:hru_5637 2.729851 3.2758212 2.1838808
+soil_moist_max:hru_5643 2.698942 3.2387304 2.1591536000000002
+soil_moist_max:hru_5678 3.436155 4.123386 2.7489239999999997
+soil_moist_max:hru_5679 2.711944 3.2543328 2.1695552
+soil_moist_max:hru_5686 3.70812 4.449744 2.9664960000000002
+soil_moist_max:hru_5690 2.44512 2.9341440000000003 1.956096
+soil_moist_max:hru_5693 3.073945 3.688734 2.459156
+soil_moist_max:hru_5697 3.127885 3.753462 2.502308
+soil_moist_max:hru_5703 2.651582 3.1818983999999997 2.1212656
+soil_moist_max:hru_5728 4.048725 4.8584700000000005 3.23898
+soil_moist_max:hru_7128 2.914892 3.4978704 2.3319136
+soil_moist_max:hru_7156 4.087226 4.9046712 3.2697808000000004
+soil_moist_max:hru_7157 3.954249 4.7450988 3.1633991999999997
+soil_rechr_max_frac:hru_5621 0.797942 0.9575304 0.6383536000000001
+soil_rechr_max_frac:hru_5625 0.546538 0.6558455999999999 0.43723039999999996
+soil_rechr_max_frac:hru_5628 0.738292 0.8859503999999999 0.5906336
+soil_rechr_max_frac:hru_5635 0.710525 0.85263 0.5684199999999999
+soil_rechr_max_frac:hru_5637 0.758283 0.9099396000000001 0.6066264
+soil_rechr_max_frac:hru_5643 0.806149 0.9673788 0.6449192
+soil_rechr_max_frac:hru_5678 0.617857 0.7414284 0.4942856
+soil_rechr_max_frac:hru_5679 0.76329 0.915948 0.6106320000000001
+soil_rechr_max_frac:hru_5686 0.612453 0.7349436 0.4899624
+soil_rechr_max_frac:hru_5690 0.846584 1.0159008 0.6772672
+soil_rechr_max_frac:hru_5693 0.70878 0.850536 0.567024
+soil_rechr_max_frac:hru_5697 0.705435 0.846522 0.5643480000000001
+soil_rechr_max_frac:hru_5703 0.81092 0.973104 0.648736
+soil_rechr_max_frac:hru_5728 0.563253 0.6759036 0.4506024
+soil_rechr_max_frac:hru_7128 0.747197 0.8966364 0.5977576
+soil_rechr_max_frac:hru_7156 0.563146 0.6757752 0.45051680000000005
+soil_rechr_max_frac:hru_7157 0.574666 0.6895992 0.4597328
+ssr2gw_exp:hru_5621 1.2 1.44 0.96
+ssr2gw_exp:hru_5625 1.2 1.44 0.96
+ssr2gw_exp:hru_5628 1.2 1.44 0.96
+ssr2gw_exp:hru_5635 1.2 1.44 0.96
+ssr2gw_exp:hru_5637 1.2 1.44 0.96
+ssr2gw_exp:hru_5643 1.2 1.44 0.96
+ssr2gw_exp:hru_5678 1.2 1.44 0.96
+ssr2gw_exp:hru_5679 1.2 1.44 0.96
+ssr2gw_exp:hru_5686 1.2 1.44 0.96
+ssr2gw_exp:hru_5690 1.2 1.44 0.96
+ssr2gw_exp:hru_5693 1.2 1.44 0.96
+ssr2gw_exp:hru_5697 1.2 1.44 0.96
+ssr2gw_exp:hru_5703 1.2 1.44 0.96
+ssr2gw_exp:hru_5728 1.2 1.44 0.96
+ssr2gw_exp:hru_7128 1.2 1.44 0.96
+ssr2gw_exp:hru_7156 1.2 1.44 0.96
+ssr2gw_exp:hru_7157 1.2 1.44 0.96
+ssr2gw_rate:hru_5621 0.3 0.36 0.24
+ssr2gw_rate:hru_5625 0.3 0.36 0.24
+ssr2gw_rate:hru_5628 0.3 0.36 0.24
+ssr2gw_rate:hru_5635 0.300395 0.360474 0.24031600000000003
+ssr2gw_rate:hru_5637 0.3 0.36 0.24
+ssr2gw_rate:hru_5643 0.3 0.36 0.24
+ssr2gw_rate:hru_5678 0.3 0.36 0.24
+ssr2gw_rate:hru_5679 0.3 0.36 0.24
+ssr2gw_rate:hru_5686 0.303275 0.36393000000000003 0.24262
+ssr2gw_rate:hru_5690 0.3 0.36 0.24
+ssr2gw_rate:hru_5693 0.301253 0.3615036 0.2410024
+ssr2gw_rate:hru_5697 0.3 0.36 0.24
+ssr2gw_rate:hru_5703 0.3 0.36 0.24
+ssr2gw_rate:hru_5728 0.304008 0.3648096 0.2432064
+ssr2gw_rate:hru_7128 0.3 0.36 0.24
+ssr2gw_rate:hru_7156 0.305099 0.3661188 0.2440792
+ssr2gw_rate:hru_7157 0.303222 0.3638664 0.2425776
+tmax_allrain_offset:hru_5621:mon_1 8.048909 9.6586908 6.4391272
+tmax_allrain_offset:hru_5625:mon_1 8.048909 9.6586908 6.4391272
+tmax_allrain_offset:hru_5628:mon_1 8.048909 9.6586908 6.4391272
+tmax_allrain_offset:hru_5635:mon_1 8.048909 9.6586908 6.4391272
+tmax_allrain_offset:hru_5637:mon_1 8.048909 9.6586908 6.4391272
+tmax_allrain_offset:hru_5643:mon_1 8.048909 9.6586908 6.4391272
+tmax_allrain_offset:hru_5678:mon_1 8.048839 9.6586068 6.439071199999999
+tmax_allrain_offset:hru_5679:mon_1 8.04293 9.651516 6.434344
+tmax_allrain_offset:hru_5686:mon_1 7.986531 9.583837200000001 6.3892248
+tmax_allrain_offset:hru_5690:mon_1 7.990065 9.588078000000001 6.3920520000000005
+tmax_allrain_offset:hru_5693:mon_1 7.972771 9.567325199999999 6.3782168
+tmax_allrain_offset:hru_5697:mon_1 8.033146 9.6397752 6.4265168
+tmax_allrain_offset:hru_5703:mon_1 8.031353 9.6376236 6.425082399999999
+tmax_allrain_offset:hru_5728:mon_1 8.034229 9.6410748 6.4273831999999995
+tmax_allrain_offset:hru_7128:mon_1 7.970151 9.5641812 6.376120800000001
+tmax_allrain_offset:hru_7156:mon_1 8.013209 9.6158508 6.4105672
+tmax_allrain_offset:hru_7157:mon_1 7.970275 9.56433 6.37622
+tmax_allrain_offset:hru_5621:mon_2 7.30359 8.764308 5.842872
+tmax_allrain_offset:hru_5625:mon_2 7.30359 8.764308 5.842872
+tmax_allrain_offset:hru_5628:mon_2 7.30359 8.764308 5.842872
+tmax_allrain_offset:hru_5635:mon_2 7.30359 8.764308 5.842872
+tmax_allrain_offset:hru_5637:mon_2 7.30359 8.764308 5.842872
+tmax_allrain_offset:hru_5643:mon_2 7.30359 8.764308 5.842872
+tmax_allrain_offset:hru_5678:mon_2 7.303624 8.7643488 5.8428992
+tmax_allrain_offset:hru_5679:mon_2 7.306484 8.7677808 5.8451872
+tmax_allrain_offset:hru_5686:mon_2 7.339437 8.8073244 5.8715496
+tmax_allrain_offset:hru_5690:mon_2 7.332069 8.7984828 5.8656552
+tmax_allrain_offset:hru_5693:mon_2 7.340439 8.8085268 5.8723512
+tmax_allrain_offset:hru_5697:mon_2 7.287876 8.7454512 5.8303008
+tmax_allrain_offset:hru_5703:mon_2 7.27408 8.728895999999999 5.8192639999999995
+tmax_allrain_offset:hru_5728:mon_2 7.280421 8.7365052 5.824336799999999
+tmax_allrain_offset:hru_7128:mon_2 7.314963 8.7779556 5.8519704
+tmax_allrain_offset:hru_7156:mon_2 7.345196 8.814235199999999 5.8761567999999995
+tmax_allrain_offset:hru_7157:mon_2 7.341647 8.8099764 5.8733176
+tmax_allrain_offset:hru_5621:mon_3 6.860239 8.2322868 5.4881912
+tmax_allrain_offset:hru_5625:mon_3 6.860239 8.2322868 5.4881912
+tmax_allrain_offset:hru_5628:mon_3 6.860239 8.2322868 5.4881912
+tmax_allrain_offset:hru_5635:mon_3 6.860239 8.2322868 5.4881912
+tmax_allrain_offset:hru_5637:mon_3 6.860239 8.2322868 5.4881912
+tmax_allrain_offset:hru_5643:mon_3 6.860239 8.2322868 5.4881912
+tmax_allrain_offset:hru_5678:mon_3 6.860434 8.2325208 5.4883472
+tmax_allrain_offset:hru_5679:mon_3 6.876828 8.2521936 5.501462399999999
+tmax_allrain_offset:hru_5686:mon_3 7.064655 8.477586 5.651724
+tmax_allrain_offset:hru_5690:mon_3 7.023501 8.4282012 5.618800800000001
+tmax_allrain_offset:hru_5693:mon_3 7.071481 8.485777200000001 5.6571848000000005
+tmax_allrain_offset:hru_5697:mon_3 6.943055 8.331666 5.554444
+tmax_allrain_offset:hru_5703:mon_3 6.979562 8.3754744 5.583649599999999
+tmax_allrain_offset:hru_5728:mon_3 6.958986 8.3507832 5.5671888
+tmax_allrain_offset:hru_7128:mon_3 7.071227 8.4854724 5.6569816
+tmax_allrain_offset:hru_7156:mon_3 7.102932 8.5235184 5.6823456
+tmax_allrain_offset:hru_7157:mon_3 7.078406 8.494087200000001 5.6627248
+tmax_allrain_offset:hru_5621:mon_4 6.047884 7.2574608 4.8383072
+tmax_allrain_offset:hru_5625:mon_4 6.047884 7.2574608 4.8383072
+tmax_allrain_offset:hru_5628:mon_4 6.047884 7.2574608 4.8383072
+tmax_allrain_offset:hru_5635:mon_4 6.047884 7.2574608 4.8383072
+tmax_allrain_offset:hru_5637:mon_4 6.047884 7.2574608 4.8383072
+tmax_allrain_offset:hru_5643:mon_4 6.047884 7.2574608 4.8383072
+tmax_allrain_offset:hru_5678:mon_4 6.04788 7.257456 4.838304
+tmax_allrain_offset:hru_5679:mon_4 6.047582 7.2570984 4.8380656
+tmax_allrain_offset:hru_5686:mon_4 6.095365 7.314438 4.876292
+tmax_allrain_offset:hru_5690:mon_4 6.044919 7.2539028000000005 4.8359352
+tmax_allrain_offset:hru_5693:mon_4 6.044047 7.2528564 4.8352376
+tmax_allrain_offset:hru_5697:mon_4 6.558293 7.8699516 5.2466344
+tmax_allrain_offset:hru_5703:mon_4 6.957765 8.349318 5.566212
+tmax_allrain_offset:hru_5728:mon_4 6.792463 8.1509556 5.4339704
+tmax_allrain_offset:hru_7128:mon_4 6.042394 7.2508728 4.8339152
+tmax_allrain_offset:hru_7156:mon_4 6.270686 7.5248232 5.016548800000001
+tmax_allrain_offset:hru_7157:mon_4 6.043922 7.2527064 4.8351376
+tmax_allrain_offset:hru_5621:mon_5 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5625:mon_5 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5628:mon_5 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5635:mon_5 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5637:mon_5 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5643:mon_5 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5678:mon_5 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5679:mon_5 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5686:mon_5 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5690:mon_5 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5693:mon_5 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5697:mon_5 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5703:mon_5 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5728:mon_5 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_7128:mon_5 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_7156:mon_5 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_7157:mon_5 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5621:mon_6 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5625:mon_6 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5628:mon_6 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5635:mon_6 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5637:mon_6 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5643:mon_6 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5678:mon_6 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5679:mon_6 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5686:mon_6 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5690:mon_6 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5693:mon_6 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5697:mon_6 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5703:mon_6 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5728:mon_6 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_7128:mon_6 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_7156:mon_6 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_7157:mon_6 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5621:mon_7 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5625:mon_7 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5628:mon_7 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5635:mon_7 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5637:mon_7 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5643:mon_7 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5678:mon_7 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5679:mon_7 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5686:mon_7 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5690:mon_7 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5693:mon_7 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5697:mon_7 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5703:mon_7 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5728:mon_7 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_7128:mon_7 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_7156:mon_7 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_7157:mon_7 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5621:mon_8 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5625:mon_8 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5628:mon_8 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5635:mon_8 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5637:mon_8 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5643:mon_8 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5678:mon_8 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5679:mon_8 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5686:mon_8 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5690:mon_8 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5693:mon_8 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5697:mon_8 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5703:mon_8 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5728:mon_8 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_7128:mon_8 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_7156:mon_8 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_7157:mon_8 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5621:mon_9 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5625:mon_9 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5628:mon_9 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5635:mon_9 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5637:mon_9 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5643:mon_9 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5678:mon_9 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5679:mon_9 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5686:mon_9 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5690:mon_9 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5693:mon_9 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5697:mon_9 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5703:mon_9 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5728:mon_9 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_7128:mon_9 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_7156:mon_9 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_7157:mon_9 5.994 7.1928 4.7951999999999995
+tmax_allrain_offset:hru_5621:mon_10 4.66532 5.598384 3.7322560000000005
+tmax_allrain_offset:hru_5625:mon_10 4.66532 5.598384 3.7322560000000005
+tmax_allrain_offset:hru_5628:mon_10 4.66532 5.598384 3.7322560000000005
+tmax_allrain_offset:hru_5635:mon_10 4.66532 5.598384 3.7322560000000005
+tmax_allrain_offset:hru_5637:mon_10 4.66532 5.598384 3.7322560000000005
+tmax_allrain_offset:hru_5643:mon_10 4.66532 5.598384 3.7322560000000005
+tmax_allrain_offset:hru_5678:mon_10 4.665236 5.5982832 3.7321888000000003
+tmax_allrain_offset:hru_5679:mon_10 4.658199 5.5898388 3.7265591999999996
+tmax_allrain_offset:hru_5686:mon_10 4.627573 5.5530876 3.7020584
+tmax_allrain_offset:hru_5690:mon_10 4.59524 5.5142880000000005 3.6761920000000003
+tmax_allrain_offset:hru_5693:mon_10 4.574644 5.4895728 3.6597152
+tmax_allrain_offset:hru_5697:mon_10 5.217561 6.2610732 4.1740488
+tmax_allrain_offset:hru_5703:mon_10 5.057686 6.069223200000001 4.0461488
+tmax_allrain_offset:hru_5728:mon_10 4.846396 5.8156752 3.8771168000000005
+tmax_allrain_offset:hru_7128:mon_10 9.090948 10.9091376 7.272758399999999
+tmax_allrain_offset:hru_7156:mon_10 4.8396 5.80752 3.87168
+tmax_allrain_offset:hru_7157:mon_10 4.571672 5.486006400000001 3.6573376000000004
+tmax_allrain_offset:hru_5621:mon_11 6.780309 8.1363708 5.4242472
+tmax_allrain_offset:hru_5625:mon_11 6.780309 8.1363708 5.4242472
+tmax_allrain_offset:hru_5628:mon_11 6.780309 8.1363708 5.4242472
+tmax_allrain_offset:hru_5635:mon_11 6.780309 8.1363708 5.4242472
+tmax_allrain_offset:hru_5637:mon_11 6.780309 8.1363708 5.4242472
+tmax_allrain_offset:hru_5643:mon_11 6.780309 8.1363708 5.4242472
+tmax_allrain_offset:hru_5678:mon_11 6.780678 8.1368136 5.4245424
+tmax_allrain_offset:hru_5679:mon_11 6.811739 8.174086800000001 5.4493912
+tmax_allrain_offset:hru_5686:mon_11 7.11466 8.537592 5.6917279999999995
+tmax_allrain_offset:hru_5690:mon_11 7.089637 8.5075644 5.6717096
+tmax_allrain_offset:hru_5693:mon_11 7.180544 8.6166528 5.7444352
+tmax_allrain_offset:hru_5697:mon_11 6.69497 8.033964 5.355976
+tmax_allrain_offset:hru_5703:mon_11 6.586327 7.9035924 5.2690616
+tmax_allrain_offset:hru_5728:mon_11 6.626315 7.951578 5.301052
+tmax_allrain_offset:hru_7128:mon_11 7.094476 8.5133712 5.6755808000000005
+tmax_allrain_offset:hru_7156:mon_11 7.020586 8.4247032 5.6164688
+tmax_allrain_offset:hru_7157:mon_11 7.193663 8.6323956 5.7549304
+tmax_allrain_offset:hru_5621:mon_12 7.338721 8.8064652 5.870976799999999
+tmax_allrain_offset:hru_5625:mon_12 7.338721 8.8064652 5.870976799999999
+tmax_allrain_offset:hru_5628:mon_12 7.338721 8.8064652 5.870976799999999
+tmax_allrain_offset:hru_5635:mon_12 7.338721 8.8064652 5.870976799999999
+tmax_allrain_offset:hru_5637:mon_12 7.338721 8.8064652 5.870976799999999
+tmax_allrain_offset:hru_5643:mon_12 7.338721 8.8064652 5.870976799999999
+tmax_allrain_offset:hru_5678:mon_12 7.338939 8.8067268 5.8711512
+tmax_allrain_offset:hru_5679:mon_12 7.357298 8.8287576 5.8858384
+tmax_allrain_offset:hru_5686:mon_12 7.549054 9.0588648 6.0392432
+tmax_allrain_offset:hru_5690:mon_12 7.521558 9.0258696 6.017246399999999
+tmax_allrain_offset:hru_5693:mon_12 7.575292 9.0903504 6.0602336
+tmax_allrain_offset:hru_5697:mon_12 7.302091 8.7625092 5.8416727999999996
+tmax_allrain_offset:hru_5703:mon_12 7.265052 8.7180624 5.8120416
+tmax_allrain_offset:hru_5728:mon_12 7.28503 8.742036 5.828024
+tmax_allrain_offset:hru_7128:mon_12 7.401758 8.8821096 5.9214064
+tmax_allrain_offset:hru_7156:mon_12 7.546552 9.0558624 6.0372416
+tmax_allrain_offset:hru_7157:mon_12 7.583046 9.0996552 6.0664368
+tmax_allsnow:hru_5621:mon_1 29.321213 35.1854556 23.4569704
+tmax_allsnow:hru_5625:mon_1 29.321213 35.1854556 23.4569704
+tmax_allsnow:hru_5628:mon_1 29.321213 35.1854556 23.4569704
+tmax_allsnow:hru_5635:mon_1 29.321213 35.1854556 23.4569704
+tmax_allsnow:hru_5637:mon_1 29.321213 35.1854556 23.4569704
+tmax_allsnow:hru_5643:mon_1 29.321213 35.1854556 23.4569704
+tmax_allsnow:hru_5678:mon_1 29.321195 35.185434 23.456955999999998
+tmax_allsnow:hru_5679:mon_1 29.319707 35.1836484 23.4557656
+tmax_allsnow:hru_5686:mon_1 29.297963 35.1575556 23.4383704
+tmax_allsnow:hru_5690:mon_1 29.306398 35.167677600000005 23.445118400000002
+tmax_allsnow:hru_5693:mon_1 29.302044 35.1624528 23.4416352
+tmax_allsnow:hru_5697:mon_1 29.340078 35.2080936 23.4720624
+tmax_allsnow:hru_5703:mon_1 29.353663 35.2243956 23.4829304
+tmax_allsnow:hru_5728:mon_1 29.346808 35.2161696 23.477446399999998
+tmax_allsnow:hru_7128:mon_1 29.329838 35.1958056 23.463870399999998
+tmax_allsnow:hru_7156:mon_1 29.261596 35.1139152 23.4092768
+tmax_allsnow:hru_7157:mon_1 29.301415 35.161698 23.441132
+tmax_allsnow:hru_5621:mon_2 29.894828 35.8737936 23.9158624
+tmax_allsnow:hru_5625:mon_2 29.894828 35.8737936 23.9158624
+tmax_allsnow:hru_5628:mon_2 29.894828 35.8737936 23.9158624
+tmax_allsnow:hru_5635:mon_2 29.894828 35.8737936 23.9158624
+tmax_allsnow:hru_5637:mon_2 29.894828 35.8737936 23.9158624
+tmax_allsnow:hru_5643:mon_2 29.894828 35.8737936 23.9158624
+tmax_allsnow:hru_5678:mon_2 29.894793 35.8737516 23.9158344
+tmax_allsnow:hru_5679:mon_2 29.891852 35.8702224 23.9134816
+tmax_allsnow:hru_5686:mon_2 29.854396 35.8252752 23.883516800000002
+tmax_allsnow:hru_5690:mon_2 29.865536 35.8386432 23.892428799999998
+tmax_allsnow:hru_5693:mon_2 29.856927 35.8283124 23.8855416
+tmax_allsnow:hru_5697:mon_2 29.927367 35.9128404 23.9418936
+tmax_allsnow:hru_5703:mon_2 29.95721 35.948652 23.965768
+tmax_allsnow:hru_5728:mon_2 29.94553 35.934636000000005 23.956424000000002
+tmax_allsnow:hru_7128:mon_2 29.861717 35.8340604 23.8893736
+tmax_allsnow:hru_7156:mon_2 29.820474 35.7845688 23.8563792
+tmax_allsnow:hru_7157:mon_2 29.855685 35.826822 23.884548000000002
+tmax_allsnow:hru_5621:mon_3 30.989016 37.1868192 24.7912128
+tmax_allsnow:hru_5625:mon_3 30.989016 37.1868192 24.7912128
+tmax_allsnow:hru_5628:mon_3 30.989016 37.1868192 24.7912128
+tmax_allsnow:hru_5635:mon_3 30.989016 37.1868192 24.7912128
+tmax_allsnow:hru_5637:mon_3 30.989016 37.1868192 24.7912128
+tmax_allsnow:hru_5643:mon_3 30.989016 37.1868192 24.7912128
+tmax_allsnow:hru_5678:mon_3 30.988837 37.1866044 24.7910696
+tmax_allsnow:hru_5679:mon_3 30.973787 37.1685444 24.7790296
+tmax_allsnow:hru_5686:mon_3 30.799146 36.9589752 24.6393168
+tmax_allsnow:hru_5690:mon_3 30.839131 37.0069572 24.671304799999998
+tmax_allsnow:hru_5693:mon_3 30.795082 36.9540984 24.636065600000002
+tmax_allsnow:hru_5697:mon_3 30.920853 37.1050236 24.7366824
+tmax_allsnow:hru_5703:mon_3 30.890946 37.0691352 24.7127568
+tmax_allsnow:hru_5728:mon_3 30.907164 37.088596800000005 24.725731200000002
+tmax_allsnow:hru_7128:mon_3 30.814302 36.977162400000005 24.651441600000002
+tmax_allsnow:hru_7156:mon_3 30.753187 36.903824400000005 24.6025496
+tmax_allsnow:hru_7157:mon_3 30.788725 36.94647 24.63098
+tmax_allsnow:hru_5621:mon_4 31.924954 38.3099448 25.5399632
+tmax_allsnow:hru_5625:mon_4 31.924954 38.3099448 25.5399632
+tmax_allsnow:hru_5628:mon_4 31.924954 38.3099448 25.5399632
+tmax_allsnow:hru_5635:mon_4 31.924954 38.3099448 25.5399632
+tmax_allsnow:hru_5637:mon_4 31.924954 38.3099448 25.5399632
+tmax_allsnow:hru_5643:mon_4 31.924954 38.3099448 25.5399632
+tmax_allsnow:hru_5678:mon_4 31.924954 38.3099448 25.5399632
+tmax_allsnow:hru_5679:mon_4 31.924959 38.3099508 25.5399672
+tmax_allsnow:hru_5686:mon_4 31.874054 38.2488648 25.499243200000002
+tmax_allsnow:hru_5690:mon_4 31.924999 38.3099988 25.5399992
+tmax_allsnow:hru_5693:mon_4 31.925012 38.3100144 25.540009599999998
+tmax_allsnow:hru_5697:mon_4 31.411883 37.6942596 25.1295064
+tmax_allsnow:hru_5703:mon_4 31.012174 37.2146088 24.809739200000003
+tmax_allsnow:hru_5728:mon_4 31.178293 37.413951600000004 24.9426344
+tmax_allsnow:hru_7128:mon_4 31.916646 38.2999752 25.5333168
+tmax_allsnow:hru_7156:mon_4 31.699366 38.039239200000004 25.3594928
+tmax_allsnow:hru_7157:mon_4 31.925014 38.3100168 25.540011200000002
+tmax_allsnow:hru_5621:mon_5 32.0 38.4 25.6
+tmax_allsnow:hru_5625:mon_5 32.0 38.4 25.6
+tmax_allsnow:hru_5628:mon_5 32.0 38.4 25.6
+tmax_allsnow:hru_5635:mon_5 32.0 38.4 25.6
+tmax_allsnow:hru_5637:mon_5 32.0 38.4 25.6
+tmax_allsnow:hru_5643:mon_5 32.0 38.4 25.6
+tmax_allsnow:hru_5678:mon_5 32.0 38.4 25.6
+tmax_allsnow:hru_5679:mon_5 32.0 38.4 25.6
+tmax_allsnow:hru_5686:mon_5 32.0 38.4 25.6
+tmax_allsnow:hru_5690:mon_5 32.0 38.4 25.6
+tmax_allsnow:hru_5693:mon_5 32.0 38.4 25.6
+tmax_allsnow:hru_5697:mon_5 32.0 38.4 25.6
+tmax_allsnow:hru_5703:mon_5 32.0 38.4 25.6
+tmax_allsnow:hru_5728:mon_5 32.0 38.4 25.6
+tmax_allsnow:hru_7128:mon_5 32.0 38.4 25.6
+tmax_allsnow:hru_7156:mon_5 32.0 38.4 25.6
+tmax_allsnow:hru_7157:mon_5 32.0 38.4 25.6
+tmax_allsnow:hru_5621:mon_6 32.0 38.4 25.6
+tmax_allsnow:hru_5625:mon_6 32.0 38.4 25.6
+tmax_allsnow:hru_5628:mon_6 32.0 38.4 25.6
+tmax_allsnow:hru_5635:mon_6 32.0 38.4 25.6
+tmax_allsnow:hru_5637:mon_6 32.0 38.4 25.6
+tmax_allsnow:hru_5643:mon_6 32.0 38.4 25.6
+tmax_allsnow:hru_5678:mon_6 32.0 38.4 25.6
+tmax_allsnow:hru_5679:mon_6 32.0 38.4 25.6
+tmax_allsnow:hru_5686:mon_6 32.0 38.4 25.6
+tmax_allsnow:hru_5690:mon_6 32.0 38.4 25.6
+tmax_allsnow:hru_5693:mon_6 32.0 38.4 25.6
+tmax_allsnow:hru_5697:mon_6 32.0 38.4 25.6
+tmax_allsnow:hru_5703:mon_6 32.0 38.4 25.6
+tmax_allsnow:hru_5728:mon_6 32.0 38.4 25.6
+tmax_allsnow:hru_7128:mon_6 32.0 38.4 25.6
+tmax_allsnow:hru_7156:mon_6 32.0 38.4 25.6
+tmax_allsnow:hru_7157:mon_6 32.0 38.4 25.6
+tmax_allsnow:hru_5621:mon_7 32.0 38.4 25.6
+tmax_allsnow:hru_5625:mon_7 32.0 38.4 25.6
+tmax_allsnow:hru_5628:mon_7 32.0 38.4 25.6
+tmax_allsnow:hru_5635:mon_7 32.0 38.4 25.6
+tmax_allsnow:hru_5637:mon_7 32.0 38.4 25.6
+tmax_allsnow:hru_5643:mon_7 32.0 38.4 25.6
+tmax_allsnow:hru_5678:mon_7 32.0 38.4 25.6
+tmax_allsnow:hru_5679:mon_7 32.0 38.4 25.6
+tmax_allsnow:hru_5686:mon_7 32.0 38.4 25.6
+tmax_allsnow:hru_5690:mon_7 32.0 38.4 25.6
+tmax_allsnow:hru_5693:mon_7 32.0 38.4 25.6
+tmax_allsnow:hru_5697:mon_7 32.0 38.4 25.6
+tmax_allsnow:hru_5703:mon_7 32.0 38.4 25.6
+tmax_allsnow:hru_5728:mon_7 32.0 38.4 25.6
+tmax_allsnow:hru_7128:mon_7 32.0 38.4 25.6
+tmax_allsnow:hru_7156:mon_7 32.0 38.4 25.6
+tmax_allsnow:hru_7157:mon_7 32.0 38.4 25.6
+tmax_allsnow:hru_5621:mon_8 32.0 38.4 25.6
+tmax_allsnow:hru_5625:mon_8 32.0 38.4 25.6
+tmax_allsnow:hru_5628:mon_8 32.0 38.4 25.6
+tmax_allsnow:hru_5635:mon_8 32.0 38.4 25.6
+tmax_allsnow:hru_5637:mon_8 32.0 38.4 25.6
+tmax_allsnow:hru_5643:mon_8 32.0 38.4 25.6
+tmax_allsnow:hru_5678:mon_8 32.0 38.4 25.6
+tmax_allsnow:hru_5679:mon_8 32.0 38.4 25.6
+tmax_allsnow:hru_5686:mon_8 32.0 38.4 25.6
+tmax_allsnow:hru_5690:mon_8 32.0 38.4 25.6
+tmax_allsnow:hru_5693:mon_8 32.0 38.4 25.6
+tmax_allsnow:hru_5697:mon_8 32.0 38.4 25.6
+tmax_allsnow:hru_5703:mon_8 32.0 38.4 25.6
+tmax_allsnow:hru_5728:mon_8 32.0 38.4 25.6
+tmax_allsnow:hru_7128:mon_8 32.0 38.4 25.6
+tmax_allsnow:hru_7156:mon_8 32.0 38.4 25.6
+tmax_allsnow:hru_7157:mon_8 32.0 38.4 25.6
+tmax_allsnow:hru_5621:mon_9 32.0 38.4 25.6
+tmax_allsnow:hru_5625:mon_9 32.0 38.4 25.6
+tmax_allsnow:hru_5628:mon_9 32.0 38.4 25.6
+tmax_allsnow:hru_5635:mon_9 32.0 38.4 25.6
+tmax_allsnow:hru_5637:mon_9 32.0 38.4 25.6
+tmax_allsnow:hru_5643:mon_9 32.0 38.4 25.6
+tmax_allsnow:hru_5678:mon_9 32.0 38.4 25.6
+tmax_allsnow:hru_5679:mon_9 32.0 38.4 25.6
+tmax_allsnow:hru_5686:mon_9 32.0 38.4 25.6
+tmax_allsnow:hru_5690:mon_9 32.0 38.4 25.6
+tmax_allsnow:hru_5693:mon_9 32.0 38.4 25.6
+tmax_allsnow:hru_5697:mon_9 32.0 38.4 25.6
+tmax_allsnow:hru_5703:mon_9 32.0 38.4 25.6
+tmax_allsnow:hru_5728:mon_9 32.0 38.4 25.6
+tmax_allsnow:hru_7128:mon_9 32.0 38.4 25.6
+tmax_allsnow:hru_7156:mon_9 32.0 38.4 25.6
+tmax_allsnow:hru_7157:mon_9 32.0 38.4 25.6
+tmax_allsnow:hru_5621:mon_10 33.322804 39.987364799999995 26.658243199999998
+tmax_allsnow:hru_5625:mon_10 33.322804 39.987364799999995 26.658243199999998
+tmax_allsnow:hru_5628:mon_10 33.322804 39.987364799999995 26.658243199999998
+tmax_allsnow:hru_5635:mon_10 33.322804 39.987364799999995 26.658243199999998
+tmax_allsnow:hru_5637:mon_10 33.322804 39.987364799999995 26.658243199999998
+tmax_allsnow:hru_5643:mon_10 33.322804 39.987364799999995 26.658243199999998
+tmax_allsnow:hru_5678:mon_10 33.322885 39.987462 26.658307999999998
+tmax_allsnow:hru_5679:mon_10 33.329658 39.9955896 26.6637264
+tmax_allsnow:hru_5686:mon_10 33.35752 40.029024 26.686016000000002
+tmax_allsnow:hru_5690:mon_10 33.390259 40.0683108 26.7122072
+tmax_allsnow:hru_5693:mon_10 33.410083 40.0920996 26.7280664
+tmax_allsnow:hru_5697:mon_10 32.7708 39.324960000000004 26.21664
+tmax_allsnow:hru_5703:mon_10 32.931384 39.5176608 26.3451072
+tmax_allsnow:hru_5728:mon_10 33.142502 39.7710024 26.5140016
+tmax_allsnow:hru_7128:mon_10 28.893252 34.6719024 23.1146016
+tmax_allsnow:hru_7156:mon_10 33.145233 39.7742796 26.5161864
+tmax_allsnow:hru_7157:mon_10 33.412944 40.0955328 26.7303552
+tmax_allsnow:hru_5621:mon_11 31.084678 37.3016136 24.8677424
+tmax_allsnow:hru_5625:mon_11 31.084678 37.3016136 24.8677424
+tmax_allsnow:hru_5628:mon_11 31.084678 37.3016136 24.8677424
+tmax_allsnow:hru_5635:mon_11 31.084678 37.3016136 24.8677424
+tmax_allsnow:hru_5637:mon_11 31.084678 37.3016136 24.8677424
+tmax_allsnow:hru_5643:mon_11 31.084678 37.3016136 24.8677424
+tmax_allsnow:hru_5678:mon_11 31.084288 37.3011456 24.8674304
+tmax_allsnow:hru_5679:mon_11 31.051572 37.2618864 24.8412576
+tmax_allsnow:hru_5686:mon_11 30.729975 36.87597 24.58398
+tmax_allsnow:hru_5690:mon_11 30.75886 36.910632 24.607087999999997
+tmax_allsnow:hru_5693:mon_11 30.663107 36.7957284 24.5304856
+tmax_allsnow:hru_5697:mon_11 31.176779 37.412134800000004 24.9414232
+tmax_allsnow:hru_5703:mon_11 31.294446 37.5533352 25.035556800000002
+tmax_allsnow:hru_5728:mon_11 31.251684 37.502020800000004 25.0013472
+tmax_allsnow:hru_7128:mon_11 30.742506 36.8910072 24.5940048
+tmax_allsnow:hru_7156:mon_11 30.815557 36.9786684 24.6524456
+tmax_allsnow:hru_7157:mon_11 30.649289 36.7791468 24.5194312
+tmax_allsnow:hru_5621:mon_12 30.259824 36.3117888 24.207859199999998
+tmax_allsnow:hru_5625:mon_12 30.259824 36.3117888 24.207859199999998
+tmax_allsnow:hru_5628:mon_12 30.259824 36.3117888 24.207859199999998
+tmax_allsnow:hru_5635:mon_12 30.259824 36.3117888 24.207859199999998
+tmax_allsnow:hru_5637:mon_12 30.259824 36.3117888 24.207859199999998
+tmax_allsnow:hru_5643:mon_12 30.259824 36.3117888 24.207859199999998
+tmax_allsnow:hru_5678:mon_12 30.259605 36.311526 24.207684
+tmax_allsnow:hru_5679:mon_12 30.241128 36.2893536 24.1929024
+tmax_allsnow:hru_5686:mon_12 30.046813 36.0561756 24.0374504
+tmax_allsnow:hru_5690:mon_12 30.07582 36.090984 24.060656
+tmax_allsnow:hru_5693:mon_12 30.021744 36.0260928 24.017395200000003
+tmax_allsnow:hru_5697:mon_12 30.293317 36.3519804 24.234653599999998
+tmax_allsnow:hru_5703:mon_12 30.330213 36.3962556 24.2641704
+tmax_allsnow:hru_5728:mon_12 30.311311 36.3735732 24.2490488
+tmax_allsnow:hru_7128:mon_12 30.179509 36.2154108 24.143607199999998
+tmax_allsnow:hru_7156:mon_12 30.035646 36.0427752 24.0285168
+tmax_allsnow:hru_7157:mon_12 30.01394 36.016728 24.011152000000003
+tmax_cbh_adj:hru_5621:mon_1 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5625:mon_1 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5628:mon_1 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5635:mon_1 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5637:mon_1 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5643:mon_1 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5678:mon_1 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5679:mon_1 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5686:mon_1 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5690:mon_1 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5693:mon_1 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5697:mon_1 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5703:mon_1 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5728:mon_1 0.0 3.0 -3.0
+tmax_cbh_adj:hru_7128:mon_1 0.0 3.0 -3.0
+tmax_cbh_adj:hru_7156:mon_1 0.0 3.0 -3.0
+tmax_cbh_adj:hru_7157:mon_1 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5621:mon_2 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5625:mon_2 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5628:mon_2 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5635:mon_2 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5637:mon_2 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5643:mon_2 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5678:mon_2 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5679:mon_2 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5686:mon_2 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5690:mon_2 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5693:mon_2 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5697:mon_2 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5703:mon_2 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5728:mon_2 0.0 3.0 -3.0
+tmax_cbh_adj:hru_7128:mon_2 0.0 3.0 -3.0
+tmax_cbh_adj:hru_7156:mon_2 0.0 3.0 -3.0
+tmax_cbh_adj:hru_7157:mon_2 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5621:mon_3 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5625:mon_3 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5628:mon_3 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5635:mon_3 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5637:mon_3 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5643:mon_3 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5678:mon_3 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5679:mon_3 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5686:mon_3 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5690:mon_3 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5693:mon_3 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5697:mon_3 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5703:mon_3 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5728:mon_3 0.0 3.0 -3.0
+tmax_cbh_adj:hru_7128:mon_3 0.0 3.0 -3.0
+tmax_cbh_adj:hru_7156:mon_3 0.0 3.0 -3.0
+tmax_cbh_adj:hru_7157:mon_3 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5621:mon_4 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5625:mon_4 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5628:mon_4 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5635:mon_4 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5637:mon_4 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5643:mon_4 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5678:mon_4 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5679:mon_4 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5686:mon_4 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5690:mon_4 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5693:mon_4 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5697:mon_4 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5703:mon_4 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5728:mon_4 0.0 3.0 -3.0
+tmax_cbh_adj:hru_7128:mon_4 0.0 3.0 -3.0
+tmax_cbh_adj:hru_7156:mon_4 0.0 3.0 -3.0
+tmax_cbh_adj:hru_7157:mon_4 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5621:mon_5 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5625:mon_5 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5628:mon_5 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5635:mon_5 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5637:mon_5 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5643:mon_5 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5678:mon_5 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5679:mon_5 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5686:mon_5 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5690:mon_5 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5693:mon_5 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5697:mon_5 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5703:mon_5 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5728:mon_5 0.0 3.0 -3.0
+tmax_cbh_adj:hru_7128:mon_5 0.0 3.0 -3.0
+tmax_cbh_adj:hru_7156:mon_5 0.0 3.0 -3.0
+tmax_cbh_adj:hru_7157:mon_5 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5621:mon_6 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5625:mon_6 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5628:mon_6 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5635:mon_6 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5637:mon_6 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5643:mon_6 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5678:mon_6 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5679:mon_6 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5686:mon_6 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5690:mon_6 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5693:mon_6 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5697:mon_6 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5703:mon_6 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5728:mon_6 0.0 3.0 -3.0
+tmax_cbh_adj:hru_7128:mon_6 0.0 3.0 -3.0
+tmax_cbh_adj:hru_7156:mon_6 0.0 3.0 -3.0
+tmax_cbh_adj:hru_7157:mon_6 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5621:mon_7 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5625:mon_7 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5628:mon_7 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5635:mon_7 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5637:mon_7 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5643:mon_7 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5678:mon_7 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5679:mon_7 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5686:mon_7 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5690:mon_7 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5693:mon_7 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5697:mon_7 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5703:mon_7 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5728:mon_7 0.0 3.0 -3.0
+tmax_cbh_adj:hru_7128:mon_7 0.0 3.0 -3.0
+tmax_cbh_adj:hru_7156:mon_7 0.0 3.0 -3.0
+tmax_cbh_adj:hru_7157:mon_7 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5621:mon_8 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5625:mon_8 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5628:mon_8 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5635:mon_8 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5637:mon_8 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5643:mon_8 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5678:mon_8 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5679:mon_8 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5686:mon_8 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5690:mon_8 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5693:mon_8 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5697:mon_8 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5703:mon_8 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5728:mon_8 0.0 3.0 -3.0
+tmax_cbh_adj:hru_7128:mon_8 0.0 3.0 -3.0
+tmax_cbh_adj:hru_7156:mon_8 0.0 3.0 -3.0
+tmax_cbh_adj:hru_7157:mon_8 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5621:mon_9 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5625:mon_9 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5628:mon_9 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5635:mon_9 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5637:mon_9 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5643:mon_9 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5678:mon_9 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5679:mon_9 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5686:mon_9 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5690:mon_9 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5693:mon_9 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5697:mon_9 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5703:mon_9 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5728:mon_9 0.0 3.0 -3.0
+tmax_cbh_adj:hru_7128:mon_9 0.0 3.0 -3.0
+tmax_cbh_adj:hru_7156:mon_9 0.0 3.0 -3.0
+tmax_cbh_adj:hru_7157:mon_9 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5621:mon_10 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5625:mon_10 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5628:mon_10 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5635:mon_10 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5637:mon_10 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5643:mon_10 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5678:mon_10 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5679:mon_10 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5686:mon_10 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5690:mon_10 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5693:mon_10 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5697:mon_10 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5703:mon_10 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5728:mon_10 0.0 3.0 -3.0
+tmax_cbh_adj:hru_7128:mon_10 0.0 3.0 -3.0
+tmax_cbh_adj:hru_7156:mon_10 0.0 3.0 -3.0
+tmax_cbh_adj:hru_7157:mon_10 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5621:mon_11 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5625:mon_11 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5628:mon_11 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5635:mon_11 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5637:mon_11 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5643:mon_11 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5678:mon_11 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5679:mon_11 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5686:mon_11 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5690:mon_11 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5693:mon_11 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5697:mon_11 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5703:mon_11 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5728:mon_11 0.0 3.0 -3.0
+tmax_cbh_adj:hru_7128:mon_11 0.0 3.0 -3.0
+tmax_cbh_adj:hru_7156:mon_11 0.0 3.0 -3.0
+tmax_cbh_adj:hru_7157:mon_11 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5621:mon_12 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5625:mon_12 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5628:mon_12 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5635:mon_12 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5637:mon_12 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5643:mon_12 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5678:mon_12 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5679:mon_12 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5686:mon_12 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5690:mon_12 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5693:mon_12 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5697:mon_12 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5703:mon_12 0.0 3.0 -3.0
+tmax_cbh_adj:hru_5728:mon_12 0.0 3.0 -3.0
+tmax_cbh_adj:hru_7128:mon_12 0.0 3.0 -3.0
+tmax_cbh_adj:hru_7156:mon_12 0.0 3.0 -3.0
+tmax_cbh_adj:hru_7157:mon_12 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5621:mon_1 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5625:mon_1 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5628:mon_1 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5635:mon_1 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5637:mon_1 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5643:mon_1 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5678:mon_1 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5679:mon_1 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5686:mon_1 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5690:mon_1 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5693:mon_1 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5697:mon_1 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5703:mon_1 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5728:mon_1 0.0 3.0 -3.0
+tmin_cbh_adj:hru_7128:mon_1 0.0 3.0 -3.0
+tmin_cbh_adj:hru_7156:mon_1 0.0 3.0 -3.0
+tmin_cbh_adj:hru_7157:mon_1 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5621:mon_2 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5625:mon_2 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5628:mon_2 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5635:mon_2 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5637:mon_2 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5643:mon_2 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5678:mon_2 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5679:mon_2 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5686:mon_2 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5690:mon_2 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5693:mon_2 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5697:mon_2 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5703:mon_2 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5728:mon_2 0.0 3.0 -3.0
+tmin_cbh_adj:hru_7128:mon_2 0.0 3.0 -3.0
+tmin_cbh_adj:hru_7156:mon_2 0.0 3.0 -3.0
+tmin_cbh_adj:hru_7157:mon_2 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5621:mon_3 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5625:mon_3 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5628:mon_3 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5635:mon_3 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5637:mon_3 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5643:mon_3 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5678:mon_3 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5679:mon_3 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5686:mon_3 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5690:mon_3 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5693:mon_3 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5697:mon_3 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5703:mon_3 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5728:mon_3 0.0 3.0 -3.0
+tmin_cbh_adj:hru_7128:mon_3 0.0 3.0 -3.0
+tmin_cbh_adj:hru_7156:mon_3 0.0 3.0 -3.0
+tmin_cbh_adj:hru_7157:mon_3 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5621:mon_4 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5625:mon_4 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5628:mon_4 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5635:mon_4 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5637:mon_4 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5643:mon_4 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5678:mon_4 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5679:mon_4 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5686:mon_4 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5690:mon_4 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5693:mon_4 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5697:mon_4 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5703:mon_4 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5728:mon_4 0.0 3.0 -3.0
+tmin_cbh_adj:hru_7128:mon_4 0.0 3.0 -3.0
+tmin_cbh_adj:hru_7156:mon_4 0.0 3.0 -3.0
+tmin_cbh_adj:hru_7157:mon_4 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5621:mon_5 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5625:mon_5 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5628:mon_5 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5635:mon_5 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5637:mon_5 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5643:mon_5 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5678:mon_5 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5679:mon_5 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5686:mon_5 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5690:mon_5 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5693:mon_5 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5697:mon_5 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5703:mon_5 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5728:mon_5 0.0 3.0 -3.0
+tmin_cbh_adj:hru_7128:mon_5 0.0 3.0 -3.0
+tmin_cbh_adj:hru_7156:mon_5 0.0 3.0 -3.0
+tmin_cbh_adj:hru_7157:mon_5 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5621:mon_6 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5625:mon_6 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5628:mon_6 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5635:mon_6 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5637:mon_6 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5643:mon_6 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5678:mon_6 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5679:mon_6 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5686:mon_6 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5690:mon_6 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5693:mon_6 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5697:mon_6 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5703:mon_6 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5728:mon_6 0.0 3.0 -3.0
+tmin_cbh_adj:hru_7128:mon_6 0.0 3.0 -3.0
+tmin_cbh_adj:hru_7156:mon_6 0.0 3.0 -3.0
+tmin_cbh_adj:hru_7157:mon_6 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5621:mon_7 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5625:mon_7 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5628:mon_7 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5635:mon_7 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5637:mon_7 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5643:mon_7 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5678:mon_7 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5679:mon_7 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5686:mon_7 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5690:mon_7 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5693:mon_7 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5697:mon_7 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5703:mon_7 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5728:mon_7 0.0 3.0 -3.0
+tmin_cbh_adj:hru_7128:mon_7 0.0 3.0 -3.0
+tmin_cbh_adj:hru_7156:mon_7 0.0 3.0 -3.0
+tmin_cbh_adj:hru_7157:mon_7 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5621:mon_8 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5625:mon_8 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5628:mon_8 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5635:mon_8 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5637:mon_8 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5643:mon_8 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5678:mon_8 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5679:mon_8 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5686:mon_8 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5690:mon_8 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5693:mon_8 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5697:mon_8 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5703:mon_8 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5728:mon_8 0.0 3.0 -3.0
+tmin_cbh_adj:hru_7128:mon_8 0.0 3.0 -3.0
+tmin_cbh_adj:hru_7156:mon_8 0.0 3.0 -3.0
+tmin_cbh_adj:hru_7157:mon_8 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5621:mon_9 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5625:mon_9 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5628:mon_9 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5635:mon_9 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5637:mon_9 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5643:mon_9 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5678:mon_9 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5679:mon_9 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5686:mon_9 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5690:mon_9 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5693:mon_9 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5697:mon_9 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5703:mon_9 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5728:mon_9 0.0 3.0 -3.0
+tmin_cbh_adj:hru_7128:mon_9 0.0 3.0 -3.0
+tmin_cbh_adj:hru_7156:mon_9 0.0 3.0 -3.0
+tmin_cbh_adj:hru_7157:mon_9 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5621:mon_10 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5625:mon_10 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5628:mon_10 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5635:mon_10 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5637:mon_10 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5643:mon_10 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5678:mon_10 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5679:mon_10 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5686:mon_10 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5690:mon_10 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5693:mon_10 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5697:mon_10 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5703:mon_10 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5728:mon_10 0.0 3.0 -3.0
+tmin_cbh_adj:hru_7128:mon_10 0.0 3.0 -3.0
+tmin_cbh_adj:hru_7156:mon_10 0.0 3.0 -3.0
+tmin_cbh_adj:hru_7157:mon_10 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5621:mon_11 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5625:mon_11 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5628:mon_11 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5635:mon_11 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5637:mon_11 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5643:mon_11 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5678:mon_11 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5679:mon_11 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5686:mon_11 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5690:mon_11 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5693:mon_11 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5697:mon_11 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5703:mon_11 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5728:mon_11 0.0 3.0 -3.0
+tmin_cbh_adj:hru_7128:mon_11 0.0 3.0 -3.0
+tmin_cbh_adj:hru_7156:mon_11 0.0 3.0 -3.0
+tmin_cbh_adj:hru_7157:mon_11 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5621:mon_12 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5625:mon_12 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5628:mon_12 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5635:mon_12 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5637:mon_12 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5643:mon_12 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5678:mon_12 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5679:mon_12 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5686:mon_12 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5690:mon_12 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5693:mon_12 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5697:mon_12 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5703:mon_12 0.0 3.0 -3.0
+tmin_cbh_adj:hru_5728:mon_12 0.0 3.0 -3.0
+tmin_cbh_adj:hru_7128:mon_12 0.0 3.0 -3.0
+tmin_cbh_adj:hru_7156:mon_12 0.0 3.0 -3.0
+tmin_cbh_adj:hru_7157:mon_12 0.0 3.0 -3.0

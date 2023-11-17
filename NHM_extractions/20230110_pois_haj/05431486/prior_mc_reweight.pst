@@ -1,7 +1,7 @@
 pcf version=2
 * control data keyword
 pestmode                                 estimation
-noptmax                                 0
+noptmax                                -1
 svdmode                                 1
 maxsing                               250
 eigthresh                           1e-06
@@ -9,7 +9,7 @@ eigwrite                                1
 ies_num_reals                  500
 ies_bad_phi_sigma              2.5
 overdue_giveup_fac             4
-ies_no_noise                   true
+ies_no_noise                   false
 ies_drop_conflicts             false
 ies_pdc_sigma_distance         3.0
 ies_autoadaloc                 false

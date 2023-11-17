@@ -1,0 +1,19 @@
+obsgroup,obs_percent,units,obslbnd,obsubnd
+actet_mean_mon       ,20%,in/day,0,1.00E+11
+actet_mon            ,20%,in/day,0,1.00E+11
+recharge_ann         ,25%,dimensionless,0,1
+runoff_mon           ,10%,cfs,0,1.00E+11
+sca_daily            ,15%,dimensionless,0,1
+soil_moist_ann       ,20%,dimensionless,0,1
+soil_moist_mon       ,20%,dimensionless,0,1
+streamflow_daily_large_asc ,10%,cfs,0,1.00E+11
+streamflow_daily_large_dsc ,10%,cfs,0,1.00E+11
+streamflow_daily_small_asc ,10%,cfs,0,1.00E+11
+streamflow_daily_small_dsc ,10%,cfs,0,1.00E+11
+streamflow_daily_pulse_asc ,10%,cfs,0,1.00E+11
+streamflow_daily_pulse_dsc ,10%,cfs,0,1.00E+11
+streamflow_daily_low ,10%,cfs,0,1.00E+11
+streamflow_daily_exlow ,10%,cfs,0,1.00E+11
+streamflow_mean_mon  ,10%,cfs,0,1.00E+11
+streamflow_mon       ,10%,cfs,0,1.00E+11
+streamflow_nodata,10%,cfs,0,1.00E+11
