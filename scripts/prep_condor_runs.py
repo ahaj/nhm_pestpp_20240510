@@ -12,6 +12,7 @@ for cex in all_extractions:
 
     files = [i for i in list(frompath.glob(f'{rootnm}*') ) if 'phi' not in i.name]
     files.extend([i for i in list(frompath.glob(f'*.tpl') ) ]) 
+    files.extend([i for i in list(frompath.glob(f'*.py') ) ])
 
     for tf in tofolder:
         [shutil.copy2(f, topath / tf / f.name) for f in files]
