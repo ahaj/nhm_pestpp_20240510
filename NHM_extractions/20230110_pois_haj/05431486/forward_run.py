@@ -1,13 +1,13 @@
+import shutil
+import dask
+import pandas as pd
 import numpy as np
 import os
-import time
-import pathlib as pl
-import dask
-import shutil
 import pywatershed as pws
-import pywatershed
-import pandas as pd
+import pathlib as pl
+import time
 import xarray as xr
+import pywatershed
 
 
 sttime = time.time()
@@ -25,7 +25,7 @@ custom_output_file = out_dir / "model_custom_output.nc"
 #params = pws.parameters.PrmsParameters.load(param_file)
 param_file = work_dir / "parameters.json"
 params = pws.parameters.PrmsParameters.load_from_json(param_file)
-control = pws.Control.load_prms(work_dir / "control.test", warn_unused_options= False)
+control = pws.Control.load_prms(work_dir / "control.default.bandit", warn_unused_options= False)
 
 control.options = control.options | {
     "input_dir": work_dir,
