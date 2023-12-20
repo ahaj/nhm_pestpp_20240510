@@ -2,8 +2,11 @@ import pathlib as pl
 import zipfile
 import os
 
-all_extractions = ['01473000','05431486','09112500']
-rootnm = 'prior_mc_reweight'
+#all_extractions = ['01473000','05431486','09112500']
+all_extractions = ['09112500']
+#rootnm = 'prior_mc_reweight'
+rootnm = 'ies'
+priorflag = False
 results_dir = pl.Path('../results')
 
 for cex in all_extractions:
@@ -12,6 +15,9 @@ for cex in all_extractions:
     files.extend(cpath.glob(f'{rootnm}*pdc*'))
     files.extend(cpath.glob(f'{rootnm}*phi*'))
     files.extend(cpath.glob(f'{rootnm}.0*'))
+    if not priorflag:
+        for i in range(1,4):
+            files.extend(cpath.glob(f'{rootnm}.{i}*'))
     files.extend(cpath.glob(f'{rootnm}.*noise*'))
     with zipfile.ZipFile(results_dir / f'{rootnm}.{cex}.zip', 'w', zipfile.ZIP_DEFLATED) as zipf:
         [zipf.write(i, i.name) for i in files]
