@@ -1,13 +1,13 @@
-import xarray as xr
-import numpy as np
-import os
-import time
-import pywatershed as pws
 import pandas as pd
 import pathlib as pl
+import pywatershed as pws
+import os
+import dask
 import shutil
 import pywatershed
-import dask
+import xarray as xr
+import time
+import numpy as np
 
 
 sttime = time.time()
@@ -25,12 +25,12 @@ custom_output_file = out_dir / "model_custom_output.nc"
 #params = pws.parameters.PrmsParameters.load(param_file)
 param_file = work_dir / "parameters.json"
 params = pws.parameters.PrmsParameters.load_from_json(param_file)
-control = pws.Control.load(work_dir / "control.default.bandit")
+control = pws.Control.load_prms(work_dir / "control.test", warn_unused_options= False)
 
 control.options = control.options | {
     "input_dir": work_dir,
     "budget_type": None,
-    "verbose": False,
+    "verbosity": 0,
     "calc_method": "numba",
 }
 
@@ -43,10 +43,17 @@ if model_output_netcdf:
             "gwres_flow_vol",
             "seg_outflow",
             "hru_streamflow_out",
+            "recharge",
+            "snowcov_area",
+            "soil_rechr",
         ],
         "netcdf_output_dir": out_dir,
     }
-
+else:
+    control.options = control.options | {
+        "netcdf_output_var_names": None,
+        "netcdf_output_dir": None,
+    }
 
 model = pws.Model(
     [
@@ -104,7 +111,7 @@ diagnostic_var_dict = {
         "inputs": ["sroff_vol", "ssres_flow_vol", "gwres_flow_vol"],
         "function": sum_hru_flows,
         "like_var": "sroff_vol",
-        "metadata": {"desc": "something or other", "units": "parsecs"},
+        "metadata": {"desc": "Total volume to stream network from each HRU", "units": "cubic feet"},
     },
 }
 
@@ -244,7 +251,8 @@ if model_output_netcdf:
     for vv in var_list:
         default_output_file = out_dir / f"{vv}.nc"
         print("checking variable: ", vv)
-        answer = xr.open_dataset(default_output_file)[vv]
+        answer = xr.load_dataarray(default_output_file)
+
         result = out_subset_ds[vv]
 
         if vv in subset_vars:
@@ -252,20 +260,21 @@ if model_output_netcdf:
             answer = answer[:, indices[0]]
 
         np.testing.assert_allclose(answer, result)
+        answer.close()
 
     for diag_key, diag_val in diagnostic_var_dict.items():
         print("checking diagnostic variable: ", diag_key)
         input_dict = {}
         for ii in diag_val["inputs"]:
             default_output_file = out_dir / f"{ii}.nc"
-            input_dict[ii] = xr.open_dataset(default_output_file)[ii]
+            input_dict[ii] = xr.load_dataarray(default_output_file)
 
         answer = diag_val["function"](**input_dict)
         result = out_subset_ds[diag_key]
 
         np.testing.assert_allclose(answer, result)
 
-
+    out_subset_ds.close()
 print("#### RUN DONE, TIME TO POSTPROCESS ####")
 
 
