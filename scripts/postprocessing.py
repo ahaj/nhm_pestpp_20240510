@@ -1,0 +1,219 @@
+import pandas as pd
+import sys
+import numpy as np
+import pathlib as pl
+import zipfile
+sys.path.append('../dependencies/')
+import pyemu
+from datetime import datetime as dt
+import matplotlib.pyplot as plt
+from matplotlib.backends.backend_pdf import PdfPages
+from matplotlib.lines import Line2D
+from matplotlib.patches import Patch
+import calendar
+datfmtmon = '%Y_%m'
+datfmtdaily = '%Y_%m_%d'
+
+
+
+def setup_postproc(curr_model='01473000', curr_run_root='prior_mc_reweight', extractfiles = False):
+    # set some paths
+    pstdir = pl.Path(f'../NHM_extractions/20230110_pois_haj/{curr_model}/')
+    results_file = pl.Path(f'../results/{curr_run_root}.{curr_model}.zip/')
+    tmp_res_path = pl.Path(f'../results/{curr_model}.{curr_run_root}')
+    # set up figures directory
+    fig_dir = pl.Path( f'../postprocessing/figures/{curr_model}/{curr_run_root}.{curr_model}')
+    if not fig_dir.exists():
+        fig_dir.mkdir(parents=True)    
+        
+    # get the obs data from the PST file
+    pst = pyemu.Pst(str(pstdir / f'{curr_run_root}.pst'))
+    obs = pst.observation_data.copy()
+    
+    # if still need to extract the files, go for it
+    if extractfiles:
+        with zipfile.ZipFile(results_file, 'r') as zf:
+            zf.extractall(tmp_res_path)
+    return pstdir, results_file, tmp_res_path, fig_dir, obs, pst
+
+def check_pdc(tmp_res_path, curr_run_root, pst, obs):
+    pdc = pd.read_csv(tmp_res_path / f'{curr_run_root}.pdc.csv', index_col=0)
+    print(f'{(len(pdc)/pst.nnz_obs)*100:.2f}% of weighted obs are in PDC')    
+    pdc = pdc.merge(obs[['weight', 'obgnme']], left_index=True, right_index=True)
+    pcd_counts = pdc.groupby('obgnme')['obgnme'].count().to_frame()
+    return pcd_counts
+
+def plot_phi(tmp_res_path, curr_run_root, curr_model, fig_dir):
+    phi = pd.read_csv(tmp_res_path / f'{curr_run_root}.phi.actual.csv', index_col=0)
+    plt.figure(figsize=(6,4))
+    ax = phi['base'].apply(np.log10).plot(legend=False, lw=1.5, color='r', label='base')
+    phi.iloc[:,6:7].apply(np.log10).plot(legend=False,lw=0.5,color='k',alpha=0.15,label='realizations', ax = ax)
+    plt.legend(['base','realizations'])
+    phi.iloc[:,6:].apply(np.log10).plot(legend=False,lw=0.5,alpha=0.15,color='k', ax = ax)
+    phi['base'].apply(np.log10).plot(legend=False, lw=1.5, color='r', ax=ax)
+    plt.ylabel('log Phi')
+    plt.xlabel('iES iteration')
+    plt.xticks(ticks=np.arange(4))
+    ax.axes.tick_params(length=7, direction='in', right=True, top=True)
+    plt.title(f'PHI History for {curr_model}')
+    plt.legend(['base','realizations'], title='EXPLANATION', frameon=False, bbox_to_anchor =(0.97, 0.95))
+    plt.savefig(fig_dir / 'phi_history.pdf')
+    return phi
+
+def get_obs_and_noise(tmp_res_path, curr_run_root, reals):
+    modens = pd.read_csv(tmp_res_path / f'{curr_run_root}.0.obs.csv', 
+                        low_memory=False, index_col=0).loc[reals].T
+    obens_noise = pd.read_csv(tmp_res_path / f'{curr_run_root}.obs+noise.csv', 
+                              low_memory=False, index_col=0).loc[reals].T
+    modens['mod_min'] = modens.min(axis=1)
+    modens['mod_max'] = modens.max(axis=1)
+    modens = modens.T
+    obens_noise['obs_min'] = obens_noise.min(axis=1)
+    obens_noise['obs_max'] = obens_noise.max(axis=1)
+    obens_noise = obens_noise.T
+    return modens, obens_noise
+
+def plot_group(cgroup, obs, modens, obens_noise, fig_dir, curr_model):
+    plot_lw = 0.01
+    plot_alpha = 0.15
+    # set up the legend properties
+    lh_obens = Patch(color='orange', alpha=0.2, label='Obs Bounds')
+    lh_modens = Patch(color='blue', alpha=0.2, label='Mod Ens Bounds')
+    lh_linemod = Line2D([0], [0], color='blue', label='modeled base realization')
+    lh_lineobs = Line2D([0], [0], color='orange', label='obs base realization')
+    lh_realmod = Line2D([0], [0], color='blue', linewidth=plot_lw*5, label='modeled realization')
+    lh_realobs = Line2D([0], [0], color='orange',linewidth=plot_lw*5, label='obs realization')
+    # set some flags based on group names
+    mean_mon=False
+    monthly=False
+    annual = False 
+    daily = False
+    # first special case for streamflow_daily where all the subgroups for daily streamflow are gathered
+    if 'streamflow_daily' not in cgroup:
+        currobs = obs.loc[obs.obgnme==cgroup,'obsnme'].to_list() 
+    else:
+        currobs = obs.loc[obs.obgnme.str.contains('streamflow_daily'),'obsnme'].to_list()
+
+    # parse the data 
+    currmod = modens[currobs].copy().T
+    currobs_noise = obens_noise[currobs].copy().T
+    currmod['obs_location'] = [i.split(':')[-1] for i in currmod.index]
+    currobs_noise['obs_location'] = [i.split(':')[-1] for i in currobs_noise.index]
+    
+    # get after the date information, which differs based on groups
+    if 'mean_mon' in cgroup:
+        mean_mon=True
+        currmod['month'] = [int(i.split(':')[1]) for i in currmod.index]
+        currobs_noise['month'] = [int(i.split(':')[1]) for i in currobs_noise.index]
+    elif ('mon' in cgroup) & ('mean' not in cgroup):
+        monthly = True
+        currmod['datestring'] = [i.split(':')[1] for i in currmod.index]
+        currobs_noise['datestring'] = [i.split(':')[1] for i in currobs_noise.index]  
+        currmod['datestring'] = [f'{int(i.split("_")[0]):4d}_{int(i.split("_")[1]):02d}' 
+                    for i in currmod['datestring']]   
+        currmod['datetime'] = [dt.strptime(i, datfmtmon) for i in currmod['datestring']]
+        currobs_noise['datestring'] = [f'{int(i.split("_")[0]):4d}_{int(i.split("_")[1]):02d}' 
+                    for i in currobs_noise['datestring']]   
+        currobs_noise['datetime'] = [dt.strptime(i, datfmtmon) for i in currobs_noise['datestring']]
+        currmod['year'] = [i.year for i in currmod.datetime]    
+        currobs_noise['year'] = [i.year for i in currobs_noise.datetime]
+    elif 'ann' in cgroup:
+        annual = True
+        currmod['year'] = [int(i.split(':')[1]) for i in currmod.index]
+        currobs_noise['year'] = [int(i.split(':')[1]) for i in currobs_noise.index]
+    elif 'daily' in cgroup:
+        daily=True
+        currmod['datestring'] = [i.split(':')[1] for i in currmod.index]
+        currobs_noise['datestring'] = [i.split(':')[1] for i in currobs_noise.index]  
+        currmod['datestring'] = [f'{int(i.split("_")[0]):4d}_{int(i.split("_")[1]):02d}_{int(i.split("_")[2]):02d}' 
+                    for i in currmod['datestring']]   
+        currmod['datetime'] = [dt.strptime(i, datfmtdaily) for i in currmod['datestring']]
+        currobs_noise['datestring'] = [f'{int(i.split("_")[0]):4d}_{int(i.split("_")[1]):02d}_{int(i.split("_")[2]):02d}' 
+                    for i in currobs_noise['datestring']]   
+        currobs_noise['datetime'] = [dt.strptime(i, datfmtdaily) for i in currobs_noise['datestring']]
+        currmod['year'] = [i.year for i in currmod.datetime]    
+        currobs_noise['year'] = [i.year for i in currobs_noise.datetime]    
+        currmod['month'] = [i.month for i in currmod.datetime]    
+        currobs_noise['month'] = [i.month for i in currobs_noise.datetime]    
+
+
+
+    # now get plotting!
+    with PdfPages(fig_dir / f'{cgroup}.pdf') as outpdf:
+        for cn,cgmod in currmod.groupby('obs_location'):
+            if (mean_mon == True) | (annual == True):
+
+                plt.figure()
+                if mean_mon:
+                    cgmod.sort_values(by='month', inplace=True)
+                    cgobs = currobs_noise.loc[cgmod.index].sort_values(by='month')
+                    cgmod.set_index('month', inplace=True)
+                    cgobs.set_index('month', inplace=True)
+                elif annual:
+                    cgmod.sort_values(by='year', inplace=True)
+                    cgobs = currobs_noise.loc[cgmod.index].sort_values(by='year')
+                    cgmod.set_index('year', inplace=True)
+                    cgobs.set_index('year', inplace=True)                                    
+                ax = cgmod[np.random.choice(cgmod.columns[:-4],20)].plot(legend=None, linewidth=plot_lw, 
+                                                color='blue', alpha = plot_alpha)
+                ax.fill_between(cgobs.index, cgobs.obs_min,cgobs.obs_max, color='orange',alpha=.2, zorder=0)
+                ax.fill_between(cgmod.index, cgmod.mod_min,cgmod.mod_max, color='blue',alpha=.2, zorder=0)
+                cgobs[np.random.choice(cgobs.columns[:-4],20)].plot(ax=ax,color='orange',  linewidth=plot_lw,
+                                                                    legend=None,alpha=plot_alpha)
+                cgobs.base.plot(ax=ax, color='orange')
+                cgmod.base.plot(ax=ax, color='blue')
+                
+                ax.fill_between(cgobs.index, cgobs.obs_min,cgobs.obs_max, color='orange',alpha=.4)
+                
+                ax.set_title(f'cutout={curr_model}, group={cgroup}, location = {cn}')
+                print(cn)   
+                plt.legend(handles=[lh_obens,lh_modens, lh_lineobs, lh_linemod, lh_realobs, lh_realmod])                
+                outpdf.savefig()
+                plt.close('all')
+            elif monthly:
+                for cny, cgmody in cgmod.groupby('year'):
+                    cgmody.sort_values(by='datetime', inplace=True)
+                    cgobsy = currobs_noise.loc[cgmody.index].sort_values(by='datetime')
+                    cgmody.set_index('datetime', inplace=True)
+                    cgobsy.set_index('datetime', inplace=True)
+                    ax = cgmody[np.random.choice(cgmody.columns[:-6],25)].plot(legend=None, linewidth=plot_lw, 
+                                                    color='blue', alpha = plot_alpha)
+                    ax.fill_between(cgobsy.index, cgobsy.obs_min,cgobsy.obs_max, color='orange',alpha=.2, zorder=0)
+                    ax.fill_between(cgmody.index, cgmody.mod_min,cgmody.mod_max, color='blue',alpha=.2, zorder=0)
+
+                    cgobsy[np.random.choice(cgobsy.columns[:-6],25)].plot(ax=ax,color='orange',  linewidth=plot_lw,
+                                                                          legend=None,alpha=plot_alpha)
+                    cgobsy.base.plot(ax=ax, color='orange')
+                    cgmody.base.plot(ax=ax, color='blue')
+                    
+                    ax.set_title(f'cutout={curr_model}, group={cgroup}, location = {cn}, year = {cny}')
+                    print(cny, cn)  
+                    plt.legend(handles=[lh_obens,lh_modens, lh_lineobs, lh_linemod, lh_realobs, lh_realmod])                  
+                    outpdf.savefig()
+            
+                    plt.close('all')
+            elif daily:
+                for cny, cgmody in cgmod.groupby('year'):
+                    for cnm, cgmodm in cgmody.groupby('month'):
+                        cgmodm.sort_values(by='datetime', inplace=True)
+                        cgobsm = currobs_noise.loc[cgmodm.index].sort_values(by='datetime')
+                        cgmodm.set_index('datetime', inplace=True)
+                        cgobsm.set_index('datetime', inplace=True)
+                        ax = cgmodm[np.random.choice(cgmodm.columns[:-7],25)].plot(legend=None, linewidth=plot_lw, 
+                                                        color='blue', alpha = plot_alpha)
+                        ax.fill_between(cgmodm.index, cgmodm.mod_min,cgmodm.mod_max, color='blue',alpha=.2, zorder=0)
+                        if 'sca' not in cgroup:
+                            ax.fill_between(cgobsm.index, cgobsm.obs_min,cgobsm.obs_max, color='orange',alpha=.2, zorder=0)
+                            cgobsm[np.random.choice(cgobsm.columns[:-7],25)].plot(ax=ax,color='orange',  linewidth=plot_lw,
+                                                                                legend=None,alpha=plot_alpha)
+                        cgobsm.base.plot(ax=ax, color='orange')
+                        cgmodm.base.plot(ax=ax, color='blue')
+                        
+                        ax.set_title(f'cutout={curr_model}, group={cgroup}, location = {cn}, date = {calendar.month_name[cnm]} {cny}')
+                        if 'sca' in cgroup:
+                            ax.set_ylim(0,1)
+                        print(cny, cn)  
+                        plt.legend(handles=[lh_obens,lh_modens, lh_lineobs, lh_linemod, lh_realobs, lh_realmod])                  
+                        outpdf.savefig()
+                
+                        plt.close('all')
