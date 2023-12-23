@@ -13,10 +13,21 @@ from matplotlib.patches import Patch
 import calendar
 datfmtmon = '%Y_%m'
 datfmtdaily = '%Y_%m_%d'
-
+plot_lw = 0.01
+plot_alpha = 0.15
 
 
 def setup_postproc(curr_model='01473000', curr_run_root='prior_mc_reweight', extractfiles = False):
+    """function to set paths, unzip results files, and load up data from PST files for a given cutout run
+
+    Args:
+        curr_model (str, optional): _cutout name_. Defaults to '01473000'.
+        curr_run_root (str, optional): _specific pst filename root_. Defaults to 'prior_mc_reweight'.
+        extractfiles (bool, optional): _flag whether to unzip files or not_. Defaults to False.
+
+    Returns:
+        pathnames, observation data frame, and pst object
+    """
     # set some paths
     pstdir = pl.Path(f'../NHM_extractions/20230110_pois_haj/{curr_model}/')
     results_file = pl.Path(f'../results/{curr_run_root}.{curr_model}.zip/')
@@ -37,13 +48,43 @@ def setup_postproc(curr_model='01473000', curr_run_root='prior_mc_reweight', ext
     return pstdir, results_file, tmp_res_path, fig_dir, obs, pst
 
 def check_pdc(tmp_res_path, curr_run_root, pst, obs):
+    """evaluate PDC in broad sense. Just reporting percent of obs. in PDC overall and by non-zero-weighted groups.
+
+    Args:
+        tmp_res_path (pathlib.Path): _path to results files
+        curr_run_root (str): _PST filename root_
+        pst (pyemu.Pst): PEST control file object 
+        obs (pandas.DataFrame): observation dataframe from PEST file
+
+    Returns:
+        pandas.DataFrame: _counts by group and percentages of PDC observations_
+    """
     pdc = pd.read_csv(tmp_res_path / f'{curr_run_root}.pdc.csv', index_col=0)
     print(f'{(len(pdc)/pst.nnz_obs)*100:.2f}% of weighted obs are in PDC')    
     pdc = pdc.merge(obs[['weight', 'obgnme']], left_index=True, right_index=True)
-    pcd_counts = pdc.groupby('obgnme')['obgnme'].count().to_frame()
-    return pcd_counts
+    pdc_counts_tmp = pdc.groupby('obgnme')['obgnme'].count().to_frame()
+    pdc_counts = obs.groupby('obgnme')['obgnme'].count().to_frame()
+    pdc_counts.rename(columns={'obgnme':'obs_counts'}, inplace=True)
+    # only keep groups with nonzero weights
+    pdc_counts = pdc_counts.loc[pst.nnz_obs_groups]
+    pdc_counts_tmp.rename(columns={'obgnme':'pdc_counts'}, inplace=True)
+    pdc_counts = pdc_counts.merge(pdc_counts_tmp, left_index=True,right_index=True, how='outer')
+    pdc_counts['group_percent_pdc'] = [f'{i:0.2%}' for i in 
+                                       (pdc_counts['pdc_counts']/pdc_counts['obs_counts'])]
+    return pdc_counts
 
 def plot_phi(tmp_res_path, curr_run_root, curr_model, fig_dir):
+    """just a quick plot of the phi history (ensemble-wise) over iterations. also reads and returns PHI
+
+    Args:
+        tmp_res_path (_type_): _description_
+        curr_run_root (_type_): _description_
+        curr_model (_type_): _description_
+        fig_dir (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
     phi = pd.read_csv(tmp_res_path / f'{curr_run_root}.phi.actual.csv', index_col=0)
     plt.figure(figsize=(6,4))
     ax = phi['base'].apply(np.log10).plot(legend=False, lw=1.5, color='r', label='base')
@@ -60,8 +101,8 @@ def plot_phi(tmp_res_path, curr_run_root, curr_model, fig_dir):
     plt.savefig(fig_dir / 'phi_history.pdf')
     return phi
 
-def get_obs_and_noise(tmp_res_path, curr_run_root, reals):
-    modens = pd.read_csv(tmp_res_path / f'{curr_run_root}.0.obs.csv', 
+def get_obs_and_noise(tmp_res_path, curr_run_root, reals, best_iter):
+    modens = pd.read_csv(tmp_res_path / f'{curr_run_root}.{best_iter}.obs.csv', 
                         low_memory=False, index_col=0).loc[reals].T
     obens_noise = pd.read_csv(tmp_res_path / f'{curr_run_root}.obs+noise.csv', 
                               low_memory=False, index_col=0).loc[reals].T
@@ -73,9 +114,21 @@ def get_obs_and_noise(tmp_res_path, curr_run_root, reals):
     obens_noise = obens_noise.T
     return modens, obens_noise
 
-def plot_group(cgroup, obs, modens, obens_noise, fig_dir, curr_model):
-    plot_lw = 0.01
-    plot_alpha = 0.15
+def get_pars(tmp_res_path, curr_run_root, reals, best_iter, pst):
+    parens = pd.read_csv(tmp_res_path / f'{curr_run_root}.{best_iter}.par.csv',
+                         index_col=0).loc[reals].T
+    pars = pst.parameter_data.copy()
+    parens['par_min'] = parens.min(axis=1)
+    parens['par_max'] = parens.max(axis=1)
+    parens['pargroup'] = [i.split(':')[0] for i in parens.index]
+    parens['location'] = [i.split(':')[1] for i in parens.index]
+    parens['low_bound'] = pars.loc[parens.index,'parlbnd']
+    parens['upper_bound'] = pars.loc[parens.index,'parubnd']
+    parens['starting'] = pars.loc[parens.index,'parval1']
+    return parens
+
+def plot_group(cgroup, obs, modens, obens_noise, fig_dir, curr_model, citer, curr_root):
+
     # set up the legend properties
     lh_obens = Patch(color='orange', alpha=0.2, label='Obs Bounds')
     lh_modens = Patch(color='blue', alpha=0.2, label='Mod Ens Bounds')
@@ -165,7 +218,7 @@ def plot_group(cgroup, obs, modens, obens_noise, fig_dir, curr_model):
                 
                 ax.fill_between(cgobs.index, cgobs.obs_min,cgobs.obs_max, color='orange',alpha=.4)
                 
-                ax.set_title(f'cutout={curr_model}, group={cgroup}, location = {cn}')
+                ax.set_title(f'cutout={curr_model},  mod = {curr_root}, iter={citer}, group={cgroup}, location = {cn}')
                 print(cn)   
                 plt.legend(handles=[lh_obens,lh_modens, lh_lineobs, lh_linemod, lh_realobs, lh_realmod])                
                 outpdf.savefig()
@@ -186,7 +239,7 @@ def plot_group(cgroup, obs, modens, obens_noise, fig_dir, curr_model):
                     cgobsy.base.plot(ax=ax, color='orange')
                     cgmody.base.plot(ax=ax, color='blue')
                     
-                    ax.set_title(f'cutout={curr_model}, group={cgroup}, location = {cn}, year = {cny}')
+                    ax.set_title(f'cutout={curr_model},  mod = {curr_root}, iter={citer}, group={cgroup}, location = {cn}, year = {cny}')
                     print(cny, cn)  
                     plt.legend(handles=[lh_obens,lh_modens, lh_lineobs, lh_linemod, lh_realobs, lh_realmod])                  
                     outpdf.savefig()
@@ -209,7 +262,7 @@ def plot_group(cgroup, obs, modens, obens_noise, fig_dir, curr_model):
                         cgobsm.base.plot(ax=ax, color='orange')
                         cgmodm.base.plot(ax=ax, color='blue')
                         
-                        ax.set_title(f'cutout={curr_model}, group={cgroup}, location = {cn}, date = {calendar.month_name[cnm]} {cny}')
+                        ax.set_title(f'cutout={curr_model}, mod = {curr_root}, iter={citer}, group={cgroup}, location = {cn}, date = {calendar.month_name[cnm]} {cny}')
                         if 'sca' in cgroup:
                             ax.set_ylim(0,1)
                         print(cny, cn)  
@@ -217,3 +270,37 @@ def plot_group(cgroup, obs, modens, obens_noise, fig_dir, curr_model):
                         outpdf.savefig()
                 
                         plt.close('all')
+
+def plot_pars_group(parens, cgroup, fig_dir, curr_model, citer, curr_root):
+    # set up the legend properties
+    lh_parens = Patch(color='blue', alpha=0.1, label='Parameter Bounds')
+    lh_linebase = Line2D([0], [0], color='blue', label='base realization')
+    lh_linebounds = Line2D([0], [0], color='red', label='upper/lower par bounds')
+    lh_linestart = Line2D([0], [0], color='grey', label='par starting value')
+    lh_realpar = Line2D([0], [0], color='blue', linewidth=plot_lw*5, label='modeled realization')
+    cpars = parens.loc[parens.pargroup==cgroup].copy()
+    example_ob = cpars.index[0]
+    print(f'evaluating parameter group: {cgroup}')
+    if len(example_ob.split(':')) > 2:
+        print(f'plotting parameter group: {cgroup}')
+        with PdfPages(fig_dir / f'parameters_{cgroup}.pdf') as outpdf:
+            cpars['month'] = [int(i.split(':')[-1].replace('mon_','')) 
+                            for i in cpars.index]
+            cpars = parens.loc[parens.pargroup==cgroup].copy()
+            cpars['month'] = [int(i.split(':')[-1].replace('mon_','')) for i in cpars.index]
+            cpars.sort_values(by=['location','month'], inplace=True)
+            for cn , cg in cpars.groupby('location'):
+                # plt.figure()
+                cg.index=[calendar.month_abbr[i] for i in cg.month]
+                ax=cg[np.random.choice(cg.columns[:-8],25)].plot(legend=None, linewidth=.01, alpha=plot_alpha,
+                                                                 color='blue')
+                cg['low_bound'].plot(ax=ax,color='red')
+                cg['upper_bound'].plot(ax=ax,color='red')
+                cg['starting'].plot(ax=ax,color='grey')
+                cg.base.plot(ax=ax, color='blue')
+                plt.fill_between(cg.index, cg.par_min, cg.par_max, color='blue', alpha=.1, zorder=0)
+                plt.title(f'{curr_model} {curr_root}.iter_{citer} {cgroup} {cn}')
+                plt.legend(handles=[lh_parens,lh_linebase, lh_linebounds, lh_linestart, lh_realpar])                  
+
+                outpdf.savefig()
+                plt.close('all')
