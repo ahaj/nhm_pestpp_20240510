@@ -116,7 +116,7 @@ def get_obs_and_noise(tmp_res_path, curr_run_root, reals, best_iter):
 
 def get_pars(tmp_res_path, curr_run_root, reals, best_iter, pst):
     parens = pd.read_csv(tmp_res_path / f'{curr_run_root}.{best_iter}.par.csv',
-                         index_col=0).loc[reals].T
+                         index_col=0, low_memory=False).loc[reals].T
     pars = pst.parameter_data.copy()
     parens['par_min'] = parens.min(axis=1)
     parens['par_max'] = parens.max(axis=1)
@@ -270,37 +270,46 @@ def plot_group(cgroup, obs, modens, obens_noise, fig_dir, curr_model, citer, cur
                         outpdf.savefig()
                 
                         plt.close('all')
-
-def plot_pars_group(parens, cgroup, fig_dir, curr_model, citer, curr_root):
+def _plotpars(cn, cg, outpdf, curr_model, citer, curr_root, cgroup):
     # set up the legend properties
     lh_parens = Patch(color='blue', alpha=0.1, label='Parameter Bounds')
     lh_linebase = Line2D([0], [0], color='blue', label='base realization')
     lh_linebounds = Line2D([0], [0], color='red', label='upper/lower par bounds')
-    lh_linestart = Line2D([0], [0], color='grey', label='par starting value')
+    lh_linestart = Line2D([0], [0], color='grey', label='par starting value', linestyle='dashed')
     lh_realpar = Line2D([0], [0], color='blue', linewidth=plot_lw*5, label='modeled realization')
+    plt.figure()
+    ax=cg[np.random.choice(cg.columns[:-8],25)].plot(legend=None, linewidth=.01, alpha=plot_alpha,
+                                                        color='blue')
+    cg['low_bound'].plot(ax=ax,color='red')
+    cg['upper_bound'].plot(ax=ax,color='red')
+    cg['starting'].plot(ax=ax,color='grey', linestyle='dashed', zorder=1e6)
+    cg.base.plot(ax=ax, color='blue')
+    plt.fill_between(cg.index, cg.par_min, cg.par_max, color='blue', alpha=.1, zorder=0)
+    plt.title(f'{curr_model} {curr_root}.iter_{citer} {cgroup} {cn}')
+    plt.legend(handles=[lh_parens,lh_linebase, lh_linebounds, lh_linestart, lh_realpar])                  
+
+    outpdf.savefig()
+    plt.close('all')
+    
+def plot_pars_group(parens, cgroup, fig_dir, curr_model, citer, curr_root):
+
     cpars = parens.loc[parens.pargroup==cgroup].copy()
     example_ob = cpars.index[0]
     print(f'evaluating parameter group: {cgroup}')
-    if len(example_ob.split(':')) > 2:
-        print(f'plotting parameter group: {cgroup}')
-        with PdfPages(fig_dir / f'parameters_{cgroup}.pdf') as outpdf:
+    with PdfPages(fig_dir / f'parameters_{cgroup}.pdf') as outpdf:
+        if len(example_ob.split(':')) > 2:
+            print(f'plotting parameter group: {cgroup}')
             cpars['month'] = [int(i.split(':')[-1].replace('mon_','')) 
                             for i in cpars.index]
             cpars = parens.loc[parens.pargroup==cgroup].copy()
             cpars['month'] = [int(i.split(':')[-1].replace('mon_','')) for i in cpars.index]
             cpars.sort_values(by=['location','month'], inplace=True)
             for cn , cg in cpars.groupby('location'):
-                # plt.figure()
                 cg.index=[calendar.month_abbr[i] for i in cg.month]
-                ax=cg[np.random.choice(cg.columns[:-8],25)].plot(legend=None, linewidth=.01, alpha=plot_alpha,
-                                                                 color='blue')
-                cg['low_bound'].plot(ax=ax,color='red')
-                cg['upper_bound'].plot(ax=ax,color='red')
-                cg['starting'].plot(ax=ax,color='grey')
-                cg.base.plot(ax=ax, color='blue')
-                plt.fill_between(cg.index, cg.par_min, cg.par_max, color='blue', alpha=.1, zorder=0)
-                plt.title(f'{curr_model} {curr_root}.iter_{citer} {cgroup} {cn}')
-                plt.legend(handles=[lh_parens,lh_linebase, lh_linebounds, lh_linestart, lh_realpar])                  
-
-                outpdf.savefig()
-                plt.close('all')
+                _plotpars(cn, cg, outpdf, curr_model, citer, curr_root, cgroup)
+        else:
+            print(f'plotting parameter group: {cgroup}')
+            cpars = parens.loc[parens.pargroup==cgroup].copy()
+            cpars.sort_values(by=['location'], inplace=True)
+            cpars.index = cpars.location
+            _plotpars(cgroup, cpars, outpdf, curr_model, citer, curr_root, cgroup)
