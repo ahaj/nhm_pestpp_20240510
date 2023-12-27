@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 sys.path.insert(0,'../scripts/')
 from postprocessing import setup_postproc, check_pdc, plot_phi, get_obs_and_noise, get_pars, plot_group, plot_pars_group
 
+plot_pars = True
+plot_obs = False
 eval_pdc = True
 unzip_dirs = False
 cms = ['01473000','05431486', '09112500']
@@ -55,25 +57,26 @@ for curr_model in cms:
         ax[1].set_title(f'Truncated PHI: {len(phi)} reals')
         plt.savefig(fig_dir / 'phi_histogram.pdf')
 
+        if plot_pars:
+            # # How about parameters?
+            parens = get_pars(tmp_res_path, curr_run_root, reals, best_iter, pst)
+            pargps = parens['pargroup'].unique()
+            with PdfPages(fig_dir / f'parameters_HRU_SEG_based.pdf') as outpdf:
+                for cg in pargps:
+                    plot_pars_group(parens, cg, fig_dir, curr_model, best_iter, curr_run_root, outpdf)
+        if plot_obs:
+            # # Now let's start looking at the fits
+            modens, obens_noise = get_obs_and_noise(tmp_res_path, curr_run_root, reals, best_iter)
 
-        # # How about parameters?
-        parens = get_pars(tmp_res_path, curr_run_root, reals, best_iter, pst)
-        pargps = parens['pargroup'].unique()
-        for cg in pargps:
-            plot_pars_group(parens, cg, fig_dir, curr_model, best_iter, curr_run_root)
+            # plot_group('sca_daily', obs, modens, obens_noise, fig_dir, curr_model)
 
-       # # Now let's start looking at the fits
-        modens, obens_noise = get_obs_and_noise(tmp_res_path, curr_run_root, reals, best_iter)
+            plot_group('actet_mean_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
+            plot_group('actet_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
+            plot_group('runoff_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
+            plot_group('soil_moist_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
+            plot_group('recharge_ann', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
 
-        # plot_group('sca_daily', obs, modens, obens_noise, fig_dir, curr_model)
-
-        plot_group('actet_mean_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
-        plot_group('actet_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
-        plot_group('runoff_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
-        plot_group('soil_moist_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
-        plot_group('recharge_ann', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
-
-        # streamflow_daily is a special case - all aggregated
-        plot_group('streamflow_daily', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
-        plot_group('streamflow_mean_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
-        plot_group('streamflow_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
+            # streamflow_daily is a special case - all aggregated
+            plot_group('streamflow_daily', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
+            plot_group('streamflow_mean_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
+            plot_group('streamflow_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)

@@ -291,13 +291,13 @@ def _plotpars(cn, cg, outpdf, curr_model, citer, curr_root, cgroup):
     outpdf.savefig()
     plt.close('all')
     
-def plot_pars_group(parens, cgroup, fig_dir, curr_model, citer, curr_root):
+def plot_pars_group(parens, cgroup, fig_dir, curr_model, citer, curr_root, outpdf_gen=None):
 
     cpars = parens.loc[parens.pargroup==cgroup].copy()
     example_ob = cpars.index[0]
     print(f'evaluating parameter group: {cgroup}')
-    with PdfPages(fig_dir / f'parameters_{cgroup}.pdf') as outpdf:
-        if len(example_ob.split(':')) > 2:
+    if len(example_ob.split(':')) > 2:
+        with PdfPages(fig_dir / f'parameters_monthly_{cgroup}.pdf') as outpdf:
             print(f'plotting parameter group: {cgroup}')
             cpars['month'] = [int(i.split(':')[-1].replace('mon_','')) 
                             for i in cpars.index]
@@ -307,9 +307,9 @@ def plot_pars_group(parens, cgroup, fig_dir, curr_model, citer, curr_root):
             for cn , cg in cpars.groupby('location'):
                 cg.index=[calendar.month_abbr[i] for i in cg.month]
                 _plotpars(cn, cg, outpdf, curr_model, citer, curr_root, cgroup)
-        else:
-            print(f'plotting parameter group: {cgroup}')
-            cpars = parens.loc[parens.pargroup==cgroup].copy()
-            cpars.sort_values(by=['location'], inplace=True)
-            cpars.index = cpars.location
-            _plotpars(cgroup, cpars, outpdf, curr_model, citer, curr_root, cgroup)
+    else:
+        print(f'plotting parameter group: {cgroup}')
+        cpars = parens.loc[parens.pargroup==cgroup].copy()
+        cpars.sort_values(by=['location'], inplace=True)
+        cpars.index = cpars.location
+        _plotpars(cgroup, cpars, outpdf_gen, curr_model, citer, curr_root, cgroup)
