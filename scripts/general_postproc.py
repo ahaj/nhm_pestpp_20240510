@@ -1,10 +1,11 @@
-import sys
+import sys, os
+import pandas as pd
 from matplotlib.backends.backend_pdf import PdfPages
 import matplotlib.pyplot as plt
 sys.path.insert(0,'../scripts/')
 from postprocessing import setup_postproc, check_pdc, plot_phi, get_obs_and_noise, get_pars, plot_group, plot_pars_group
 
-plot_pars = True
+plot_pars = False
 plot_obs = False
 eval_pdc = True
 unzip_dirs = False
@@ -28,6 +29,15 @@ for curr_model in cms:
         if eval_pdc:
             pdc = check_pdc(tmp_res_path, curr_run_root, pst, obs)
             print(pdc)
+            # open up an ExcelWriter object to be able to hit 
+            # the same file with multiple sheets as we move through - based on mode
+
+            if not os.path.exists('../postprocessing/PDC_Report.xlsx'):
+                xlmode = 'w' # write mode to create file if not exist yet
+            else:
+                xlmode = 'a' # append mode if exists to just add sheets
+            with pd.ExcelWriter('../postprocessing/PDC_Report.xlsx', mode=xlmode) as PDC_excel:
+                pdc.to_excel(PDC_excel, sheet_name = f'{curr_model}.{curr_run_root}')
 
         # ### look at PHI history
         phi = plot_phi(tmp_res_path, curr_run_root, curr_model, fig_dir)

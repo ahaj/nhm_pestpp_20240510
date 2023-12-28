@@ -77,13 +77,13 @@ def plot_phi(tmp_res_path, curr_run_root, curr_model, fig_dir):
     """just a quick plot of the phi history (ensemble-wise) over iterations. also reads and returns PHI
 
     Args:
-        tmp_res_path (_type_): _description_
-        curr_run_root (_type_): _description_
-        curr_model (_type_): _description_
-        fig_dir (_type_): _description_
+        tmp_res_path (pathlib.Path): location of results files
+        curr_run_root (str, optional): _specific pst filename root_.
+        curr_model (str, optional): _cutout name_. 
+        fig_dir (oathlib.Path): path to save figures in 
 
     Returns:
-        _type_: _description_
+        DataFrame: list of phi values indexed by realizations
     """
     phi = pd.read_csv(tmp_res_path / f'{curr_run_root}.phi.actual.csv', index_col=0)
     plt.figure(figsize=(6,4))
@@ -102,6 +102,19 @@ def plot_phi(tmp_res_path, curr_run_root, curr_model, fig_dir):
     return phi
 
 def get_obs_and_noise(tmp_res_path, curr_run_root, reals, best_iter):
+    """_summary_
+
+    Args:
+        tmp_res_path (pathlib.Path): location of results files
+        curr_run_root (str, optional): _specific pst filename root_.
+        reals (list): list of realizations to retain
+        best_iter (int): iteration to retain as "best"
+
+    Returns:
+        modens (DataFrame): modelled results for retained realizations of best iteration
+        obens_noise (DataFrame): sampled noise-adjusted observation values for retained realizations
+        
+    """
     modens = pd.read_csv(tmp_res_path / f'{curr_run_root}.{best_iter}.obs.csv', 
                         low_memory=False, index_col=0).loc[reals].T
     obens_noise = pd.read_csv(tmp_res_path / f'{curr_run_root}.obs+noise.csv', 
@@ -115,6 +128,18 @@ def get_obs_and_noise(tmp_res_path, curr_run_root, reals, best_iter):
     return modens, obens_noise
 
 def get_pars(tmp_res_path, curr_run_root, reals, best_iter, pst):
+    """_summary_
+
+    Args:
+        tmp_res_path (pathlib.Path): location of results files
+        curr_run_root (str, optional): _specific pst filename root_.
+        reals (list): list of realizations to retain
+        best_iter (int): iteration to retain as "best"
+        pst (pyemu.Pst): Pst object containing information for the runs
+
+    Returns:
+        parens (DataFrame): parameter ensemble trimmed to retained realizations and at best iteration
+    """
     parens = pd.read_csv(tmp_res_path / f'{curr_run_root}.{best_iter}.par.csv',
                          index_col=0, low_memory=False).loc[reals].T
     pars = pst.parameter_data.copy()
@@ -193,7 +218,9 @@ def plot_group(cgroup, obs, modens, obens_noise, fig_dir, curr_model, citer, cur
 
     # now get plotting!
     with PdfPages(fig_dir / f'{cgroup}.pdf') as outpdf:
+        # by default, we will make a plot for each location (usually that's an HRU)
         for cn,cgmod in currmod.groupby('obs_location'):
+            # first handle mean_monthly or annual cases, which results in one plot per location
             if (mean_mon == True) | (annual == True):
 
                 plt.figure()
@@ -224,6 +251,7 @@ def plot_group(cgroup, obs, modens, obens_noise, fig_dir, curr_model, citer, cur
                 outpdf.savefig()
                 plt.close('all')
             elif monthly:
+                # for monthly time sequence cases, we will make a plot for each page
                 for cny, cgmody in cgmod.groupby('year'):
                     cgmody.sort_values(by='datetime', inplace=True)
                     cgobsy = currobs_noise.loc[cgmody.index].sort_values(by='datetime')
@@ -246,6 +274,7 @@ def plot_group(cgroup, obs, modens, obens_noise, fig_dir, curr_model, citer, cur
             
                     plt.close('all')
             elif daily:
+                 # for daily time sequence cases, we will make a plot for month/year, so many more pages
                 for cny, cgmody in cgmod.groupby('year'):
                     for cnm, cgmodm in cgmody.groupby('month'):
                         cgmodm.sort_values(by='datetime', inplace=True)
@@ -271,6 +300,7 @@ def plot_group(cgroup, obs, modens, obens_noise, fig_dir, curr_model, citer, cur
                 
                         plt.close('all')
 def _plotpars(cn, cg, outpdf, curr_model, citer, curr_root, cgroup):
+    # general hidden function covering all the parameter plotting details
     # set up the legend properties
     lh_parens = Patch(color='blue', alpha=0.1, label='Parameter Bounds')
     lh_linebase = Line2D([0], [0], color='blue', label='base realization')
@@ -292,7 +322,8 @@ def _plotpars(cn, cg, outpdf, curr_model, citer, curr_root, cgroup):
     plt.close('all')
     
 def plot_pars_group(parens, cgroup, fig_dir, curr_model, citer, curr_root, outpdf_gen=None):
-
+    # parsing parameters into proper groups. If the obs has 3 ":"-delimited values, that means there is 
+    # both a month and an HRU, so make a separate PDF with a page per HRU with all the months on a page
     cpars = parens.loc[parens.pargroup==cgroup].copy()
     example_ob = cpars.index[0]
     print(f'evaluating parameter group: {cgroup}')
@@ -304,9 +335,11 @@ def plot_pars_group(parens, cgroup, fig_dir, curr_model, citer, curr_root, outpd
             cpars = parens.loc[parens.pargroup==cgroup].copy()
             cpars['month'] = [int(i.split(':')[-1].replace('mon_','')) for i in cpars.index]
             cpars.sort_values(by=['location','month'], inplace=True)
-            for cn , cg in cpars.groupby('location'):
+            for cn, cg in cpars.groupby('location'):
                 cg.index=[calendar.month_abbr[i] for i in cg.month]
                 _plotpars(cn, cg, outpdf, curr_model, citer, curr_root, cgroup)
+    # if the obs has only 2 ":"-delimited values, then there is only HRU or SEG - specific information
+    # so stick that into the general PDF with a page for each parameter showing the HRUs/SEGs distinctly
     else:
         print(f'plotting parameter group: {cgroup}')
         cpars = parens.loc[parens.pargroup==cgroup].copy()
