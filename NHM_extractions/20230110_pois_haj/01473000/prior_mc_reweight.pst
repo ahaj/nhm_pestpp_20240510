@@ -17,6 +17,7 @@ ies_num_threads                4
 ies_lambda_mults               0.1,1.0,10.0,100.0
 lambda_scale_fac               0.75,0.9,1.0,1.1
 ies_subset_size                10
+ies_localizer                  loc.mat
 * parameter groups external
 prior_mc_reweight.pargp_data.csv
 * parameter data external

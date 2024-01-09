@@ -1,13 +1,13 @@
-import dask
 import pathlib as pl
-import pandas as pd
+import numpy as np
+import dask
+import os
+import shutil
 import pywatershed
 import xarray as xr
-import shutil
-import os
-import time
-import numpy as np
 import pywatershed as pws
+import pandas as pd
+import time
 
 
 sttime = time.time()
@@ -380,11 +380,11 @@ with open(rootdir  / of_name, encoding="utf-8",mode='a') as ofp:
 # #### Get daily output file from NHM for soil recharge and normalize 0-1
 soil_rechr_daily = modelobsdat.soil_rechr.sel(time=slice(soil_rechr_start, soil_rechr_end))
 
-#Creates a dataframe time series of monthly values (average daily rate for each month)
+#Creates a dataframe time series of monthly values (average daily rate for each month, normalized)
 soil_rechr_monthly = soil_rechr_daily.resample(time = 'm').mean()
 soil_rechr_monthly_norm = (soil_rechr_monthly - soil_rechr_monthly.min())/(soil_rechr_monthly.max()-soil_rechr_monthly.min())
 
-#Creates a dataframe time series of annual values (average daily value for each year)
+#Creates a dataframe time series of annual values (average daily value for each year, normalized)
 soil_rechr_annual = soil_rechr_daily.resample(time = 'Y').mean()
 soil_rechr_annual_norm = (soil_rechr_annual - soil_rechr_annual.min())/(soil_rechr_annual.max()-soil_rechr_annual.min())
 
@@ -423,7 +423,10 @@ inds = [f'{i.year}_{i.month}:{j}' for i in hru_streamflow_out_rate.indexes['time
 varvals = np.ravel(hru_streamflow_out_rate, order = 'C')# flattens the 2D array to a 1D array
 
 with open(rootdir / of_name, encoding="utf-8",mode='a') as ofp:
-    [ofp.write(f'runoff_mon:{i}          {j}\n') for i,j in zip(inds,varvals)]
+    [ofp.write(f'l_max_runoff_mon:{i}          {j}\n') for i,j in zip(inds,varvals)]
+
+with open(rootdir / of_name, encoding="utf-8",mode='a') as ofp:
+    [ofp.write(f'g_min_runoff_mon:{i}          {j}\n') for i,j in zip(inds,varvals)]
 
 # ### Post Process "snowcov_area" to compare to target
 # #### Get and check the daily data
@@ -442,7 +445,10 @@ inds = [f'{i.year}_{i.month}_{i.day}:{j}' for i in snowcov_area_daily_restr.inde
 varvals = np.ravel(snowcov_area_daily_restr, order = 'C')# flattens the 2D array to a 1D array
 
 with open(rootdir   / of_name, encoding="utf-8", mode='a') as ofp:
-    [ofp.write(f'sca_daily:{i}          {j}\n') for i,j in zip(inds,varvals)]
+    [ofp.write(f'l_max_sca_daily:{i}          {j}\n') for i,j in zip(inds,varvals)]
+
+with open(rootdir   / of_name, encoding="utf-8", mode='a') as ofp:
+    [ofp.write(f'g_min_sca_daily:{i}          {j}\n') for i,j in zip(inds,varvals)]
 
 
 # ### Get the daily streamflow values from segments associated with the gage pois
