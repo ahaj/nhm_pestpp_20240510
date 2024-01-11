@@ -9,6 +9,7 @@ plot_pars = False
 plot_obs = True
 eval_pdc = False
 unzip_dirs = False
+plot_streamflow = False
 cms = ['01473000','05431486', '09112500']
 # cms = ['01473000']
 # crrs = ['ies','prior_mc_reweight']
@@ -89,6 +90,7 @@ for curr_model in cms:
             plot_group('recharge_ann', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
 
             # streamflow_daily is a special case - all aggregated
-            plot_group('streamflow_daily', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
-            plot_group('streamflow_mean_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
-            plot_group('streamflow_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
+            if plot_streamflow:
+                plot_group('streamflow_daily', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
+                plot_group('streamflow_mean_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
+                plot_group('streamflow_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
