@@ -6,19 +6,21 @@ sys.path.insert(0,'../scripts/')
 from postprocessing import setup_postproc, check_pdc, plot_phi, get_obs_and_noise, get_pars, plot_group, plot_pars_group
 
 plot_pars = False
-plot_obs = False
-eval_pdc = True
+plot_obs = True
+eval_pdc = False
 unzip_dirs = False
 cms = ['01473000','05431486', '09112500']
-crrs = ['ies','prior_mc_reweight']
-phi_cutoffs = {cm:{crr:9e99 for crr in crrs}
-                for cm in cms}
+# cms = ['01473000']
+# crrs = ['ies','prior_mc_reweight']
+crrs = ['prior_mc_reweight']
+phi_cutoffs = {cm:{crr:9e99 for crr in ['ies','prior_mc_reweight']}
+                for cm in ['01473000','05431486', '09112500']}
 # catalog of cutoffs heuristically determined
-phi_cutoffs['01473000']['prior_mc_reweight'] = .6e10
+phi_cutoffs['01473000']['prior_mc_reweight'] = 3.8e7
 phi_cutoffs['01473000']['ies'] = 1.08e9
-phi_cutoffs['05431486']['prior_mc_reweight'] = 2.2e9
+phi_cutoffs['05431486']['prior_mc_reweight'] = .6e12
 phi_cutoffs['05431486']['ies'] = 7.5e8
-phi_cutoffs['09112500']['prior_mc_reweight'] = 3.0e9
+phi_cutoffs['09112500']['prior_mc_reweight'] = 1.2e9
 phi_cutoffs['09112500']['ies'] = 8.675e8
 
 for curr_model in cms:

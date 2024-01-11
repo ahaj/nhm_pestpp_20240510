@@ -3,8 +3,8 @@ import zipfile
 import os
 
 all_extractions = ['01473000','05431486','09112500']
-#rootnm = 'prior_mc_reweight'
-rootnm = 'ies'
+rootnm = 'prior_mc_reweight'
+#rootnm = 'ies'
 
 
 for cex in all_extractions:

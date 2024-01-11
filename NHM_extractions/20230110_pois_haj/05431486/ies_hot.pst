@@ -1,0 +1,35 @@
+pcf version=2
+* control data keyword
+pestmode                                 estimation
+noptmax                                 2
+svdmode                                 1
+maxsing                               250
+eigthresh                           1e-06
+eigwrite                                1
+ies_num_reals                  377
+ies_bad_phi_sigma              2.5
+overdue_giveup_fac             4
+ies_no_noise                   false
+ies_drop_conflicts             false
+ies_pdc_sigma_distance         3.0
+ies_autoadaloc                 false
+ies_num_threads                4
+ies_lambda_mults               0.1,1.0,10.0,100.0
+lambda_scale_fac               0.75,0.9,1.0,1.1
+ies_subset_size                10
+ies_localizer                  loc.mat
+ies_observation_ensemble       hotstart.starting_obs+noise.csv
+ies_restart_observation_ensemble hotstart.starting_obs.csv
+ies_parameter_ensemble         hotstart.starting_pars.csv
+* parameter groups external
+ies_hot.pargp_data.csv
+* parameter data external
+ies_hot.par_data.csv
+* observation data external
+ies_hot.obs_data.csv
+* model command line
+python forward_run.py
+* model input external
+ies_hot.tplfile_data.csv
+* model output external
+ies_hot.insfile_data.csv

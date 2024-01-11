@@ -168,10 +168,12 @@ def plot_group(cgroup, obs, modens, obens_noise, fig_dir, curr_model, citer, cur
     daily = False
     # first special case for streamflow_daily where all the subgroups for daily streamflow are gathered
     if 'streamflow_daily' not in cgroup:
-        currobs = obs.loc[obs.obgnme==cgroup,'obsnme'].to_list() 
+        currobs = obs.loc[(obs.obgnme==f'g_min_{cgroup}') | (obs.obgnme==f'l_max_{cgroup}'),'obsnme'].to_list() 
     else:
         currobs = obs.loc[obs.obgnme.str.contains('streamflow_daily'),'obsnme'].to_list()
-
+    streamflow = False
+    if 'streamflow' in cgroup:
+        streamflow=True
     # parse the data 
     currmod = modens[currobs].copy().T
     currobs_noise = obens_noise[currobs].copy().T
@@ -222,28 +224,49 @@ def plot_group(cgroup, obs, modens, obens_noise, fig_dir, curr_model, citer, cur
         for cn,cgmod in currmod.groupby('obs_location'):
             # first handle mean_monthly or annual cases, which results in one plot per location
             if (mean_mon == True) | (annual == True):
-
                 plt.figure()
                 if mean_mon:
                     cgmod.sort_values(by='month', inplace=True)
                     cgobs = currobs_noise.loc[cgmod.index].sort_values(by='month')
                     cgmod.set_index('month', inplace=True)
-                    cgobs.set_index('month', inplace=True)
+                    if streamflow:
+                        cgobs.set_index('month', inplace=True)
+                    else:
+                        cgobs_upper = cgobs.loc[cgobs.index.str.startswith('l_')].set_index('month')
+                        cgobs_lower = cgobs.loc[cgobs.index.str.startswith('g_')].set_index('month')
+                        
                 elif annual:
                     cgmod.sort_values(by='year', inplace=True)
                     cgobs = currobs_noise.loc[cgmod.index].sort_values(by='year')
                     cgmod.set_index('year', inplace=True)
-                    cgobs.set_index('year', inplace=True)                                    
+                    if streamflow:
+                        cgobs.set_index('year', inplace=True)
+                    else:
+                        cgobs_upper = cgobs.loc[cgobs.index.str.startswith('l_')].set_index('year')
+                        cgobs_lower = cgobs.loc[cgobs.index.str.startswith('g_')].set_index('year')   
+                                                         
                 ax = cgmod[np.random.choice(cgmod.columns[:-4],20)].plot(legend=None, linewidth=plot_lw, 
-                                                color='blue', alpha = plot_alpha)
-                ax.fill_between(cgobs.index, cgobs.obs_min,cgobs.obs_max, color='orange',alpha=.2, zorder=0)
+                                            color='blue', alpha = plot_alpha)
+                if streamflow:
+                    ax.fill_between(cgobs.index, cgobs.obs_min,cgobs.obs_max, color='orange',alpha=.2, zorder=0)
+                    cgobs[np.random.choice(cgobs.columns[:-4],20)].plot(ax=ax,color='orange',  linewidth=plot_lw,
+                                                    legend=None,alpha=plot_alpha, zorder=1e6)
+                    cgobs.base.plot(ax=ax, color='orange')
+                else:
+                    ax.fill_between(cgobs_upper.index, cgobs_upper.obs_min,cgobs_upper.obs_max, color='orange',alpha=.2, zorder=0)
+                    cgobs_upper[np.random.choice(cgobs_upper.columns[:-4],20)].plot(ax=ax,color='orange',  linewidth=plot_lw,
+                                                    legend=None,alpha=plot_alpha, zorder=1e6)
+                    ax.fill_between(cgobs_lower.index, cgobs_lower.obs_min,cgobs_lower.obs_max, color='orange',alpha=.2, zorder=0)
+                    cgobs_lower[np.random.choice(cgobs_lower.columns[:-4],20)].plot(ax=ax,color='orange',  linewidth=plot_lw,
+                                                    legend=None,alpha=plot_alpha, zorder=1e6)
+                    cgobs_upper.base.plot(ax=ax, color='orange')
+                    cgobs_lower.base.plot(ax=ax, color='orange')
+                    
                 ax.fill_between(cgmod.index, cgmod.mod_min,cgmod.mod_max, color='blue',alpha=.2, zorder=0)
-                cgobs[np.random.choice(cgobs.columns[:-4],20)].plot(ax=ax,color='orange',  linewidth=plot_lw,
-                                                                    legend=None,alpha=plot_alpha)
-                cgobs.base.plot(ax=ax, color='orange')
+
                 cgmod.base.plot(ax=ax, color='blue')
                 
-                ax.fill_between(cgobs.index, cgobs.obs_min,cgobs.obs_max, color='orange',alpha=.4)
+                # ax.fill_between(cgobs.index, cgobs.obs_min,cgobs.obs_max, color='orange',alpha=.4)
                 
                 ax.set_title(f'cutout={curr_model},  mod = {curr_root}, iter={citer}, group={cgroup}, location = {cn}')
                 print(cn)   
@@ -256,15 +279,30 @@ def plot_group(cgroup, obs, modens, obens_noise, fig_dir, curr_model, citer, cur
                     cgmody.sort_values(by='datetime', inplace=True)
                     cgobsy = currobs_noise.loc[cgmody.index].sort_values(by='datetime')
                     cgmody.set_index('datetime', inplace=True)
-                    cgobsy.set_index('datetime', inplace=True)
-                    ax = cgmody[np.random.choice(cgmody.columns[:-6],25)].plot(legend=None, linewidth=plot_lw, 
-                                                    color='blue', alpha = plot_alpha)
-                    ax.fill_between(cgobsy.index, cgobsy.obs_min,cgobsy.obs_max, color='orange',alpha=.2, zorder=0)
-                    ax.fill_between(cgmody.index, cgmody.mod_min,cgmody.mod_max, color='blue',alpha=.2, zorder=0)
+                    if streamflow:
+                        cgobsy.set_index('datetime', inplace=True)
+                    else:
+                        cgobsy_upper = cgobsy.loc[cgobsy.index.str.startswith('l_')].set_index('datetime')
+                        cgobsy_lower = cgobsy.loc[cgobsy.index.str.startswith('g_')].set_index('datetime')
+                    ax = cgmody[np.random.choice(cgmody.columns[:-4],20)].plot(legend=None, linewidth=plot_lw, 
+                        color='blue', alpha = plot_alpha)
+                    if streamflow:
+                        ax.fill_between(cgobsy.index, cgobsy.obs_min,cgobsy.obs_max, color='orange',alpha=.2, zorder=0)
+                        cgobsy[np.random.choice(cgobsy.columns[:-4],20)].plot(ax=ax,color='orange',  linewidth=plot_lw,
+                                                        legend=None,alpha=plot_alpha, zorder=1e6)
+                        cgobsy.base.plot(ax=ax, color='orange')
+                    else:
+                        ax.fill_between(cgobsy_upper.index, cgobsy_upper.obs_min,cgobsy_upper.obs_max, color='orange',alpha=.2, zorder=0)
+                        cgobsy_upper[np.random.choice(cgobsy_upper.columns[:-4],20)].plot(ax=ax,color='orange',  linewidth=plot_lw,
+                                                        legend=None,alpha=plot_alpha, zorder=1e6)
+                        ax.fill_between(cgobsy_lower.index, cgobsy_lower.obs_min,cgobsy_lower.obs_max, color='orange',alpha=.2, zorder=0)
+                        cgobsy_lower[np.random.choice(cgobsy_lower.columns[:-4],20)].plot(ax=ax,color='orange',  linewidth=plot_lw,
+                                                        legend=None,alpha=plot_alpha, zorder=1e6)
+                        cgobsy_upper.base.plot(ax=ax, color='orange')
+                        cgobsy_lower.base.plot(ax=ax, color='orange')
+                        ax.fill_between(cgmody.index, cgmody.mod_min,cgmody.mod_max, color='blue',alpha=.2, zorder=0)
 
-                    cgobsy[np.random.choice(cgobsy.columns[:-6],25)].plot(ax=ax,color='orange',  linewidth=plot_lw,
-                                                                          legend=None,alpha=plot_alpha)
-                    cgobsy.base.plot(ax=ax, color='orange')
+
                     cgmody.base.plot(ax=ax, color='blue')
                     
                     ax.set_title(f'cutout={curr_model},  mod = {curr_root}, iter={citer}, group={cgroup}, location = {cn}, year = {cny}')
