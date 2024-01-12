@@ -2,10 +2,10 @@ import pathlib as pl
 import zipfile
 import os
 
-#all_extractions = ['01473000','05431486','09112500']
-all_extractions = ['09112500']
-#rootnm = 'prior_mc_reweight'
-rootnm = 'ies'
+all_extractions = ['01473000','05431486','09112500']
+#all_extractions = ['09112500']
+rootnm = 'prior_mc_reweight'
+#rootnm = 'ies'
 priorflag = False
 results_dir = pl.Path('../results')
 
