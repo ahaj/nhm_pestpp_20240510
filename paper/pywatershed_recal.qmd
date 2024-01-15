@@ -1,0 +1,42 @@
+---
+title: "Not Yet"
+author: "Fienen, Haj, Long, Barker"
+format:
+    pdf: 
+      documentclass: article
+      number-sections: True
+      geometry:
+      - left=4cm
+      - right=4cm
+      - top=4cm
+      - bottom=4cm
+    docx: 
+      fig-cap-location: bottom
+      keep-tex: true
+      number-sections: true
+      # reference-doc: templates/word-styles-reference-01.docx
+csl: templates/groundwater.csl 
+bibliography: refs.bib
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+# Introduction
+Things
+
+# Previous Calibration of Record
+this one maybe? [@regan2018description; @Farmer_2019] 
+
+# Methods
+
+## The value of diverse data and stepwise parameter estimation
+Previous calibration efforts have included diverse datasets in addition to streamflow in a stepwise approach [@Hay_2006] to help isolate various processes and their resepctive influence on specific parameter estimates. 
+
+## Localization for simultaneous consideration of data diversity
+We experimented with localization [@Anderson_2007; @Chen_2016] as an alternative method to isolate the connection between subsets of observations and specific parameter in formulating parameter upgrades. There are important computational cost implications and tradeoffs between using localization and ensemble size [@Traylor_2023]. We took advantage of the previously documented causal connections as a representation of the stepwise approach [@Hay_2006]. By grouping parameters into an approximation of those steps, we were able to limit the localization definitions to seven groups, requiring only seven local solves and thus limiting the extra cost of localization.
+
+## Inequality observations for projecting data from ranges to parameters
+Inequality observations are implemented in the iterative ensemble smoother (iES:  )
+
+# References
