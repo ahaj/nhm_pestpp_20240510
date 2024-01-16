@@ -167,13 +167,17 @@ def plot_group(cgroup, obs, modens, obens_noise, fig_dir, curr_model, citer, cur
     annual = False 
     daily = False
     # first special case for streamflow_daily where all the subgroups for daily streamflow are gathered
-    if 'streamflow_daily' not in cgroup:
-        currobs = obs.loc[(obs.obgnme==f'g_min_{cgroup}') | (obs.obgnme==f'l_max_{cgroup}'),'obsnme'].to_list() 
-    else:
-        currobs = obs.loc[obs.obgnme.str.contains('streamflow_daily'),'obsnme'].to_list()
     streamflow = False
     if 'streamflow' in cgroup:
         streamflow=True
+    if (streamflow is True) and ('daily' not in cgroup):
+        currobs = obs.loc[obs.obgnme==cgroup,'obsnme'].to_list() 
+    elif 'streamflow_daily' not in cgroup:
+        currobs = obs.loc[(obs.obgnme==f'g_min_{cgroup}') | (obs.obgnme==f'l_max_{cgroup}'),'obsnme'].to_list() 
+    else:
+        currobs = obs.loc[obs.obgnme.str.contains('streamflow_daily'),'obsnme'].to_list()
+    
+  
     # parse the data 
     currmod = modens[currobs].copy().T
     currobs_noise = obens_noise[currobs].copy().T
@@ -300,7 +304,7 @@ def plot_group(cgroup, obs, modens, obens_noise, fig_dir, curr_model, citer, cur
                                                         legend=None,alpha=plot_alpha, zorder=1e6)
                         cgobsy_upper.base.plot(ax=ax, color='orange')
                         cgobsy_lower.base.plot(ax=ax, color='orange')
-                        ax.fill_between(cgmody.index, cgmody.mod_min,cgmody.mod_max, color='blue',alpha=.2, zorder=0)
+                    ax.fill_between(cgmody.index, cgmody.mod_min,cgmody.mod_max, color='blue',alpha=.2, zorder=0)
 
 
                     cgmody.base.plot(ax=ax, color='blue')

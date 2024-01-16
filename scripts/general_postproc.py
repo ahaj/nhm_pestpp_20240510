@@ -9,9 +9,9 @@ plot_pars = False
 plot_obs = True
 eval_pdc = False
 unzip_dirs = False
-plot_streamflow = False
-cms = ['01473000','05431486', '09112500']
-# cms = ['01473000']
+plot_streamflow = True
+# cms = ['01473000','05431486', '09112500']
+cms = ['01473000']
 # crrs = ['ies','prior_mc_reweight']
 crrs = ['prior_mc_reweight']
 phi_cutoffs = {cm:{crr:9e99 for crr in ['ies','prior_mc_reweight']}
@@ -83,14 +83,14 @@ for curr_model in cms:
 
             # plot_group('sca_daily', obs, modens, obens_noise, fig_dir, curr_model)
 
-            plot_group('actet_mean_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
-            plot_group('actet_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
-            plot_group('runoff_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
-            plot_group('soil_moist_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
-            plot_group('recharge_ann', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
+            # plot_group('actet_mean_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
+            # plot_group('actet_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
+            # plot_group('runoff_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
+            # plot_group('soil_moist_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
+            # plot_group('recharge_ann', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
 
             # streamflow_daily is a special case - all aggregated
             if plot_streamflow:
-                plot_group('streamflow_daily', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
-                plot_group('streamflow_mean_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
+                # plot_group('streamflow_daily', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
+                # plot_group('streamflow_mean_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
                 plot_group('streamflow_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)

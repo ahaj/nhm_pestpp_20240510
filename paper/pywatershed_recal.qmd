@@ -37,6 +37,6 @@ Previous calibration efforts have included diverse datasets in addition to strea
 We experimented with localization [@Anderson_2007; @Chen_2016] as an alternative method to isolate the connection between subsets of observations and specific parameter in formulating parameter upgrades. There are important computational cost implications and tradeoffs between using localization and ensemble size [@Traylor_2023]. We took advantage of the previously documented causal connections as a representation of the stepwise approach [@Hay_2006]. By grouping parameters into an approximation of those steps, we were able to limit the localization definitions to seven groups, requiring only seven local solves and thus limiting the extra cost of localization.
 
 ## Inequality observations for projecting data from ranges to parameters
-Inequality observations are implemented in the iterative ensemble smoother (iES:  )
+Inequality observations are implemented in the iterative ensemble smoother (iES: @White_2018, @white2020ppp, @Chen_2011 )
 
 # References

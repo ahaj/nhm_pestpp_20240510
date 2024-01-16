@@ -1,2 +1,2 @@
 pest_file,model_file
-parameters.json.tpl,parameters.json
+./parameters.json.tpl,./parameters.json
