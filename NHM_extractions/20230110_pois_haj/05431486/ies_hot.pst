@@ -6,7 +6,7 @@ svdmode                                 1
 maxsing                               250
 eigthresh                           1e-06
 eigwrite                                1
-ies_num_reals                  377
+ies_num_reals                  389
 ies_bad_phi_sigma              2.5
 overdue_giveup_fac             4
 ies_no_noise                   false
