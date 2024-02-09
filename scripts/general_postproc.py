@@ -5,15 +5,15 @@ import matplotlib.pyplot as plt
 sys.path.insert(0,'../scripts/')
 from postprocessing import setup_postproc, check_pdc, plot_phi, get_obs_and_noise, get_pars, plot_group, plot_pars_group
 
-plot_pars = True
+plot_pars = False
 plot_obs = True
 eval_pdc = False
 unzip_dirs = False
 plot_streamflow = True
 cms = ['01473000','05431486', '09112500']
 #cms = ['01473000']
-# crrs = ['ies','prior_mc_reweight']
-crrs = ['ies_hot']
+# crrs = ['ies_hot','prior_mc_reweight']
+crrs = ['prior_mc_reweight']
 phi_cutoffs = {cm:{crr:9e99 for crr in ['ies_hot','prior_mc_reweight']}
                 for cm in ['01473000','05431486', '09112500']}
 # catalog of cutoffs heuristically determined

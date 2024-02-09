@@ -267,7 +267,9 @@ def plot_group(cgroup, obs, modens, obens_noise, fig_dir, curr_model, citer, cur
                     cgobs_lower.base.plot(ax=ax, color='orange')
                     
                 ax.fill_between(cgmod.index, cgmod.mod_min,cgmod.mod_max, color='blue',alpha=.2, zorder=0)
-
+                ax.plot(cgmod.index, cgmod[cgmod.columns[:-4]].quantile(0.05, axis=1), 'b:')
+                ax.plot(cgmod.index, cgmod[cgmod.columns[:-4]].quantile(0.95, axis=1), 'b:')
+                
                 cgmod.base.plot(ax=ax, color='blue')
                 
                 # ax.fill_between(cgobs.index, cgobs.obs_min,cgobs.obs_max, color='orange',alpha=.4)
@@ -305,7 +307,8 @@ def plot_group(cgroup, obs, modens, obens_noise, fig_dir, curr_model, citer, cur
                         cgobsy_upper.base.plot(ax=ax, color='orange')
                         cgobsy_lower.base.plot(ax=ax, color='orange')
                     ax.fill_between(cgmody.index, cgmody.mod_min,cgmody.mod_max, color='blue',alpha=.2, zorder=0)
-
+                    ax.plot(cgmody.index, cgmody[cgmody.columns[:-4]].quantile(0.05, axis=1), 'b:')
+                    ax.plot(cgmody.index, cgmody[cgmody.columns[:-4]].quantile(0.95, axis=1), 'b:')
 
                     cgmody.base.plot(ax=ax, color='blue')
                     
@@ -326,6 +329,8 @@ def plot_group(cgroup, obs, modens, obens_noise, fig_dir, curr_model, citer, cur
                         ax = cgmodm[np.random.choice(cgmodm.columns[:-7],25)].plot(legend=None, linewidth=plot_lw, 
                                                         color='blue', alpha = plot_alpha)
                         ax.fill_between(cgmodm.index, cgmodm.mod_min,cgmodm.mod_max, color='blue',alpha=.2, zorder=0)
+                        ax.plot(cgmodm.index, cgmodm[cgmodm.columns[:-7]].quantile(0.05, axis=1), 'b:')
+                        ax.plot(cgmodm.index, cgmodm[cgmodm.columns[:-7]].quantile(0.95, axis=1), 'b:')
                         if 'sca' not in cgroup:
                             ax.fill_between(cgobsm.index, cgobsm.obs_min,cgobsm.obs_max, color='orange',alpha=.2, zorder=0)
                             cgobsm[np.random.choice(cgobsm.columns[:-7],25)].plot(ax=ax,color='orange',  linewidth=plot_lw,

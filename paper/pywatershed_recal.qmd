@@ -30,6 +30,13 @@ this one maybe? [@regan2018description; @Farmer_2019]
 
 # Methods
 
+## The iterative Ensemble Smoother
+Why bother with the iterative Ensemble Smoother  (iES: @White_2018, @white2020ppp, @Chen_2011)?
+- robust with respect to local minima. why?
+- a Bayesian batch update method
+- efficient and scalable to many parameters
+- easy to construct an objective function with multiple sources of data
+
 ## The value of diverse data and stepwise parameter estimation
 Previous calibration efforts have included diverse datasets in addition to streamflow in a stepwise approach [@Hay_2006] to help isolate various processes and their resepctive influence on specific parameter estimates. 
 
@@ -37,6 +44,25 @@ Previous calibration efforts have included diverse datasets in addition to strea
 We experimented with localization [@Anderson_2007; @Chen_2016] as an alternative method to isolate the connection between subsets of observations and specific parameter in formulating parameter upgrades. There are important computational cost implications and tradeoffs between using localization and ensemble size [@Traylor_2023]. We took advantage of the previously documented causal connections as a representation of the stepwise approach [@Hay_2006]. By grouping parameters into an approximation of those steps, we were able to limit the localization definitions to seven groups, requiring only seven local solves and thus limiting the extra cost of localization.
 
 ## Inequality observations for projecting data from ranges to parameters
-Inequality observations are implemented in the iterative ensemble smoother (iES: @White_2018, @white2020ppp, @Chen_2011 )
+Inequality observations are implemented in the iterative ensemble smoother (see e.g. [@Fienen_2021])
 
+## Prior Monte carlo and Prior Data Conflict
+Exposition on the value of evaluating the prior monte carlo results through rejection sampling (Need REFS - maybe this? [@Casella_2004]), prior data conflict, and a focus on parameter misrepresentation, model errors, process flow errors, or data errors
+
+## The Bayesian Update through iES
+finally we run iES to project information from obs to pars
+
+# Examples
+## Three cutout areas from NHM
+describe the three areas, ref to Arezoo and WRF Hydro work, and justify the choice.
+
+# Results
+## Results from the runs
+## Comparison with the calibration of record
+
+# Discussion
+Does PEST++ work with landscape models?
+
+# Conclusions
+Keep it concise
 # References
