@@ -23,7 +23,7 @@ def postprocess(rootdir = pl.Path('./'),
                                         . Defaults to 'model_custom_output.nc'.
     """
 
-    rootdir = pl.Path('./')# Path to location of cutouts
+    # rootdir = pl.Path('./')# Path to location of cutouts
 
     #var_output_files = ['hru_actet.nc', 'recharge.nc', 'soil_rechr.nc', 'snowcov_area.nc', 'seg_outflow.nc',]#output files of interest
 
