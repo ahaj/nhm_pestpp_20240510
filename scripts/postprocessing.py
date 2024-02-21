@@ -369,9 +369,16 @@ def _plotpars(cn, cg, outpdf, curr_model, citer, curr_root, cgroup):
     plt.close('all')
     
 def plot_single_real(res, cgroup, citer, curr_root, fig_dir, curr_model):
+    plot_NHM=False
+    if 'NHM_modelled' in res.columns:
+        plot_NHM = True
     # set up the legend properties
-    lh_linemod = Line2D([0], [0], color='blue', label='modeled base realization')
+    lh_linemod = Line2D([0], [0], color='blue', label='modelled base realization')
     lh_lineobs = Line2D([0], [0], color='orange', label='obs base realization')
+    leg_handles = [lh_linemod, lh_lineobs]
+    if plot_NHM:
+        lh_lineNHM = Line2D([0], [0], color='green', label='modelled NHM results')
+        leg_handles.append(lh_lineNHM)
     # set some flags based on group names
     mean_mon=False
     monthly=False
@@ -411,7 +418,9 @@ def plot_single_real(res, cgroup, citer, curr_root, fig_dir, curr_model):
         res['year'] = [i.year for i in res.datetime]    
         res['month'] = [i.month for i in res.datetime]    
     # now get plotting!
-    with PdfPages(fig_dir / f'{cgroup}.base.pdf') as outpdf:
+    if plot_NHM:
+        fname = f'{cgroup}.base+NHM.pdf'
+    with PdfPages(fig_dir / fname) as outpdf:
         # by default, we will make a plot for each location (usually that's an HRU)
         for cn,cgres in res.groupby('obs_location'):
             # first handle mean_monthly or annual cases, which results in one plot per location
@@ -430,6 +439,8 @@ def plot_single_real(res, cgroup, citer, curr_root, fig_dir, curr_model):
                         cgres_lower = cgres.loc[cgres.index.str.startswith('g_')].set_index('year')   
                     cgres.set_index('year', inplace=True)
                 ax = cgres.Modelled.plot(color='blue') 
+                if plot_NHM:
+                    cgres.NHM_modelled.plot(color='green',ax=ax) 
                 if streamflow:
                     cgres.Measured.plot(ax=ax, color='orange')
                 else:
@@ -438,7 +449,7 @@ def plot_single_real(res, cgroup, citer, curr_root, fig_dir, curr_model):
                 
                 ax.set_title(f'cutout={curr_model},  mod = {curr_root}, iter={citer}, group={cgroup}, location = {cn}')
                 print(cn)   
-                plt.legend(handles=[lh_linemod, lh_lineobs])                
+                plt.legend(handles=leg_handles)                
                 outpdf.savefig()
                 plt.close('all')
             elif monthly:
@@ -450,6 +461,9 @@ def plot_single_real(res, cgroup, citer, curr_root, fig_dir, curr_model):
                         cgres_lower = cgres.loc[cgres.index.str.startswith('g_')].set_index('datetime')
                     cgres.set_index('datetime', inplace=True)                
                     ax = cgres.Modelled.plot(color='blue') 
+                    if plot_NHM:
+                        cgres.NHM_modelled.plot(color='green', ax=ax) 
+
                     if streamflow:
                         cgres.Measured.plot(ax=ax, color='orange')
                     else:
@@ -459,25 +473,28 @@ def plot_single_real(res, cgroup, citer, curr_root, fig_dir, curr_model):
                     
                     ax.set_title(f'cutout={curr_model},  mod = {curr_root}, iter={citer}, group={cgroup}, location = {cn}, year = {cny}')
                     print(cny, cn)  
-                    plt.legend(handles=[lh_linemod, lh_lineobs])                
+                    plt.legend(handles=leg_handles)                
                     outpdf.savefig()
             
                     plt.close('all')
             elif daily:
                 # for daily time sequence cases, we will make a plot for month/year, so many more pages
-                for cny, cgresy in res.groupby('year'):
+                for cny, cgresy in cgres.groupby('year'):
                     for cnm, cgresm in cgresy.groupby('month'):
                         cgresm = cgresm.sort_values(by='datetime').copy()
                         cgresm.set_index('datetime', inplace=True)
                         
                         ax = cgresm.Modelled.plot(color='blue') 
+                        if plot_NHM:
+                            cgresm.NHM_modelled.plot(color='green', ax=ax) 
+                        
                         cgresm.Measured.plot(ax=ax, color='orange')
                         
                         ax.set_title(f'cutout={curr_model}, mod = {curr_root}, iter={citer}, group={cgroup}, location = {cn}, date = {calendar.month_name[cnm]} {cny}')
                         if 'sca' in cgroup:
                             ax.set_ylim(0,1)
                         print(cny, cn)  
-                        plt.legend(handles=[h_linemod, lh_lineobs])                  
+                        plt.legend(handles=leg_handles)                  
                         outpdf.savefig()
                 
                         plt.close('all')    
