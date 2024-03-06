@@ -1,13 +1,13 @@
-import pywatershed as pws
-import xarray as xr
-import shutil
-import time
-import pywatershed
-import dask
 import os
-import numpy as np
-import pathlib as pl
+import xarray as xr
 import pandas as pd
+import time
+import numpy as np
+import dask
+import shutil
+import pywatershed
+import pathlib as pl
+import pywatershed as pws
 
 
 sttime = time.time()
@@ -151,7 +151,7 @@ var_proc = {
 }
 
 time_coord = np.arange(
-    control.start_time, control.end_time, dtype="datetime64[D]"
+    control.start_time, control.end_time + control.time_step, dtype="datetime64[D]"
 )
 n_time_steps = len(time_coord)
 out_subset_ds["time"] = xr.Variable(["time"], time_coord)
@@ -223,11 +223,14 @@ for istep in range(n_time_steps):
 
     for var in var_list:
         proc = model.processes[var_proc[var]]
+        data = proc[var]
+        if isinstance(proc[var], pws.base.timeseries.TimeseriesArray):
+            data = data.current
         if var not in subset_vars:
-            out_subset_ds[var][istep, :] = proc[var]
+            out_subset_ds[var][istep, :] = data
         else:
             indices = spatial_subsets[var_subset_key[var]]["indices"]
-            out_subset_ds[var][istep, :] = proc[var][indices]
+            out_subset_ds[var][istep, :] = data[indices]
 
     for diag_key, diag_val in diagnostic_var_dict.items():
         input_dict = {}
@@ -449,13 +452,21 @@ with open(rootdir   / of_name, encoding="utf-8", mode='a') as ofp:
 
 with open(rootdir   / of_name, encoding="utf-8", mode='a') as ofp:
     [ofp.write(f'g_min_sca_daily:{i}          {j}\n') for i,j in zip(inds,varvals)]
-
-
+#
+#
 # ### Get the daily streamflow values from segments associated with the gage pois
-
-# Get seg_outflow data
+#
+#Get seg_outflow data ############################################################################################
 seg_outflow_daily = modelobsdat.seg_outflow.sel(time=slice(seg_outflow_start, seg_outflow_end))
 
+
+inds = [f'{i.year}_{i.month}_{i.day}:{j}' for j in seg_outflow_daily['poi_gages'].values for i in seg_outflow_daily.indexes['time']]
+varvals = np.ravel(seg_outflow_daily, order = 'F')# flattens the 2D array to a 1D array
+
+with open(rootdir / of_name, encoding="utf-8", mode='a') as ofp:
+     [ofp.write(f'streamflow_daily:{i}          {j}\n') for i,j in zip(inds,varvals)]
+####################################################################################################################
+seg_outflow_daily = modelobsdat.seg_outflow.sel(time=slice(seg_outflow_start, seg_outflow_end))
 
 inds = [f'{i.year}_{i.month}_{i.day}:{j}' for j in seg_outflow_daily['poi_gages'].values for i in seg_outflow_daily.indexes['time']]
 varvals = np.ravel(seg_outflow_daily, order = 'F')# flattens the 2D array to a 1D array
@@ -464,6 +475,7 @@ with open(rootdir / of_name, encoding="utf-8", mode='a') as ofp:
     [ofp.write(f'streamflow_daily:{i}          {j}\n') for i,j in zip(inds,varvals)]
 
 
+#########################################################################################################################
 # #### Post-process daily output to match observation targets of "monthly" and "mean monthly"
 
 
@@ -485,3 +497,31 @@ varvals =  np.ravel(seg_outflow_mean_monthly, order = 'F')# flattens the 2D arra
 
 with open(rootdir   / of_name, encoding="utf-8", mode='a') as ofp:
     [ofp.write(f'streamflow_mean_mon:{i}          {j}\n') for i,j in zip(inds,varvals)]
+
+
+
+
+# seg_outflow_start = '2000-01-01'
+# seg_outflow_end = '2010-12-31'
+#  # This grabs the efc componets in the model_obs name from the obs name
+# cdat_efc  = xr.open_dataset(rootdir/ cm / 'sf_data_with_EFC.nc').sel(time=slice(seg_outflow_start, seg_outflow_end))
+# cdat_efc = cdat_efc.fillna(-9999)
+# cdat_efc = cdat_efc[['efc', 'high_low']]
+
+# seg_outflow_daily = modelobsdat.seg_outflow.sel(time=slice(seg_outflow_start, seg_outflow_end))
+
+# inds = [f'_{int(cdat_efc["efc"].sel(poi_id=j, time=i).item())}_{int(cdat_efc["high_low"].sel(poi_id=j, time=i).item())}:{i.year}_{i.month}_{i.day}:{j}' for j in seg_outflow_daily['poi_gages'].values for i in seg_outflow_daily.indexes['time']]
+# varvals = np.ravel(seg_outflow_daily, order = 'F')# flattens the 2D array to a 1D array
+
+# with open(rootdir / cm / of_name, encoding="utf-8", mode='a') as ofp:
+#      [ofp.write(f'streamflow_daily{i}          {j}\n') for i,j in zip(inds,varvals, strict=True)]
+
+
+# seg_outflow_daily = modelobsdat.seg_outflow.sel(time=slice(seg_outflow_start, seg_outflow_end))
+# inds = [f'{i.year}_{i.month}_{i.day}:{j}' for j in seg_outflow_daily['poi_gages'].values for i in seg_outflow_daily.indexes['time']]
+# varvals = np.ravel(seg_outflow_daily, order = 'F')# flattens the 2D array to a 1D array
+
+# with open(rootdir / of_name, encoding="utf-8", mode='a') as ofp:
+#      [ofp.write(f'streamflow_daily:{i}          {j}\n') for i,j in zip(inds,varvals)]
+
+

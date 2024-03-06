@@ -7,7 +7,7 @@ fastcoef_lin,NaN,0.01,1,0.1,Percent,3,0.152542373,0.1,"Percent, start_val",varia
 freeh2o_cap,NaN,0.01,0.1,0.05,Range,4,0.444444444,0.05,Range,uniform,Range
 gwflow_coef,NaN,0.001,0.5,0.015,Percent,3,0.141414141,0.015,"Percent, start_val",variable,Percent
 jh_coef,NaN,0,1.5,0.014,Percent,Not used,0.07,0.02,"Percent, start_val",variable,Percent
-mann_n,NaN,0.001,0.15,0.04,Percent,4,0.261744966,0.04,"Percent, start_val",variable,Not used
+mann_n,NaN,0.001,0.15,0.04,Range,4,0.261744966,0.04,"Percent, start_val",variable,Not used
 potet_sublim,1,0.4,0.6,0.5,Range,4,0.5,0.5,"Percent, from table",uniform,Not used
 rad_trncf,1,0,1,0.5,Percent,4,0.5,0.5,"Percent, start val",variable,Percent
 radmax,NaN,0.5,1,0.8,Range,3,0.6,0.8,Range,uniform,Range

@@ -151,7 +151,7 @@ var_proc = {
 }
 
 time_coord = np.arange(
-    control.start_time, control.end_time, dtype="datetime64[D]"
+    control.start_time, control.end_time + control.time_step, dtype="datetime64[D]"
 )
 n_time_steps = len(time_coord)
 out_subset_ds["time"] = xr.Variable(["time"], time_coord)
@@ -223,11 +223,14 @@ for istep in range(n_time_steps):
 
     for var in var_list:
         proc = model.processes[var_proc[var]]
+        data = proc[var]
+        if isinstance(proc[var], pws.base.timeseries.TimeseriesArray):
+            data = data.current
         if var not in subset_vars:
-            out_subset_ds[var][istep, :] = proc[var]
+            out_subset_ds[var][istep, :] = data
         else:
             indices = spatial_subsets[var_subset_key[var]]["indices"]
-            out_subset_ds[var][istep, :] = proc[var][indices]
+            out_subset_ds[var][istep, :] = data[indices]
 
     for diag_key, diag_val in diagnostic_var_dict.items():
         input_dict = {}
