@@ -1,6 +1,8 @@
 import pandas as pd
 import numpy as np
+
 import matplotlib.pyplot as plt
+import matplotlib.patheffects as pe
 
 
 def mse(obs, sim=0) -> float:
@@ -219,7 +221,7 @@ def stl(obs, sim, period=365, objective=mse):
 # Scores
 
 
-def ilamb_score(e, a=1):
+def ilamb_score(e, name, a=1):
     """Scores and error.
 
     Exponential scoring function that maps MSE to the unit interval.
@@ -237,7 +239,24 @@ def ilamb_score(e, a=1):
     (ILAMB) system: Design, theory, and implementation. Journal of Advances
     in Modeling Earth Systems, 10(11), http://dx.doi.org/10.1029/2018ms001354
     """
-    return np.exp(-1 * a * e)
+    score = np.exp(-1 * a * e)
+    score = round(score * 100).astype(int)
+    score.name = name
+
+    if isinstance(score, pd.Series):
+        return score.to_frame()
+    else:
+        return score
+
+
+def percentage_score(df, name, total_col='total'):
+    score = round(df / df[total_col].values * 100).astype(int)
+    score.name = name
+
+    if isinstance(score, pd.Series):
+        return score.to_frame()
+    else:
+        return score
 
 
 def gse(sigma_2, sd=1.96):
@@ -252,21 +271,20 @@ def se(sigma_2, sd=1.96):
 
 
 # Plotting
-# Plotting
 def scorecard_plot(df, ax=None, clim=(0, 100), cmap='RdYlBu'):
     axs = ax or plt.gca()
 
     axs.set_ylabel("Component")
     # axs.set_yticks(np.arange(len(df.index)), labels=df.index, fontsize=6)
     axs.set_yticks(
-        np.arange(len(df.index)), labels=df.index.get_level_values(1), fontsize=6
+        np.arange(len(df.index)), labels=df.index.get_level_values(1), fontsize=8
     )
     axs.yaxis.set_tick_params(length=0, which='minor')
 
     axs.set_xticks(
         np.arange(len(df.columns)),
         labels=df.columns,
-        fontsize=6,
+        fontsize=8,
         rotation=90,
         ha='center',
         va='bottom',
@@ -279,13 +297,18 @@ def scorecard_plot(df, ax=None, clim=(0, 100), cmap='RdYlBu'):
     breaks = np.where(x[:-1] != x[1:])[0]
     [axs.axhline(y=i + 0.5, color='k') for i in breaks]
 
-    im = axs.imshow(df, cmap=cmap, vmin=clim[0], vmax=clim[1], alpha=0.80)
+    im = axs.imshow(df, cmap=cmap, vmin=clim[0], vmax=clim[1], alpha=1)
     # cbar = axs.figure.colorbar(im, ax=axs, location='bottom', ticks=[0, 50, 100], ticklocation='bottom', pad=0.05, fraction=0.15, shrink=0.5)
     # cbar.ax.tick_params(labelsize=4, width=0.2, length=2, pad=1, labelbottom=True)
     # cbar.outline.set_linewidth(0.2)
 
     ## Annotates each cell...
-    txtattrs = dict(ha="center", va="center", fontsize=8)
+    txtattrs = dict(
+        ha="center",
+        va="center",
+        fontsize=8,
+        path_effects=[pe.withStroke(linewidth=2, foreground="white", alpha=0.5)],
+    )
     i = 0
     for col in df.columns:
         j = 0
