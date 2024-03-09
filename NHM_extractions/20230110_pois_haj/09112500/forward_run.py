@@ -1,12 +1,12 @@
-import dask
-import pywatershed
 import time
 import shutil
-import os
 import pathlib as pl
-import xarray as xr
 import pywatershed as pws
 import numpy as np
+import os
+import dask
+import pywatershed
+import xarray as xr
 import pandas as pd
 
 
@@ -340,10 +340,10 @@ varvals = np.ravel(actet_monthly, order = 'C')# flattens the 2D array to a 1D ar
 
 with open(rootdir / of_name, encoding="utf-8", mode='w') as ofp:
     ofp.write('obsname    obsval\n') # writing a header for the file
-    [ofp.write(f'l_max_actet_mon:{i}          {j}\n') for i,j in zip(inds,varvals)]
+    [ofp.write(f'l_max_actet_mon:{i}          {j}\n') for i,j in zip(inds,varvals, strict=True)]
 
 with open(rootdir / of_name, encoding="utf-8", mode='a') as ofp:
-    [ofp.write(f'g_min_actet_mon:{i}          {j}\n') for i,j in zip(inds,varvals)]
+    [ofp.write(f'g_min_actet_mon:{i}          {j}\n') for i,j in zip(inds,varvals, strict=True)]
 
 actet_monthly.sel(time='2000-01-31').values # look at a slice of the netcdf and compare to pest write
 
@@ -353,10 +353,10 @@ inds = [f'{i}:{j}' for i in actet_mean_monthly.indexes['month'] for j in actet_m
 varvals =  np.ravel(actet_mean_monthly, order = 'C')# flattens the 2D array to a 1D array
 
 with open(rootdir / of_name, encoding="utf-8", mode='a') as ofp:
-    [ofp.write(f'l_max_actet_mean_mon:{i}          {j}\n') for i,j in zip(inds,varvals)]
+    [ofp.write(f'l_max_actet_mean_mon:{i}          {j}\n') for i,j in zip(inds,varvals, strict=True)]
 
 with open(rootdir / of_name, encoding="utf-8", mode='a') as ofp:
-    [ofp.write(f'g_min_actet_mean_mon:{i}          {j}\n') for i,j in zip(inds,varvals)]
+    [ofp.write(f'g_min_actet_mean_mon:{i}          {j}\n') for i,j in zip(inds,varvals, strict=True)]
 
 # ### Post Process recharge for calibration use
 # #### Get daily output file from NHM for recharge
@@ -373,10 +373,10 @@ inds = [f'{i.year}:{j}' for i in recharge_annual_norm.indexes['time'] for j in r
 varvals =  np.ravel(recharge_annual_norm, order = 'C')# flattens the 2D array to a 1D array
 
 with open(rootdir  / of_name, encoding="utf-8",mode='a') as ofp:
-    [ofp.write(f'l_max_recharge_ann:{i}          {j}\n') for i,j in zip(inds,varvals)]
+    [ofp.write(f'l_max_recharge_ann:{i}          {j}\n') for i,j in zip(inds,varvals, strict=True)]
 
 with open(rootdir  / of_name, encoding="utf-8",mode='a') as ofp:
-    [ofp.write(f'g_min_recharge_ann:{i}          {j}\n') for i,j in zip(inds,varvals)]
+    [ofp.write(f'g_min_recharge_ann:{i}          {j}\n') for i,j in zip(inds,varvals, strict=True)]
 
 
 # ### Post Process "soil_rechr" to compare to target
@@ -396,19 +396,19 @@ inds = [f'{i.year}_{i.month}:{j}' for i in soil_rechr_monthly_norm.indexes['time
 varvals = np.ravel(soil_rechr_monthly_norm, order = 'C')# flattens the 2D array to a 1D array
 
 with open(rootdir  / of_name, encoding="utf-8",mode='a') as ofp:
-    [ofp.write(f'l_max_soil_moist_mon:{i}          {j}\n') for i,j in zip(inds,varvals)]
+    [ofp.write(f'l_max_soil_moist_mon:{i}          {j}\n') for i,j in zip(inds,varvals, strict=True)]
 
 with open(rootdir  / of_name, encoding="utf-8",mode='a') as ofp:
-    [ofp.write(f'g_min_soil_moist_mon:{i}          {j}\n') for i,j in zip(inds,varvals)]
+    [ofp.write(f'g_min_soil_moist_mon:{i}          {j}\n') for i,j in zip(inds,varvals, strict=True)]
 
 inds = [f'{i.year}:{j}' for i in soil_rechr_annual_norm.indexes['time'] for j in soil_rechr_annual_norm['nhm_id'].values]
 varvals =  np.ravel(soil_rechr_annual_norm, order = 'C')# flattens the 2D array to a 1D array
 
 with open(rootdir   / of_name, encoding="utf-8",mode='a') as ofp:
-    [ofp.write(f'l_max_soil_moist_ann:{i}          {j}\n') for i,j in zip(inds,varvals)]
+    [ofp.write(f'l_max_soil_moist_ann:{i}          {j}\n') for i,j in zip(inds,varvals, strict=True)]
 
 with open(rootdir   / of_name, encoding="utf-8",mode='a') as ofp:
-    [ofp.write(f'g_min_soil_moist_ann:{i}          {j}\n') for i,j in zip(inds,varvals)]
+    [ofp.write(f'g_min_soil_moist_ann:{i}          {j}\n') for i,j in zip(inds,varvals, strict=True)]
 
 
 # ### Post Process "hru_outflow" to compare to target
@@ -426,10 +426,10 @@ inds = [f'{i.year}_{i.month}:{j}' for i in hru_streamflow_out_rate.indexes['time
 varvals = np.ravel(hru_streamflow_out_rate, order = 'C')# flattens the 2D array to a 1D array
 
 with open(rootdir / of_name, encoding="utf-8",mode='a') as ofp:
-    [ofp.write(f'l_max_runoff_mon:{i}          {j}\n') for i,j in zip(inds,varvals)]
+    [ofp.write(f'l_max_runoff_mon:{i}          {j}\n') for i,j in zip(inds,varvals, strict=True)]
 
 with open(rootdir / of_name, encoding="utf-8",mode='a') as ofp:
-    [ofp.write(f'g_min_runoff_mon:{i}          {j}\n') for i,j in zip(inds,varvals)]
+    [ofp.write(f'g_min_runoff_mon:{i}          {j}\n') for i,j in zip(inds,varvals, strict=True)]
 
 # ### Post Process "snowcov_area" to compare to target
 # #### Get and check the daily data
@@ -448,10 +448,10 @@ inds = [f'{i.year}_{i.month}_{i.day}:{j}' for i in snowcov_area_daily_restr.inde
 varvals = np.ravel(snowcov_area_daily_restr, order = 'C')# flattens the 2D array to a 1D array
 
 with open(rootdir   / of_name, encoding="utf-8", mode='a') as ofp:
-    [ofp.write(f'l_max_sca_daily:{i}          {j}\n') for i,j in zip(inds,varvals)]
+    [ofp.write(f'l_max_sca_daily:{i}          {j}\n') for i,j in zip(inds,varvals, strict=True)]
 
 with open(rootdir   / of_name, encoding="utf-8", mode='a') as ofp:
-    [ofp.write(f'g_min_sca_daily:{i}          {j}\n') for i,j in zip(inds,varvals)]
+    [ofp.write(f'g_min_sca_daily:{i}          {j}\n') for i,j in zip(inds,varvals, strict=True)]
 #
 #
 # ### Get the daily streamflow values from segments associated with the gage pois
@@ -472,7 +472,12 @@ inds = [f'{i.year}_{i.month}_{i.day}:{j}' for j in seg_outflow_daily['poi_gages'
 varvals = np.ravel(seg_outflow_daily, order = 'F')# flattens the 2D array to a 1D array
 
 with open(rootdir / of_name, encoding="utf-8", mode='a') as ofp:
-    [ofp.write(f'streamflow_daily:{i}          {j}\n') for i,j in zip(inds,varvals)]
+    [ofp.write(f'streamflow_daily:{i}          {j}\n') for i,j in zip(inds,varvals, strict=True)]
+
+
+
+
+
 
 
 #########################################################################################################################
