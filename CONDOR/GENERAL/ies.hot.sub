@@ -1,0 +1,14 @@
+Notification=Never
+universe=vanilla
+should_transfer_files   = YES
+when_to_transfer_output = ON_EXIT
+output                  = log/$(Cluster)_out.$(Process)
+error                   = log/$(Cluster)_err.$(Process)
+log                     = log/$(Cluster).log
+stream_output = True
+request_memory = 1500
+stream_error = True
+executable = worker_ies.sh
+transfer_output_files = ""
+transfer_input_files = data.tar
+queue 400
