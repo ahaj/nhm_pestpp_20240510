@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 sys.path.insert(0,'../scripts/')
 from postprocessing import setup_postproc, check_pdc, plot_phi, get_obs_and_noise, get_pars, plot_group, plot_pars_group
 
-plot_pars = False
+plot_pars = True
 plot_obs = True
 eval_pdc = False
 unzip_dirs = False
@@ -13,15 +13,15 @@ plot_streamflow = True
 cms = ['01473000','05431486', '09112500']
 #cms = ['01473000']
 # crrs = ['ies_hot','prior_mc_reweight']
-crrs = ['ies_hot']
+crrs = ['prior_mc_reweight']
 phi_cutoffs = {cm:{crr:9e99 for crr in ['ies_hot','prior_mc_reweight']}
                 for cm in ['01473000','05431486', '09112500']}
 # catalog of cutoffs heuristically determined
-phi_cutoffs['01473000']['prior_mc_reweight'] = .6e10
+phi_cutoffs['01473000']['prior_mc_reweight'] = 4.1e7
 phi_cutoffs['01473000']['ies_hot'] = 1.5e7
-phi_cutoffs['05431486']['prior_mc_reweight'] = 2.2e9
+phi_cutoffs['05431486']['prior_mc_reweight'] = 2.7e8
 phi_cutoffs['05431486']['ies_hot'] = 1.4e8
-phi_cutoffs['09112500']['prior_mc_reweight'] = 3.0e9
+phi_cutoffs['09112500']['prior_mc_reweight'] = 1.2e9
 phi_cutoffs['09112500']['ies_hot'] = 1.5e8
 
 for curr_model in cms:
@@ -84,13 +84,13 @@ for curr_model in cms:
             # plot_group('sca_daily', obs, modens, obens_noise, fig_dir, curr_model)
 
             plot_group('actet_mean_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
-            # plot_group('actet_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
-            # plot_group('runoff_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
-            # plot_group('soil_moist_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
-            # plot_group('recharge_ann', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
+            plot_group('actet_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
+            plot_group('runoff_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
+            plot_group('soil_moist_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
+            plot_group('recharge_ann', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
 
-            # # streamflow_daily is a special case - all aggregated
-            # if plot_streamflow:
-            #     plot_group('streamflow_daily', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
-            #     plot_group('streamflow_mean_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
-            #     plot_group('streamflow_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
+        # # streamflow_daily is a special case - all aggregated
+        if plot_streamflow:
+            plot_group('streamflow_daily', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
+            plot_group('streamflow_mean_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
+            plot_group('streamflow_mon', obs, modens, obens_noise, fig_dir, curr_model, best_iter, curr_run_root)
