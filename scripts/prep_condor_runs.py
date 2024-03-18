@@ -20,6 +20,7 @@ for cex in all_extractions:
         for tf in tofolder:
             print(f'copying {frompath} to CONDOR rundir')
             shutil.copytree(frompath, topath/tf, dirs_exist_ok=True)
+            shutil.copy2(topath/'pestpp-ies', topath/tf/'pestpp-ies')
     else:
         files = [i for i in list(frompath.glob(f'{rootnm}*') ) if 'phi' not in i.name]
         files.extend([i for i in list(frompath.glob(f'*.tpl') ) ]) 

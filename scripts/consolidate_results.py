@@ -6,11 +6,11 @@ all_extractions = ['01473000','05431486','09112500']
 #all_extractions = ['01473000']
 rootnm = 'prior_mc_reweight'
 #rootnm = 'ies'
-priorflag = False
+priorflag = True
 results_dir = pl.Path('../results')
 
 for cex in all_extractions:
-    cpath = pl.Path(f'../../CONDOR/{cex}/MASTER')
+    cpath = pl.Path(f'../CONDOR/{cex}/MASTER')
     files = []
     files.extend(cpath.glob(f'{rootnm}*pdc*'))
     files.extend(cpath.glob(f'{rootnm}*phi*'))
