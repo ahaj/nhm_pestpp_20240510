@@ -8,19 +8,19 @@ from postprocessing_doublewide import setup_postproc, check_pdc, plot_phi, get_o
 plot_obs = True
 unzip_dirs = False
 plot_streamflow = True
-# cms = ['01473000','05431486', '09112500']
-cms = ['09112500']
+cms = ['05431486']
+# cms = ['01473000','09112500']
 crrs = ['prior_mc_reweight','ies_hot']
 # crrs = ['ies_hot']
 phi_cutoffs = {cm:{crr:9e99 for crr in ['ies_hot','prior_mc_reweight']}
                 for cm in ['01473000','05431486', '09112500']}
 # catalog of cutoffs heuristically determined
 phi_cutoffs['01473000']['prior_mc_reweight'] = .6e10
-phi_cutoffs['01473000']['ies_hot'] = 1.5e7
+phi_cutoffs['01473000']['ies_hot'] = 2.5e7
 phi_cutoffs['05431486']['prior_mc_reweight'] = 2.2e9
 phi_cutoffs['05431486']['ies_hot'] = 1.4e8
 phi_cutoffs['09112500']['prior_mc_reweight'] = 3.0e9
-phi_cutoffs['09112500']['ies_hot'] = 1.5e8
+phi_cutoffs['09112500']['ies_hot'] = 1.8e8
 
 modens_list = []
 for curr_model in cms:
@@ -61,16 +61,16 @@ for curr_model in cms:
         # # Now let's start looking at the fits
         modens, obens_noise = get_obs_and_noise(tmp_res_path, curr_run_root, reals, best_iter)
         modens_list.append(modens)
-    # plot_group('sca_daily', obs, modens, obens_noise, fig_dir, curr_model)
+    # plot_group('sca_daily', obs, modens_list[0], obens_noise, fig_dir, curr_model, best_iter, curr_run_root, modens_list[1])
 
-    # plot_group('actet_mean_mon', obs, modens_list[0], obens_noise, fig_dir, curr_model, best_iter, curr_run_root, modens_list[1])
-    # plot_group('actet_mon', obs, modens_list[0], obens_noise, fig_dir, curr_model, best_iter, curr_run_root, modens_list[1])
-    # plot_group('runoff_mon', obs, modens_list[0], obens_noise, fig_dir, curr_model, best_iter, curr_run_root, modens_list[1])
-    # plot_group('soil_moist_mon', obs, modens_list[0], obens_noise, fig_dir, curr_model, best_iter, curr_run_root, modens_list[1])
-    # plot_group('recharge_ann', obs, modens_list[0], obens_noise, fig_dir, curr_model, best_iter, curr_run_root, modens_list[1])
+    plot_group('actet_mean_mon', obs, modens_list[0], obens_noise, fig_dir, curr_model, best_iter, curr_run_root, modens_list[1])
+    plot_group('actet_mon', obs, modens_list[0], obens_noise, fig_dir, curr_model, best_iter, curr_run_root, modens_list[1])
+    plot_group('runoff_mon', obs, modens_list[0], obens_noise, fig_dir, curr_model, best_iter, curr_run_root, modens_list[1])
+    plot_group('soil_moist_mon', obs, modens_list[0], obens_noise, fig_dir, curr_model, best_iter, curr_run_root, modens_list[1])
+    plot_group('recharge_ann', obs, modens_list[0], obens_noise, fig_dir, curr_model, best_iter, curr_run_root, modens_list[1])
 
     # # streamflow_daily is a special case - all aggregated
     if plot_streamflow:
-        # plot_group('streamflow_daily', obs, modens_list[0], obens_noise, fig_dir, curr_model, best_iter, curr_run_root, modens_list[1])
-        # plot_group('streamflow_mean_mon', obs, modens_list[0], obens_noise, fig_dir, curr_model, best_iter, curr_run_root, modens_list[1])
+        plot_group('streamflow_daily', obs, modens_list[0], obens_noise, fig_dir, curr_model, best_iter, curr_run_root, modens_list[1])
+        plot_group('streamflow_mean_mon', obs, modens_list[0], obens_noise, fig_dir, curr_model, best_iter, curr_run_root, modens_list[1])
         plot_group('streamflow_mon', obs, modens_list[0], obens_noise, fig_dir, curr_model, best_iter, curr_run_root, modens_list[1])

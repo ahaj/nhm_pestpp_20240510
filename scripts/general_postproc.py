@@ -17,12 +17,12 @@ crrs = ['prior_mc_reweight']
 phi_cutoffs = {cm:{crr:9e99 for crr in ['ies_hot','prior_mc_reweight']}
                 for cm in ['01473000','05431486', '09112500']}
 # catalog of cutoffs heuristically determined
-phi_cutoffs['01473000']['prior_mc_reweight'] = 4.1e7
-phi_cutoffs['01473000']['ies_hot'] = 1.5e7
-phi_cutoffs['05431486']['prior_mc_reweight'] = 2.7e8
-phi_cutoffs['05431486']['ies_hot'] = 1.4e8
-phi_cutoffs['09112500']['prior_mc_reweight'] = 1.2e9
-phi_cutoffs['09112500']['ies_hot'] = 1.5e8
+phi_cutoffs['01473000']['prior_mc_reweight'] = .6e10
+phi_cutoffs['01473000']['ies_hot'] = 2.5e7
+phi_cutoffs['05431486']['prior_mc_reweight'] = 2.2e9
+phi_cutoffs['05431486']['ies_hot'] = 1.3e8
+phi_cutoffs['09112500']['prior_mc_reweight'] = 3.0e9
+phi_cutoffs['09112500']['ies_hot'] = 1.8e8
 
 for curr_model in cms:
     for curr_run_root in crrs:
