@@ -79,14 +79,14 @@ def postprocess(rootdir = pl.Path('./'),
 
     with open(rootdir / of_name, encoding="utf-8", mode='w') as ofp:
         ofp.write('obsname    obsval\n') # writing a header for the file
-        [ofp.write(f'l_max_actet_mon:{i}          {j}\n') for i,j in zip(inds,varvals)]
+        [ofp.write(f'l_max_actet_mon:{i}          {j}\n') for i,j in zip(inds,varvals, strict=True)]
 
     with open(rootdir / of_name, encoding="utf-8", mode='a') as ofp:
-        [ofp.write(f'g_min_actet_mon:{i}          {j}\n') for i,j in zip(inds,varvals)]
+        [ofp.write(f'g_min_actet_mon:{i}          {j}\n') for i,j in zip(inds,varvals, strict=True)]
 
     actet_monthly.sel(time='2000-01-31').values # look at a slice of the netcdf and compare to pest write
 
-    [(i,j) for i,j in zip(inds,varvals)] # playing around and learning adv lists making
+    [(i,j) for i,j in zip(inds,varvals, strict=True)] # playing around and learning adv lists making
 
     inds = [f'{i}:{j}' for i in actet_mean_monthly.indexes['month'] for j in actet_mean_monthly['nhm_id'].values]
     varvals =  np.ravel(actet_mean_monthly, order = 'C')# flattens the 2D array to a 1D array 

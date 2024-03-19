@@ -190,7 +190,7 @@ inds = [f'{i.year}_{i.month}_{i.day}:{j}' for j in seg_outflow_daily['poi_gages'
 varvals = np.ravel(seg_outflow_daily, order = 'F')# flattens the 2D array to a 1D array
 
 with open(rootdir / of_name, encoding="utf-8", mode='a') as ofp:
-     [ofp.write(f'streamflow_daily:{i}          {j}\n') for i,j in zip(inds,varvals)]
+     [ofp.write(f'streamflow_daily:{i}          {j}\n') for i,j in zip(inds,varvals,strict=True)]
 ####################################################################################################################
 seg_outflow_daily = modelobsdat.seg_outflow.sel(time=slice(seg_outflow_start, seg_outflow_end))
 
@@ -199,12 +199,6 @@ varvals = np.ravel(seg_outflow_daily, order = 'F')# flattens the 2D array to a 1
 
 with open(rootdir / of_name, encoding="utf-8", mode='a') as ofp:
     [ofp.write(f'streamflow_daily:{i}          {j}\n') for i,j in zip(inds,varvals, strict=True)]
-
-
-
-
-
-
 
 #########################################################################################################################
 # #### Post-process daily output to match observation targets of "monthly" and "mean monthly"
@@ -221,13 +215,13 @@ inds = [f'{i.year}_{i.month}:{j}' for j in seg_outflow_monthly['poi_gages'].valu
 varvals = np.ravel(seg_outflow_monthly, order = 'F')# flattens the 2D array to a 1D array--just playing 
 
 with open(rootdir   / of_name, encoding="utf-8", mode='a') as ofp:
-    [ofp.write(f'streamflow_mon:{i}          {j}\n') for i,j in zip(inds,varvals)]
+    [ofp.write(f'streamflow_mon:{i}          {j}\n') for i,j in zip(inds,varvals,strict=True)]
 
 inds = [f'{i}:{j}' for j in seg_outflow_mean_monthly['poi_gages'].values for i in seg_outflow_mean_monthly.indexes['month'] ]
 varvals =  np.ravel(seg_outflow_mean_monthly, order = 'F')# flattens the 2D array to a 1D array 
 
 with open(rootdir   / of_name, encoding="utf-8", mode='a') as ofp:
-    [ofp.write(f'streamflow_mean_mon:{i}          {j}\n') for i,j in zip(inds,varvals)]
+    [ofp.write(f'streamflow_mean_mon:{i}          {j}\n') for i,j in zip(inds,varvals,strict=True)]
 
 
 
