@@ -63,14 +63,14 @@ for curr_model in cms:
         modens_list.append(modens)
     # plot_group('sca_daily', obs, modens_list[0], obens_noise, fig_dir, curr_model, best_iter, curr_run_root, modens_list[1])
 
-    plot_group('actet_mean_mon', obs, modens_list[0], obens_noise, fig_dir, curr_model, best_iter, curr_run_root, modens_list[1])
-    plot_group('actet_mon', obs, modens_list[0], obens_noise, fig_dir, curr_model, best_iter, curr_run_root, modens_list[1])
-    plot_group('runoff_mon', obs, modens_list[0], obens_noise, fig_dir, curr_model, best_iter, curr_run_root, modens_list[1])
-    plot_group('soil_moist_mon', obs, modens_list[0], obens_noise, fig_dir, curr_model, best_iter, curr_run_root, modens_list[1])
-    plot_group('recharge_ann', obs, modens_list[0], obens_noise, fig_dir, curr_model, best_iter, curr_run_root, modens_list[1])
+    # plot_group('actet_mean_mon', obs, modens_list[0], obens_noise, fig_dir, curr_model, best_iter, curr_run_root, modens_list[1])
+    # plot_group('actet_mon', obs, modens_list[0], obens_noise, fig_dir, curr_model, best_iter, curr_run_root, modens_list[1])
+    # plot_group('runoff_mon', obs, modens_list[0], obens_noise, fig_dir, curr_model, best_iter, curr_run_root, modens_list[1])
+    # plot_group('soil_moist_mon', obs, modens_list[0], obens_noise, fig_dir, curr_model, best_iter, curr_run_root, modens_list[1])
+    # plot_group('recharge_ann', obs, modens_list[0], obens_noise, fig_dir, curr_model, best_iter, curr_run_root, modens_list[1])
 
     # # streamflow_daily is a special case - all aggregated
     if plot_streamflow:
-        plot_group('streamflow_daily', obs, modens_list[0], obens_noise, fig_dir, curr_model, best_iter, curr_run_root, modens_list[1])
+        # plot_group('streamflow_daily', obs, modens_list[0], obens_noise, fig_dir, curr_model, best_iter, curr_run_root, modens_list[1])
         plot_group('streamflow_mean_mon', obs, modens_list[0], obens_noise, fig_dir, curr_model, best_iter, curr_run_root, modens_list[1])
-        plot_group('streamflow_mon', obs, modens_list[0], obens_noise, fig_dir, curr_model, best_iter, curr_run_root, modens_list[1])
+        # plot_group('streamflow_mon', obs, modens_list[0], obens_noise, fig_dir, curr_model, best_iter, curr_run_root, modens_list[1])

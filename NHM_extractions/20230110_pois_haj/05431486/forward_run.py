@@ -1,13 +1,13 @@
-import xarray as xr
-import pathlib as pl
-import shutil
-import numpy as np
-import pywatershed
 import pywatershed as pws
-import os
+import pywatershed
 import dask
-import time
+import numpy as np
+import pathlib as pl
+import xarray as xr
+import os
 import pandas as pd
+import time
+import shutil
 
 
 sttime = time.time()
@@ -465,17 +465,6 @@ varvals = np.ravel(seg_outflow_daily, order = 'F')# flattens the 2D array to a 1
 
 with open(rootdir / of_name, encoding="utf-8", mode='a') as ofp:
      [ofp.write(f'streamflow_daily:{i}          {j}\n') for i,j in zip(inds,varvals)]
-####################################################################################################################
-seg_outflow_daily = modelobsdat.seg_outflow.sel(time=slice(seg_outflow_start, seg_outflow_end))
-
-inds = [f'{i.year}_{i.month}_{i.day}:{j}' for j in seg_outflow_daily['poi_gages'].values for i in seg_outflow_daily.indexes['time']]
-varvals = np.ravel(seg_outflow_daily, order = 'F')# flattens the 2D array to a 1D array
-
-with open(rootdir / of_name, encoding="utf-8", mode='a') as ofp:
-    [ofp.write(f'streamflow_daily:{i}          {j}\n') for i,j in zip(inds,varvals, strict=True)]
-
-
-
 
 
 
