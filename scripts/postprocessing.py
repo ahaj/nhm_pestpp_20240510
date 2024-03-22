@@ -307,8 +307,8 @@ def plot_group(cgroup, obs, modens, obens_noise, fig_dir, curr_model, citer, cur
                         cgobsy_upper.base.plot(ax=ax, color='orange')
                         cgobsy_lower.base.plot(ax=ax, color='orange')
                     ax.fill_between(cgmody.index, cgmody.mod_min,cgmody.mod_max, color='blue',alpha=.2, zorder=0)
-                    ax.plot(cgmody.index, cgmody[cgmody.columns[:-4]].quantile(0.05, axis=1), 'b:')
-                    ax.plot(cgmody.index, cgmody[cgmody.columns[:-4]].quantile(0.95, axis=1), 'b:')
+                    cgmody[cgmody.columns[:-4]].quantile(0.05, axis=1).plot(color='b',ls=':', ax=ax)
+                    cgmody[cgmody.columns[:-4]].quantile(0.95, axis=1).plot(color='b',ls=':', ax=ax)
 
                     cgmody.base.plot(ax=ax, color='blue')
                     
