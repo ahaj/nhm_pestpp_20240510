@@ -4,9 +4,9 @@ import os
 
 all_extractions = ['01473000','05431486','09112500']
 #all_extractions = ['01473000']
-#rootnm = 'prior_mc_reweight'
-rootnm = 'ies_hot'
-priorflag = False
+rootnm = 'prior_mc_reweight'
+#rootnm = 'ies_hot'
+priorflag = True
 results_dir = pl.Path('../results')
 
 for cex in all_extractions:
