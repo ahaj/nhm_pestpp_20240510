@@ -1,11 +1,11 @@
 import pathlib as pl
 import shutil
 
-#all_extractions = ['01473000','05431486','09112500']
-all_extractions = ['05431486','09112500']
-rootnm ='ies_hot'# 'prior_mc_reweight'
+all_extractions = ['01473000','05431486','09112500']
+#all_extractions = ['05431486','09112500']
+rootnm = 'prior_mc_reweight'#'ies_hot'
 results_dir = pl.Path('../results')
-hotstart = True
+hotstart = False
 first_time=False
 for cex in all_extractions:
     frompath = pl.Path(f'../NHM_extractions/20230110_pois_haj/{cex}/')
