@@ -1,13 +1,13 @@
-import pywatershed as pws
-import pywatershed
 import dask
-import numpy as np
-import pathlib as pl
-import xarray as xr
 import os
-import pandas as pd
+import xarray as xr
+import numpy as np
+import pywatershed
+import pathlib as pl
+import pywatershed as pws
 import time
 import shutil
+import pandas as pd
 
 
 sttime = time.time()
@@ -282,7 +282,7 @@ print("#### RUN DONE, TIME TO POSTPROCESS ####")
 
 
 
-rootdir = pl.Path('./')# Path to location of cutouts
+rootdir = pl.Path('../NHM_extractions/20230110_pois_haj/01473000')# Path to location of cutouts
 
 #var_output_files = ['hru_actet.nc', 'recharge.nc', 'soil_rechr.nc', 'snowcov_area.nc', 'seg_outflow.nc',]#output files of interest
 
@@ -464,9 +464,7 @@ inds = [f'{i.year}_{i.month}_{i.day}:{j}' for j in seg_outflow_daily['poi_gages'
 varvals = np.ravel(seg_outflow_daily, order = 'F')# flattens the 2D array to a 1D array
 
 with open(rootdir / of_name, encoding="utf-8", mode='a') as ofp:
-     [ofp.write(f'streamflow_daily:{i}          {j}\n') for i,j in zip(inds,varvals)]
-
-
+     [ofp.write(f'streamflow_daily:{i}          {j}\n') for i,j in zip(inds,varvals,strict=True)]
 
 
 #########################################################################################################################
@@ -484,13 +482,13 @@ inds = [f'{i.year}_{i.month}:{j}' for j in seg_outflow_monthly['poi_gages'].valu
 varvals = np.ravel(seg_outflow_monthly, order = 'F')# flattens the 2D array to a 1D array--just playing
 
 with open(rootdir   / of_name, encoding="utf-8", mode='a') as ofp:
-    [ofp.write(f'streamflow_mon:{i}          {j}\n') for i,j in zip(inds,varvals)]
+    [ofp.write(f'streamflow_mon:{i}          {j}\n') for i,j in zip(inds,varvals,strict=True)]
 
 inds = [f'{i}:{j}' for j in seg_outflow_mean_monthly['poi_gages'].values for i in seg_outflow_mean_monthly.indexes['month'] ]
 varvals =  np.ravel(seg_outflow_mean_monthly, order = 'F')# flattens the 2D array to a 1D array
 
 with open(rootdir   / of_name, encoding="utf-8", mode='a') as ofp:
-    [ofp.write(f'streamflow_mean_mon:{i}          {j}\n') for i,j in zip(inds,varvals)]
+    [ofp.write(f'streamflow_mean_mon:{i}          {j}\n') for i,j in zip(inds,varvals,strict=True)]
 
 
 
