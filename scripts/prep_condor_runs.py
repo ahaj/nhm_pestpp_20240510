@@ -1,8 +1,8 @@
 import pathlib as pl
 import shutil
 
-all_extractions = ['01473000','05431486','09112500']
-#all_extractions = ['05431486','09112500']
+#all_extractions = ['01473000','05431486','09112500']
+all_extractions = ['05431486','09112500']
 #rootnm = 'prior_mc_reweight'#'ies_hot'
 rootnm = 'ies_hot'
 results_dir = pl.Path('../results')
