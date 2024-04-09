@@ -2,7 +2,7 @@ import pathlib as pl
 import zipfile
 import os
 
-all_extractions = ['01473000','05431486','09112500']
+all_extractions = ['05431486','09112500']
 #all_extractions = ['01473000']
 pstdir = pl.Path('../NHM_extractions/20230110_pois_haj')
 
