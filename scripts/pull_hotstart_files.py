@@ -3,7 +3,7 @@ import zipfile
 import os
 
 #all_extractions = ['01473000','05431486','09112500']
-all_extractions = ['05431486']
+all_extractions = ['09112500']
 pstdir = pl.Path('../NHM_extractions/20230110_pois_haj')
 
 for cex in all_extractions:
