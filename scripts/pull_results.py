@@ -4,8 +4,8 @@ import os
 
 #all_extractions = ['01473000','05431486','09112500']
 all_extractions = ['05431486','09112500']
-rootnm = 'prior_mc_reweight'
-#rootnm = 'ies_hot'
+#rootnm = 'prior_mc_reweight'
+rootnm = 'ies_hot'
 
 
 for cex in all_extractions:
