@@ -1,13 +1,13 @@
-import xarray as xr
-import pywatershed
-import pandas as pd
-import dask
-import shutil
-import pathlib as pl
 import numpy as np
-import pywatershed as pws
 import os
+import pandas as pd
+import pywatershed as pws
+import shutil
+import pywatershed
+import dask
+import xarray as xr
 import time
+import pathlib as pl
 
 
 sttime = time.time()
@@ -282,20 +282,20 @@ print("#### RUN DONE, TIME TO POSTPROCESS ####")
 
 
 
-#rootdir = pl.Path('../NHM_extractions/20230110_pois_haj/01473000')# Path to location of cutouts
+rootdir = pl.Path('./')# Path to location of cutouts
 
 #var_output_files = ['hru_actet.nc', 'recharge.nc', 'soil_rechr.nc', 'snowcov_area.nc', 'seg_outflow.nc',]#output files of interest
 
 
 # ### Working currently from a single cutout directory
 
-outvardir = work_dir / 'output'# stes path to location of NHM output folder where output files are.
+outvardir = rootdir / 'output'# stes path to location of NHM output folder where output files are.
 
 # set the file name for the postprocessed model output file that PEST will read
 of_name = 'modelobs.dat'# name of file
 
 # make a file to hold the consolidated results
-ofp = open(work_dir / 'modelobs.dat', 'w') # the 'w' will delete any existing file here and recreate; 'a' appends
+ofp = open(rootdir / 'modelobs.dat', 'w') # the 'w' will delete any existing file here and recreate; 'a' appends
 
 modelobsdat  = xr.open_dataset(outvardir / 'model_custom_output.nc')
 
@@ -338,11 +338,11 @@ actet_mean_monthly = actet_monthly.groupby('time.month').mean()
 inds = [f'{i.year}_{i.month}:{j}' for i in actet_monthly.indexes['time'] for j in actet_monthly['nhm_id'].values]# set up the indices in sequence
 varvals = np.ravel(actet_monthly, order = 'C')# flattens the 2D array to a 1D array--just playing
 
-with open(work_dir / of_name, encoding="utf-8", mode='w') as ofp:
+with open(rootdir / of_name, encoding="utf-8", mode='w') as ofp:
     ofp.write('obsname    obsval\n') # writing a header for the file
     [ofp.write(f'l_max_actet_mon:{i}          {j}\n') for i,j in zip(inds,varvals, strict=True)]
 
-with open(work_dir / of_name, encoding="utf-8", mode='a') as ofp:
+with open(rootdir / of_name, encoding="utf-8", mode='a') as ofp:
     [ofp.write(f'g_min_actet_mon:{i}          {j}\n') for i,j in zip(inds,varvals, strict=True)]
 
 actet_monthly.sel(time='2000-01-31').values # look at a slice of the netcdf and compare to pest write
@@ -352,10 +352,10 @@ actet_monthly.sel(time='2000-01-31').values # look at a slice of the netcdf and 
 inds = [f'{i}:{j}' for i in actet_mean_monthly.indexes['month'] for j in actet_mean_monthly['nhm_id'].values]
 varvals =  np.ravel(actet_mean_monthly, order = 'C')# flattens the 2D array to a 1D array
 
-with open(work_dir / of_name, encoding="utf-8", mode='a') as ofp:
+with open(rootdir / of_name, encoding="utf-8", mode='a') as ofp:
     [ofp.write(f'l_max_actet_mean_mon:{i}          {j}\n') for i,j in zip(inds,varvals, strict=True)]
 
-with open(work_dir / of_name, encoding="utf-8", mode='a') as ofp:
+with open(rootdir / of_name, encoding="utf-8", mode='a') as ofp:
     [ofp.write(f'g_min_actet_mean_mon:{i}          {j}\n') for i,j in zip(inds,varvals, strict=True)]
 
 # ### Post Process recharge for calibration use
@@ -372,10 +372,10 @@ recharge_annual_norm = (recharge_annual - recharge_annual.min())/(recharge_annua
 inds = [f'{i.year}:{j}' for i in recharge_annual_norm.indexes['time'] for j in recharge_annual_norm['nhm_id'].values]
 varvals =  np.ravel(recharge_annual_norm, order = 'C')# flattens the 2D array to a 1D array
 
-with open(work_dir  / of_name, encoding="utf-8",mode='a') as ofp:
+with open(rootdir  / of_name, encoding="utf-8",mode='a') as ofp:
     [ofp.write(f'l_max_recharge_ann:{i}          {j}\n') for i,j in zip(inds,varvals, strict=True)]
 
-with open(work_dir  / of_name, encoding="utf-8",mode='a') as ofp:
+with open(rootdir  / of_name, encoding="utf-8",mode='a') as ofp:
     [ofp.write(f'g_min_recharge_ann:{i}          {j}\n') for i,j in zip(inds,varvals, strict=True)]
 
 
@@ -395,19 +395,19 @@ soil_rechr_annual_norm = (soil_rechr_annual - soil_rechr_annual.min())/(soil_rec
 inds = [f'{i.year}_{i.month}:{j}' for i in soil_rechr_monthly_norm.indexes['time'] for j in soil_rechr_monthly_norm['nhm_id'].values]
 varvals = np.ravel(soil_rechr_monthly_norm, order = 'C')# flattens the 2D array to a 1D array
 
-with open(work_dir  / of_name, encoding="utf-8",mode='a') as ofp:
+with open(rootdir  / of_name, encoding="utf-8",mode='a') as ofp:
     [ofp.write(f'l_max_soil_moist_mon:{i}          {j}\n') for i,j in zip(inds,varvals, strict=True)]
 
-with open(work_dir  / of_name, encoding="utf-8",mode='a') as ofp:
+with open(rootdir  / of_name, encoding="utf-8",mode='a') as ofp:
     [ofp.write(f'g_min_soil_moist_mon:{i}          {j}\n') for i,j in zip(inds,varvals, strict=True)]
 
 inds = [f'{i.year}:{j}' for i in soil_rechr_annual_norm.indexes['time'] for j in soil_rechr_annual_norm['nhm_id'].values]
 varvals =  np.ravel(soil_rechr_annual_norm, order = 'C')# flattens the 2D array to a 1D array
 
-with open(work_dir   / of_name, encoding="utf-8",mode='a') as ofp:
+with open(rootdir   / of_name, encoding="utf-8",mode='a') as ofp:
     [ofp.write(f'l_max_soil_moist_ann:{i}          {j}\n') for i,j in zip(inds,varvals, strict=True)]
 
-with open(work_dir   / of_name, encoding="utf-8",mode='a') as ofp:
+with open(rootdir   / of_name, encoding="utf-8",mode='a') as ofp:
     [ofp.write(f'g_min_soil_moist_ann:{i}          {j}\n') for i,j in zip(inds,varvals, strict=True)]
 
 
@@ -425,10 +425,10 @@ hru_streamflow_out_rate = (hru_streamflow_out_monthly)/(24*60*60)
 inds = [f'{i.year}_{i.month}:{j}' for i in hru_streamflow_out_rate.indexes['time'] for j in hru_streamflow_out_rate['nhm_id'].values]
 varvals = np.ravel(hru_streamflow_out_rate, order = 'C')# flattens the 2D array to a 1D array
 
-with open(work_dir / of_name, encoding="utf-8",mode='a') as ofp:
+with open(rootdir / of_name, encoding="utf-8",mode='a') as ofp:
     [ofp.write(f'l_max_runoff_mon:{i}          {j}\n') for i,j in zip(inds,varvals, strict=True)]
 
-with open(work_dir / of_name, encoding="utf-8",mode='a') as ofp:
+with open(rootdir / of_name, encoding="utf-8",mode='a') as ofp:
     [ofp.write(f'g_min_runoff_mon:{i}          {j}\n') for i,j in zip(inds,varvals, strict=True)]
 
 # ### Post Process "snowcov_area" to compare to target
@@ -447,10 +447,10 @@ snowcov_area_daily.close()
 inds = [f'{i.year}_{i.month}_{i.day}:{j}' for i in snowcov_area_daily_restr.indexes['time'] for j in snowcov_area_daily_restr['nhm_id'].values]
 varvals = np.ravel(snowcov_area_daily_restr, order = 'C')# flattens the 2D array to a 1D array
 
-with open(work_dir   / of_name, encoding="utf-8", mode='a') as ofp:
+with open(rootdir   / of_name, encoding="utf-8", mode='a') as ofp:
     [ofp.write(f'l_max_sca_daily:{i}          {j}\n') for i,j in zip(inds,varvals, strict=True)]
 
-with open(work_dir   / of_name, encoding="utf-8", mode='a') as ofp:
+with open(rootdir   / of_name, encoding="utf-8", mode='a') as ofp:
     [ofp.write(f'g_min_sca_daily:{i}          {j}\n') for i,j in zip(inds,varvals, strict=True)]
 #
 #
@@ -463,7 +463,7 @@ seg_outflow_daily = modelobsdat.seg_outflow.sel(time=slice(seg_outflow_start, se
 inds = [f'{i.year}_{i.month}_{i.day}:{j}' for j in seg_outflow_daily['poi_gages'].values for i in seg_outflow_daily.indexes['time']]
 varvals = np.ravel(seg_outflow_daily, order = 'F')# flattens the 2D array to a 1D array
 
-with open(work_dir / of_name, encoding="utf-8", mode='a') as ofp:
+with open(rootdir / of_name, encoding="utf-8", mode='a') as ofp:
      [ofp.write(f'streamflow_daily:{i}          {j}\n') for i,j in zip(inds,varvals,strict=True)]
 
 
@@ -481,13 +481,13 @@ seg_outflow_mean_monthly = seg_outflow_monthly.groupby('time.month').mean()
 inds = [f'{i.year}_{i.month}:{j}' for j in seg_outflow_monthly['poi_gages'].values for i in seg_outflow_monthly.indexes['time'] ]# set up the indices in sequence
 varvals = np.ravel(seg_outflow_monthly, order = 'F')# flattens the 2D array to a 1D array--just playing
 
-with open(work_dir   / of_name, encoding="utf-8", mode='a') as ofp:
+with open(rootdir   / of_name, encoding="utf-8", mode='a') as ofp:
     [ofp.write(f'streamflow_mon:{i}          {j}\n') for i,j in zip(inds,varvals,strict=True)]
 
 inds = [f'{i}:{j}' for j in seg_outflow_mean_monthly['poi_gages'].values for i in seg_outflow_mean_monthly.indexes['month'] ]
 varvals =  np.ravel(seg_outflow_mean_monthly, order = 'F')# flattens the 2D array to a 1D array
 
-with open(work_dir   / of_name, encoding="utf-8", mode='a') as ofp:
+with open(rootdir   / of_name, encoding="utf-8", mode='a') as ofp:
     [ofp.write(f'streamflow_mean_mon:{i}          {j}\n') for i,j in zip(inds,varvals,strict=True)]
 
 
@@ -496,7 +496,7 @@ with open(work_dir   / of_name, encoding="utf-8", mode='a') as ofp:
 # seg_outflow_start = '2000-01-01'
 # seg_outflow_end = '2010-12-31'
 #  # This grabs the efc componets in the model_obs name from the obs name
-# cdat_efc  = xr.open_dataset(work_dir/ cm / 'sf_data_with_EFC.nc').sel(time=slice(seg_outflow_start, seg_outflow_end))
+# cdat_efc  = xr.open_dataset(rootdir/ cm / 'sf_data_with_EFC.nc').sel(time=slice(seg_outflow_start, seg_outflow_end))
 # cdat_efc = cdat_efc.fillna(-9999)
 # cdat_efc = cdat_efc[['efc', 'high_low']]
 
@@ -505,7 +505,7 @@ with open(work_dir   / of_name, encoding="utf-8", mode='a') as ofp:
 # inds = [f'_{int(cdat_efc["efc"].sel(poi_id=j, time=i).item())}_{int(cdat_efc["high_low"].sel(poi_id=j, time=i).item())}:{i.year}_{i.month}_{i.day}:{j}' for j in seg_outflow_daily['poi_gages'].values for i in seg_outflow_daily.indexes['time']]
 # varvals = np.ravel(seg_outflow_daily, order = 'F')# flattens the 2D array to a 1D array
 
-# with open(work_dir / cm / of_name, encoding="utf-8", mode='a') as ofp:
+# with open(rootdir / cm / of_name, encoding="utf-8", mode='a') as ofp:
 #      [ofp.write(f'streamflow_daily{i}          {j}\n') for i,j in zip(inds,varvals, strict=True)]
 
 
