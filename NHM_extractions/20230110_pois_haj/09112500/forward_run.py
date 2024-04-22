@@ -1,13 +1,13 @@
-import pywatershed
-import pandas as pd
 import shutil
-import numpy as np
-import xarray as xr
-import time
+import pandas as pd
 import pathlib as pl
+import xarray as xr
+import pywatershed
 import os
-import dask
+import time
 import pywatershed as pws
+import numpy as np
+import dask
 
 
 sttime = time.time()
