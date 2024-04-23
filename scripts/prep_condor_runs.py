@@ -3,9 +3,9 @@ import shutil
 
 #all_extractions = ['01473000','05431486','09112500']
 all_extractions = ['05431486','09112500']
-rootnm = 'prior_mc_reweight'#'ies_hot'
-#rootnm = 'ies_hot'
-hotstart =False
+#rootnm = 'prior_mc_reweight'#'ies_hot'
+rootnm = 'ies_hot'
+hotstart =True
 first_time=False
 for cex in all_extractions:
     frompath = pl.Path(f'../NHM_extractions/20230110_pois_haj/{cex}/')
