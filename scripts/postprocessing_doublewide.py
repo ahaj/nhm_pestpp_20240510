@@ -23,7 +23,7 @@ lh_linemod = Line2D([0], [0], color='blue', label='modeled base realization')
 lh_lineobs = Line2D([0], [0], color='orange', label='obs base realization')
 lh_realmod = Line2D([0], [0], color='blue', linewidth=plot_lw*5, label='modeled realization')
 lh_realobs = Line2D([0], [0], color='orange',linewidth=plot_lw*5, label='obs realization')
-
+lh_nhm = Line2D([0], [0], color='green', label='NHM Calibration')
 
 def setup_postproc(curr_model='01473000', curr_run_root='prior_mc_reweight', extractfiles = False):
     """function to set paths, unzip results files, and load up data from PST files for a given cutout run
@@ -48,7 +48,8 @@ def setup_postproc(curr_model='01473000', curr_run_root='prior_mc_reweight', ext
     # get the obs data from the PST file
     pst = pyemu.Pst(str(pstdir / f'{curr_run_root}.pst'))
     obs = pst.observation_data.copy()
-    
+    obs.index = _abbreviate_index(obs.index)
+    obs.obsnme = obs.index.copy()
     # if still need to extract the files, go for it
     if extractfiles:
         with zipfile.ZipFile(results_file, 'r') as zf:
@@ -78,7 +79,7 @@ def check_pdc(tmp_res_path, curr_run_root, pst, obs):
     pdc_counts_tmp.rename(columns={'obgnme':'pdc_counts'}, inplace=True)
     pdc_counts = pdc_counts.merge(pdc_counts_tmp, left_index=True,right_index=True, how='outer')
     pdc_counts['group_percent_pdc'] = [f'{i:0.2%}' for i in 
-                                       (pdc_counts['pdc_counts']/pdc_counts['obs_counts'])]
+                                    (pdc_counts['pdc_counts']/pdc_counts['obs_counts'])]
     return pdc_counts
 
 def plot_phi(tmp_res_path, curr_run_root, curr_model, fig_dir):
@@ -108,8 +109,19 @@ def plot_phi(tmp_res_path, curr_run_root, curr_model, fig_dir):
     plt.legend(['base','realizations'], title='EXPLANATION', frameon=False, bbox_to_anchor =(0.97, 0.95))
     plt.savefig(fig_dir / 'phi_history.pdf')
     return phi
+def _abbreviate_index(inds):
+    newindex=[]
+    for i in inds:
+        if 'streamflow_daily' not in i:
+            newindex.append(i)
+        else:
+            tmp = i.split(':')
+            tmp[0]='streamflow_daily'
+            newindex.append((':').join(tmp))
+    return newindex
 
-def get_obs_and_noise(tmp_res_path, curr_run_root, reals, best_iter):
+
+def get_obs_and_noise(tmp_res_path, curr_run_root, curr_model, reals, best_iter, get_nhm_results=False):
     """_summary_
 
     Args:
@@ -117,23 +129,30 @@ def get_obs_and_noise(tmp_res_path, curr_run_root, reals, best_iter):
         curr_run_root (str, optional): _specific pst filename root_.
         reals (list): list of realizations to retain
         best_iter (int): iteration to retain as "best"
+        get_nhm_results (bool): if True, load up the nhm results as well, else don't
 
     Returns:
         modens (DataFrame): modelled results for retained realizations of best iteration
         obens_noise (DataFrame): sampled noise-adjusted observation values for retained realizations
+        nhm_results (DataFrame): best results from NHM calibration
         
     """
+    nhm_results = None
+    if get_nhm_results:
+        nhm_results = pd.read_csv(f'../NHM_solutions/nhm_byHWobs_files/{curr_model}/modelobs.dat', delim_whitespace=True, index_col=0)
     modens = pd.read_csv(tmp_res_path / f'{curr_run_root}.{best_iter}.obs.csv', 
                         low_memory=False, index_col=0).loc[reals].T
     obens_noise = pd.read_csv(tmp_res_path / f'{curr_run_root}.obs+noise.csv', 
-                              low_memory=False, index_col=0).loc[reals].T
+                            low_memory=False, index_col=0).loc[reals].T
     modens['mod_min'] = modens.min(axis=1)
     modens['mod_max'] = modens.max(axis=1)
+    modens.index = _abbreviate_index(modens.index)
     modens = modens.T
     obens_noise['obs_min'] = obens_noise.min(axis=1)
     obens_noise['obs_max'] = obens_noise.max(axis=1)
+    obens_noise.index = _abbreviate_index(obens_noise.index)
     obens_noise = obens_noise.T
-    return modens, obens_noise
+    return modens, obens_noise, nhm_results
 
 def get_pars(tmp_res_path, curr_run_root, reals, best_iter, pst):
     """_summary_
@@ -149,7 +168,7 @@ def get_pars(tmp_res_path, curr_run_root, reals, best_iter, pst):
         parens (DataFrame): parameter ensemble trimmed to retained realizations and at best iteration
     """
     parens = pd.read_csv(tmp_res_path / f'{curr_run_root}.{best_iter}.par.csv',
-                         index_col=0, low_memory=False).loc[reals].T
+                        index_col=0, low_memory=False).loc[reals].T
     pars = pst.parameter_data.copy()
     parens['par_min'] = parens.min(axis=1)
     parens['par_max'] = parens.max(axis=1)
@@ -220,26 +239,40 @@ def _parse_groups(cgroup, modens, obs, obens_noise):
         currobs_noise['month'] = [i.month for i in currobs_noise.datetime]    
     return mean_mon, monthly, annual, daily, streamflow, currmod, currobs_noise
 
-def _plot_meanmon_annual(cgmod, currobs_noise, cn, streamflow, mean_mon, annual, outpdf, curr_model, citer, curr_root, cgroup, cax):
+def _plot_meanmon_annual(cgmod, currobs_noise, cn, streamflow, mean_mon, annual, outpdf, curr_model, citer, curr_root, cgroup, cax, nhm_res):
     if mean_mon:
+        if nhm_res is not None:
+            nhm_res = nhm_res.merge(cgmod.month, left_index=True,right_index=True).sort_values(by='month')
         cgmod.sort_values(by='month', inplace=True)
         cgobs = currobs_noise.loc[cgmod.index].sort_values(by='month')
         cgmod.set_index('month', inplace=True)
         if streamflow:
             cgobs.set_index('month', inplace=True)
+            if nhm_res is not None:
+                nhm_res.set_index('month', inplace=True)
         else:
             cgobs_upper = cgobs.loc[cgobs.index.str.startswith('l_')].set_index('month')
             cgobs_lower = cgobs.loc[cgobs.index.str.startswith('g_')].set_index('month')
+            if nhm_res is not None:
+                nhm_res_lower = nhm_res.loc[nhm_res.index.str.startswith('l_')].set_index('month')
+                nhm_res_upper = nhm_res.loc[nhm_res.index.str.startswith('g_')].set_index('month')
             
     elif annual:
+        if nhm_res is not None:
+            nhm_res = nhm_res.merge(cgmod.year, left_index=True,right_index=True).sort_values(by='year')
         cgmod.sort_values(by='year', inplace=True)
         cgobs = currobs_noise.loc[cgmod.index].sort_values(by='year')
         cgmod.set_index('year', inplace=True)
         if streamflow:
             cgobs.set_index('year', inplace=True)
+            if nhm_res is not None:
+                nhm_res.set_index('year', inplace=True)
         else:
             cgobs_upper = cgobs.loc[cgobs.index.str.startswith('l_')].set_index('year')
             cgobs_lower = cgobs.loc[cgobs.index.str.startswith('g_')].set_index('year')   
+            if nhm_res is not None:
+                nhm_res_lower = nhm_res.loc[nhm_res.index.str.startswith('l_')].set_index('year')
+                nhm_res_upper = nhm_res.loc[nhm_res.index.str.startswith('g_')].set_index('year')
 
     cgmod[np.random.choice(cgmod.columns[:-4],20)].plot(legend=None, linewidth=plot_lw, 
                                 color='blue', alpha = plot_alpha, ax=cax)
@@ -248,6 +281,8 @@ def _plot_meanmon_annual(cgmod, currobs_noise, cn, streamflow, mean_mon, annual,
         cgobs[np.random.choice(cgobs.columns[:-4],20)].plot(ax=cax,color='orange',  linewidth=plot_lw,
                                         legend=None,alpha=plot_alpha, zorder=1e6)
         cgobs.base.plot(ax=cax, color='orange')
+        if nhm_res is not None:
+            nhm_res.obsval.plot(ax=cax, color='green')
     else:
         cax.fill_between(cgobs_upper.index, cgobs_upper.obs_min,cgobs_upper.obs_max, color='orange',alpha=.2, zorder=0)
         cgobs_upper[np.random.choice(cgobs_upper.columns[:-4],20)].plot(ax=cax,color='orange',  linewidth=plot_lw,
@@ -257,6 +292,9 @@ def _plot_meanmon_annual(cgmod, currobs_noise, cn, streamflow, mean_mon, annual,
                                         legend=None,alpha=plot_alpha, zorder=1e6)
         cgobs_upper.base.plot(ax=cax, color='orange')
         cgobs_lower.base.plot(ax=cax, color='orange')
+        if nhm_res is not None:
+            nhm_res_upper.obsval.plot(ax=cax, color='green')
+            nhm_res_lower.obsval.plot(ax=cax, color='green')
         
     cax.fill_between(cgmod.index, cgmod.mod_min,cgmod.mod_max, color='blue',alpha=.2, zorder=0)
     cax.plot(cgmod.index, cgmod[cgmod.columns[:-4]].quantile(0.05, axis=1), 'b:')
@@ -268,18 +306,30 @@ def _plot_meanmon_annual(cgmod, currobs_noise, cn, streamflow, mean_mon, annual,
 
     
     print(cn)   
-    plt.legend(handles=[lh_obens,lh_modens, lh_lineobs, lh_linemod, lh_realobs, lh_realmod])                
+    allhandles = [lh_obens,lh_modens, lh_lineobs, lh_linemod, lh_realobs, lh_realmod]
+    if nhm_res is not None:
+        allhandles += [lh_nhm]
+    
+    
+    plt.legend(handles=allhandles)                
     
 
-def _plot_monthly(cgmody, currobs_noise, streamflow, cax):
+def _plot_monthly(cgmody, currobs_noise, streamflow, cax, nhm_res):
+    if nhm_res is not None:
+        nhm_res = nhm_res.merge(cgmody.datetime, left_index=True,right_index=True).sort_values(by='datetime')
     cgmody.sort_values(by='datetime', inplace=True)
     cgobsy = currobs_noise.loc[cgmody.index].sort_values(by='datetime')
     cgmody.set_index('datetime', inplace=True)
     if streamflow:
         cgobsy.set_index('datetime', inplace=True)
+        if nhm_res is not None:
+            nhm_res.set_index('datetime', inplace=True)
     else:
         cgobsy_upper = cgobsy.loc[cgobsy.index.str.startswith('l_')].set_index('datetime')
         cgobsy_lower = cgobsy.loc[cgobsy.index.str.startswith('g_')].set_index('datetime')
+        if nhm_res is not None:
+            nhm_res_lower = nhm_res.loc[nhm_res.index.str.startswith('l_')].set_index('datetime')
+            nhm_res_upper = nhm_res.loc[nhm_res.index.str.startswith('g_')].set_index('datetime')
     cgmody[np.random.choice(cgmody.columns[:-4],20)].plot(legend=None, linewidth=plot_lw, 
         color='blue', alpha = plot_alpha, ax=cax)
     if streamflow:
@@ -287,6 +337,8 @@ def _plot_monthly(cgmody, currobs_noise, streamflow, cax):
         cgobsy[np.random.choice(cgobsy.columns[:-4],20)].plot(ax=cax,color='orange',  linewidth=plot_lw,
                                         legend=None,alpha=plot_alpha, zorder=1e6)
         cgobsy.base.plot(ax=cax, color='orange')
+        if nhm_res is not None:
+            nhm_res.obsval.plot(ax=cax, color='green')
     else:
         cax.fill_between(cgobsy_upper.index, cgobsy_upper.obs_min,cgobsy_upper.obs_max, color='orange',alpha=.2, zorder=0)
         cgobsy_upper[np.random.choice(cgobsy_upper.columns[:-4],20)].plot(ax=cax,color='orange',  linewidth=plot_lw,
@@ -296,36 +348,43 @@ def _plot_monthly(cgmody, currobs_noise, streamflow, cax):
                                         legend=None,alpha=plot_alpha, zorder=1e6)
         cgobsy_upper.base.plot(ax=cax, color='orange')
         cgobsy_lower.base.plot(ax=cax, color='orange')
+        if nhm_res is not None:
+            nhm_res_upper.obsval.plot(ax=cax, color='green')
+            nhm_res_lower.obsval.plot(ax=cax, color='green')
     cax.fill_between(cgmody.index, cgmody.mod_min,cgmody.mod_max, color='blue',alpha=.2, zorder=0)
     cgmody[cgmody.columns[:-4]].quantile(0.05, axis=1).plot(color='b',ls=':', ax=cax)
     cgmody[cgmody.columns[:-4]].quantile(0.95, axis=1).plot(color='b',ls=':', ax=cax)
 
     cgmody.base.plot(ax=cax, color='blue')
-   
-def _plot_daily(cgmodm, currobs_noise, streamflow, cax):
-    cgmodm.sort_values(by='datetime', inplace=True)
-    cgobsm = currobs_noise.loc[cgmodm.index].sort_values(by='datetime')
-    cgmodm.set_index('datetime', inplace=True)
-    cgobsm.set_index('datetime', inplace=True)
-    cgmodm[np.random.choice(cgmodm.columns[:-7],25)].plot(legend=None, linewidth=plot_lw, 
-                                    color='blue', alpha = plot_alpha, ax=cax)
-    cax.fill_between(cgmodm.index, cgmodm.mod_min,cgmodm.mod_max, color='blue',alpha=.2, zorder=0)
-    cax.plot(cgmodm.index, cgmodm[cgmodm.columns[:-7]].quantile(0.05, axis=1), 'b:')
-    cax.plot(cgmodm.index, cgmodm[cgmodm.columns[:-7]].quantile(0.95, axis=1), 'b:')
-    if 'sca' not in cgroup:
-        cax.fill_between(cgobsm.index, cgobsm.obs_min,cgobsm.obs_max, color='orange',alpha=.2, zorder=0)
-        cgobsm[np.random.choice(cgobsm.columns[:-7],25)].plot(ax=cax,color='orange',  linewidth=plot_lw,
-                                                            legend=None,alpha=plot_alpha)
-    cgobsm.base.plot(ax=cax, color='orange')
-    cgmodm.base.plot(ax=cax, color='blue')
-    
-    if 'sca' in cgroup:
-        cax.set_ylim(0,1)
 
+    allhandles = [lh_obens,lh_modens, lh_lineobs, lh_linemod, lh_realobs, lh_realmod]
+    if nhm_res is not None:
+        allhandles += [lh_nhm]
     
-                    
+    
+    plt.legend(handles=allhandles)                
+    
+# def _plot_daily(cgmodm, currobs_noise, streamflow, cax):
+#     cgmodm.sort_values(by='datetime', inplace=True)
+#     cgobsm = currobs_noise.loc[cgmodm.index].sort_values(by='datetime')
+#     cgmodm.set_index('datetime', inplace=True)
+#     cgobsm.set_index('datetime', inplace=True)
+#     cgmodm[np.random.choice(cgmodm.columns[:-7],25)].plot(legend=None, linewidth=plot_lw, 
+#                                     color='blue', alpha = plot_alpha, ax=cax)
+#     cax.fill_between(cgmodm.index, cgmodm.mod_min,cgmodm.mod_max, color='blue',alpha=.2, zorder=0)
+#     cax.plot(cgmodm.index, cgmodm[cgmodm.columns[:-7]].quantile(0.05, axis=1), 'b:')
+#     cax.plot(cgmodm.index, cgmodm[cgmodm.columns[:-7]].quantile(0.95, axis=1), 'b:')
+#     if 'sca' not in cgroup:
+#         cax.fill_between(cgobsm.index, cgobsm.obs_min,cgobsm.obs_max, color='orange',alpha=.2, zorder=0)
+#         cgobsm[np.random.choice(cgobsm.columns[:-7],25)].plot(ax=cax,color='orange',  linewidth=plot_lw,
+#                                                             legend=None,alpha=plot_alpha)
+#     cgobsm.base.plot(ax=cax, color='orange')
+#     cgmodm.base.plot(ax=cax, color='blue')
+    
+#     if 'sca' in cgroup:
+#         cax.set_ylim(0,1)
 
-def plot_group(cgroup, obs, modens, obens_noise, fig_dir, curr_model, citer, curr_root, modens2=None):   
+def plot_group(cgroup, obs, modens, obens_noise, fig_dir, curr_model, citer, curr_root, modens2=None, nhm_res=None):   
     # parse the groups
     print(f'working on {cgroup}')
     mean_mon, monthly, annual, daily, streamflow, currmod, currobs_noise = _parse_groups(cgroup, modens, obs, obens_noise)
@@ -348,13 +407,13 @@ def plot_group(cgroup, obs, modens, obens_noise, fig_dir, curr_model, citer, cur
             if (mean_mon == True) | (annual == True):
                 if pltnum == 1:
                     _plot_meanmon_annual(cgmod, currobs_noise, cn, streamflow,
-                                mean_mon, annual, outpdf, curr_model, citer, curr_root, cgroup, ax)
+                                mean_mon, annual, outpdf, curr_model, citer, curr_root, cgroup, ax, nhm_res)
                 else:
                     cgmod2 = modens_list[1].loc[cgmod.index].copy()
                     _plot_meanmon_annual(cgmod, currobs_noise, cn, streamflow,
-                                mean_mon, annual, outpdf, curr_model, citer, curr_root, cgroup, ax[0])
+                                mean_mon, annual, outpdf, curr_model, citer, curr_root, cgroup, ax[0], nhm_res)
                     _plot_meanmon_annual(cgmod2, currobs_noise, cn, streamflow,
-                                mean_mon, annual, outpdf, curr_model, citer, curr_root, cgroup, ax[1])
+                                mean_mon, annual, outpdf, curr_model, citer, curr_root, cgroup, ax[1], nhm_res)
                     plt.suptitle(f'{cgroup} at location = {cn} for cutout {curr_model}')
                     ax[0].set_title('Prior MC')
                     ax[1].set_title(f'iES iteration {citer}')
@@ -368,11 +427,11 @@ def plot_group(cgroup, obs, modens, obens_noise, fig_dir, curr_model, citer, cur
                         pass
                     else:
                         cgmody2 = modens_list[1].loc[cgmody.index].copy()
-                        _plot_monthly(cgmody, currobs_noise, streamflow, ax[0])
-                        _plot_monthly(cgmody2, currobs_noise, streamflow, ax[1])
+                        _plot_monthly(cgmody, currobs_noise, streamflow, ax[0], nhm_res)
+                        _plot_monthly(cgmody2, currobs_noise, streamflow, ax[1], nhm_res)
                         
                     
-                    plt.legend(handles=[lh_obens,lh_modens, lh_lineobs, lh_linemod, lh_realobs, lh_realmod])           
+                    # plt.legend(handles=[lh_obens,lh_modens, lh_lineobs, lh_linemod, lh_realobs, lh_realmod])           
                     print(cny, cn)      
                     plt.suptitle(f'{cgroup} at location = {cn} for cutout {curr_model}')
                     ax[0].set_title('Prior MC')
@@ -389,12 +448,12 @@ def plot_group(cgroup, obs, modens, obens_noise, fig_dir, curr_model, citer, cur
                             pass
                         else:
                             cgmodm2 = modens_list[1].loc[cgmodm.index].copy()
-                            _plot_monthly(cgmodm, currobs_noise, streamflow, ax[0])
-                            _plot_monthly(cgmodm2, currobs_noise, streamflow, ax[1])                        
+                            _plot_monthly(cgmodm, currobs_noise, streamflow, ax[0], nhm_res)
+                            _plot_monthly(cgmodm2, currobs_noise, streamflow, ax[1], nhm_res)                        
                         
                         
                         print(cny, cn, cnm)  
-                        plt.legend(handles=[lh_obens,lh_modens, lh_lineobs, lh_linemod, lh_realobs, lh_realmod])                  
+                        # plt.legend(handles=[lh_obens,lh_modens, lh_lineobs, lh_linemod, lh_realobs, lh_realmod])                  
                         plt.suptitle(f'{cgroup} at location = {cn} for cutout {curr_model}')
                         ax[0].set_title('Prior MC')
                         ax[1].set_title(f'iES iteration {citer}')   

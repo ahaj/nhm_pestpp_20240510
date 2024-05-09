@@ -5,24 +5,24 @@ import matplotlib.pyplot as plt
 sys.path.insert(0,'../scripts/')
 from postprocessing import setup_postproc, check_pdc, plot_phi, get_obs_and_noise, get_pars, plot_group, plot_pars_group
 
-plot_pars = False
-plot_obs = True
+plot_pars = True
+plot_obs = False
 eval_pdc = False
 unzip_dirs = False
-plot_streamflow = True
-# cms = ['01473000','05431486', '09112500']
-cms = ['01473000']
+plot_streamflow = False
+cms = ['01473000','05431486', '09112500']
+# cms = ['01473000']
 # crrs = ['ies_hot','prior_mc_reweight']
-crrs = ['prior_mc_reweight']
+crrs = ['ies_hot']
 phi_cutoffs = {cm:{crr:9e99 for crr in ['ies_hot','prior_mc_reweight']}
                 for cm in ['01473000','05431486', '09112500']}
 # catalog of cutoffs heuristically determined
-phi_cutoffs['01473000']['prior_mc_reweight'] = .6e10
+phi_cutoffs['01473000']['prior_mc_reweight'] = 4.0e7
 phi_cutoffs['01473000']['ies_hot'] = 2.5e7
-phi_cutoffs['05431486']['prior_mc_reweight'] = 2.2e9
-phi_cutoffs['05431486']['ies_hot'] = 1.3e8
-phi_cutoffs['09112500']['prior_mc_reweight'] = 3.0e9
-phi_cutoffs['09112500']['ies_hot'] = 1.8e8
+phi_cutoffs['05431486']['prior_mc_reweight'] = 5.7e7
+phi_cutoffs['05431486']['ies_hot'] = 3.3e7
+phi_cutoffs['09112500']['prior_mc_reweight'] = 1.2e9
+phi_cutoffs['09112500']['ies_hot'] = 2.1e8
 
 for curr_model in cms:
     for curr_run_root in crrs:
