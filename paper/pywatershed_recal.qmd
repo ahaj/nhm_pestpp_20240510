@@ -5,6 +5,7 @@ format:
     pdf: 
       documentclass: article
       number-sections: True
+      keep-tex: true
       geometry:
       - left=4cm
       - right=4cm
@@ -12,7 +13,7 @@ format:
       - bottom=4cm
     docx: 
       fig-cap-location: bottom
-      keep-tex: true
+      
       number-sections: true
       # reference-doc: templates/word-styles-reference-01.docx
 csl: templates/groundwater.csl 
@@ -23,12 +24,17 @@ editor:
 ---
 
 # Introduction
-Things
+Some background and motivation for the work including goals. Comparing PEST++ ensemble methods with the "calibration of record"
 
 # Previous Calibration of Record
 this one maybe? [@regan2018description; @Farmer_2019] 
 
 # Methods
+
+## pywatershed
+"Bandit" for extractions from NHM PRMS.
+Reformulation into pywatershed.
+Workflows for parameterization and observations processing.
 
 ## The iterative Ensemble Smoother
 Why bother with the iterative Ensemble Smoother  (iES: @White_2018, @white2020ppp, @Chen_2011)?
@@ -46,23 +52,49 @@ We experimented with localization [@Anderson_2007; @Chen_2016] as an alternative
 ## Inequality observations for projecting data from ranges to parameters
 Inequality observations are implemented in the iterative ensemble smoother (see e.g. [@Fienen_2021])
 
+## Global sensitivity analysis for localization groups
+Massive insights inevitably to follow. Can't wait.
+
 ## Prior Monte carlo and Prior Data Conflict
-Exposition on the value of evaluating the prior monte carlo results through rejection sampling (Need REFS - maybe this? [@Casella_2004]), prior data conflict, and a focus on parameter misrepresentation, model errors, process flow errors, or data errors
+Exposition on the value of evaluating the prior monte carlo results through rejection sampling (Need REFS - maybe this? [@Casella_2004]), prior data conflict, and a focus on parameter misrepresentation, model errors, process flow errors, or data errors.
+
+Rejection sampling for both evaluation and for starting parameters for iES.  
 
 ## The Bayesian Update through iES
 finally we run iES to project information from obs to pars
 
 # Examples
 ## Three cutout areas from NHM
+Figure showing locations. 
 describe the three areas, ref to Arezoo and WRF Hydro work, and justify the choice.
+Focus on PA and WI noting forward model deficiencies with CO.
 
 # Results
-## Results from the runs
+
+## Visual evaluation of hydrographs (the good, the bad, and the ugly)
+name says it all
+
+## Consolidated metrics
+NSE, KGE, etc. Maybe high/low flow segregated KGE type things. 
+
 ## Comparison with the calibration of record
+metrics and visual evaluations both. Talk about process representation (e.g. depression storage and whatnot)
 
 # Discussion
+Bring in focused maps to help illustrate good and poor performance.  For example, lake locations, wetlands, routing issues, etc. do processes differ from site to site, how, and who cares?
+
+Advantages and disadvantages of the various approaches.
+
 Does PEST++ work with landscape models?
 
-# Conclusions
-Keep it concise
+# Conclusions  
+Keep it concise  
+
+# Acknowledgements 
+all about Roland and the money  
+
+# Data availability statement
+
+
+
 # References
